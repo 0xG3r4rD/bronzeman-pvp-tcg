@@ -370,7 +370,7 @@ public class TcgPanel extends PluginPanel
 	public void performCollectionReset()
 	{
 		stateService.resetAll();
-		packRevealService.reset();
+		packRevealService.discardActiveReveal();
 		clearPackRevealSidebarFreeze();
 		creditAwardService.resetExperienceCreditBaseline();
 		syncRewardDraftFromPersistent();
