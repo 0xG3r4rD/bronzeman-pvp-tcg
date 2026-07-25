@@ -70,8 +70,12 @@ public class CardPartyTradeService
 	private long lastInviteSendAtMs;
 	private final List<Runnable> uiListeners = new CopyOnWriteArrayList<>();
 	private int tickCounter;
-	private final java.util.Set<String> processedCommitTradeIds =
-		java.util.Collections.synchronizedSet(new java.util.HashSet<>());
+	/**
+	 * Upper bound on remembered trade ids for commit-replay protection. Set well above
+	 * any realistic trade-to-redelivery gap; the exact value is not tuned.
+	 */
+	private static final int MAX_REMEMBERED_TRADE_IDS = 600;
+	private final RecentIdSet processedCommitTradeIds = new RecentIdSet(MAX_REMEMBERED_TRADE_IDS);
 
 	public static final class PendingInboundInvite
 	{
@@ -922,13 +926,6 @@ public class CardPartyTradeService
 					changed = true;
 				}
 			}
-			synchronized (processedCommitTradeIds)
-			{
-				if (processedCommitTradeIds.size() > 600)
-				{
-					processedCommitTradeIds.clear();
-				}
-			}
 		}
 		if (expiredOutboundTradeId != null)
 		{
@@ -1287,12 +1284,9 @@ public class CardPartyTradeService
 			remoteCopy = List.copyOf(session.remoteOffers);
 		}
 
-		synchronized (processedCommitTradeIds)
+		if (!processedCommitTradeIds.add(msg.getTradeId()))
 		{
-			if (!processedCommitTradeIds.add(msg.getTradeId()))
-			{
-				return;
-			}
+			return;
 		}
 
 		RewardTuningState committerTuning = tuningFromCommit(msg);
@@ -1402,10 +1396,7 @@ public class CardPartyTradeService
 		m.setXpCreditMultiplier(mine.getXpCreditMultiplier());
 		m.setCommitterDebugLogging(localDebug);
 
-		synchronized (processedCommitTradeIds)
-		{
-			processedCommitTradeIds.add(tradeId);
-		}
+		processedCommitTradeIds.add(tradeId);
 
 		if (!sendParty(m, "Could not complete trade (party connection)."))
 		{
@@ -1416,10 +1407,7 @@ public class CardPartyTradeService
 					session.commitSent = false;
 				}
 			}
-			synchronized (processedCommitTradeIds)
-			{
-				processedCommitTradeIds.remove(tradeId);
-			}
+			processedCommitTradeIds.remove(tradeId);
 			notifyUi();
 			return;
 		}
