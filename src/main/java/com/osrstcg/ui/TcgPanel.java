@@ -247,6 +247,7 @@ public class TcgPanel extends PluginPanel
 
 		content.setLayout(contentLayout);
 		content.setOpaque(false);
+		content.setMinimumSize(new Dimension(0, 0));
 		welcomeContent.setLayout(new BorderLayout());
 		welcomeContent.setOpaque(false);
 		initializeTabContentPanel(overviewContent);
@@ -475,7 +476,7 @@ public class TcgPanel extends PluginPanel
 		{
 			overviewContent.removeAll();
 			renderOverviewTabFromMetrics(overviewContent, snap, metrics, stateService.getState());
-			contentLayout.show(content, Tab.OVERVIEW.name());
+			showTabContent(Tab.OVERVIEW);
 		}
 		else if (selectedTab == Tab.SHOP)
 		{
@@ -487,7 +488,7 @@ public class TcgPanel extends PluginPanel
 		{
 			welcomeContent.removeAll();
 			renderWelcomeTab(welcomeContent);
-			contentLayout.show(content, Tab.WELCOME.name());
+			showTabContent(Tab.WELCOME);
 		}
 		else
 		{
@@ -634,7 +635,7 @@ public class TcgPanel extends PluginPanel
 		updateTabStyles();
 		welcomeContent.removeAll();
 		renderWelcomeTab(welcomeContent);
-		contentLayout.show(content, Tab.WELCOME.name());
+		showTabContent(Tab.WELCOME);
 	}
 
 	/**
@@ -894,7 +895,7 @@ public class TcgPanel extends PluginPanel
 					renderWelcomeTab(activePanel);
 					welcomeBuiltForActiveReveal = true;
 				}
-				contentLayout.show(content, selectedTab.name());
+				showTabContent(selectedTab);
 				return;
 			}
 			if (selectedTab == Tab.OVERVIEW)
@@ -905,7 +906,7 @@ public class TcgPanel extends PluginPanel
 					renderOverviewTab(activePanel);
 					overviewBuiltForActiveReveal = true;
 				}
-				contentLayout.show(content, selectedTab.name());
+				showTabContent(selectedTab);
 				return;
 			}
 			if (selectedTab == Tab.SHOP)
@@ -920,7 +921,7 @@ public class TcgPanel extends PluginPanel
 				return;
 			}
 			log.warn("Unsupported tab {}", selectedTab);
-			contentLayout.show(content, selectedTab.name());
+			showTabContent(selectedTab);
 			return;
 		}
 
