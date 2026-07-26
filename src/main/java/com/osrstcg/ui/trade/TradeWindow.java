@@ -136,11 +136,19 @@ public final class TradeWindow extends JFrame
 			}
 		});
 
+		// Foil sparkles are the only animated content; skip repaints entirely for non-foil offers.
 		foilAnimTimer = new Timer(SharedCardRenderer.FOIL_SPARKLE_FRAME_MS, e ->
 		{
-			if (isShowing())
+			if (!isShowing())
+			{
+				return;
+			}
+			if (hasFoilOffer(localPanel.offers))
 			{
 				localPanel.repaint();
+			}
+			if (hasFoilOffer(remotePanel.offers))
+			{
 				remotePanel.repaint();
 			}
 		});
@@ -360,6 +368,18 @@ public final class TradeWindow extends JFrame
 	private void onCancelClicked()
 	{
 		tradeService.cancelActiveTrade();
+	}
+
+	static boolean hasFoilOffer(List<TradeOfferView> offers)
+	{
+		for (TradeOfferView offer : offers)
+		{
+			if (offer.isFoil())
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 
 	private static void styleButton(JButton btn)
