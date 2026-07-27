@@ -51,7 +51,12 @@ public class CardPartyTransferService
 
 	private final java.util.Map<String, PendingOffer> pendingOffers = new java.util.concurrent.ConcurrentHashMap<>();
 	private final java.util.Set<String> pendingInstanceIds = java.util.Collections.newSetFromMap(new java.util.concurrent.ConcurrentHashMap<>());
-	private final java.util.Set<String> processedGiftTransferIds = java.util.Collections.synchronizedSet(new java.util.HashSet<>());
+	/**
+	 * Upper bound on remembered gift-transfer ids for replay protection. Set well above
+	 * any realistic gift-to-redelivery gap; the exact value is not tuned.
+	 */
+	private static final int MAX_REMEMBERED_GIFT_IDS = 600;
+	private final RecentIdSet processedGiftTransferIds = new RecentIdSet(MAX_REMEMBERED_GIFT_IDS);
 	private int tickCounter;
 
 	private static final class PendingOffer
@@ -307,13 +312,6 @@ public class CardPartyTransferService
 					"Card send timed out (no response from recipient).");
 			}
 		}
-		synchronized (processedGiftTransferIds)
-		{
-			if (processedGiftTransferIds.size() > 600)
-			{
-				processedGiftTransferIds.clear();
-			}
-		}
 	}
 
 	@Subscribe
@@ -334,12 +332,9 @@ public class CardPartyTransferService
 
 	private void handleCardGiftPartyMessageOnClientThread(TcgCardGiftPartyMessage msg)
 	{
-		synchronized (processedGiftTransferIds)
+		if (processedGiftTransferIds.contains(msg.getTransferId()))
 		{
-			if (processedGiftTransferIds.contains(msg.getTransferId()))
-			{
-				return;
-			}
+			return;
 		}
 
 		RewardTuningState senderTuning = tuningFromGift(msg);
@@ -385,10 +380,7 @@ public class CardPartyTransferService
 		String by = msg.getPulledByUsername() == null ? "" : msg.getPulledByUsername().trim();
 		long at = Math.max(0L, msg.getPulledAtEpochMs());
 		stateService.addOwnedCardInstance(OwnedCardInstance.createNew(card, foil, by, at));
-		synchronized (processedGiftTransferIds)
-		{
-			processedGiftTransferIds.add(msg.getTransferId());
-		}
+		processedGiftTransferIds.add(msg.getTransferId());
 		sendResponse(msg.getTransferId(), originalSender, true, GIFT_REJECT_NONE);
 
 		packRevealSoundService.playTransferSuccess();
