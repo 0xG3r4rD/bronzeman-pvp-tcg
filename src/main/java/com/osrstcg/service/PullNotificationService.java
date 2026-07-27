@@ -136,18 +136,21 @@ public class PullNotificationService
 		{
 			return;
 		}
-		List<DinkNotificationService.PackPull> eligiblePulls = new ArrayList<>();
+		List<DinkNotificationService.PackPull> pulls = new ArrayList<>();
 		for (PackRevealService.RevealCard card : cards)
 		{
-			if (card == null || card.getPull() == null || card.getPull().getCardName() == null
-				|| !shouldNotifyDink(card.getTier(), card.getPull().isFoil(), card.isNew()))
+			if (card == null || card.getPull() == null || card.getPull().getCardName() == null)
 			{
 				continue;
 			}
-			eligiblePulls.add(new DinkNotificationService.PackPull(
-				card.getPull().getCardName().trim(), card.isNew(), card.getPull().isFoil(), card.getTier()));
+			pulls.add(new DinkNotificationService.PackPull(
+				card.getPull().getCardName().trim(),
+				card.isNew(),
+				card.getPull().isFoil(),
+				card.getTier(),
+				shouldNotifyDink(card.getTier(), card.getPull().isFoil(), card.isNew())));
 		}
-		dinkNotificationService.notifyPackSummary(eligiblePulls);
+		dinkNotificationService.notifyPackSummary(pulls);
 	}
 
 	private boolean shouldNotifyDink(RarityMath.Tier tier, boolean foil, boolean newForCollection)
