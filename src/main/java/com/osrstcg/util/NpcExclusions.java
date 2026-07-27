@@ -1,41 +1,47 @@
 package com.osrstcg.util;
 
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 import net.runelite.api.Actor;
 import net.runelite.api.NPC;
 import net.runelite.api.gameval.NpcID;
+import net.runelite.client.game.FishingSpot;
 
 /**
- * NPC IDs for follower pets, sourced from RuneLite {@link NpcID} constants
- * (same set as PetInfoPlugin PetJsonCreator).
+ * NPC IDs that should be excluded from combat detection: follower pets, sourced from
+ * RuneLite {@link NpcID} constants (same set as PetInfoPlugin PetJsonCreator), and
+ * fishing spots, sourced from RuneLite {@code net.runelite.client.game.FishingSpot}.
  */
-public final class PetNpcIds
+public final class NpcExclusions
 {
-	private static final Set<Integer> PET_NPC_IDS = buildPetNpcIds();
+	private static final Set<Integer> EXCLUDED_NPC_IDS = buildExcludedNpcIds();
 
-	private PetNpcIds()
+	private NpcExclusions()
 	{
 	}
 
-	public static boolean isPetNpc(int npcId)
+	public static boolean isExcludedNpc(int npcId)
 	{
-		return PET_NPC_IDS.contains(npcId);
+		return EXCLUDED_NPC_IDS.contains(npcId);
 	}
 
-	public static boolean isPetNpc(NPC npc)
+	public static boolean isExcludedNpc(NPC npc)
 	{
-		return npc != null && isPetNpc(npc.getId());
+		return npc != null && isExcludedNpc(npc.getId());
 	}
 
-	public static boolean isPetActor(Actor actor)
+	public static boolean isExcludedActor(Actor actor)
 	{
-		return actor instanceof NPC && isPetNpc((NPC) actor);
+		return actor instanceof NPC && isExcludedNpc((NPC) actor);
 	}
 
-	private static Set<Integer> buildPetNpcIds()
+	private static Set<Integer> buildExcludedNpcIds()
 	{
-		Set<Integer> ids = new HashSet<>(444);
+		Set<Integer> ids = new HashSet<>(594);
+		// Pet NPCs
 		ids.add(NpcID.ABYSSALSIRE_PET);
 		ids.add(NpcID.ABYSSAL_PET);
 		ids.add(NpcID.AMOXLIATL_PET);
@@ -480,6 +486,40 @@ public final class PetNpcIds
 		ids.add(14537); // Techichi (Varlamore dog, beige, variant 2)
 		ids.add(13960); // Techichi (Varlamore dog, brown, variant 1)
 		ids.add(14536); // Techichi (Varlamore dog, brown, variant 2)
+
+		// Fishing spots
+		ids.addAll(box(FishingSpot.SHRIMP.getIds()));
+		ids.addAll(box(FishingSpot.LOBSTER.getIds()));
+		ids.addAll(box(FishingSpot.SHARK.getIds()));
+		ids.addAll(box(FishingSpot.MONKFISH.getIds()));
+		ids.addAll(box(FishingSpot.SALMON.getIds()));
+		ids.addAll(box(FishingSpot.LAVA_EEL.getIds()));
+		ids.addAll(box(FishingSpot.BARB_FISH.getIds()));
+		ids.addAll(box(FishingSpot.ANGLERFISH.getIds()));
+		ids.addAll(box(FishingSpot.MINNOW.getIds()));
+		ids.addAll(box(FishingSpot.HARPOONFISH.getIds()));
+		ids.addAll(box(FishingSpot.INFERNAL_EEL.getIds()));
+		ids.addAll(box(FishingSpot.KARAMBWAN.getIds()));
+		ids.addAll(box(FishingSpot.KARAMBWANJI.getIds()));
+		ids.addAll(box(FishingSpot.SACRED_EEL.getIds()));
+		ids.addAll(box(FishingSpot.CAVE_EEL.getIds()));
+		ids.addAll(box(FishingSpot.SLIMY_EEL.getIds()));
+		ids.addAll(box(FishingSpot.DARK_CRAB.getIds()));
+		ids.addAll(box(FishingSpot.COMMON_TENCH.getIds()));
+		ids.addAll(box(FishingSpot.CAMDOZAAL_TETRA.getIds()));
+		ids.addAll(box(FishingSpot.CAMDOZAAL_CAVE_EEL.getIds()));
+		ids.addAll(box(FishingSpot.TUTORIAL_SHRIMP.getIds()));
+		ids.addAll(box(FishingSpot.ETCETERIA_LOBSTER.getIds()));
+		ids.addAll(box(FishingSpot.QUEST_RUM_DEAL.getIds()));
+		ids.addAll(box(FishingSpot.QUEST_TAI_BWO_WANNAI_TRIO.getIds()));
+		ids.addAll(box(FishingSpot.QUEST_FISHING_CONTEST.getIds()));
+		ids.addAll(box(FishingSpot.CIVITAS_ILLA_FORTIS_PARK.getIds()));
+		ids.addAll(box(FishingSpot.SQUID.getIds()));
 		return ids;
+	}
+
+	private static List<Integer> box(int[] values)
+	{
+		return Arrays.stream(values).boxed().collect(Collectors.toList());
 	}
 }
