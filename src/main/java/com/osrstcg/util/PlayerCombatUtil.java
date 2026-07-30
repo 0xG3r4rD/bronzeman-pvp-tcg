@@ -38,7 +38,7 @@ public final class PlayerCombatUtil
 		{
 			for (NPC npc : worldView.npcs())
 			{
-				if (npc != null && !PetNpcIds.isPetNpc(npc) && npc.getInteracting() == local)
+				if (npc != null && !NpcExclusions.isExcludedNpc(npc) && npc.getInteracting() == local)
 				{
 					return true;
 				}
@@ -63,8 +63,8 @@ public final class PlayerCombatUtil
 			return true;
 		}
 		if (actor instanceof NPC)
-		{
-			return !PetNpcIds.isPetNpc((NPC) actor);
+		{			
+			return !NpcExclusions.isExcludedNpc((NPC) actor);
 		}
 		return false;
 	}
