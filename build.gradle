@@ -30,7 +30,7 @@ dependencies {
 }
 
 group = 'com.osrstcg'
-version = '0.17.4'
+version = '0.18.0'
 
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
