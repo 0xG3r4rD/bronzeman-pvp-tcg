@@ -5213,27 +5213,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Burning amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Burning_amulet_detail.png/130px-Burning_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "Useful teleports around the wilderness.",
-    "value": 1250,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Burning claws",
     "category": [
       "Resource",
@@ -9187,27 +9166,6 @@
     "examine": "Chaps made out of frog hide.",
     "value": 900,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Games necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Games_necklace_detail.png/130px-Games_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "An enchanted necklace.",
-    "value": 1050,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Gardening boots",
@@ -13404,26 +13362,6 @@
     "defenceRequirement": 60
   },
   {
-    "name": "Maple blackjack",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Maple_blackjack_detail.png/130px-Maple_blackjack_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A solid bit of maple.",
-    "value": 1200,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Maple shield",
     "category": [
       "Resource",
@@ -15066,27 +15004,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Necklace of passage",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Necklace_of_passage_detail.png/130px-Necklace_of_passage_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "This necklace can really take you places.",
-    "value": 1275,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Neitiznot faceguard",
     "category": [
       "Resource",
@@ -15211,26 +15128,6 @@
     "examine": "A venomous halberd created from the parts of an araxyte.",
     "value": 500000,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Oak blackjack",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Oak_blackjack_detail.png/130px-Oak_blackjack_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A handy little club made out of oak.",
-    "value": 1,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Oak shield",
@@ -15423,25 +15320,6 @@
     "examine": "A muddy yellow snail shell helmet.",
     "value": 300,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Oddskull",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Oddskull_detail.png/130px-Oddskull_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Drop"
-    ],
-    "examine": "Ball taken!",
-    "value": 1,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Odium ward",
@@ -15646,24 +15524,6 @@
     "examine": "Slightly slimy but kind of cute.",
     "value": 100,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Paddle",
-    "category": [
-      "Resource",
-      "Equipment"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Paddle_detail.png/130px-Paddle_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Drop"
-    ],
-    "examine": "With it, you row.",
-    "value": 1
   },
   {
     "name": "Partyhat & specs",
@@ -24460,26 +24320,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Willow blackjack",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Willow_blackjack_detail.png/130px-Willow_blackjack_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A handy little club made out of willow.",
-    "value": 600,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Willow shield",
     "category": [
       "Resource",
@@ -24562,29 +24402,6 @@
     "value": 85000,
     "equipmentSlot": "hands",
     "defenceRequirement": 20
-  },
-  {
-    "name": "Xeric's talisman",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Xeric%27s_talisman_detail.png/130px-Xeric%27s_talisman_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Check",
-      "Dismantle",
-      "Drop"
-    ],
-    "examine": "A dormant relic of the ancient times of Kourend.",
-    "value": 350,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Xerician hat",
