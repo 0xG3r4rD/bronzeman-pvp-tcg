@@ -739,26 +739,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Adamant brutal",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_brutal_detail.png/130px-Adamant_brutal_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blunt adamantite arrow... ouch.",
-    "value": 95,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Adamant cane",
     "category": [
       "Resource",
@@ -922,26 +902,6 @@
     "examine": "Do I look scary?",
     "value": 10000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Adamant fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_fire_arrow_1_detail.png/130px-Adamant_fire_arrow_1_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with adamant heads wrapped in oily cloth.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Adamant full helm",
@@ -1649,26 +1609,6 @@
     "examine": "A deadly throwing dart with an amethyst tip.",
     "value": 400,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Amethyst fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_fire_arrow_detail.png/130px-Bronze_fire_arrow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with amethyst heads wrapped in oily cloth.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Amethyst javelin",
@@ -4828,26 +4768,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Black brutal",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_brutal_detail.png/130px-Black_brutal_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blunt black arrow... ouch.",
-    "value": 35,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Black cane",
     "category": [
       "Resource",
@@ -7673,26 +7593,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Bronze brutal",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_brutal_detail.png/130px-Bronze_brutal_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blunt bronze arrow... ouch.",
-    "value": 5,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Bronze chainbody",
     "category": [
       "Resource",
@@ -7856,26 +7756,6 @@
     "examine": "Do I look scary?",
     "value": 10000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Bronze fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_fire_arrow_detail.png/130px-Bronze_fire_arrow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with bronze heads wrapped in oily cloth.",
-    "value": 10,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Bronze fist flag",
@@ -11236,26 +11116,6 @@
     "examine": "A defensive weapon.",
     "value": 100000,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Dragon fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragon_fire_arrow_detail.png/130px-Dragon_fire_arrow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with dragon heads wrapped in oily cloth.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Dragon full helm",
@@ -18597,26 +18457,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Iron brutal",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_brutal_detail.png/130px-Iron_brutal_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blunt iron arrow... ouch.",
-    "value": 10,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Iron chainbody",
     "category": [
       "Resource",
@@ -18758,26 +18598,6 @@
     "examine": "Do I look scary?",
     "value": 10000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Iron fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_fire_arrow_1_detail.png/130px-Iron_fire_arrow_1_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with iron heads wrapped in oily cloth.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Iron full helm",
@@ -21754,26 +21574,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Mithril brutal",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_brutal_detail.png/130px-Mithril_brutal_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blunt mithril arrow... ouch.",
-    "value": 50,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Mithril chainbody",
     "category": [
       "Resource",
@@ -21915,26 +21715,6 @@
     "examine": "Do I look scary?",
     "value": 10000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Mithril fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_fire_arrow_1_detail.png/130px-Mithril_fire_arrow_1_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with mithril heads wrapped in oily cloth.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Mithril full helm",
@@ -27684,26 +27464,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Rune brutal",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_brutal_detail.png/130px-Rune_brutal_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blunt rune arrow... ouch.",
-    "value": 450,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Rune cane",
     "category": [
       "Resource",
@@ -27867,26 +27627,6 @@
     "examine": "Do I look scary?",
     "value": 10000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Rune fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_fire_arrow_1_detail.png/130px-Rune_fire_arrow_1_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with rune heads wrapped in oily cloth.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Rune full helm",
@@ -31260,26 +31000,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Steel brutal",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_brutal_detail.png/130px-Steel_brutal_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blunt steel arrow... ouch.",
-    "value": 20,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Steel chainbody",
     "category": [
       "Resource",
@@ -31443,26 +31163,6 @@
     "examine": "Do I look scary?",
     "value": 10000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Steel fire arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_fire_arrow_1_detail.png/130px-Steel_fire_arrow_1_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with steel heads wrapped in oily cloth.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Steel full helm",
