@@ -88,23 +88,61 @@ public final class PvpKillCreditTracker
 		tcgPanel.refresh();
 	}
 
+	/**
+	 * Always reports the kill, even when the loot prices out at nothing — an untradeable-only pile
+	 * would otherwise look identical to the award never firing at all.
+	 */
 	private void awardHardMode(PlayerLootReceived event, String victimName)
 	{
 		long lootValue = lootValue(event);
 		long credits = lootValue * HARD_MODE_CREDITS_PER_CHUNK / HARD_MODE_LOOT_CHUNK;
-		if (credits <= 0L || !creditAwardService.awardPvpKillCredits(victimName, credits))
+		boolean awarded = credits > 0L && creditAwardService.awardPvpKillCredits(victimName, credits);
+
+		if (awarded)
 		{
+			TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
+				"PvP kill on %s: %s loot -> +%s credits (%s / %s toward a pack).",
+				victimName,
+				NumberFormatting.format(lootValue),
+				NumberFormatting.format(credits),
+				NumberFormatting.format(stateService.getCredits()),
+				NumberFormatting.format(standardPackPrice())));
+			tcgPanel.refresh();
 			return;
 		}
 
-		long packPrice = standardPackPrice();
 		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
-			"PvP kill on %s: %s loot -> +%s credits (%s / %s toward a pack).",
+			"PvP kill on %s: %s loot -> no credits (hard mode pays %s per %s of tradeable loot).",
 			victimName,
 			NumberFormatting.format(lootValue),
-			NumberFormatting.format(credits),
+			NumberFormatting.format(HARD_MODE_CREDITS_PER_CHUNK),
+			NumberFormatting.format(HARD_MODE_LOOT_CHUNK)));
+	}
+
+	/** Debug hook ({@code ::btcg-pvp}): runs the real award path against a made-up loot value. */
+	public void simulateKill(long lootValue)
+	{
+		if (!config.hardMode())
+		{
+			long packPrice = standardPackPrice();
+			boolean ok = creditAwardService.awardPvpKillCredits("a test target", packPrice);
+			TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, ok
+				? String.format("Test kill: +%s credits (normal mode pays one pack per kill).",
+					NumberFormatting.format(packPrice))
+				: "Test kill: award blocked (credit cooldown active — try again in a few ticks).");
+			tcgPanel.refresh();
+			return;
+		}
+
+		long credits = Math.max(0L, lootValue) * HARD_MODE_CREDITS_PER_CHUNK / HARD_MODE_LOOT_CHUNK;
+		boolean ok = credits > 0L && creditAwardService.awardPvpKillCredits("a test target", credits);
+		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
+			"Test kill: %s loot -> %s%s credits. Total %s / %s for a pack.",
+			NumberFormatting.format(Math.max(0L, lootValue)),
+			ok ? "+" : "",
+			NumberFormatting.format(ok ? credits : 0L),
 			NumberFormatting.format(stateService.getCredits()),
-			NumberFormatting.format(packPrice)));
+			NumberFormatting.format(standardPackPrice())));
 		tcgPanel.refresh();
 	}
 

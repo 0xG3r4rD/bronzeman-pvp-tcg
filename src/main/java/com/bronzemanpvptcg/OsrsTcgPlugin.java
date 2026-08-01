@@ -562,6 +562,34 @@ public class OsrsTcgPlugin extends Plugin
 			return;
 		}
 
+		if ("btcg-pvp".equalsIgnoreCase(cmd))
+		{
+			if (!stateService.isDebugLogging())
+			{
+				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
+					"[Bronzeman PVP TCG] That command requires Overview debug mode.",
+					null);
+				return;
+			}
+			String[] args = event.getArguments();
+			long lootValue = 100_000L;
+			if (args != null && args.length > 0)
+			{
+				try
+				{
+					lootValue = Long.parseLong(args[0].trim().replace(",", "").replace("_", ""));
+				}
+				catch (NumberFormatException ex)
+				{
+					client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
+						"[Bronzeman PVP TCG] Usage: ::btcg-pvp <loot value>", null);
+					return;
+				}
+			}
+			pvpKillCreditTracker.simulateKill(lootValue);
+			return;
+		}
+
 		if ("btcg-set".equalsIgnoreCase(cmd))
 		{
 			if (!stateService.isDebugLogging())
