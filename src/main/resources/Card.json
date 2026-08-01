@@ -16204,28 +16204,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Magic comp bow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Magic_comp_bow_detail.png/130px-Magic_comp_bow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A powerful bow made from magic wood.",
-    "value": 2500,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Magic longbow",
     "category": [
       "Resource",
@@ -29621,28 +29599,6 @@
     "examine": "Some fine werewolf clothing.",
     "value": 500,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Yew comp bow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Yew_comp_bow_detail.png/130px-Yew_comp_bow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A powerful bow made from yew wood.",
-    "value": 1800,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Yew longbow",
