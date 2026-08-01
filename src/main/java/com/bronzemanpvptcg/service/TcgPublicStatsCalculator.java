@@ -23,10 +23,13 @@ public class TcgPublicStatsCalculator
 {
 	private final TcgStateService stateService;
 	private final CardDatabase cardDatabase;
+	private final RollPoolFilter rollPoolFilter;
 
 	@Inject
-	public TcgPublicStatsCalculator(TcgStateService stateService, CardDatabase cardDatabase)
+	public TcgPublicStatsCalculator(TcgStateService stateService, CardDatabase cardDatabase,
+		RollPoolFilter rollPoolFilter)
 	{
+		this.rollPoolFilter = rollPoolFilter;
 		this.stateService = stateService;
 		this.cardDatabase = cardDatabase;
 	}
@@ -70,7 +73,7 @@ public class TcgPublicStatsCalculator
 	TcgPublicStats compute(Map<CardCollectionKey, Integer> owned, long openedPacks, boolean customRates)
 	{
 		List<CardDefinition> all = cardDatabase.getCards();
-		List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(all);
+		List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(all);
 
 		Set<String> rollPoolNames = new HashSet<>();
 		for (CardDefinition c : rollPool)

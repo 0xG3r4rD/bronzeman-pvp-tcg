@@ -1,467 +1,5 @@
 [
   {
-    "name": "3rd age amulet",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_amulet_detail.png/130px-3rd_age_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient mage protection enchanted in the 3rd Age.",
-    "value": 505000,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "3rd age bow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_bow_detail.png/130px-3rd_age_bow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A beautifully crafted bow carved by ancient archers.",
-    "value": 1500000,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "3rd age cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_cloak_detail.png/130px-3rd_age_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A beautiful cloak woven by ancient tailors.",
-    "value": 850000,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "3rd age druidic cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_druidic_cloak_detail.png/130px-3rd_age_druidic_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A fabulously ancient vine cloak as worn by the druids of old.",
-    "value": 3000000,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "3rd age druidic robe bottoms",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_druidic_robe_bottoms_detail.png/130px-3rd_age_druidic_robe_bottoms_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A fabulously ancient woven robe as worn by the druids of old.",
-    "value": 4000000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "3rd age druidic robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_druidic_robe_top_detail.png/130px-3rd_age_druidic_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A fabulously ancient woven robe top as worn by the druids of old.",
-    "value": 4000000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "3rd age druidic staff",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_druidic_staff_detail.png/130px-3rd_age_druidic_staff_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A fabulously ancient gnarled staff as used by the druids of old.",
-    "value": 2000000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "3rd age full helmet",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_full_helmet_detail.png/130px-3rd_age_full_helmet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient armour beaten from magical silver.",
-    "value": 900000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "3rd age kiteshield",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_kiteshield_detail.png/130px-3rd_age_kiteshield_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient armour beaten from magical silver.",
-    "value": 1800000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "3rd age longsword",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_longsword_detail.png/130px-3rd_age_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A beautifully crafted sword forged by ancient blacksmiths.",
-    "value": 4000000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "3rd age mage hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_mage_hat_detail.png/130px-3rd_age_mage_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient mage protection enchanted in the 3rd Age.",
-    "value": 504000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "3rd age platebody",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_platebody_detail.png/130px-3rd_age_platebody_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient armour beaten from magical silver.",
-    "value": 2000000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "3rd age platelegs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_platelegs_detail.png/130px-3rd_age_platelegs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient armour beaten from magical silver.",
-    "value": 2000000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "3rd age plateskirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_plateskirt_detail.png/130px-3rd_age_plateskirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient armour beaten from magical silver.",
-    "value": 2000000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "3rd age range coif",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_range_coif_detail.png/130px-3rd_age_range_coif_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient range protection crafted from white dragonhide.",
-    "value": 504000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "3rd age range legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_range_legs_detail.png/130px-3rd_age_range_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient range protection crafted from white dragonhide.",
-    "value": 506000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "3rd age range top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_range_top_detail.png/130px-3rd_age_range_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient range protection crafted from white dragonhide.",
-    "value": 508000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "3rd age robe",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_robe_detail.png/130px-3rd_age_robe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient mage protection enchanted in the 3rd Age.",
-    "value": 506000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "3rd age robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_robe_top_detail.png/130px-3rd_age_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient mage protection enchanted in the 3rd Age.",
-    "value": 508000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "3rd age vambraces",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_vambraces_detail.png/130px-3rd_age_vambraces_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fabulously ancient range protection crafted from white dragonhide.",
-    "value": 505000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "3rd age wand",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/3rd_age_wand_detail.png/130px-3rd_age_wand_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A beautifully crafted wand infused by ancient wizards.",
-    "value": 1500000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "A jester stick",
     "category": [
       "Resource",
@@ -638,26 +176,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Adamant 2h sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_2h_sword_detail.png/130px-Adamant_2h_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A two handed sword.",
-    "value": 6400,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Adamant arrow",
     "category": [
       "Resource",
@@ -676,26 +194,6 @@
     "examine": "Arrows with adamant heads.",
     "value": 80,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Adamant battleaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_battleaxe_detail.png/130px-Adamant_battleaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious looking axe.",
-    "value": 4160,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Adamant bolts",
@@ -736,29 +234,8 @@
     ],
     "examine": "These will protect my feet.",
     "value": 1920,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Adamant cane",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_cane_detail.png/130px-Adamant_cane_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A diamond topped cane.",
-    "value": 1440,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant chainbody",
@@ -778,87 +255,8 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 4800,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Adamant claws",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_claws_detail.png/130px-Adamant_claws_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A set of fighting claws.",
-    "value": 1200,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Adamant crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_crossbow_detail.png/130px-Adamant_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An adamantite crossbow.",
-    "value": 1767,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_dagger_detail.png/130px-Adamant_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Short and deadly.",
-    "value": 800,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant dart",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_dart_detail.png/130px-Adamant_dart_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A deadly throwing dart with an adamant tip.",
-    "value": 65,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "body",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant defender",
@@ -942,47 +340,8 @@
     ],
     "examine": "A pair of nice gloves.",
     "value": 2500,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Adamant halberd",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_halberd_detail.png/130px-Adamant_halberd_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An adamant halberd.",
-    "value": 6400,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Adamant hasta",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_hasta_detail.png/130px-Adamant_hasta_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An adamant-tipped, one-handed hasta.",
-    "value": 2080,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 13
   },
   {
     "name": "Adamant javelin",
@@ -1023,67 +382,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 5440,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Adamant knife",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_knife_detail.png/130px-Adamant_knife_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing knife.",
-    "value": 66,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant longsword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_longsword_detail.png/130px-Adamant_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp longsword.",
-    "value": 3200,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant mace",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_mace_detail.png/130px-Adamant_mace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace.",
-    "value": 1440,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant med helm",
@@ -1103,7 +403,8 @@
     ],
     "examine": "A medium sized helmet.",
     "value": 1920,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant platebody",
@@ -1124,7 +425,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 16640,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant platelegs",
@@ -1145,7 +447,8 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 6400,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant plateskirt",
@@ -1169,46 +472,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Adamant scimitar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_scimitar_detail.png/130px-Adamant_scimitar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious, curved sword.",
-    "value": 2560,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_spear_detail.png/130px-Adamant_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An adamantite tipped spear.",
-    "value": 2080,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Adamant sq shield",
     "category": [
       "Resource",
@@ -1226,88 +489,8 @@
     ],
     "examine": "A medium square shield.",
     "value": 3840,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Adamant staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_staff_of_collection_detail.png/130px-Adamant_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, adamant tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_sword_detail.png/130px-Adamant_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp sword.",
-    "value": 2080,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant thrownaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_thrownaxe_detail.png/130px-Adamant_thrownaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing axe.",
-    "value": 176,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Adamant warhammer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_warhammer_detail.png/130px-Adamant_warhammer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I don't think it's intended for joinery.",
-    "value": 4120,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 30
   },
   {
     "name": "Afro",
@@ -1352,7 +535,8 @@
     ],
     "examine": "Ahrim the Blighted's leather hood.",
     "value": 13000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Ahrim's robeskirt",
@@ -1375,7 +559,8 @@
     ],
     "examine": "Ahrim the Blighted's armoured robe skirt.",
     "value": 47000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Ahrim's robetop",
@@ -1398,7 +583,8 @@
     ],
     "examine": "Ahrim the Blighted's armoured robe top.",
     "value": 50000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Ahrim's staff",
@@ -2013,7 +1199,8 @@
     ],
     "examine": "The hat of a powerful sorceress from a bygone era.",
     "value": 650000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 65
   },
   {
     "name": "Ancestral robe bottom",
@@ -2034,7 +1221,8 @@
     ],
     "examine": "The robe bottoms of a powerful sorceress from a bygone era.",
     "value": 700000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 65
   },
   {
     "name": "Ancestral robe top",
@@ -2055,7 +1243,8 @@
     ],
     "examine": "The robe top of a powerful sorceress from a bygone era.",
     "value": 750000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 65
   },
   {
     "name": "Ancient blessing",
@@ -2314,7 +1503,8 @@
     ],
     "examine": "Ancient blessed dragonhide body armour.",
     "value": 13000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient d'hide boots",
@@ -2358,7 +1548,8 @@
     ],
     "examine": "Ancient blessed wooden shield covered in dragon leather.",
     "value": 28334,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient full helm",
@@ -2380,7 +1571,8 @@
     ],
     "examine": "Rune full helmet in the colours of a long-forgotten god.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient godsword",
@@ -2444,7 +1636,8 @@
     ],
     "examine": "Rune kiteshield in the colours of a long-forgotten god.",
     "value": 54400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient mitre",
@@ -2508,7 +1701,8 @@
     ],
     "examine": "Rune platebody in the colours of a long-forgotten god.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient platelegs",
@@ -2530,7 +1724,8 @@
     ],
     "examine": "Rune platelegs in the colours of a long-forgotten god.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient plateskirt",
@@ -2552,7 +1747,8 @@
     ],
     "examine": "Rune plateskirt in the colours of a long-forgotten god.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient robe legs",
@@ -2923,26 +2119,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Arcane spirit shield",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arcane_spirit_shield_detail.png/130px-Arcane_spirit_shield_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An ethereal shield with an arcane sigil attached to it.",
-    "value": 2000000,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Arceuus banner",
     "category": [
       "Resource",
@@ -3136,7 +2312,8 @@
     ],
     "examine": "A chainskirt of great craftsmanship.",
     "value": 289900,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Armadyl chaps",
@@ -3179,7 +2356,8 @@
     ],
     "examine": "Armour of great craftsmanship.",
     "value": 290000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Armadyl cloak",
@@ -3332,7 +2510,8 @@
     ],
     "examine": "Armadyl blessed wooden shield covered in dragon leather.",
     "value": 28334,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Armadyl full helm",
@@ -3354,7 +2533,8 @@
     ],
     "examine": "Rune full helmet in the colours of Armadyl.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Armadyl godsword",
@@ -3397,7 +2577,8 @@
     ],
     "examine": "A helmet of great craftsmanship.",
     "value": 289000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Armadyl kiteshield",
@@ -3419,7 +2600,8 @@
     ],
     "examine": "Rune kiteshield in the colours of Armadyl.",
     "value": 54400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Armadyl mitre",
@@ -3463,7 +2645,8 @@
     ],
     "examine": "Rune platebody in the colours of Armadyl.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Armadyl platelegs",
@@ -3739,7 +2922,8 @@
     ],
     "examine": "Some sturdy boots.",
     "value": 289010,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 65
   },
   {
     "name": "Bandos bracers",
@@ -3804,7 +2988,8 @@
     ],
     "examine": "A sturdy chestplate.",
     "value": 290010,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 65
   },
   {
     "name": "Bandos cloak",
@@ -3936,7 +3121,8 @@
     ],
     "examine": "Bandos blessed wooden shield covered in dragon leather.",
     "value": 28334,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos full helm",
@@ -3958,7 +3144,8 @@
     ],
     "examine": "Rune full helmet in the colours of Bandos.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos godsword",
@@ -4002,7 +3189,8 @@
     ],
     "examine": "Rune kiteshield in the colours of Bandos.",
     "value": 54400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos mitre",
@@ -4046,7 +3234,8 @@
     ],
     "examine": "Rune platebody in the colours of Bandos.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos platelegs",
@@ -4068,7 +3257,8 @@
     ],
     "examine": "Rune platelegs in the colours of Bandos.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos plateskirt",
@@ -4090,7 +3280,8 @@
     ],
     "examine": "Rune plateskirt in the colours of Bandos.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos robe legs",
@@ -4177,7 +3368,8 @@
     ],
     "examine": "A sturdy pair of tassets.",
     "value": 289910,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 65
   },
   {
     "name": "Barbed bolts",
@@ -4238,7 +3430,8 @@
     ],
     "examine": "A pair of very nice gloves.",
     "value": 100000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 60
   },
   {
     "name": "Battlehat",
@@ -4534,26 +3727,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Beret mask",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beret_mask_detail.png/130px-Beret_mask_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Essential mime wear.",
-    "value": 80,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Berserker helm",
     "category": [
       "Resource",
@@ -4571,7 +3744,8 @@
     ],
     "examine": "This helmet is worn by berserkers.",
     "value": 60000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 45
   },
   {
     "name": "Berserker necklace",
@@ -4658,68 +3832,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Black 2h sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_2h_sword_detail.png/130px-Black_2h_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A two handed sword.",
-    "value": 1920,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Black battleaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_battleaxe_detail.png/130px-Black_battleaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious looking axe.",
-    "value": 1248,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Black beret",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_beret_detail.png/130px-Black_beret_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Parlez-vous francais?",
-    "value": 80,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Black boater",
     "category": [
       "Resource",
@@ -4765,29 +3877,8 @@
     ],
     "examine": "These will protect my feet.",
     "value": 576,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Black cane",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_cane_detail.png/130px-Black_cane_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A ruby topped cane.",
-    "value": 600,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 10
   },
   {
     "name": "Black cape",
@@ -4873,26 +3964,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Black claws",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_claws_detail.png/130px-Black_claws_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A set of fighting claws.",
-    "value": 360,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Black coffin",
     "category": [
       "Resource",
@@ -4933,7 +4004,8 @@
     ],
     "examine": "Made from 100% real dragonhide.",
     "value": 13480,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Black d'hide chaps",
@@ -4977,7 +4049,8 @@
     ],
     "examine": "A solid redwood shield covered in black dragon leather.",
     "value": 28334,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Black d'hide vambraces",
@@ -5000,46 +4073,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Black dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_dagger_detail.png/130px-Black_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious black dagger.",
-    "value": 240,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Black dart",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_dart_detail.png/130px-Black_dart_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A deadly throwing dart with a black tip.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Black defender",
     "category": [
       "Resource",
@@ -5058,7 +4091,8 @@
     ],
     "examine": "A defensive weapon.",
     "value": 1,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 10
   },
   {
     "name": "Black demon mask",
@@ -5187,7 +4221,8 @@
     ],
     "examine": "A full face helmet.",
     "value": 1056,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "Black gloves",
@@ -5230,26 +4265,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Black halberd",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_halberd_detail.png/130px-Black_halberd_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A black halberd.",
-    "value": 1920,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Black headband",
     "category": [
       "Resource",
@@ -5290,7 +4305,8 @@
     ],
     "examine": "A medium sized helmet.",
     "value": 576,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "Black kiteshield",
@@ -5311,27 +4327,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 1632,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Black knife",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_knife_detail.png/130px-Black_knife_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing knife.",
-    "value": 19,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 10
   },
   {
     "name": "Black leprechaun hat",
@@ -5356,46 +4353,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Black longsword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_longsword_detail.png/130px-Black_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp longsword.",
-    "value": 960,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Black mace",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_mace_detail.png/130px-Black_mace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace.",
-    "value": 432,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Black mask",
     "category": [
       "Resource",
@@ -5414,7 +4371,8 @@
     ],
     "examine": "An inert-seeming cave horror mask.",
     "value": 3000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "Black naval shirt",
@@ -5498,7 +4456,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 3840,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 10
   },
   {
     "name": "Black platelegs",
@@ -5519,7 +4478,8 @@
     ],
     "examine": "Big, black and heavy looking.",
     "value": 1920,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 10
   },
   {
     "name": "Black plateskirt",
@@ -5540,7 +4500,8 @@
     ],
     "examine": "Big, black and heavy looking.",
     "value": 1920,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 10
   },
   {
     "name": "Black ring",
@@ -5627,26 +4588,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Black scimitar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_scimitar_detail.png/130px-Black_scimitar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious, curved sword.",
-    "value": 768,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Black skirt",
     "category": [
       "Resource",
@@ -5690,26 +4631,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Black spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_spear_detail.png/130px-Black_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A black tipped spear.",
-    "value": 650,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Black spiky vambraces",
     "category": [
       "Resource",
@@ -5747,48 +4668,8 @@
     ],
     "examine": "A medium square shield.",
     "value": 1152,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Black staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_staff_of_collection_detail.png/130px-Black_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, black tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Black sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_sword_detail.png/130px-Black_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp sword.",
-    "value": 624,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 10
   },
   {
     "name": "Black tricorn hat",
@@ -5832,26 +4713,6 @@
     "examine": "Pointy shadows.",
     "value": 1000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Black warhammer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_warhammer_detail.png/130px-Black_warhammer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I don't think it's intended for joinery.",
-    "value": 980,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Black wizard hat",
@@ -5940,26 +4801,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Blessed spirit shield",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blessed_spirit_shield_detail.png/130px-Blessed_spirit_shield_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An ethereal shield that has been blessed with holy powers.",
-    "value": 1200000,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Blood ancient sceptre",
     "category": [
       "Resource",
@@ -5999,7 +4840,8 @@
     ],
     "examine": "The chestplate of the Blood Moon.",
     "value": 290010,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 50
   },
   {
     "name": "Blood moon helm",
@@ -6020,7 +4862,8 @@
     ],
     "examine": "The helm of the Blood Moon.",
     "value": 103000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 50
   },
   {
     "name": "Blood moon tassets",
@@ -6041,7 +4884,8 @@
     ],
     "examine": "The tassets of the Blood Moon.",
     "value": 289910,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 50
   },
   {
     "name": "Blood tiara",
@@ -6104,7 +4948,8 @@
     ],
     "examine": "Keeps my chest protected.",
     "value": 120000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 60
   },
   {
     "name": "Bloodbark boots",
@@ -6124,7 +4969,8 @@
     ],
     "examine": "Great foot protection.",
     "value": 10000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 60
   },
   {
     "name": "Bloodbark gauntlets",
@@ -6144,7 +4990,8 @@
     ],
     "examine": "These should protect my hands.",
     "value": 10000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 60
   },
   {
     "name": "Bloodbark helm",
@@ -6164,7 +5011,8 @@
     ],
     "examine": "A rather interesting smelling helmet.",
     "value": 15000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 60
   },
   {
     "name": "Bloodbark legs",
@@ -6184,29 +5032,8 @@
     ],
     "examine": "Strong leg protection.",
     "value": 80000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Blue beret",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_beret_detail.png/130px-Blue_beret_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Parlez-vous francais?",
-    "value": 80,
-    "equipmentSlot": "head"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 60
   },
   {
     "name": "Blue boater",
@@ -6289,7 +5116,8 @@
     ],
     "examine": "Made from 100% real dragonhide.",
     "value": 9360,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Blue d'hide chaps",
@@ -6330,7 +5158,8 @@
     ],
     "examine": "A solid yew shield covered in blue dragon leather.",
     "value": 7500,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Blue d'hide vambraces",
@@ -6543,7 +5372,8 @@
     ],
     "examine": "The chestplate of the Blue Moon.",
     "value": 290010,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 50
   },
   {
     "name": "Blue moon helm",
@@ -6564,7 +5394,8 @@
     ],
     "examine": "The helm of the Blue Moon.",
     "value": 103000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 50
   },
   {
     "name": "Blue moon spear",
@@ -6606,7 +5437,8 @@
     ],
     "examine": "The tassets of the Blue Moon.",
     "value": 289910,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 50
   },
   {
     "name": "Blue naval shirt",
@@ -7195,7 +6027,8 @@
     ],
     "examine": "A dark power is woven into these boots.",
     "value": 10000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 20
   },
   {
     "name": "Boots of stone",
@@ -7490,26 +6323,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Bronze 2h sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_2h_sword_detail.png/130px-Bronze_2h_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A two handed sword.",
-    "value": 80,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Bronze arrow",
     "category": [
       "Resource",
@@ -7528,26 +6341,6 @@
     "examine": "Arrows with bronze heads.",
     "value": 1,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Bronze battleaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_battleaxe_detail.png/130px-Bronze_battleaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious looking axe.",
-    "value": 52,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Bronze bolts",
@@ -7610,27 +6403,8 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 60,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Bronze claws",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_claws_detail.png/130px-Bronze_claws_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A set of fighting claws.",
-    "value": 15,
-    "equipmentSlot": "2h"
+    "equipmentSlot": "body",
+    "defenceRequirement": 1
   },
   {
     "name": "Bronze coffin",
@@ -7653,66 +6427,6 @@
     "examine": "Can store up to 3 shade remains.",
     "value": 1,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Bronze crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_crossbow_detail.png/130px-Bronze_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A bronze crossbow.",
-    "value": 73,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_dagger_detail.png/130px-Bronze_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Short but pointy.",
-    "value": 10,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze dart",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_dart_detail.png/130px-Bronze_dart_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A deadly throwing dart with a bronze tip.",
-    "value": 1,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Bronze defender",
@@ -7820,46 +6534,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Bronze halberd",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_halberd_detail.png/130px-Bronze_halberd_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A bronze halberd.",
-    "value": 80,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Bronze hasta",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_hasta_detail.png/130px-Bronze_hasta_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A bronze-tipped, one-handed hasta.",
-    "value": 26,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Bronze javelin",
     "category": [
       "Resource",
@@ -7898,67 +6572,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 68,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Bronze knife",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_knife_detail.png/130px-Bronze_knife_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing knife.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze longsword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_longsword_detail.png/130px-Bronze_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp longsword.",
-    "value": 40,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze mace",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_mace_detail.png/130px-Bronze_mace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace.",
-    "value": 18,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 1
   },
   {
     "name": "Bronze med helm",
@@ -8020,7 +6635,8 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 80,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 1
   },
   {
     "name": "Bronze plateskirt",
@@ -8042,46 +6658,6 @@
     "examine": "Designer leg protection.",
     "value": 80,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Bronze scimitar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_scimitar_detail.png/130px-Bronze_scimitar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious, curved sword.",
-    "value": 32,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_spear_detail.png/130px-Bronze_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A bronze tipped spear.",
-    "value": 26,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Bronze speedrun trophy",
@@ -8122,87 +6698,6 @@
     "examine": "A medium square shield.",
     "value": 48,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Bronze staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_staff_of_collection_detail.png/130px-Bronze_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, bronze tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_sword_detail.png/130px-Bronze_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp sword.",
-    "value": 26,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze thrownaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_thrownaxe_detail.png/130px-Bronze_thrownaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing axe.",
-    "value": 3,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bronze warhammer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_warhammer_detail.png/130px-Bronze_warhammer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I don't think it's intended for joinery.",
-    "value": 47,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Brown apron",
@@ -8494,7 +6989,8 @@
     ],
     "examine": "An adamant shield shaped like a cabbage.",
     "value": 3000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 30
   },
   {
     "name": "Camo bottoms",
@@ -9452,7 +7948,8 @@
     ],
     "examine": "Sturdier than it looks.",
     "value": 650000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Crystal dagger",
@@ -9620,7 +8117,8 @@
     ],
     "examine": "This helmet shines bright, like a diamond.",
     "value": 450000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Crystal legs",
@@ -9643,7 +8141,8 @@
     ],
     "examine": "A bright, shiny set of leg armour.",
     "value": 550000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Crystal sceptre",
@@ -9686,7 +8185,8 @@
     ],
     "examine": "A nice sturdy crystal shield.",
     "value": 300000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 70
   },
   {
     "name": "Cursed amulet of magic",
@@ -9830,7 +8330,8 @@
     ],
     "examine": "A hat worn by members of the Dagon'hai.",
     "value": 17000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Dagon'hai robe bottom",
@@ -9851,7 +8352,8 @@
     ],
     "examine": "A robe worn by members of the Dagon'hai.",
     "value": 90000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Dagon'hai robe top",
@@ -9872,7 +8374,8 @@
     ],
     "examine": "A robe worn by members of the Dagon'hai.",
     "value": 140000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Dark bow",
@@ -10526,7 +9029,8 @@
     ],
     "examine": "Dharok the Wretched's helm.",
     "value": 103000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Dharok's platebody",
@@ -10549,7 +9053,8 @@
     ],
     "examine": "Dharok the Wretched's platebody armour.",
     "value": 280000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Dharok's platelegs",
@@ -10572,7 +9077,8 @@
     ],
     "examine": "Dharok the Wretched's plate leg armour.",
     "value": 275000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Diamond amulet",
@@ -10965,29 +9471,8 @@
     ],
     "examine": "These will protect my feet.",
     "value": 20000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Dragon cane",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragon_cane_detail.png/130px-Dragon_cane_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An onyx topped cane.",
-    "value": 30000,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon chainbody",
@@ -11011,7 +9496,8 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 150000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon claws",
@@ -11115,7 +9601,8 @@
     ],
     "examine": "A defensive weapon.",
     "value": 100000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon full helm",
@@ -11136,7 +9623,8 @@
     ],
     "examine": "Protects your head and looks impressive too.",
     "value": 250000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon gloves",
@@ -11156,7 +9644,8 @@
     ],
     "examine": "A pair of very nice gloves.",
     "value": 90000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 50
   },
   {
     "name": "Dragon halberd",
@@ -11302,7 +9791,8 @@
     ],
     "examine": "An ancient and powerful looking Dragon Kiteshield.",
     "value": 1600000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon knife",
@@ -11384,7 +9874,8 @@
     ],
     "examine": "Makes the wearer pretty intimidating.",
     "value": 100000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon necklace",
@@ -11426,7 +9917,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 2000000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon platelegs",
@@ -11452,7 +9944,8 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 120000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon plateskirt",
@@ -11478,7 +9971,8 @@
     ],
     "examine": "This looks pretty heavy.",
     "value": 120000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 60
   },
   {
     "name": "Dragon scimitar",
@@ -11648,7 +10142,8 @@
     ],
     "examine": "A heavy shield with a snarling, draconic visage.",
     "value": 2000000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 75
   },
   {
     "name": "Dragonfire ward",
@@ -11670,7 +10165,8 @@
     ],
     "examine": "A light shield with a haunting, skeletal visage.",
     "value": 2000000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 75
   },
   {
     "name": "Dragonstone amulet",
@@ -11731,7 +10227,8 @@
     ],
     "examine": "A stylish pair of rune boots inlaid with dragonstones.",
     "value": 12500,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Dragonstone bracelet",
@@ -11792,7 +10289,8 @@
     ],
     "examine": "A stylish rune full helm inlaid with dragonstones.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Dragonstone gauntlets",
@@ -11813,7 +10311,8 @@
     ],
     "examine": "A stylish pair of rune gauntlets inlaid with dragonstones.",
     "value": 12500,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 40
   },
   {
     "name": "Dragonstone platebody",
@@ -11834,7 +10333,8 @@
     ],
     "examine": "A stylish rune platebody inlaid with dragonstones.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Dragonstone platelegs",
@@ -11855,7 +10355,8 @@
     ],
     "examine": "A stylish pair of rune platelegs inlaid with dragonstones.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Dragonstone ring",
@@ -12083,7 +10584,8 @@
     ],
     "examine": "Thick, stony boots. There's a giant crystal in the middle of them.",
     "value": 450000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 75
   },
   {
     "name": "Eclipse atlatl",
@@ -12125,7 +10627,8 @@
     ],
     "examine": "The chestplate of the Eclipse Moon.",
     "value": 290010,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 50
   },
   {
     "name": "Eclipse moon helm",
@@ -12146,7 +10649,8 @@
     ],
     "examine": "The helm of the Eclipse Moon.",
     "value": 103000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 50
   },
   {
     "name": "Eclipse moon tassets",
@@ -12167,7 +10671,8 @@
     ],
     "examine": "The tassets of the Eclipse Moon.",
     "value": 289910,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 50
   },
   {
     "name": "Efaritay's aid",
@@ -12464,26 +10969,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Elysian spirit shield",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elysian_spirit_shield_detail.png/130px-Elysian_spirit_shield_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An ethereal shield with an elysian sigil attached to it.",
-    "value": 2000000,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Emberlight",
     "category": [
       "Resource",
@@ -12645,7 +11130,8 @@
     ],
     "examine": "A three pointed hat of magic.",
     "value": 15000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 20
   },
   {
     "name": "Enchanted robe",
@@ -12667,7 +11153,8 @@
     ],
     "examine": "Enchanted Wizards robes.",
     "value": 80000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 20
   },
   {
     "name": "Enchanted top",
@@ -12689,7 +11176,8 @@
     ],
     "examine": "Enchanted Wizards robes.",
     "value": 120000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 20
   },
   {
     "name": "Escape crystal",
@@ -13155,7 +11643,8 @@
     ],
     "examine": "A Penance Fighter hat.",
     "value": 65002,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 45
   },
   {
     "name": "Fighter torso",
@@ -13176,7 +11665,8 @@
     ],
     "examine": "A Penance Fighter torso armour.",
     "value": 65006,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Fighting boots",
@@ -13747,7 +12237,8 @@
     ],
     "examine": "A sturdy helm worn only by Fremennik clan members.",
     "value": 5000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 30
   },
   {
     "name": "Fremennik kilt",
@@ -13910,7 +12401,8 @@
     ],
     "examine": "A shield worn by Fremennik warriors.",
     "value": 5000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 30
   },
   {
     "name": "Fremennik skirt",
@@ -14478,7 +12970,8 @@
     ],
     "examine": "Rune boots with gold plate.",
     "value": 12500,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Gilded chainbody",
@@ -14500,7 +12993,8 @@
     ],
     "examine": "A series of connected metal rings plated in gold.",
     "value": 50000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Gilded coif",
@@ -14544,7 +13038,8 @@
     ],
     "examine": "Made with 100% golden dragonhide.",
     "value": 50000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Gilded d'hide chaps",
@@ -14610,7 +13105,8 @@
     ],
     "examine": "Rune full helmet with gold plate.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Gilded hasta",
@@ -14676,7 +13172,8 @@
     ],
     "examine": "A medium sized helmet with gold plate.",
     "value": 19200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Gilded platebody",
@@ -14698,7 +13195,8 @@
     ],
     "examine": "Rune platebody with gold plate.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Gilded platelegs",
@@ -14851,7 +13349,8 @@
     ],
     "examine": "A medium square shield in gold plate.",
     "value": 38400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Gilded staff of collection",
@@ -14915,7 +13414,8 @@
     ],
     "examine": "A dark power is woven into these gloves.",
     "value": 10000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 20
   },
   {
     "name": "Gnome goggles",
@@ -15484,7 +13984,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 80000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 50
   },
   {
     "name": "Granite boots",
@@ -15505,7 +14006,8 @@
     ],
     "examine": "These will protect my feet, but are a bit heavy.",
     "value": 12500,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 50
   },
   {
     "name": "Granite gloves",
@@ -15526,7 +14028,8 @@
     ],
     "examine": "Never take these for granite.",
     "value": 34000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 50
   },
   {
     "name": "Granite hammer",
@@ -15569,7 +14072,8 @@
     ],
     "examine": "A stone helmet.",
     "value": 46000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 50
   },
   {
     "name": "Granite legs",
@@ -15590,7 +14094,8 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 66000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 50
   },
   {
     "name": "Granite longsword",
@@ -15653,7 +14158,8 @@
     ],
     "examine": "A solid ring.",
     "value": 15000,
-    "equipmentSlot": "ring"
+    "equipmentSlot": "ring",
+    "defenceRequirement": 50
   },
   {
     "name": "Granite shield",
@@ -15673,7 +14179,8 @@
     ],
     "examine": "A solid stone shield.",
     "value": 56000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 50
   },
   {
     "name": "Greater demon mask",
@@ -16425,7 +14932,8 @@
     ],
     "examine": "Some sturdy Bandos boots, made sturdier with the blackened tourmaline core of the Grotesque Guardians.",
     "value": 305000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 75
   },
   {
     "name": "Guthan's chainskirt",
@@ -16448,7 +14956,8 @@
     ],
     "examine": "Guthan the Infested's chainskirt.",
     "value": 275000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Guthan's helm",
@@ -16471,7 +14980,8 @@
     ],
     "examine": "Guthan the Infested's helm.",
     "value": 103000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Guthan's platebody",
@@ -16494,7 +15004,8 @@
     ],
     "examine": "Guthan the Infested's platebody armour.",
     "value": 280000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Guthan's warspear",
@@ -16713,7 +15224,8 @@
     ],
     "examine": "Guthix blessed wooden shield covered in dragon leather.",
     "value": 28334,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix full helm",
@@ -16735,7 +15247,8 @@
     ],
     "examine": "A rune full face helmet in the colours of Guthix.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix kiteshield",
@@ -16757,7 +15270,8 @@
     ],
     "examine": "Rune kiteshield in the colours of Guthix.",
     "value": 54400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix mitre",
@@ -16821,7 +15335,8 @@
     ],
     "examine": "Rune platebody in the colours of Guthix.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix platelegs",
@@ -16843,7 +15358,8 @@
     ],
     "examine": "Rune plate legs in the colours of Guthix.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix plateskirt",
@@ -16865,7 +15381,8 @@
     ],
     "examine": "Rune plateskirt in the colours of Guthix.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix robe legs",
@@ -17260,7 +15777,8 @@
     ],
     "examine": "A solid oaken shield covered in hard leather.",
     "value": 500,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 10
   },
   {
     "name": "Hardleather body",
@@ -17381,7 +15899,8 @@
     ],
     "examine": "A Penance Healer hat.",
     "value": 65002,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 45
   },
   {
     "name": "Heat-proof vessel",
@@ -17467,7 +15986,8 @@
     ],
     "examine": "A gift from Neitiznot's Burgher.",
     "value": 50000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 55
   },
   {
     "name": "Helmet of the moon",
@@ -17663,7 +16183,8 @@
     ],
     "examine": "A dark power is woven into this hood.",
     "value": 10000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 20
   },
   {
     "name": "Hooded slayer helmet",
@@ -17772,7 +16293,8 @@
     ],
     "examine": "Made from real Huey hide!",
     "value": 13480,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Hueycoatl hide chaps",
@@ -17814,7 +16336,8 @@
     ],
     "examine": "Made from real Huey hide!",
     "value": 2000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Hueycoatl hide vambraces",
@@ -18102,7 +16625,8 @@
     ],
     "examine": "Mystical boots.",
     "value": 12000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 25
   },
   {
     "name": "Infinity bottoms",
@@ -18206,7 +16730,8 @@
     ],
     "examine": "An initiate Temple Knight's leg armour.",
     "value": 8000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 20
   },
   {
     "name": "Inoculation bracelet",
@@ -18247,7 +16772,8 @@
     ],
     "examine": "The great helmet of the turncloak justiciar.",
     "value": 500000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 30
   },
   {
     "name": "Inquisitor's hauberk",
@@ -18268,7 +16794,8 @@
     ],
     "examine": "The hauberk of the turncloak justiciar.",
     "value": 1000000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 30
   },
   {
     "name": "Inquisitor's mace",
@@ -18310,7 +16837,8 @@
     ],
     "examine": "The plateskirt of the turncloak justiciar.",
     "value": 750000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 30
   },
   {
     "name": "Insulated boots",
@@ -18353,26 +16881,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Iron 2h sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_2h_sword_detail.png/130px-Iron_2h_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A two handed sword.",
-    "value": 280,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Iron arrow",
     "category": [
       "Resource",
@@ -18391,26 +16899,6 @@
     "examine": "Arrows with iron heads.",
     "value": 3,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Iron battleaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_battleaxe_detail.png/130px-Iron_battleaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious looking axe.",
-    "value": 182,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Iron bolts",
@@ -18475,86 +16963,6 @@
     "examine": "A series of connected metal rings.",
     "value": 210,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Iron claws",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_claws_detail.png/130px-Iron_claws_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A set of fighting claws.",
-    "value": 50,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Iron crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_crossbow_detail.png/130px-Iron_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An iron crossbow.",
-    "value": 157,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_dagger_detail.png/130px-Iron_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Short but pointy.",
-    "value": 35,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron dart",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_dart_detail.png/130px-Iron_dart_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A deadly throwing dart with an iron tip.",
-    "value": 2,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Iron defender",
@@ -18641,46 +17049,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Iron halberd",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_halberd_detail.png/130px-Iron_halberd_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An iron halberd.",
-    "value": 280,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Iron hasta",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_hasta_detail.png/130px-Iron_hasta_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An iron-tipped, one-handed hasta.",
-    "value": 91,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Iron javelin",
     "category": [
       "Resource",
@@ -18719,67 +17087,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 238,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Iron knife",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_knife_detail.png/130px-Iron_knife_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing knife.",
-    "value": 3,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron longsword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_longsword_detail.png/130px-Iron_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp longsword.",
-    "value": 140,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron mace",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_mace_detail.png/130px-Iron_mace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace.",
-    "value": 63,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 1
   },
   {
     "name": "Iron med helm",
@@ -18865,66 +17174,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Iron scimitar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_scimitar_detail.png/130px-Iron_scimitar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious, curved sword.",
-    "value": 112,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron sickle",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_sickle_detail.png/130px-Iron_sickle_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Not as good as a pet frog.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_spear_detail.png/130px-Iron_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An iron tipped spear.",
-    "value": 91,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Iron sq shield",
     "category": [
       "Resource",
@@ -18943,87 +17192,6 @@
     "examine": "A medium square shield.",
     "value": 168,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Iron staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_staff_of_collection_detail.png/130px-Iron_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, iron tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_sword_detail.png/130px-Iron_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp sword.",
-    "value": 91,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron thrownaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_thrownaxe_detail.png/130px-Iron_thrownaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing axe.",
-    "value": 7,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Iron warhammer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_warhammer_detail.png/130px-Iron_warhammer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I don't think it's intended for joinery.",
-    "value": 173,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Ironwood blowpipe",
@@ -19289,7 +17457,8 @@
     ],
     "examine": "A Justiciar's chestguard. They once roamed the land casting judgements on wrongdoers, their decisions were never questioned.",
     "value": 1500000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 75
   },
   {
     "name": "Justiciar faceguard",
@@ -19310,7 +17479,8 @@
     ],
     "examine": "A helm that once belonged to a Justiciar, a loyal zealot of Saradomin.",
     "value": 500000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 75
   },
   {
     "name": "Justiciar legguards",
@@ -19331,7 +17501,8 @@
     ],
     "examine": "A Justiciar's platelegs. Their once bright colours have since faded.",
     "value": 1125000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 75
   },
   {
     "name": "Kandarin headgear",
@@ -19420,7 +17591,8 @@
     ],
     "examine": "Karil the Tainted's coif.",
     "value": 13000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Karil's crossbow",
@@ -19466,7 +17638,8 @@
     ],
     "examine": "Karil the Tainted's leather skirt.",
     "value": 47000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Karil's leathertop",
@@ -19489,7 +17662,8 @@
     ],
     "examine": "Karil the Tainted's leather body armour.",
     "value": 50000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Katana",
@@ -20618,7 +18792,8 @@
     ],
     "examine": "A solid magic wood shield.",
     "value": 1280,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Magic shortbow",
@@ -20711,7 +18886,8 @@
     ],
     "examine": "An ancient, evil shield forged by Volcanic heat.",
     "value": 45000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 60
   },
   {
     "name": "Maoma's full helm",
@@ -20731,7 +18907,8 @@
     ],
     "examine": "Maoma the Corrupt Captain's full helm.",
     "value": 16500,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Maoma's great helm",
@@ -20751,7 +18928,8 @@
     ],
     "examine": "Maoma the Corrupt Captain's great helm.",
     "value": 21500,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Maoma's med helm",
@@ -20831,7 +19009,8 @@
     ],
     "examine": "A solid maple shield.",
     "value": 320,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Maple shortbow",
@@ -20955,7 +19134,8 @@
     ],
     "examine": "Ancient armour once worn by a powerful ranger.",
     "value": 1500000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 30
   },
   {
     "name": "Masori chaps",
@@ -20976,7 +19156,8 @@
     ],
     "examine": "Ancient armour once worn by a powerful ranger.",
     "value": 1400000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 30
   },
   {
     "name": "Masori mask",
@@ -20997,7 +19178,8 @@
     ],
     "examine": "An ancient mask once worn by a powerful ranger.",
     "value": 1300000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 30
   },
   {
     "name": "Master wand",
@@ -21426,7 +19608,8 @@
     ],
     "examine": "I can just about see things in this shield's reflection.",
     "value": 5000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 20
   },
   {
     "name": "Mist battlestaff",
@@ -21470,26 +19653,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Mithril 2h sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_2h_sword_detail.png/130px-Mithril_2h_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A two handed sword.",
-    "value": 2600,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Mithril arrow",
     "category": [
       "Resource",
@@ -21508,26 +19671,6 @@
     "examine": "Arrows with mithril heads.",
     "value": 32,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Mithril battleaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_battleaxe_detail.png/130px-Mithril_battleaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious looking axe.",
-    "value": 1690,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Mithril bolts",
@@ -21571,7 +19714,8 @@
     ],
     "examine": "These will protect my feet.",
     "value": 780,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril chainbody",
@@ -21591,87 +19735,8 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 1950,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Mithril claws",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_claws_detail.png/130px-Mithril_claws_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A set of fighting claws.",
-    "value": 475,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Mithril crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_crossbow_detail.png/130px-Mithril_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A mithril crossbow.",
-    "value": 783,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_dagger_detail.png/130px-Mithril_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A dangerous dagger.",
-    "value": 325,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril dart",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_dart_detail.png/130px-Mithril_dart_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A deadly throwing dart with a mithril tip.",
-    "value": 25,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "body",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril defender",
@@ -21735,7 +19800,8 @@
     ],
     "examine": "A full face helmet.",
     "value": 1430,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril gloves",
@@ -21756,46 +19822,6 @@
     "examine": "A pair of nice gloves.",
     "value": 1500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Mithril halberd",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_halberd_detail.png/130px-Mithril_halberd_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A mithril halberd.",
-    "value": 2600,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Mithril hasta",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_hasta_detail.png/130px-Mithril_hasta_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A mithril-tipped, one-handed hasta.",
-    "value": 845,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Mithril javelin",
@@ -21836,67 +19862,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 2210,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Mithril knife",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_knife_detail.png/130px-Mithril_knife_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing knife.",
-    "value": 27,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril longsword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_longsword_detail.png/130px-Mithril_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp longsword.",
-    "value": 1300,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril mace",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_mace_detail.png/130px-Mithril_mace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace.",
-    "value": 585,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril med helm",
@@ -21916,7 +19883,8 @@
     ],
     "examine": "A medium sized helmet.",
     "value": 780,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril platebody",
@@ -21937,7 +19905,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 5200,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril platelegs",
@@ -21958,7 +19927,8 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 2600,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril plateskirt",
@@ -21982,46 +19952,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Mithril scimitar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_scimitar_detail.png/130px-Mithril_scimitar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious, curved sword.",
-    "value": 1040,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_spear_detail.png/130px-Mithril_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A mithril tipped spear.",
-    "value": 845,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Mithril sq shield",
     "category": [
       "Resource",
@@ -22039,88 +19969,8 @@
     ],
     "examine": "A medium square shield.",
     "value": 1560,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Mithril staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_staff_of_collection_detail.png/130px-Mithril_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, mithril tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_sword_detail.png/130px-Mithril_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp sword.",
-    "value": 845,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril thrownaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_thrownaxe_detail.png/130px-Mithril_thrownaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing axe.",
-    "value": 70,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mithril warhammer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_warhammer_detail.png/130px-Mithril_warhammer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I don't think it's intended for joinery.",
-    "value": 1660,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 20
   },
   {
     "name": "Mixed flowers",
@@ -22160,7 +20010,8 @@
     ],
     "examine": "Made from the hide of a few different creatures.",
     "value": 4000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 50
   },
   {
     "name": "Mixed hide cape",
@@ -22180,7 +20031,8 @@
     ],
     "examine": "Made from the hide of a few different creatures.",
     "value": 4000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "defenceRequirement": 50
   },
   {
     "name": "Mixed hide legs",
@@ -22220,7 +20072,8 @@
     ],
     "examine": "Made from the hide of a few different creatures.",
     "value": 4000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 50
   },
   {
     "name": "Mole slippers",
@@ -22510,7 +20363,8 @@
     ],
     "examine": "A powerful coif.",
     "value": 250000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 78
   },
   {
     "name": "Morrigan's javelin",
@@ -22552,7 +20406,8 @@
     ],
     "examine": "A powerful leather body.",
     "value": 500000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 78
   },
   {
     "name": "Morrigan's leather chaps",
@@ -22573,7 +20428,8 @@
     ],
     "examine": "A powerful pair of leather chaps.",
     "value": 500000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 78
   },
   {
     "name": "Morrigan's throwing axe",
@@ -22914,7 +20770,8 @@
     ],
     "examine": "Magical boots.",
     "value": 10000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 20
   },
   {
     "name": "Mystic cards",
@@ -23014,7 +20871,8 @@
     ],
     "examine": "Magical gloves.",
     "value": 10000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 20
   },
   {
     "name": "Mystic hat",
@@ -23033,7 +20891,8 @@
     ],
     "examine": "A magical hat.",
     "value": 15000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 20
   },
   {
     "name": "Mystic lava staff",
@@ -23113,7 +20972,8 @@
     ],
     "examine": "The lower half of a magical robe.",
     "value": 80000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 20
   },
   {
     "name": "Mystic robe top",
@@ -23132,7 +20992,8 @@
     ],
     "examine": "The upper half of a magical robe.",
     "value": 120000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 20
   },
   {
     "name": "Mystic smoke staff",
@@ -23339,7 +21200,8 @@
     ],
     "examine": "A gift from Neitiznot's Burgher enhanced with the jaw of a Basilisk.",
     "value": 550000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Neitiznot shield",
@@ -23359,7 +21221,8 @@
     ],
     "examine": "A wooden shield with a rope rim.",
     "value": 500,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 25
   },
   {
     "name": "Nightmare staff",
@@ -23523,7 +21386,8 @@
     ],
     "examine": "A solid oaken shield.",
     "value": 80,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 10
   },
   {
     "name": "Oak shortbow",
@@ -23564,7 +21428,8 @@
     ],
     "examine": "A chestplate forged from infernal metal.",
     "value": 600000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 78
   },
   {
     "name": "Oathplate helm",
@@ -23585,7 +21450,8 @@
     ],
     "examine": "A helm forged from infernal metal.",
     "value": 200000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 78
   },
   {
     "name": "Oathplate legs",
@@ -23606,7 +21472,8 @@
     ],
     "examine": "Platelegs forged from infernal metal.",
     "value": 400000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 78
   },
   {
     "name": "Obsidian cape",
@@ -23751,7 +21618,8 @@
     ],
     "examine": "An ancient, evil shield forged by Volcanic heat.",
     "value": 45000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 60
   },
   {
     "name": "Old demon mask",
@@ -24278,7 +22146,8 @@
     ],
     "examine": "These gloves seem unbelieveably light!",
     "value": 65001,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 40
   },
   {
     "name": "Penance skirt",
@@ -24299,7 +22168,8 @@
     ],
     "examine": "A skirt made from the skin of a Penance Ranger.",
     "value": 65005,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Pendant of ates",
@@ -25792,7 +23662,8 @@
     ],
     "examine": "A Penance Ranger hat.",
     "value": 65002,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 45
   },
   {
     "name": "Rangers' tights",
@@ -25836,7 +23707,8 @@
     ],
     "examine": "Lightweight body armour ideal for rangers.",
     "value": 12000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 1
   },
   {
     "name": "Rapier",
@@ -25857,28 +23729,6 @@
     "examine": "The very butcher of a silk button.",
     "value": 25600,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Red beret",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_beret_detail.png/130px-Red_beret_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Parlez-vous francais?",
-    "value": 80,
-    "equipmentSlot": "head"
   },
   {
     "name": "Red boater",
@@ -26003,7 +23853,8 @@
     ],
     "examine": "Made from 100% real dragonhide.",
     "value": 11230,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Red d'hide chaps",
@@ -26044,7 +23895,8 @@
     ],
     "examine": "A solid magic wood shield covered in red dragon leather.",
     "value": 11000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Red d'hide vambraces",
@@ -26526,7 +24378,8 @@
     ],
     "examine": "A solid redwood shield.",
     "value": 1280,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Regen bracelet",
@@ -26906,7 +24759,8 @@
     ],
     "examine": "A dark power is woven into this robe bottom.",
     "value": 80000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 20
   },
   {
     "name": "Robe top of darkness",
@@ -26928,7 +24782,8 @@
     ],
     "examine": "A dark power is woven into this robe top.",
     "value": 120000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 20
   },
   {
     "name": "Robin hood hat",
@@ -27010,7 +24865,8 @@
     ],
     "examine": "Protective headwear made from crabs. Better than that sounds.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Rock-shell legs",
@@ -27030,7 +24886,8 @@
     ],
     "examine": "Some tough leggings made from rock crab parts.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Rock-shell plate",
@@ -27461,29 +25318,8 @@
     ],
     "examine": "These will protect my feet.",
     "value": 12500,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Rune cane",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_cane_detail.png/130px-Rune_cane_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A dragonstone topped cane.",
-    "value": 14400,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune chainbody",
@@ -27503,7 +25339,8 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 50000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune claws",
@@ -27604,7 +25441,8 @@
     ],
     "examine": "A defensive weapon.",
     "value": 65004,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune dragon mask",
@@ -27647,7 +25485,8 @@
     ],
     "examine": "A full face helmet.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune gloves",
@@ -27667,7 +25506,8 @@
     ],
     "examine": "A pair of very nice gloves.",
     "value": 5000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune halberd",
@@ -27748,7 +25588,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 54400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune knife",
@@ -27828,7 +25669,8 @@
     ],
     "examine": "A medium sized helmet.",
     "value": 19200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune platebody",
@@ -27849,7 +25691,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune platelegs",
@@ -27870,7 +25713,8 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune plateskirt",
@@ -27891,7 +25735,8 @@
     ],
     "examine": "Designer leg protection.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune satchel",
@@ -27974,7 +25819,8 @@
     ],
     "examine": "A medium square shield.",
     "value": 38400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Rune staff of collection",
@@ -28116,7 +25962,8 @@
     ],
     "examine": "Boots made from a Penance Runner.",
     "value": 65003,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 10
   },
   {
     "name": "Runner hat",
@@ -28137,7 +25984,8 @@
     ],
     "examine": "A Penance Runner hat.",
     "value": 65002,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 45
   },
   {
     "name": "Sagacious spectacles",
@@ -28199,7 +26047,8 @@
     ],
     "examine": "Saika the puppet master's shroud.",
     "value": 21500,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Saika's veil",
@@ -28219,7 +26068,8 @@
     ],
     "examine": "Saika the puppet master's veil.",
     "value": 16500,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Sailors' amulet",
@@ -28285,7 +26135,8 @@
     ],
     "examine": "Armoured gloves of the Samurai.",
     "value": 3200,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 35
   },
   {
     "name": "Samurai greaves",
@@ -28803,7 +26654,8 @@
     ],
     "examine": "Saradomin blessed wooden shield covered in dragon leather.",
     "value": 28334,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin full helm",
@@ -28825,7 +26677,8 @@
     ],
     "examine": "Rune full helmet in the colours of Saradomin.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin godsword",
@@ -28890,7 +26743,8 @@
     ],
     "examine": "Rune kiteshield in the colours of Saradomin.",
     "value": 54400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin mitre",
@@ -28954,7 +26808,8 @@
     ],
     "examine": "Rune platebody in the colours of Saradomin.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin platelegs",
@@ -28976,7 +26831,8 @@
     ],
     "examine": "Rune platelegs in the colours of Saradomin.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin plateskirt",
@@ -28998,7 +26854,8 @@
     ],
     "examine": "Rune plateskirt in the colours of Saradomin.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin robe legs",
@@ -29172,28 +27029,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Scythe of vitur",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Scythe_of_vitur_detail.png/130px-Scythe_of_vitur_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Charge",
-      "Drop"
-    ],
-    "examine": "A powerful scythe. It is currently uncharged.",
-    "value": 7000000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Searing boots",
     "category": [
       "Resource",
@@ -29272,7 +27107,8 @@
     ],
     "examine": "Needs to be charged with Zulrah's scales.",
     "value": 110000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 75
   },
   {
     "name": "Severed leg",
@@ -29393,26 +27229,6 @@
       "Drop"
     ],
     "examine": "A banner showcasing the colours of Leagues III - Shattered Relics.",
-    "value": 1000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Shattered cane",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shattered_cane_detail.png/130px-Shattered_cane_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The cane of a Shattered relic hunter.",
     "value": 1000,
     "equipmentSlot": "weapon"
   },
@@ -29756,7 +27572,8 @@
     ],
     "examine": "A superior set of strengthened slacks for any self respecting seer.",
     "value": 40000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Skeletal gloves",
@@ -29796,7 +27613,8 @@
     ],
     "examine": "Make your foes cower by wearing a skull as a helmet!",
     "value": 10000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Skeletal top",
@@ -29816,7 +27634,8 @@
     ],
     "examine": "The bones in this armour seem to vibrate with a magical quality...",
     "value": 45000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Skewer",
@@ -29923,7 +27742,8 @@
     ],
     "examine": "You don't want to wear it inside-out.",
     "value": 40000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "Slayer ring",
@@ -30219,26 +28039,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Spectral spirit shield",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Spectral_spirit_shield_detail.png/130px-Spectral_spirit_shield_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An ethereal shield with a spectral sigil attached to it.",
-    "value": 2000000,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Spiked manacles",
     "category": [
       "Resource",
@@ -30298,7 +28098,8 @@
     ],
     "examine": "A constant reminder that I'm above a Dagannoth in the food chain.",
     "value": 7800,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Spined boots",
@@ -30338,7 +28139,8 @@
     ],
     "examine": "Stylish leg armour for rangers with a lingering smell of raw fish...",
     "value": 3900,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Spined gloves",
@@ -30378,7 +28180,8 @@
     ],
     "examine": "A helm fit for any Fremennik ranger.",
     "value": 60000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Spiny helmet",
@@ -30398,7 +28201,8 @@
     ],
     "examine": "You don't want to wear it inside-out.",
     "value": 650,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 5
   },
   {
     "name": "Spirit shield",
@@ -30419,7 +28223,8 @@
     ],
     "examine": "An ethereal shield.",
     "value": 70000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 45
   },
   {
     "name": "Splitbark body",
@@ -30499,7 +28304,8 @@
     ],
     "examine": "A wooden helmet.",
     "value": 10000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Splitbark legs",
@@ -30805,7 +28611,8 @@
     ],
     "examine": "A powerful helmet.",
     "value": 250000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 78
   },
   {
     "name": "Statius's platebody",
@@ -30826,7 +28633,8 @@
     ],
     "examine": "A powerful platebody.",
     "value": 500000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 78
   },
   {
     "name": "Statius's platelegs",
@@ -30847,7 +28655,8 @@
     ],
     "examine": "A powerful pair of platelegs.",
     "value": 500000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 78
   },
   {
     "name": "Statius's warhammer",
@@ -30892,26 +28701,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Steel 2h sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_2h_sword_detail.png/130px-Steel_2h_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A two handed sword.",
-    "value": 1000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Steel arrow",
     "category": [
       "Resource",
@@ -30930,26 +28719,6 @@
     "examine": "Arrows with steel heads.",
     "value": 12,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Steel battleaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_battleaxe_detail.png/130px-Steel_battleaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious looking axe.",
-    "value": 650,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Steel bolts",
@@ -30997,7 +28766,8 @@
     ],
     "examine": "These will protect my feet.",
     "value": 300,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel chainbody",
@@ -31017,27 +28787,8 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 750,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Steel claws",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_claws_detail.png/130px-Steel_claws_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A set of fighting claws.",
-    "value": 175,
-    "equipmentSlot": "2h"
+    "equipmentSlot": "body",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel coffin",
@@ -31062,66 +28813,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Steel crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_crossbow_detail.png/130px-Steel_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A steel crossbow.",
-    "value": 360,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_dagger_detail.png/130px-Steel_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Short but pointy.",
-    "value": 125,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel dart",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_dart_detail.png/130px-Steel_dart_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A deadly throwing dart with a steel tip.",
-    "value": 10,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Steel defender",
     "category": [
       "Resource",
@@ -31140,7 +28831,8 @@
     ],
     "examine": "A defensive weapon.",
     "value": 1,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel dragon mask",
@@ -31183,7 +28875,8 @@
     ],
     "examine": "A full face helmet.",
     "value": 550,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel gloves",
@@ -31204,46 +28897,6 @@
     "examine": "A pair of gloves.",
     "value": 500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Steel halberd",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_halberd_detail.png/130px-Steel_halberd_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A steel halberd.",
-    "value": 1000,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Steel hasta",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_hasta_detail.png/130px-Steel_hasta_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A steel-tipped, one-handed hasta.",
-    "value": 325,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Steel javelin",
@@ -31284,67 +28937,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 850,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Steel knife",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_knife_detail.png/130px-Steel_knife_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing knife.",
-    "value": 11,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel longsword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_longsword_detail.png/130px-Steel_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp longsword.",
-    "value": 500,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel mace",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_mace_detail.png/130px-Steel_mace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace.",
-    "value": 225,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel med helm",
@@ -31364,7 +28958,8 @@
     ],
     "examine": "A medium sized helmet.",
     "value": 300,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel platebody",
@@ -31385,7 +28980,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 2000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel platelegs",
@@ -31406,7 +29002,8 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 1000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel plateskirt",
@@ -31427,7 +29024,8 @@
     ],
     "examine": "Designer leg protection.",
     "value": 1000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 5
   },
   {
     "name": "Steel ring",
@@ -31451,46 +29049,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Steel scimitar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_scimitar_detail.png/130px-Steel_scimitar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious, curved sword.",
-    "value": 400,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_spear_detail.png/130px-Steel_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A steel tipped spear.",
-    "value": 325,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Steel sq shield",
     "category": [
       "Resource",
@@ -31508,88 +29066,8 @@
     ],
     "examine": "A medium square shield.",
     "value": 600,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Steel staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_staff_of_collection_detail.png/130px-Steel_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, steel tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_sword_detail.png/130px-Steel_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp sword.",
-    "value": 325,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel thrownaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_thrownaxe_detail.png/130px-Steel_thrownaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A finely balanced throwing axe.",
-    "value": 26,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Steel warhammer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_warhammer_detail.png/130px-Steel_warhammer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I don't think it's intended for joinery.",
-    "value": 640,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 5
   },
   {
     "name": "Storm cruiser's coat",
@@ -31773,7 +29251,8 @@
     ],
     "examine": "Chausses forged from sunfire.",
     "value": 500000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Sunfire fanatic cuirass",
@@ -31794,7 +29273,8 @@
     ],
     "examine": "A cuirass forged from sunfire.",
     "value": 500000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Sunfire fanatic helm",
@@ -31815,7 +29295,8 @@
     ],
     "examine": "A helmet forged from sunfire.",
     "value": 375000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Sunlight antler bolts",
@@ -31955,7 +29436,8 @@
     ],
     "examine": "Keeps my chest protected.",
     "value": 120000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 50
   },
   {
     "name": "Swampbark boots",
@@ -31975,7 +29457,8 @@
     ],
     "examine": "Great foot protection.",
     "value": 10000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 50
   },
   {
     "name": "Swampbark gauntlets",
@@ -31995,7 +29478,8 @@
     ],
     "examine": "These should protect my hands.",
     "value": 10000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 50
   },
   {
     "name": "Swampbark helm",
@@ -32015,7 +29499,8 @@
     ],
     "examine": "A rather interesting smelling helmet.",
     "value": 15000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 50
   },
   {
     "name": "Swampbark legs",
@@ -32035,7 +29520,8 @@
     ],
     "examine": "Strong leg protection.",
     "value": 80000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 50
   },
   {
     "name": "Swift blade",
@@ -33431,7 +30917,8 @@
     ],
     "examine": "A spiked shield of obsidian.",
     "value": 45000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 60
   },
   {
     "name": "Toktz-mej-tal",
@@ -33810,7 +31297,8 @@
     ],
     "examine": "Torag the Corrupted's helm.",
     "value": 103000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Torag's platebody",
@@ -33833,7 +31321,8 @@
     ],
     "examine": "Torag the Corrupted's platebody armour.",
     "value": 280000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Torag's platelegs",
@@ -33856,7 +31345,8 @@
     ],
     "examine": "Torag the Corrupted's plate leg armour.",
     "value": 275000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Tormented bracelet",
@@ -33897,7 +31387,8 @@
     ],
     "examine": "An ancient warrior's full helm.",
     "value": 700000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 80
   },
   {
     "name": "Torva platebody",
@@ -33918,7 +31409,8 @@
     ],
     "examine": "An ancient warrior's platebody.",
     "value": 700000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 80
   },
   {
     "name": "Torva platelegs",
@@ -33939,7 +31431,8 @@
     ],
     "examine": "An ancient warrior's platelegs.",
     "value": 700000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 80
   },
   {
     "name": "Toxic blowpipe",
@@ -34192,28 +31685,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Tumeken's shadow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Tumeken%27s_shadow_detail.png/130px-Tumeken%27s_shadow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": false,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Charge",
-      "Drop"
-    ],
-    "examine": "An ancient staff created using a higher power.",
-    "value": 7000000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Turquoise boots",
     "category": [
       "Resource",
@@ -34357,27 +31828,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Twisted bow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Twisted_bow_detail.png/130px-Twisted_bow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A mystical bow carved from the twisted remains of the Great Olm.",
-    "value": 7000000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Twisted buckler",
     "category": [
       "Resource",
@@ -34397,26 +31847,6 @@
     "examine": "A buckler carved from the twisted remains of the Great Olm.",
     "value": 500000,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Twisted cane",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Twisted_cane_detail.png/130px-Twisted_cane_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A cane of the twisted relic hunter.",
-    "value": 1000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Twisted slayer helmet",
@@ -34518,7 +31948,8 @@
     ],
     "examine": "As used by King Tyras' personal guard.",
     "value": 550,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 5
   },
   {
     "name": "Tzhaar-ket-em",
@@ -34857,7 +32288,8 @@
     ],
     "examine": "Verac the Defiled's brassard.",
     "value": 280000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 70
   },
   {
     "name": "Verac's flail",
@@ -34903,7 +32335,8 @@
     ],
     "examine": "Verac the Defiled's helm.",
     "value": 103000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 70
   },
   {
     "name": "Verac's plateskirt",
@@ -34926,7 +32359,8 @@
     ],
     "examine": "Verac the Defiled's plate skirt.",
     "value": 275000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 70
   },
   {
     "name": "Vesta's chainbody",
@@ -34947,7 +32381,8 @@
     ],
     "examine": "A powerful chainbody.",
     "value": 500000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 78
   },
   {
     "name": "Vesta's longsword",
@@ -34989,7 +32424,8 @@
     ],
     "examine": "A powerful plateskirt.",
     "value": 500000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 78
   },
   {
     "name": "Vesta's spear",
@@ -35056,7 +32492,8 @@
     ],
     "examine": "An ancient mage's mask.",
     "value": 200000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 75
   },
   {
     "name": "Virtus robe bottom",
@@ -35080,7 +32517,8 @@
     ],
     "examine": "An ancient mage's robe bottom.",
     "value": 400000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 75
   },
   {
     "name": "Virtus robe top",
@@ -35104,7 +32542,8 @@
     ],
     "examine": "An ancient mage's robe top.",
     "value": 600000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 75
   },
   {
     "name": "Void knight gloves",
@@ -35439,7 +32878,8 @@
     ],
     "examine": "This helmet is worn by warriors.",
     "value": 60000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 45
   },
   {
     "name": "Warrior ring",
@@ -35546,26 +32986,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "White 2h sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_2h_sword_detail.png/130px-White_2h_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A two handed sword.",
-    "value": 1920,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "White apron",
     "category": [
       "Resource",
@@ -35584,48 +33004,6 @@
     "examine": "A mostly clean apron.",
     "value": 2,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "White battleaxe",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_battleaxe_detail.png/130px-White_battleaxe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious looking axe.",
-    "value": 1248,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "White beret",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_beret_detail.png/130px-White_beret_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Parlez-vous francais?",
-    "value": 80,
-    "equipmentSlot": "head"
   },
   {
     "name": "White boater",
@@ -35667,7 +33045,8 @@
     ],
     "examine": "These will protect my feet.",
     "value": 576,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 10
   },
   {
     "name": "White cavalier",
@@ -35709,47 +33088,8 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 1440,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "White claws",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_claws_detail.png/130px-White_claws_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A set of fighting claws.",
-    "value": 360,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "White dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_dagger_detail.png/130px-White_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A vicious white dagger.",
-    "value": 240,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "body",
+    "defenceRequirement": 10
   },
   {
     "name": "White elegant blouse",
@@ -35833,7 +33173,8 @@
     ],
     "examine": "A full face helmet.",
     "value": 1056,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "White gloves",
@@ -35853,27 +33194,8 @@
     ],
     "examine": "These will keep my hands warm!",
     "value": 6,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "White halberd",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_halberd_detail.png/130px-White_halberd_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A white halberd.",
-    "value": 1920,
-    "equipmentSlot": "2h"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 10
   },
   {
     "name": "White headband",
@@ -35915,67 +33237,8 @@
     ],
     "examine": "A large metal shield.",
     "value": 1632,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "White longsword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_longsword_detail.png/130px-White_longsword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp longsword.",
-    "value": 960,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "White mace",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_mace_detail.png/130px-White_mace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace.",
-    "value": 432,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "White magic staff",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_magic_staff_detail.png/130px-White_magic_staff_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Magical staff.",
-    "value": 200,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 10
   },
   {
     "name": "White med helm",
@@ -35995,7 +33258,8 @@
     ],
     "examine": "A medium sized helmet.",
     "value": 576,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "White platebody",
@@ -36015,7 +33279,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 3840,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 10
   },
   {
     "name": "White platelegs",
@@ -36035,7 +33300,8 @@
     ],
     "examine": "Big, White and heavy looking.",
     "value": 1920,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 10
   },
   {
     "name": "White plateskirt",
@@ -36055,7 +33321,8 @@
     ],
     "examine": "Big, White and heavy looking.",
     "value": 1920,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 10
   },
   {
     "name": "White sq shield",
@@ -36075,27 +33342,8 @@
     ],
     "examine": "A medium square shield.",
     "value": 1152,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "White sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_sword_detail.png/130px-White_sword_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A razor sharp sword.",
-    "value": 624,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 10
   },
   {
     "name": "White unicorn mask",
@@ -36118,26 +33366,6 @@
     "examine": "Pointy rainbows.",
     "value": 1000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "White warhammer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_warhammer_detail.png/130px-White_warhammer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I don't think it's intended for joinery.",
-    "value": 980,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Wilderness sword",
@@ -36240,7 +33468,8 @@
     ],
     "examine": "A solid willow shield.",
     "value": 160,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 30
   },
   {
     "name": "Willow shortbow",
@@ -36488,7 +33717,8 @@
     ],
     "examine": "A pair of wristbands to protect your hands in combat.",
     "value": 85000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 20
   },
   {
     "name": "Xeric's champion",
@@ -36636,7 +33866,8 @@
     ],
     "examine": "The forgotten magicks of Xeric imbue this garment with a little power.",
     "value": 60,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "Xerician robe",
@@ -36656,7 +33887,8 @@
     ],
     "examine": "The forgotten magicks of Xeric imbue this garment with a little power.",
     "value": 70,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 10
   },
   {
     "name": "Xerician top",
@@ -36676,7 +33908,8 @@
     ],
     "examine": "The forgotten magicks of Xeric imbue this garment with a little power.",
     "value": 80,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 10
   },
   {
     "name": "Yellow boots",
@@ -36898,7 +34131,8 @@
     ],
     "examine": "A solid yew shield.",
     "value": 640,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Yew shortbow",
@@ -37156,7 +34390,8 @@
     ],
     "examine": "Zamorak blessed wooden shield covered in dragon leather.",
     "value": 28334,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak full helm",
@@ -37178,7 +34413,8 @@
     ],
     "examine": "Rune full helmet in the colours of Zamorak.",
     "value": 35200,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak godsword",
@@ -37222,7 +34458,8 @@
     ],
     "examine": "Rune kiteshield in the colours of Zamorak.",
     "value": 54400,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak mitre",
@@ -37326,7 +34563,8 @@
     ],
     "examine": "Rune platebody in the colours of Zamorak.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak platelegs",
@@ -37348,7 +34586,8 @@
     ],
     "examine": "Rune platelegs in the colours of Zamorak.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak plateskirt",
@@ -37370,7 +34609,8 @@
     ],
     "examine": "Rune plateskirt in the colours of Zamorak.",
     "value": 64000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak robe legs",
@@ -37539,7 +34779,8 @@
     ],
     "examine": "A pair of ancient vambraces.",
     "value": 600000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 45
   },
   {
     "name": "Zenyte amulet",
@@ -37788,7 +35029,8 @@
     ],
     "examine": "A powerful hood.",
     "value": 250000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 78
   },
   {
     "name": "Zuriel's robe bottom",
@@ -37809,7 +35051,8 @@
     ],
     "examine": "A powerful robe bottom.",
     "value": 500000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 78
   },
   {
     "name": "Zuriel's robe top",
@@ -37830,7 +35073,8 @@
     ],
     "examine": "A powerful robe top.",
     "value": 500000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 78
   },
   {
     "name": "Zuriel's staff",

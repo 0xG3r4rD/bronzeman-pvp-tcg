@@ -120,6 +120,7 @@ public class TcgPanel extends PluginPanel
 
 	private final TcgStateService stateService;
 	private final CardDatabase cardDatabase;
+	private final RollPoolFilter rollPoolFilter;
 	private final PackOpeningService packOpeningService;
 	private final PackRevealService packRevealService;
 	private final PackSafeModeService packSafeModeService;
@@ -182,9 +183,11 @@ public class TcgPanel extends PluginPanel
 		CollectionAlbumManager collectionAlbumManager,
 		CreditAwardService creditAwardService,
 		CollectionShareService collectionShareService,
+		RollPoolFilter rollPoolFilter,
 		@Named("developerMode") boolean runeliteDeveloperMode)
 	{
 		super(false);
+		this.rollPoolFilter = rollPoolFilter;
 		this.runeliteDeveloperMode = runeliteDeveloperMode;
 		this.stateService = stateService;
 		this.cardDatabase = cardDatabase;
@@ -383,7 +386,7 @@ public class TcgPanel extends PluginPanel
 			{
 				PackCloseSnapshot snap = capturePackCloseSnapshot();
 				List<CardDefinition> all = cardDatabase.getCards();
-				List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(all);
+				List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(all);
 				OverviewMetrics metrics = OverviewMetrics.compute(snap, all, rollPool);
 				List<BoosterShopRow> shopRows = computeBoosterShopRows(snap, all, rollPool);
 				SwingUtilities.invokeLater(() -> applyPackCloseRefresh(gen, snap, metrics, shopRows));
@@ -880,7 +883,7 @@ public class TcgPanel extends PluginPanel
 	{
 		PackCloseSnapshot snap = capturePackCloseSnapshotForDisplay();
 		List<CardDefinition> all = cardDatabase.getCards();
-		List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(all);
+		List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(all);
 		OverviewMetrics metrics = OverviewMetrics.compute(snap, all, rollPool);
 		renderOverviewTabFromMetrics(target, snap, metrics, stateService.getState());
 	}
@@ -1639,7 +1642,7 @@ public class TcgPanel extends PluginPanel
 
 		Map<CardCollectionKey, Integer> owned = displaySnap.owned;
 		List<CardDefinition> allCards = cardDatabase.getCards();
-		List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(allCards);
+		List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(allCards);
 
 		JPanel grid = new JPanel(new GridLayout(0, 2, SHOP_BOOSTER_GRID_GAP, SHOP_BOOSTER_GRID_GAP));
 		grid.setOpaque(false);

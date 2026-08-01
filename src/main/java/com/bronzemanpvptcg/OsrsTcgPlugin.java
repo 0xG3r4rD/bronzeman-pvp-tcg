@@ -166,6 +166,8 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private BronzemanEquipLockService bronzemanEquipLockService;
 	@Inject
+	private RollPoolFilter rollPoolFilter;
+	@Inject
 	private PartyService partyService;
 	@Inject
 	private WSClient wsClient;
@@ -373,6 +375,16 @@ public class OsrsTcgPlugin extends Plugin
 		else if ("chatPrefixColor".equals(event.getKey()))
 		{
 			TcgPluginGameMessages.setPrefixColor(config.chatPrefixColor());
+		}
+		else if ("defenceLevel".equals(event.getKey()))
+		{
+			// Roll pool size and collection totals both change with the cap.
+			tcgPanel.refresh();
+			queueGameMessage(TcgPluginGameMessages.withPrefix(String.format(
+				"Defence level set to %s: %s of %s cards are pullable.",
+				config.defenceLevel(),
+				NumberFormatting.format(rollPoolFilter.filterRollPool(cardDatabase.getCards()).size()),
+				NumberFormatting.format(cardDatabase.size()))));
 		}
 	}
 
@@ -797,7 +809,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (tcgPartyAnnouncer != null && added > 0)
 		{
 			Map<CardCollectionKey, Integer> ownedAfter = stateService.getState().getCollectionState().getOwnedCards();
-			List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(cardDatabase.getCards());
+			List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(cardDatabase.getCards());
 			for (String category : CollectionSetCompletionUtil.newlyCompletedPrimaryCategories(ownedBefore, ownedAfter, rollPool))
 			{
 				tcgPartyAnnouncer.announceCollectionSetComplete(category);

@@ -1,5 +1,6 @@
 package com.bronzemanpvptcg;
 
+import com.bronzemanpvptcg.model.DefenceLevel;
 import com.bronzemanpvptcg.model.DinkNotificationTrigger;
 import com.bronzemanpvptcg.model.DuplicateKeepTier;
 import com.bronzemanpvptcg.model.DuplicateKeepVersion;
@@ -151,6 +152,18 @@ public interface OsrsTcgConfig extends Config
 	default boolean debugMessages()
 	{
 		return false;
+	}
+
+	@ConfigItem(
+		keyName = "defenceLevel",
+		name = "Defence level",
+		description = "Only cards for gear you can equip at this Defence level are pullable from packs.",
+		section = generalSection,
+		position = 11
+	)
+	default DefenceLevel defenceLevel()
+	{
+		return DefenceLevel.LEVEL_60_PLUS;
 	}
 
 

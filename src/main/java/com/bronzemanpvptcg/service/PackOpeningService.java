@@ -36,6 +36,7 @@ public class PackOpeningService
 	private static final double APEX_PACK_FOIL_CHANCE_MULTIPLIER = 5.0d;
 
 	private final CardDatabase cardDatabase;
+	private final RollPoolFilter rollPoolFilter;
 	private final TcgStateService stateService;
 	private final Client client;
 	private final TcgPartyAnnouncer partyAnnouncer;
@@ -44,14 +45,16 @@ public class PackOpeningService
 
 	@Inject
 	public PackOpeningService(CardDatabase cardDatabase, TcgStateService stateService, Client client,
-		TcgPartyAnnouncer partyAnnouncer, PackSafeModeService packSafeModeService)
+		TcgPartyAnnouncer partyAnnouncer, PackSafeModeService packSafeModeService, RollPoolFilter rollPoolFilter)
 	{
-		this(cardDatabase, stateService, client, partyAnnouncer, packSafeModeService, new Random());
+		this(cardDatabase, stateService, client, partyAnnouncer, packSafeModeService, rollPoolFilter, new Random());
 	}
 
 	PackOpeningService(CardDatabase cardDatabase, TcgStateService stateService, Client client,
-		TcgPartyAnnouncer partyAnnouncer, PackSafeModeService packSafeModeService, Random random)
+		TcgPartyAnnouncer partyAnnouncer, PackSafeModeService packSafeModeService, RollPoolFilter rollPoolFilter,
+		Random random)
 	{
+		this.rollPoolFilter = rollPoolFilter;
 		this.cardDatabase = cardDatabase;
 		this.stateService = stateService;
 		this.client = client;
@@ -113,7 +116,7 @@ public class PackOpeningService
 			return PackOpenResult.failed("Not enough credits.", creditsBefore, packPrice);
 		}
 
-		List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(cardDatabase.getCards());
+		List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(cardDatabase.getCards());
 		List<String> regionFilters = booster.getCategoryFilters();
 		List<CardDefinition> pool = new ArrayList<>();
 		for (CardDefinition card : rollPool)
@@ -191,7 +194,7 @@ public class PackOpeningService
 		}
 
 		cardDatabase.load();
-		List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(cardDatabase.getCards());
+		List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(cardDatabase.getCards());
 		Map<CardCollectionKey, Integer> ownedAfter;
 		synchronized (stateService)
 		{

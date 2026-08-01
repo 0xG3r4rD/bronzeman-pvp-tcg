@@ -151,6 +151,7 @@ public class PackRevealService
 	public static final long PACK_DEAL_FLIGHT_MS = 260L;
 
 	private final CardDatabase cardDatabase;
+	private final RollPoolFilter rollPoolFilter;
 	private final WikiImageCacheService imageCacheService;
 	private final PackRevealSoundService packRevealSoundService;
 	private final PullNotificationService pullNotificationService;
@@ -181,8 +182,9 @@ public class PackRevealService
 	@Inject
 	public PackRevealService(CardDatabase cardDatabase, WikiImageCacheService imageCacheService,
 		PackRevealSoundService packRevealSoundService, PullNotificationService pullNotificationService,
-		Provider<PackOpeningService> packOpeningService)
+		Provider<PackOpeningService> packOpeningService, RollPoolFilter rollPoolFilter)
 	{
+		this.rollPoolFilter = rollPoolFilter;
 		this.cardDatabase = cardDatabase;
 		this.imageCacheService = imageCacheService;
 		this.packRevealSoundService = packRevealSoundService;
@@ -687,7 +689,7 @@ public class PackRevealService
 
 		List<CardDefinition> universe = cardDatabase.getCards();
 		Map<String, RarityMath.Tier> tierByName = RarityMath.displayTierByCardName(universe);
-		List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(universe);
+		List<CardDefinition> rollPool = rollPoolFilter.filterRollPool(universe);
 		cardPoolSize = (int) rollPool.stream()
 			.filter(card -> card != null && card.getName() != null && !card.getName().trim().isEmpty())
 			.count();

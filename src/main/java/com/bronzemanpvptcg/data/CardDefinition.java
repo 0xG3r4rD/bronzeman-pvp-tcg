@@ -18,6 +18,14 @@ public class CardDefinition
 	private Long overrideScore;
 	private String examine;
 	private Boolean questItem;
+	/** Defence level needed to equip the item; absent means none (wearable at 1 Defence). */
+	private Integer defenceRequirement;
+
+	/** Defence requirement as a plain level, treating an absent value as no requirement. */
+	public int defenceRequirementLevel()
+	{
+		return defenceRequirement == null ? 0 : defenceRequirement;
+	}
 
 	public List<String> getCategoryTags()
 	{
