@@ -379,7 +379,7 @@ public class TcgPanel extends PluginPanel
 		if (client != null)
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Collection, credits, and opened packs have been reset.", null);
+				"[Bronzeman PVP TCG] Collection, credits, and opened packs have been reset.", null);
 		}
 	}
 
@@ -673,7 +673,7 @@ public class TcgPanel extends PluginPanel
 		leftBalance.setMinimumSize(indicatorSlot);
 		leftBalance.setMaximumSize(indicatorSlot);
 
-		JLabel titleLabel = new JLabel("OSRS TCG");
+		JLabel titleLabel = new JLabel("Bronzeman PVP TCG");
 		titleLabel.setForeground(Color.WHITE);
 		titleLabel.setFont(FontManager.getRunescapeBoldFont());
 		titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
@@ -1952,7 +1952,7 @@ public class TcgPanel extends PluginPanel
 				if (client != null && blockMessage != null)
 				{
 					client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-						"[OSRS TCG] " + blockMessage, null);
+						"[Bronzeman PVP TCG] " + blockMessage, null);
 				}
 				refresh();
 				return;

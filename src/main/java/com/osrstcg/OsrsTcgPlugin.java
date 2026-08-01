@@ -106,8 +106,8 @@ import net.runelite.client.util.Text;
 
 @Slf4j
 @PluginDescriptor(
-	name = "OSRS TCG",
-	description = "TCG-style card collecting plugin for Old School RuneScape"
+	name = "Bronzeman PVP TCG",
+	description = "Bronzeman-style card collecting: unlock gear by pulling cards, earn packs through PvP kills"
 )
 public class OsrsTcgPlugin extends Plugin
 {
@@ -212,7 +212,7 @@ public class OsrsTcgPlugin extends Plugin
 			NumberFormatting.format(cardDatabase.size()));
 		log.info("Card category distribution: {}", cardDatabase.categoryCounts());
 		navigationButton = NavigationButton.builder()
-			.tooltip("OSRS TCG")
+			.tooltip("Bronzeman PVP TCG")
 			.icon(buildPanelIcon())
 			.priority(5)
 			.panel(tcgPanel)
@@ -467,7 +467,7 @@ public class OsrsTcgPlugin extends Plugin
 			tcgPanel.syncRewardDraftFromPersistent();
 			tcgPanel.resetSessionUi();
 			queueGameMessage(
-				"[OSRS TCG] This profile was saved with debug mode on; collection and credits were reset.");
+				"[Bronzeman PVP TCG] This profile was saved with debug mode on; collection and credits were reset.");
 		}
 		else
 		{
@@ -485,22 +485,22 @@ public class OsrsTcgPlugin extends Plugin
 
 		if (loadResult.isConfigLoadFailed())
 		{
-			queueGameMessage("[OSRS TCG] Could not load saved progress from profile; trying disk saves.");
+			queueGameMessage("[Bronzeman PVP TCG] Could not load saved progress from profile; trying disk saves.");
 		}
 
 		if (loadResult.isAllBackupsFailed())
 		{
-			queueGameMessage("[OSRS TCG] Could not restore progress from any save.");
+			queueGameMessage("[Bronzeman PVP TCG] Could not restore progress from any save.");
 			return;
 		}
 
 		if (loadResult.getSource() == TcgStateLoadSource.DISK)
 		{
-			queueGameMessage("[OSRS TCG] Restored progress from tcg.save.");
+			queueGameMessage("[Bronzeman PVP TCG] Restored progress from tcg.save.");
 		}
 		else if (loadResult.getSource() == TcgStateLoadSource.DISK_SNAPSHOT)
 		{
-			queueGameMessage("[OSRS TCG] Restored progress from a disk snapshot.");
+			queueGameMessage("[Bronzeman PVP TCG] Restored progress from a disk snapshot.");
 		}
 		else if (loadResult.getSource() == TcgStateLoadSource.CONFIG && !loadResult.isDebugResetOnLoad())
 		{
@@ -514,7 +514,7 @@ public class OsrsTcgPlugin extends Plugin
 		{
 			return;
 		}
-		queueGameMessage("[OSRS TCG] Collection successfully loaded.");
+		queueGameMessage("[Bronzeman PVP TCG] Collection successfully loaded.");
 	}
 
 	private void queueGameMessage(String message)
@@ -546,7 +546,7 @@ public class OsrsTcgPlugin extends Plugin
 			if (!stateService.isDebugLogging())
 			{
 				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-					"[OSRS TCG] That command requires Overview debug mode.",
+					"[Bronzeman PVP TCG] That command requires Overview debug mode.",
 					null);
 				return;
 			}
@@ -565,7 +565,7 @@ public class OsrsTcgPlugin extends Plugin
 			if (!stateService.isDebugLogging())
 			{
 				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-					"[OSRS TCG] That command requires Overview debug mode.",
+					"[Bronzeman PVP TCG] That command requires Overview debug mode.",
 					null);
 				return;
 			}
@@ -578,7 +578,7 @@ public class OsrsTcgPlugin extends Plugin
 			if (!stateService.isDebugLogging())
 			{
 				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-					"[OSRS TCG] That command requires Overview debug mode.",
+					"[Bronzeman PVP TCG] That command requires Overview debug mode.",
 					null);
 				return;
 			}
@@ -591,7 +591,7 @@ public class OsrsTcgPlugin extends Plugin
 			if (!stateService.isDebugLogging())
 			{
 				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-					"[OSRS TCG] That command requires Overview debug mode.",
+					"[Bronzeman PVP TCG] That command requires Overview debug mode.",
 					null);
 				return;
 			}
@@ -624,7 +624,7 @@ public class OsrsTcgPlugin extends Plugin
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
 				String.format(Locale.US,
-					"[OSRS TCG] Saved checkpoint. Credits: %s, cards: %s.",
+					"[Bronzeman PVP TCG] Saved checkpoint. Credits: %s, cards: %s.",
 					NumberFormatting.format(stateService.getState().getEconomyState().getCredits()),
 					NumberFormatting.format(stateService.getState().getCollectionState().getOwnedInstances().size())),
 				null);
@@ -632,7 +632,7 @@ public class OsrsTcgPlugin extends Plugin
 		}
 
 		client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-			"[OSRS TCG] Failed to save checkpoint.", null);
+			"[Bronzeman PVP TCG] Failed to save checkpoint.", null);
 	}
 
 	private void handleLoadDiskSaveCommand()
@@ -640,7 +640,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (fileBackupLoadUsedThisSession)
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] ::tcg-load can only be used once per login session.", null);
+				"[Bronzeman PVP TCG] ::tcg-load can only be used once per login session.", null);
 			return;
 		}
 
@@ -654,14 +654,14 @@ public class OsrsTcgPlugin extends Plugin
 			if (fileBackupLoadUsedThisSession)
 			{
 				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-					"[OSRS TCG] ::tcg-load can only be used once per login session.", null);
+					"[Bronzeman PVP TCG] ::tcg-load can only be used once per login session.", null);
 				return;
 			}
 
 			if (!stateService.restoreFromDiskFile(profileDirId, fileName))
 			{
 				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-					"[OSRS TCG] Failed to restore the selected save.", null);
+					"[Bronzeman PVP TCG] Failed to restore the selected save.", null);
 				return;
 			}
 
@@ -675,7 +675,7 @@ public class OsrsTcgPlugin extends Plugin
 			tcgPanel.refresh();
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
 				String.format(Locale.US,
-					"[OSRS TCG] Loaded disk save. Credits: %s, cards: %s.",
+					"[Bronzeman PVP TCG] Loaded disk save. Credits: %s, cards: %s.",
 					NumberFormatting.format(stateService.getState().getEconomyState().getCredits()),
 					NumberFormatting.format(stateService.getState().getCollectionState().getOwnedInstances().size())),
 				null);
@@ -712,7 +712,7 @@ public class OsrsTcgPlugin extends Plugin
 		List<BoosterPackDefinition> visibleBoosters = packCatalog.getVisibleBoosters(stateService.isDebugLogging());
 		if (visibleBoosters.isEmpty())
 		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[OSRS TCG] No booster packs loaded.", null);
+			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[Bronzeman PVP TCG] No booster packs loaded.", null);
 			return;
 		}
 
@@ -728,7 +728,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (packRevealService.isActive())
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Finish the current pack reveal first.", null);
+				"[Bronzeman PVP TCG] Finish the current pack reveal first.", null);
 			return;
 		}
 
@@ -741,16 +741,16 @@ public class OsrsTcgPlugin extends Plugin
 		if (!result.isSuccess())
 		{
 			tcgPanel.clearPackRevealSidebarFreeze();
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[OSRS TCG] " + result.getMessage(), null);
+			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[Bronzeman PVP TCG] " + result.getMessage(), null);
 			tcgPanel.refresh();
 			return;
 		}
 
 		String openedLine = forcedApex
-			? String.format(Locale.US, "[OSRS TCG] Opened apex pack for %s credits. New balance: %s. Pulled %s cards.",
+			? String.format(Locale.US, "[Bronzeman PVP TCG] Opened apex pack for %s credits. New balance: %s. Pulled %s cards.",
 				NumberFormatting.format(result.getPackPrice()), NumberFormatting.format(result.getCreditsAfter()),
 				NumberFormatting.format(result.getPulls().size()))
-			: String.format(Locale.US, "[OSRS TCG] Opened pack for %s credits. New balance: %s. Pulled %s cards.",
+			: String.format(Locale.US, "[Bronzeman PVP TCG] Opened pack for %s credits. New balance: %s. Pulled %s cards.",
 				NumberFormatting.format(result.getPackPrice()), NumberFormatting.format(result.getCreditsAfter()),
 				NumberFormatting.format(result.getPulls().size()));
 		client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", openedLine, null);
@@ -779,7 +779,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (catalogNames.isEmpty())
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] No cards loaded from Card.json.", null);
+				"[Bronzeman PVP TCG] No cards loaded from Card.json.", null);
 			return;
 		}
 
@@ -804,7 +804,7 @@ public class OsrsTcgPlugin extends Plugin
 
 		collectionAlbumManager.refreshIfVisible();
 		client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-			String.format(Locale.US, "[OSRS TCG] Added 1× each catalog card (%s cards).",
+			String.format(Locale.US, "[Bronzeman PVP TCG] Added 1× each catalog card (%s cards).",
 				NumberFormatting.format(added)),
 			null);
 		tcgPanel.refresh();
@@ -816,7 +816,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (arguments == null || arguments.length == 0)
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Provide a card name, optionally followed by (foil).", null);
+				"[Bronzeman PVP TCG] Provide a card name, optionally followed by (foil).", null);
 			return;
 		}
 
@@ -828,7 +828,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (joined.isEmpty())
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Provide a card name, optionally followed by (foil).", null);
+				"[Bronzeman PVP TCG] Provide a card name, optionally followed by (foil).", null);
 			return;
 		}
 
@@ -837,7 +837,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (cardQuery.isEmpty())
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Provide a card name, optionally followed by (foil).", null);
+				"[Bronzeman PVP TCG] Provide a card name, optionally followed by (foil).", null);
 			return;
 		}
 
@@ -852,7 +852,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (!resolved.isPresent())
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				String.format(Locale.US, "[OSRS TCG] No card named \"%s\" in Card.json.", cardQuery), null);
+				String.format(Locale.US, "[Bronzeman PVP TCG] No card named \"%s\" in Card.json.", cardQuery), null);
 			return;
 		}
 
@@ -864,7 +864,7 @@ public class OsrsTcgPlugin extends Plugin
 			System.currentTimeMillis());
 		collectionAlbumManager.refreshIfVisible();
 		client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-			String.format(Locale.US, "[OSRS TCG] Gave 1× %s%s.", canonicalName, foil ? " (foil)" : ""), null);
+			String.format(Locale.US, "[Bronzeman PVP TCG] Gave 1× %s%s.", canonicalName, foil ? " (foil)" : ""), null);
 		tcgPanel.refresh();
 	}
 
@@ -874,7 +874,7 @@ public class OsrsTcgPlugin extends Plugin
 		if (arguments == null || arguments.length < 1)
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Provide a credit amount.", null);
+				"[Bronzeman PVP TCG] Provide a credit amount.", null);
 			return;
 		}
 
@@ -887,14 +887,14 @@ public class OsrsTcgPlugin extends Plugin
 		catch (NumberFormatException ex)
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Invalid credit amount.", null);
+				"[Bronzeman PVP TCG] Invalid credit amount.", null);
 			return;
 		}
 
 		if (amount < 0)
 		{
 			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-				"[OSRS TCG] Credits cannot be negative.", null);
+				"[Bronzeman PVP TCG] Credits cannot be negative.", null);
 			return;
 		}
 
@@ -909,7 +909,7 @@ public class OsrsTcgPlugin extends Plugin
 		}
 
 		client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-			String.format("[OSRS TCG] Credits set to %s.", NumberFormatting.format(stateService.getCredits())), null);
+			String.format("[Bronzeman PVP TCG] Credits set to %s.", NumberFormatting.format(stateService.getCredits())), null);
 		tcgPanel.refresh();
 	}
 

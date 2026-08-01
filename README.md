@@ -1,37 +1,52 @@
-# OSRS TCG
+# Bronzeman PVP TCG
 
-A RuneLite plugin that adds a light collectible card experience. Credits are obtained by playing the game, spend them on booster packs, and grow your card collection.
+A personal fork of [OSRS TCG](https://github.com/Azderi/osrs-tcg) that turns the card game into a
+bronzeman-style PvP challenge:
 
-The plugin features party plugin integration that allows you to trade cards with other players.
+- **Equipment-only card pool** — the catalog is curated down to ~1,800 equipable weapons, armour and
+  jewellery (no monsters, resources, consumables, event or skilling items).
+- **PvP-only economy** — credits are earned exclusively through PvP kills; one kill pays for exactly
+  one booster pack. PvM kills, raids and skilling award nothing. Fresh profiles start with one pack.
+- **Bronzeman equip lock** — always on: an item cannot be equipped until you own its TCG card
+  (Tutorial Island and LMS are exempt so the game can't soft-lock you).
 
-Join the community on [Discord](https://discord.gg/P4pPu6RnCj).
+Card trading through the party plugin is unchanged from upstream.
 
-![Pack opening reveal](https://i.imgur.com/ok8mxK9.png)
+## Sideloading
 
-## Planned Features
+This fork is not on the Plugin Hub. Build the jar and drop it into RuneLite's sideload folder, then
+start RuneLite with `--developer-mode`:
 
-- More booster packs
+```
+gradlew jar
+copy build\libs\bronzeman-pvp-tcg-0.18.0.jar %USERPROFILE%\.runelite\sideloaded-plugins\
+```
 
-## Acknowledgments
+## Credits
 
-Parts of this plugin were inspired by other RuneLite plugins:
+This fork stands on two plugins — all credit for the underlying systems goes to their authors:
+
+- **[OSRS TCG](https://github.com/Azderi/osrs-tcg)** by [Azderi](https://github.com/Azderi) and
+  contributors — the entire card game: collection, packs, rarities, trading, persistence and UI.
+  Support Azderi's projects on [Patreon](https://www.patreon.com/Azderi).
+- **[Bronzeman TCG](https://github.com/Felmeme/bronzeman-tcg)** by
+  [Felmeme](https://github.com/Felmeme) — the bronzeman restriction concept and the
+  equip-blocking design this fork's card-gated equipment lock is ported from.
+
+Acknowledgments carried over from upstream:
 
 - [Monster Monitor](https://runelite.net/plugin-hub/show/monster-monitor) NPC kill credit tracking
 - [Customizable XP Drops](https://runelite.net/plugin-hub/show/customizable-xp-drops) XP drop value tracking
 
-Card images are loaded from the [OSRS Wiki](https://oldschool.runescape.wiki/).
+Card data and images come from the [OSRS Wiki](https://oldschool.runescape.wiki/).
 
 ## Disclaimer
 
-**Beta collections and trading:** The planned force wipe of beta collections has been cancelled. When the full release update ships, there will be a clear distinction between beta collections and collections started after the update. Existing beta collections will keep their cards and credits and will be able to still open packs, but will no longer be able to trade with other players unless the collection is manually reset using the sidebar panel after the update. A date for this change has not been specified yet.
+This plugin is a fan-made minigame for fun only. Cards have no real-world or in-game monetary value
+and are not intended to be bought, sold, or traded for real money, bonds, gold, items, or any other
+goods or services.
 
-This plugin is a fan-made minigame for fun only. Cards have no real-world or in-game monetary value and are not intended to be bought, sold, or traded for real money, bonds, gold, items, or any other goods or services.
-
-Do not pay for cards or collections, and do not accept payment from others for them. If someone offers to sell you cards or asks you to pay for theirs, decline and report them if appropriate.
+Do not pay for cards or collections, and do not accept payment from others for them. If someone
+offers to sell you cards or asks you to pay for theirs, decline and report them if appropriate.
 
 Trading cards with other players is done at your own risk.
-
-## Supporting
-
-My projects can be supported on [Patreon](https://www.patreon.com/Azderi).
-

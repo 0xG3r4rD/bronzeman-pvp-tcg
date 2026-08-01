@@ -696,10 +696,10 @@ public class CreditAwardService
 			return;
 		}
 
-		log.info("[OSRS TCG] {}", message);
+		log.info("[Bronzeman PVP TCG] {}", message);
 		if (chat)
 		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[OSRS TCG] " + message, null);
+			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[Bronzeman PVP TCG] " + message, null);
 		}
 	}
 

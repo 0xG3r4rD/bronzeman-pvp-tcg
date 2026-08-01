@@ -47,8 +47,8 @@ public class DinkNotificationService
 
 	private static final String DINK_NAMESPACE = "dink";
 	private static final String DINK_NOTIFY = "notify";
-	private static final String SOURCE_PLUGIN = "OSRS TCG";
-	private static final String EMBED_TITLE = "OSRS TCG";
+	private static final String SOURCE_PLUGIN = "Bronzeman PVP TCG";
+	private static final String EMBED_TITLE = "Bronzeman PVP TCG";
 
 	private final EventBus eventBus;
 	private final CardDatabase cardDatabase;

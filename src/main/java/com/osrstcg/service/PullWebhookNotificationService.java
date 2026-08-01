@@ -34,7 +34,7 @@ import okhttp3.ResponseBody;
 public class PullWebhookNotificationService
 {
 	private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
-	private static final String EMBED_TITLE = "OSRS TCG";
+	private static final String EMBED_TITLE = "Bronzeman PVP TCG";
 
 	private final OkHttpClient okHttpClient;
 	private final Gson gson;

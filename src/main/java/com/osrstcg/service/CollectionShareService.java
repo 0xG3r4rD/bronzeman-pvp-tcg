@@ -758,7 +758,7 @@ public class CollectionShareService
 		{
 			return;
 		}
-		log.info("[OSRS TCG] Web album: {}", message);
+		log.info("[Bronzeman PVP TCG] Web album: {}", message);
 		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, "Web album: " + message);
 	}
 

@@ -33,7 +33,7 @@ public final class TcgPluginGameMessages
 		return new ChatMessageBuilder()
 			.append(ChatColorType.NORMAL)
 			.append("[")
-			.append(PREFIX_COLOR, "OSRS TCG")
+			.append(PREFIX_COLOR, "Bronzeman PVP TCG")
 			.append(ChatColorType.NORMAL)
 			.append("] ");
 	}
@@ -86,7 +86,7 @@ public final class TcgPluginGameMessages
 
 	public static String plainPrefixedSomeonePulled(String who, String cardName, boolean foil)
 	{
-		return "[OSRS TCG] " + who + " just pulled " + announcedCardLabel(cardName, foil) + "!";
+		return "[Bronzeman PVP TCG] " + who + " just pulled " + announcedCardLabel(cardName, foil) + "!";
 	}
 
 	public static String formatPrefixedSomeoneAddedCollection(
@@ -108,7 +108,7 @@ public final class TcgPluginGameMessages
 	public static String plainPrefixedSomeoneAddedCollection(
 		String who, String cardName, boolean newForCollection, boolean foil)
 	{
-		return "[OSRS TCG] " + who + " just added " + duplicatePrefix(newForCollection)
+		return "[Bronzeman PVP TCG] " + who + " just added " + duplicatePrefix(newForCollection)
 			+ announcedCardLabel(cardName, foil) + " to their collection!";
 	}
 
@@ -125,7 +125,7 @@ public final class TcgPluginGameMessages
 
 	public static String plainPrefixedYouPulled(String cardName, boolean foil)
 	{
-		return "[OSRS TCG] You just pulled " + announcedCardLabel(cardName, foil) + "!";
+		return "[Bronzeman PVP TCG] You just pulled " + announcedCardLabel(cardName, foil) + "!";
 	}
 
 	public static String formatPrefixedYouAddedCollection(
@@ -144,7 +144,7 @@ public final class TcgPluginGameMessages
 
 	public static String plainPrefixedYouAddedCollection(String cardName, boolean newForCollection, boolean foil)
 	{
-		return "[OSRS TCG] You just added " + duplicatePrefix(newForCollection)
+		return "[Bronzeman PVP TCG] You just added " + duplicatePrefix(newForCollection)
 			+ announcedCardLabel(cardName, foil) + " to your collection!";
 	}
 
@@ -163,7 +163,7 @@ public final class TcgPluginGameMessages
 
 	public static String plainPrefixedSomeoneSentYou(String who, String cardName, boolean foil)
 	{
-		return "[OSRS TCG] " + who + " just sent you " + announcedCardLabel(cardName, foil) + " !";
+		return "[Bronzeman PVP TCG] " + who + " just sent you " + announcedCardLabel(cardName, foil) + " !";
 	}
 
 	public static String formatPrefixedYouSentCard(String cardName, boolean foil, String target, Color rarityColor)
@@ -183,7 +183,7 @@ public final class TcgPluginGameMessages
 
 	public static String plainPrefixedYouSentCard(String cardName, boolean foil, String target)
 	{
-		return "[OSRS TCG] Sent " + announcedCardLabel(cardName, foil) + " to " + target + ".";
+		return "[Bronzeman PVP TCG] Sent " + announcedCardLabel(cardName, foil) + " to " + target + ".";
 	}
 
 	public static void queueFormattedGameMessage(ChatMessageManager chatMessageManager, String formatted, String plain)
@@ -216,7 +216,7 @@ public final class TcgPluginGameMessages
 		{
 			body = "";
 		}
-		queueFormattedGameMessage(chatMessageManager, withPrefix(body), "[OSRS TCG] " + body);
+		queueFormattedGameMessage(chatMessageManager, withPrefix(body), "[Bronzeman PVP TCG] " + body);
 	}
 
 	public static String formatPrefixedNotEnoughCredits(String action)

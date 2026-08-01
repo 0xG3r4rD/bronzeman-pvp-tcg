@@ -35,7 +35,7 @@ public final class SaveRestoreManager
 				JOptionPane.showMessageDialog(
 					null,
 					"No disk saves found in any backup profile.",
-					"OSRS TCG",
+					"Bronzeman PVP TCG",
 					JOptionPane.INFORMATION_MESSAGE);
 				return;
 			}
