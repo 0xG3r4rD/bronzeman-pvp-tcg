@@ -1,24 +1,5 @@
 [
   {
-    "name": "A jester stick",
-    "category": [
-      "Resource",
-      "Equipment"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/A_jester_stick_detail.png/130px-A_jester_stick_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A jester stick.",
-    "value": 1000
-  },
-  {
     "name": "A powdered wig",
     "category": [
       "Resource",
@@ -629,26 +610,6 @@
     "examine": "It's a slightly magical stick.",
     "value": 15500,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Air tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Air_tiara_detail.png/130px-Air_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of air.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Alchemist gloves",
@@ -1442,28 +1403,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Ancient crozier",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_crozier_detail.png/130px-Ancient_crozier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An Ancient crozier.",
-    "value": 5000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Ancient d'hide body",
     "category": [
       "Resource",
@@ -1818,28 +1757,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Ancient stole",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_stole_detail.png/130px-Ancient_stole_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An Ancient stole.",
-    "value": 2500,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Ancient wyvern shield",
     "category": [
       "Resource",
@@ -2185,29 +2102,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Arclight",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Desert",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arclight_detail.png/130px-Arclight_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Check",
-      "Drop"
-    ],
-    "examine": "The magical sword is inactive and requires more ancient shards to regain its power.",
-    "value": 500,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Ardougne cloak",
     "category": [
       "Resource",
@@ -2382,28 +2276,6 @@
     ],
     "examine": "A weapon originally developed for Armadyl's forces.",
     "value": 990000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Armadyl crozier",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Armadyl_crozier_detail.png/130px-Armadyl_crozier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An Armadyl crozier.",
-    "value": 5000,
     "equipmentSlot": "weapon"
   },
   {
@@ -2699,68 +2571,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Armadyl stole",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Armadyl_stole_detail.png/130px-Armadyl_stole_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An Armadyl stole.",
-    "value": 2500,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Assorted flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Assorted_flowers_detail.png/130px-Assorted_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Astral tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Astral_tiara_detail.png/130px-Astral_tiara_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of the heavens.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Atlatl dart",
     "category": [
       "Resource",
@@ -2997,28 +2807,6 @@
     "value": 2000,
     "equipmentSlot": "head",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Bandos crozier",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bandos_crozier_detail.png/130px-Bandos_crozier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Bandos crozier.",
-    "value": 5000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Bandos d'hide body",
@@ -3291,28 +3079,6 @@
     "examine": "Bandos Vestments.",
     "value": 7000,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Bandos stole",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bandos_stole_detail.png/130px-Bandos_stole_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Bandos stole.",
-    "value": 2500,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Bandos tassets",
@@ -4147,26 +3913,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Black flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_flowers_detail.png/130px-Black_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Black full helm",
     "category": [
       "Resource",
@@ -4830,27 +4576,6 @@
     "defenceRequirement": 50
   },
   {
-    "name": "Blood tiara",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blood_tiara_detail.png/130px-Blood_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of blood.",
-    "value": 500,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Blood'n'tar snelm",
     "category": [
       "Resource",
@@ -5232,26 +4957,6 @@
     "examine": "A rather elegant blue skirt.",
     "value": 2000,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Blue flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_flowers_detail.png/130px-Blue_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Blue hat",
@@ -5717,26 +5422,6 @@
     "examine": "'Bob says: Never give your password out to anyone.'",
     "value": 3,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Body tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Body_tiara_detail.png/130px-Body_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of the body.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Bolt rack",
@@ -7122,26 +6807,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Catalytic tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Catalytic_tiara_detail.png/130px-Catalytic_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of every catalytic rune.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Cavalier mask",
     "category": [
       "Resource",
@@ -7184,26 +6849,6 @@
     "examine": "Formerly owned by Leon d'Cour, the Champion of Champions.",
     "value": 50000,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Chaos tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Chaos_tiara_detail.png/130px-Chaos_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of chaos.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Chef's hat",
@@ -7474,26 +7119,6 @@
     "examine": "A corrupted crystalline sceptre with some magical properties.",
     "value": 1,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Cosmic tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cosmic_tiara_detail.png/130px-Cosmic_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of the cosmos.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Cow slippers",
@@ -8433,26 +8058,6 @@
     "examine": "A weapon of light to hold back the darkness.",
     "value": 1,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Death tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Death_tiara_detail.png/130px-Death_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of death.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Deep sea apparatus",
@@ -10261,26 +9866,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Earth tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Earth_tiara_detail.png/130px-Earth_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of the earth.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Earthbound tecpatl",
     "category": [
       "Resource",
@@ -10537,26 +10122,6 @@
     "examine": "A maul crafted from the component parts of Tekton.",
     "value": 1250000,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Elemental tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elemental_tiara_detail.png/130px-Elemental_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of every elemental rune.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Elidinis' ward",
@@ -11238,28 +10803,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Fancy tiara",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fancy_tiara_detail.png/130px-Fancy_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Call me princess.",
-    "value": 8000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Osmumten's fang",
     "category": [
       "Resource",
@@ -11466,26 +11009,6 @@
     "examine": "A cape of fire.",
     "value": 65007,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fire tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fire_tiara_detail.png/130px-Fire_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of fire.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Fish sack",
@@ -13519,26 +13042,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Gold tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_tiara_detail.png/130px-Gold_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Makes me feel like a wealthy Princess.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Golden apron",
     "category": [
       "Resource",
@@ -14755,28 +14258,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Guthix crozier",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_crozier_detail.png/130px-Guthix_crozier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Guthix crozier.",
-    "value": 5000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Guthix d'hide body",
     "category": [
       "Resource",
@@ -15065,28 +14546,6 @@
     "examine": "A magical staff imbued with the power of Guthix.",
     "value": 80000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Guthix stole",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_stole_detail.png/130px-Guthix_stole_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Guthix stole.",
-    "value": 2500,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Half moon spectacles",
@@ -16863,30 +16322,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Jester cape",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jester_cape_detail.png/130px-Jester_cape_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A jester cape.",
-    "value": 1000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Jungle demon mask",
     "category": [
       "Resource",
@@ -17324,26 +16759,6 @@
     ],
     "examine": "Do I look scary?",
     "value": 10000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Law tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Law_tiara_detail.png/130px-Law_tiara_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A tiara infused with the properties of law.",
-    "value": 100,
     "equipmentSlot": "head"
   },
   {
@@ -18879,26 +18294,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Mind tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mind_tiara_detail.png/130px-Mind_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of the mind.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Mining helmet",
     "category": [
       "Resource",
@@ -19300,26 +18695,6 @@
     "value": 1560,
     "equipmentSlot": "shield",
     "defenceRequirement": 20
-  },
-  {
-    "name": "Mixed flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mixed_flowers_detail.png/130px-Mixed_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Mixed hide boots",
@@ -20407,26 +19782,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Nature tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Nature_tiara_detail.png/130px-Nature_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of nature.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Navy cavalier",
     "category": [
       "Resource",
@@ -21272,26 +20627,6 @@
     "examine": "A thick orange cape.",
     "value": 32,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Orange flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Orange_flowers_detail.png/130px-Orange_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Orange salamander",
@@ -22617,26 +21952,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Purple flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_flowers_detail.png/130px-Purple_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Purple gloves",
     "category": [
       "Resource",
@@ -23248,26 +22563,6 @@
     "examine": "A rather elegant red skirt.",
     "value": 2000,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Red flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_flowers_detail.png/130px-Red_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Red gloves",
@@ -25771,28 +25066,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Saradomin crozier",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_crozier_detail.png/130px-Saradomin_crozier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Saradomin crozier.",
-    "value": 5000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Saradomin d'hide body",
     "category": [
       "Resource",
@@ -26124,28 +25397,6 @@
     "examine": "A magical staff imbued with the power of Saradomin.",
     "value": 80000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Saradomin stole",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_stole_detail.png/130px-Saradomin_stole_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Saradomin stole.",
-    "value": 2500,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Saradomin sword",
@@ -29941,26 +29192,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Tiara_detail.png/130px-Tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Makes me feel like a Princess.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Toktz-ket-xil",
     "category": [
       "Resource",
@@ -31749,26 +30980,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Water tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Water_tiara_detail.png/130px-Water_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of water.",
-    "value": 100,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Webweaver bow",
     "category": [
       "Resource",
@@ -31960,26 +31171,6 @@
     "examine": "A rather elegant white skirt.",
     "value": 2000,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "White flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_flowers_detail.png/130px-White_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "White full helm",
@@ -32466,26 +31657,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Wrath tiara",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Wrath_tiara_detail.png/130px-Wrath_tiara_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A tiara infused with the properties of wrath.",
-    "value": 500,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Wristbands of the arena",
     "category": [
       "Resource",
@@ -32631,26 +31802,6 @@
     "examine": "A thick yellow cape.",
     "value": 32,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Yellow flowers",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Yellow_flowers_detail.png/130px-Yellow_flowers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A posy of flowers.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Yellow gloves",
@@ -32985,28 +32136,6 @@
     "value": 2000,
     "equipmentSlot": "head",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Zamorak crozier",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_crozier_detail.png/130px-Zamorak_crozier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Zamorak crozier.",
-    "value": 5000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Zamorak d'hide body",
@@ -33359,28 +32488,6 @@
     "examine": "A magical staff imbued with the power of Zamorak.",
     "value": 80000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Zamorak stole",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_stole_detail.png/130px-Zamorak_stole_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Zamorak stole.",
-    "value": 2500,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Zamorakian hasta",
