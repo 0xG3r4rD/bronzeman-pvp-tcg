@@ -3,6 +3,12 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.1.1] — 2026-08-02
+
+### Added
+- A short explainer under the **Defence level** dropdown describing what the setting does, with a
+  live count of how many cards the current level leaves in the pool.
+
 ## [1.1.0] — 2026-08-02
 
 ### Changed

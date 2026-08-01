@@ -1196,6 +1196,11 @@ public class TcgPanel extends PluginPanel
 			}
 		});
 		section.add(defence);
+		section.add(buildGameModeHintTextArea(contentW, String.format(
+			"Packs only roll gear you could equip at this Defence level, so a pure never pulls "
+				+ "armour it can't wear. Currently %s of %s cards are in the pool.",
+			format(rollPoolFilter.filterRollPool(cardDatabase.getCards()).size()),
+			format(cardDatabase.size()))));
 
 		if (runeliteDeveloperMode)
 		{
@@ -1204,6 +1209,27 @@ public class TcgPanel extends PluginPanel
 		}
 		finishRewardTuningSectionLayout(section);
 		target.add(section);
+	}
+
+	/** Small grey explainer under a Game mode control. */
+	private JTextArea buildGameModeHintTextArea(int contentMaxW, String text)
+	{
+		int w = Math.max(120, contentMaxW);
+		JTextArea ta = new JTextArea(text);
+		ta.setEditable(false);
+		ta.setOpaque(false);
+		ta.setFocusable(false);
+		ta.setForeground(new Color(0xBBBBBB));
+		ta.setFont(FontManager.getRunescapeSmallFont());
+		ta.setLineWrap(true);
+		ta.setWrapStyleWord(true);
+		ta.setBorder(new EmptyBorder(4, 0, 0, 0));
+		ta.setAlignmentX(JComponent.LEFT_ALIGNMENT);
+		ta.setSize(w, Short.MAX_VALUE);
+		int bodyH = ta.getPreferredSize().height;
+		ta.setPreferredSize(new Dimension(w, bodyH));
+		ta.setMaximumSize(new Dimension(w, bodyH));
+		return ta;
 	}
 
 	private JCheckBox buildDebugModeCheckbox()
