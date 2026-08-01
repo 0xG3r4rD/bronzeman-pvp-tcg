@@ -33,11 +33,6 @@ This fork stands on two plugins — all credit for the underlying systems goes t
   [Felmeme](https://github.com/Felmeme) — the bronzeman restriction concept and the
   equip-blocking design this fork's card-gated equipment lock is ported from.
 
-Acknowledgments carried over from upstream:
-
-- [Monster Monitor](https://runelite.net/plugin-hub/show/monster-monitor) NPC kill credit tracking
-- [Customizable XP Drops](https://runelite.net/plugin-hub/show/customizable-xp-drops) XP drop value tracking
-
 Card data and images come from the [OSRS Wiki](https://oldschool.runescape.wiki/).
 
 ## Disclaimer
