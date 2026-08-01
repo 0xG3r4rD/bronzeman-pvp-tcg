@@ -1517,26 +1517,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Ancient gorilla greegree",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_gorilla_greegree_detail.png/130px-Ancient_gorilla_greegree_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Hold",
-      "Drop"
-    ],
-    "examine": "A magical talisman in the shape of a mysterious monkey head.",
-    "value": 10000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Ancient kiteshield",
     "category": [
       "Resource",
@@ -3270,131 +3250,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Bearded gorilla greegree",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bearded_gorilla_greegree_detail.png/130px-Bearded_gorilla_greegree_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Hold",
-      "Drop"
-    ],
-    "examine": "A magical talisman in the shape of a bearded gorilla head.",
-    "value": 1500,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Beekeeper's boots",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beekeeper%27s_boots_detail.png/130px-Beekeeper%27s_boots_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "BEE careful where you step with these boots on.",
-    "value": 1,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Beekeeper's gloves",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beekeeper%27s_gloves_detail.png/130px-Beekeeper%27s_gloves_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Oww OWWW they're defending themselves somehow!",
-    "value": 1,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Beekeeper's hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beekeeper%27s_hat_detail.png/130px-Beekeeper%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Makes sure no bees get in your eyes!!",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Beekeeper's legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beekeeper%27s_legs_detail.png/130px-Beekeeper%27s_legs_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Truly these pants are the bee's knees.",
-    "value": 1,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Beekeeper's top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beekeeper%27s_top_detail.png/130px-Beekeeper%27s_top_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "According to the laws of aviation, there is no way that a bee should be able to fly.",
-    "value": 1,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Beginner wand",
     "category": [
       "Resource",
@@ -3692,28 +3547,6 @@
     "examine": "Just plain nasty.",
     "value": 240,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Black coffin",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_coffin_detail.png/130px-Black_coffin_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "options": [
-      "Fill",
-      "Wear",
-      "Configure",
-      "Empty",
-      "Destroy"
-    ],
-    "examine": "Can store up to 14 shade remains.",
-    "value": 1,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Black d'hide body",
@@ -4273,29 +4106,6 @@
     "examine": "Slightly slimy and somewhat menacing.",
     "value": 200,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Black satchel",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_satchel_detail.png/130px-Black_satchel_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Inspect",
-      "Wear",
-      "Empty",
-      "Drop"
-    ],
-    "examine": "I can keep my grub in here!",
-    "value": 100,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Black skirt",
@@ -6034,28 +5844,6 @@
     "defenceRequirement": 1
   },
   {
-    "name": "Bronze coffin",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_coffin_detail.png/130px-Bronze_coffin_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "options": [
-      "Fill",
-      "Wear",
-      "Configure",
-      "Empty",
-      "Destroy"
-    ],
-    "examine": "Can store up to 3 shade remains.",
-    "value": 1,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Bronze defender",
     "category": [
       "Resource",
@@ -6598,48 +6386,6 @@
     "value": 3000,
     "equipmentSlot": "shield",
     "defenceRequirement": 30
-  },
-  {
-    "name": "Camo bottoms",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Camo_bottoms_detail.png/130px-Camo_bottoms_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Examine what?",
-    "value": 1,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Camo helmet",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Camo_helmet_detail.png/130px-Camo_helmet_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Examine what?",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Camphor blowpipe",
@@ -11726,26 +11472,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Frog mask",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Frog_mask_detail.png/130px-Frog_mask_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Now that's just silly.",
-    "value": 0,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Frog slippers",
     "category": [
       "Resource",
@@ -12827,28 +12553,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Gold coffin",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_coffin_detail.png/130px-Gold_coffin_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "options": [
-      "Fill",
-      "Wear",
-      "Configure",
-      "Empty",
-      "Destroy"
-    ],
-    "examine": "Can store up to 28 shade remains.",
-    "value": 1,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Gold elegant blouse",
     "category": [
       "Resource",
@@ -12999,29 +12703,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Gold satchel",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_satchel_detail.png/130px-Gold_satchel_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Inspect",
-      "Wear",
-      "Empty",
-      "Drop"
-    ],
-    "examine": "I can keep my grub in here!",
-    "value": 100,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Gold speedrun trophy",
     "category": [
       "Resource",
@@ -13104,26 +12785,6 @@
     ],
     "examine": "The henchest tench.",
     "value": 100,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Gorilla greegree",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gorilla_greegree_detail.png/130px-Gorilla_greegree_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Hold",
-      "Drop"
-    ],
-    "examine": "A magical talisman in the shape of a gorilla head.",
-    "value": 1000,
     "equipmentSlot": "weapon"
   },
   {
@@ -13761,29 +13422,6 @@
     "examine": "The ultimate in gnome design, now in green!",
     "value": 180,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Green satchel",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_satchel_detail.png/130px-Green_satchel_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Inspect",
-      "Wear",
-      "Empty",
-      "Drop"
-    ],
-    "examine": "I can keep my grub in here!",
-    "value": 100,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Green spiky vambraces",
@@ -16948,69 +16586,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Lederhosen hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lederhosen_hat_detail.png/130px-Lederhosen_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A hat with a goat's hair attached.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Lederhosen shorts",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lederhosen_shorts_detail.png/130px-Lederhosen_shorts_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Brown leather shorts with bright white socks?",
-    "value": 1,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Lederhosen top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lederhosen_top_detail.png/130px-Lederhosen_top_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A leather strapped top.",
-    "value": 1,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Left eye patch",
     "category": [
       "Resource",
@@ -18167,111 +17742,6 @@
     "examine": "An iron tipped trident.",
     "value": 400,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Mime boots",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mime_boots_detail.png/130px-Mime_boots_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mime would wear these.",
-    "value": 1,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Mime gloves",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mime_gloves_detail.png/130px-Mime_gloves_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mime would wear these.",
-    "value": 1,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Mime legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mime_legs_detail.png/130px-Mime_legs_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mime would wear these.",
-    "value": 1,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Mime mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mime_mask_detail.png/130px-Mime_mask_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mime would wear this.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Mime top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mime_top_detail.png/130px-Mime_top_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mime would wear this.",
-    "value": 1,
-    "equipmentSlot": "body"
   },
   {
     "name": "Mind shield",
@@ -21492,29 +20962,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Plain satchel",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Plain_satchel_detail.png/130px-Plain_satchel_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Inspect",
-      "Wear",
-      "Empty",
-      "Drop"
-    ],
-    "examine": "I can keep my grub in here!",
-    "value": 100,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Platinum speedrun trophy",
     "category": [
       "Resource",
@@ -22749,29 +22196,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Red satchel",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_satchel_detail.png/130px-Red_satchel_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Inspect",
-      "Wear",
-      "Empty",
-      "Drop"
-    ],
-    "examine": "I can keep my grub in here!",
-    "value": 100,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Red spiky vambraces",
     "category": [
       "Resource",
@@ -23467,86 +22891,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Royal frog blouse",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_frog_blouse_detail.png/130px-Royal_frog_blouse_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Very posh!",
-    "value": 0,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Royal frog leggings",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_frog_leggings_detail.png/130px-Royal_frog_leggings_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Very posh!",
-    "value": 0,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Royal frog skirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_frog_skirt_detail.png/130px-Royal_frog_skirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Very posh!",
-    "value": 0,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Royal frog tunic",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_frog_tunic_detail.png/130px-Royal_frog_tunic_detail.png?86450",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Very posh!",
-    "value": 0,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Royal gown bottom",
     "category": [
       "Resource",
@@ -24233,29 +23577,6 @@
     "value": 64000,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Rune satchel",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_satchel_detail.png/130px-Rune_satchel_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Inspect",
-      "Wear",
-      "Empty",
-      "Drop"
-    ],
-    "examine": "I can keep my grub in here!",
-    "value": 100,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Rune scimitar",
@@ -25818,28 +25139,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Silver coffin",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Silver_coffin_detail.png/130px-Silver_coffin_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "options": [
-      "Fill",
-      "Wear",
-      "Configure",
-      "Empty",
-      "Destroy"
-    ],
-    "examine": "Can store up to 20 shade remains.",
-    "value": 1,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Silver sickle",
     "category": [
       "Resource",
@@ -26886,27 +26185,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Stale baguette",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Stale_baguette_detail.png/130px-Stale_baguette_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Baguette ready for pain.",
-    "value": 225,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Statius's full helm",
     "category": [
       "Resource",
@@ -27102,28 +26380,6 @@
     "examine": "A series of connected metal rings.",
     "value": 750,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Steel coffin",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_coffin_detail.png/130px-Steel_coffin_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "options": [
-      "Fill",
-      "Wear",
-      "Configure",
-      "Empty",
-      "Destroy"
-    ],
-    "examine": "Can store up to 8 shade remains.",
-    "value": 1,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Steel defender",
@@ -32674,48 +31930,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Zombie boots",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zombie_boots_detail.png/130px-Zombie_boots_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Thrilling.",
-    "value": 1,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Zombie gloves",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zombie_gloves_detail.png/130px-Zombie_gloves_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Smells pretty funky.",
-    "value": 1,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Zombie helmet",
     "category": [
       "Resource",
@@ -32737,69 +31951,6 @@
     "examine": "A rusty yet tough helmet.",
     "value": 160000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Zombie mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zombie_mask_detail.png/130px-Zombie_mask_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I look 40,000 years old in this...",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Zombie shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zombie_shirt_detail.png/130px-Zombie_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Aside from the braaaains on the lapel, it's still quite good.",
-    "value": 1,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Zombie trousers",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zombie_trousers_detail.png/130px-Zombie_trousers_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Good for a shamble about town.",
-    "value": 1,
-    "equipmentSlot": "legs"
   },
   {
     "name": "Zuriel's hood",
