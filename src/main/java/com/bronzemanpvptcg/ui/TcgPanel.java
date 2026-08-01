@@ -7,6 +7,7 @@ import com.bronzemanpvptcg.data.CardDefinition;
 import com.bronzemanpvptcg.data.PackCatalog;
 import com.bronzemanpvptcg.model.CardCollectionKey;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
+import com.bronzemanpvptcg.model.DefenceLevel;
 import com.bronzemanpvptcg.model.RewardTuningState;
 import com.bronzemanpvptcg.model.TcgState;
 import com.bronzemanpvptcg.service.CollectionShareService;
@@ -62,6 +63,7 @@ import javax.swing.GrayFilter;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -85,6 +87,7 @@ import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
+import net.runelite.client.config.ConfigManager;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
 import net.runelite.client.ui.PluginPanel;
@@ -94,11 +97,7 @@ import net.runelite.client.util.LinkBrowser;
 @Singleton
 public class TcgPanel extends PluginPanel
 {
-	private static final String REWARD_TUNING_LOCKED_TOOLTIP =
-		"Locked while you have credits, opened packs, or collection cards. Use Reset collection below to change these.";
 
-	private static final String REWARD_TUNING_NON_DEFAULT_TRADE_WARNING =
-		"Your settings do not match the defaults. You will not be able to trade with other players unless their settings match with you!";
 
 
 	private static final String PATREON_URL = "https://www.patreon.com/Azderi";
@@ -121,6 +120,7 @@ public class TcgPanel extends PluginPanel
 	private final TcgStateService stateService;
 	private final CardDatabase cardDatabase;
 	private final RollPoolFilter rollPoolFilter;
+	private final ConfigManager configManager;
 	private final PackOpeningService packOpeningService;
 	private final PackRevealService packRevealService;
 	private final PackSafeModeService packSafeModeService;
@@ -184,10 +184,12 @@ public class TcgPanel extends PluginPanel
 		CreditAwardService creditAwardService,
 		CollectionShareService collectionShareService,
 		RollPoolFilter rollPoolFilter,
+		ConfigManager configManager,
 		@Named("developerMode") boolean runeliteDeveloperMode)
 	{
 		super(false);
 		this.rollPoolFilter = rollPoolFilter;
+		this.configManager = configManager;
 		this.runeliteDeveloperMode = runeliteDeveloperMode;
 		this.stateService = stateService;
 		this.cardDatabase = cardDatabase;
@@ -1010,7 +1012,7 @@ public class TcgPanel extends PluginPanel
 		target.add(Box.createRigidArea(new Dimension(0, 8)));
 		target.add(buildEarningRateInfoTextArea(liveSidebarContentWidth()));
 		target.add(Box.createRigidArea(new Dimension(0, 8)));
-		addRewardTuningOverviewSection(target, state);
+		addGameModeOverviewSection(target);
 	}
 
 	private static final class BoosterShopRow
@@ -1136,12 +1138,11 @@ public class TcgPanel extends PluginPanel
 		}
 	}
 
-	private void addRewardTuningOverviewSection(JPanel target, TcgState state)
+
+	/** Game-mode controls live here rather than the RuneLite settings panel. */
+	private void addGameModeOverviewSection(JPanel target)
 	{
-		boolean locked = stateService.isRewardTuningLocked();
-		RewardTuningState tuning = state.getRewardTuning();
-		int fullW = liveSidebarContentWidth();
-		int contentW = Math.max(160, fullW - 12);
+		int contentW = Math.max(160, liveSidebarContentWidth() - 12);
 
 		JPanel section = new JPanel();
 		section.setLayout(new BoxLayout(section, BoxLayout.Y_AXIS));
@@ -1151,85 +1152,51 @@ public class TcgPanel extends PluginPanel
 			new EmptyBorder(8, 0, 0, 0)
 		));
 
-		JLabel heading = new JLabel("Multipliers");
+		JLabel heading = new JLabel("Game mode");
 		heading.setForeground(Color.WHITE);
 		heading.setFont(FontManager.getRunescapeBoldFont());
 		heading.setAlignmentX(LEFT_ALIGNMENT);
-		if (locked)
-		{
-			heading.setToolTipText(REWARD_TUNING_LOCKED_TOOLTIP);
-		}
 		section.add(heading);
 		section.add(Box.createRigidArea(new Dimension(0, 6)));
 
-		if (locked)
+		JCheckBox hard = new JCheckBox("Hard mode");
+		hard.setOpaque(false);
+		hard.setForeground(Color.WHITE);
+		hard.setFont(FontManager.getRunescapeSmallFont());
+		hard.setAlignmentX(LEFT_ALIGNMENT);
+		hard.setSelected(config.hardMode());
+		hard.setToolTipText("Earn 250 credits per 100k of PvP loot instead of a full pack per kill.");
+		hard.addActionListener(e -> configManager.setConfiguration(
+			OsrsTcgConfig.GROUP, "hardMode", hard.isSelected()));
+		section.add(hard);
+		section.add(Box.createRigidArea(new Dimension(0, 8)));
+
+		JLabel defLabel = new JLabel("Defence level");
+		defLabel.setForeground(Color.WHITE);
+		defLabel.setFont(FontManager.getRunescapeSmallFont());
+		defLabel.setAlignmentX(LEFT_ALIGNMENT);
+		section.add(defLabel);
+		section.add(Box.createRigidArea(new Dimension(0, 4)));
+
+		JComboBox<DefenceLevel> defence = new JComboBox<>(DefenceLevel.values());
+		defence.setSelectedItem(config.defenceLevel());
+		defence.setFocusable(false);
+		defence.setFont(FontManager.getRunescapeSmallFont());
+		defence.setAlignmentX(LEFT_ALIGNMENT);
+		defence.setToolTipText("Cards for gear you cannot equip at this level are never pulled.");
+		Dimension boxSize = new Dimension(contentW, defence.getPreferredSize().height);
+		defence.setPreferredSize(boxSize);
+		defence.setMaximumSize(boxSize);
+		defence.addActionListener(e ->
 		{
-			JSpinner foilSpin = new JSpinner(new SpinnerNumberModel(tuning.getFoilChancePercent(), 0, 100, 1));
-			JSpinner killSpin = new JSpinner(new SpinnerNumberModel(tuning.getKillCreditMultiplier(), 0.0d, 10.0d, 0.1d));
-			JSpinner levelSpin = new JSpinner(new SpinnerNumberModel(tuning.getLevelUpCreditMultiplier(), 0.0d, 10.0d, 0.1d));
-			JSpinner xpSpin = new JSpinner(new SpinnerNumberModel(tuning.getXpCreditMultiplier(), 0.0d, 10.0d, 0.1d));
-			styleRewardTuningSpinner(foilSpin, 3);
-			styleRewardTuningSpinner(killSpin, 5);
-			styleRewardTuningSpinner(levelSpin, 5);
-			styleRewardTuningSpinner(xpSpin, 5);
-			foilSpin.setEnabled(false);
-			killSpin.setEnabled(false);
-			levelSpin.setEnabled(false);
-			xpSpin.setEnabled(false);
-			foilSpin.setToolTipText(REWARD_TUNING_LOCKED_TOOLTIP);
-			killSpin.setToolTipText(REWARD_TUNING_LOCKED_TOOLTIP);
-			levelSpin.setToolTipText(REWARD_TUNING_LOCKED_TOOLTIP);
-			xpSpin.setToolTipText(REWARD_TUNING_LOCKED_TOOLTIP);
-			section.add(buildMultiplierGrid(contentW, levelSpin, killSpin, xpSpin, foilSpin));
-			if (stateService.isDebugLogging())
+			DefenceLevel picked = (DefenceLevel) defence.getSelectedItem();
+			if (picked != null && picked != config.defenceLevel())
 			{
-				section.add(Box.createRigidArea(new Dimension(0, 8)));
-				JLabel debugBanner = new JLabel("DEBUG MODE");
-				debugBanner.setForeground(Color.RED);
-				debugBanner.setFont(FontManager.getRunescapeBoldFont());
-				debugBanner.setAlignmentX(LEFT_ALIGNMENT);
-				section.add(debugBanner);
+				configManager.setConfiguration(OsrsTcgConfig.GROUP, "defenceLevel", picked);
 			}
-			finishRewardTuningSectionLayout(section);
-			target.add(section);
-			return;
-		}
+		});
+		section.add(defence);
 
-		JSpinner foilSpin = new JSpinner(new SpinnerNumberModel(rewardDraftFoil, 0, 100, 1));
-		JSpinner killSpin = new JSpinner(new SpinnerNumberModel(rewardDraftKill, 0.0d, 10.0d, 0.1d));
-		JSpinner levelSpin = new JSpinner(new SpinnerNumberModel(rewardDraftLevel, 0.0d, 10.0d, 0.1d));
-		JSpinner xpSpin = new JSpinner(new SpinnerNumberModel(rewardDraftXp, 0.0d, 10.0d, 0.1d));
-		styleRewardTuningSpinner(foilSpin, 3);
-		styleRewardTuningSpinner(killSpin, 5);
-		styleRewardTuningSpinner(levelSpin, 5);
-		styleRewardTuningSpinner(xpSpin, 5);
-
-		foilSpin.addChangeListener(e ->
-		{
-			rewardDraftFoil = ((Number) foilSpin.getValue()).intValue();
-			SwingUtilities.invokeLater(this::refresh);
-		});
-		killSpin.addChangeListener(e ->
-		{
-			rewardDraftKill = ((Number) killSpin.getValue()).doubleValue();
-			SwingUtilities.invokeLater(this::refresh);
-		});
-		levelSpin.addChangeListener(e ->
-		{
-			rewardDraftLevel = ((Number) levelSpin.getValue()).doubleValue();
-			SwingUtilities.invokeLater(this::refresh);
-		});
-		xpSpin.addChangeListener(e ->
-		{
-			rewardDraftXp = ((Number) xpSpin.getValue()).doubleValue();
-			SwingUtilities.invokeLater(this::refresh);
-		});
-
-		section.add(buildMultiplierGrid(contentW, levelSpin, killSpin, xpSpin, foilSpin));
-		if (stateService.isDebugLogging() || !rewardDraftMatchesPluginDefaults())
-		{
-			section.add(buildMultiplierTradingWarningTextArea(contentW));
-		}
 		if (runeliteDeveloperMode)
 		{
 			section.add(Box.createRigidArea(new Dimension(0, 8)));
@@ -1252,22 +1219,7 @@ public class TcgPanel extends PluginPanel
 		return cb;
 	}
 
-	private boolean rewardDraftMatchesPluginDefaults()
-	{
-		RewardTuningState d = RewardTuningState.DEFAULTS;
-		if (rewardDraftFoil != d.getFoilChancePercent())
-		{
-			return false;
-		}
-		return multiplierCloseToDefault(rewardDraftKill, d.getKillCreditMultiplier())
-			&& multiplierCloseToDefault(rewardDraftLevel, d.getLevelUpCreditMultiplier())
-			&& multiplierCloseToDefault(rewardDraftXp, d.getXpCreditMultiplier());
-	}
 
-	private static boolean multiplierCloseToDefault(double value, double defaultValue)
-	{
-		return Double.compare(value, defaultValue) == 0 || Math.abs(value - defaultValue) < 1e-9d;
-	}
 
 	/** Small grey note under the stats spelling out how the current mode pays for packs. */
 	private JTextArea buildEarningRateInfoTextArea(int contentMaxW)
@@ -1296,25 +1248,6 @@ public class TcgPanel extends PluginPanel
 		return ta;
 	}
 
-	private static JTextArea buildMultiplierTradingWarningTextArea(int contentMaxW)
-	{
-		int w = Math.max(120, contentMaxW);
-		JTextArea ta = new JTextArea(REWARD_TUNING_NON_DEFAULT_TRADE_WARNING);
-		ta.setEditable(false);
-		ta.setOpaque(false);
-		ta.setFocusable(false);
-		ta.setForeground(Color.RED);
-		ta.setFont(FontManager.getRunescapeSmallFont());
-		ta.setLineWrap(true);
-		ta.setWrapStyleWord(true);
-		ta.setBorder(new EmptyBorder(6, 0, 0, 0));
-		ta.setAlignmentX(JComponent.LEFT_ALIGNMENT);
-		ta.setSize(w, Short.MAX_VALUE);
-		int bodyH = ta.getPreferredSize().height;
-		ta.setPreferredSize(new Dimension(w, bodyH));
-		ta.setMaximumSize(new Dimension(w, bodyH));
-		return ta;
-	}
 
 
 
@@ -1386,21 +1319,6 @@ public class TcgPanel extends PluginPanel
 		});
 	}
 
-	private static JPanel buildMultiplierGrid(int contentW, JSpinner levelSpin, JSpinner killSpin, JSpinner xpSpin,
-		JSpinner foilSpin)
-	{
-		int colW = Math.max(72, (contentW - 8) / 2);
-		JPanel multGrid = new JPanel(new GridLayout(2, 2, 8, 6));
-		multGrid.setOpaque(false);
-		multGrid.setAlignmentX(LEFT_ALIGNMENT);
-		multGrid.add(rewardTuningEditableRow("Level up multiplier", levelSpin, colW));
-		multGrid.add(rewardTuningEditableRow("Kill multiplier", killSpin, colW));
-		multGrid.add(rewardTuningEditableRow("XP multiplier", xpSpin, colW));
-		multGrid.add(rewardTuningEditableRow("Foil chance (%)", foilSpin, colW));
-		multGrid.setPreferredSize(new Dimension(contentW, multGrid.getPreferredSize().height));
-		multGrid.setMaximumSize(new Dimension(contentW, multGrid.getPreferredSize().height));
-		return multGrid;
-	}
 
 	private static void finishRewardTuningSectionLayout(JPanel section)
 	{
@@ -1438,16 +1356,6 @@ public class TcgPanel extends PluginPanel
 		return row;
 	}
 
-	private static void styleRewardTuningSpinner(JSpinner spinner, int editorColumns)
-	{
-		spinner.setFont(FontManager.getRunescapeSmallFont());
-		spinner.setAlignmentX(LEFT_ALIGNMENT);
-		JComponent editor = spinner.getEditor();
-		if (editor instanceof JSpinner.DefaultEditor)
-		{
-			((JSpinner.DefaultEditor) editor).getTextField().setColumns(editorColumns);
-		}
-	}
 
 	/** Distinct card names with combined foil + non-foil quantity ≥ 1. */
 	private static Set<String> collectedNamesFromOwned(Map<CardCollectionKey, Integer> owned)

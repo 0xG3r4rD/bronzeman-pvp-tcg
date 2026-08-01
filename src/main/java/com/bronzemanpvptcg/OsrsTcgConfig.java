@@ -11,9 +11,11 @@ import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 import net.runelite.client.config.ConfigSection;
 
-@ConfigGroup("bronzemanpvptcg")
+@ConfigGroup(OsrsTcgConfig.GROUP)
 public interface OsrsTcgConfig extends Config
 {
+	String GROUP = "bronzemanpvptcg";
+
 	@ConfigSection(
 		name = "General",
 		description = "General plugin settings.",
@@ -154,7 +156,9 @@ public interface OsrsTcgConfig extends Config
 		return false;
 	}
 
+	/** Shown in the plugin panel's Overview tab, not the settings panel. */
 	@ConfigItem(
+		hidden = true,
 		keyName = "defenceLevel",
 		name = "Defence level",
 		description = "Only cards for gear you can equip at this Defence level are pullable from packs.",
@@ -166,7 +170,9 @@ public interface OsrsTcgConfig extends Config
 		return DefenceLevel.LEVEL_60_PLUS;
 	}
 
+	/** Shown in the plugin panel's Overview tab, not the settings panel. */
 	@ConfigItem(
+		hidden = true,
 		keyName = "hardMode",
 		name = "Hard mode",
 		description = "Earn 250 credits per 100k of PvP loot value instead of a full pack per kill. "
