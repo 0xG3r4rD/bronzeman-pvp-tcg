@@ -3,6 +3,11 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.2.0] — 2026-08-02
+
+### Added
+- A **Patreon** support button at the bottom of the Overview tab.
+
 ## [1.1.2] — 2026-08-02
 
 ### Changed

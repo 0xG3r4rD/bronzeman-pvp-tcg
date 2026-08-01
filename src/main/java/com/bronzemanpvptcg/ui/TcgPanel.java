@@ -100,7 +100,7 @@ public class TcgPanel extends PluginPanel
 
 
 
-	private static final String PATREON_URL = "https://www.patreon.com/Azderi";
+	private static final String PATREON_URL = "https://www.patreon.com/cw/GerardBTW";
 
 	private enum Tab
 	{
@@ -1011,6 +1011,8 @@ public class TcgPanel extends PluginPanel
 		target.add(statPanel("Collection score", format(m.collectionScore)));
 		target.add(Box.createRigidArea(new Dimension(0, 8)));
 		addGameModeOverviewSection(target);
+		target.add(Box.createRigidArea(new Dimension(0, 10)));
+		target.add(buildOverviewPatreonPanel(liveSidebarContentWidth()));
 	}
 
 	private static final class BoosterShopRow
@@ -1984,6 +1986,22 @@ public class TcgPanel extends PluginPanel
 		panel.setAlignmentX(LEFT_ALIGNMENT);
 		Dimension preferred = panel.getPreferredSize();
 		panel.setMaximumSize(new Dimension(Integer.MAX_VALUE, preferred.height));
+	}
+
+	/** Support button pinned to the bottom of the Overview tab. */
+	private static JPanel buildOverviewPatreonPanel(int contentMaxW)
+	{
+		int w = Math.max(120, contentMaxW);
+		JButton button = createPatreonButton();
+
+		JPanel wrap = new JPanel(new BorderLayout());
+		wrap.setOpaque(false);
+		wrap.setAlignmentX(JComponent.LEFT_ALIGNMENT);
+		wrap.add(button, BorderLayout.CENTER);
+		int h = button.getPreferredSize().height;
+		wrap.setPreferredSize(new Dimension(w, h));
+		wrap.setMaximumSize(new Dimension(w, h));
+		return wrap;
 	}
 
 	private static JButton createPatreonButton()
