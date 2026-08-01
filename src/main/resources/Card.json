@@ -612,71 +612,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Alchemist gloves",
-    "category": [
-      "Resource",
-      "Armour",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Alchemist_gloves_detail.png/130px-Alchemist_gloves_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "No science is done without proper gloves.",
-    "value": 390,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Alchemist labcoat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Alchemist_labcoat_%28apron_on%29_detail.png/130px-Alchemist_labcoat_%28apron_on%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Change",
-      "Drop"
-    ],
-    "examine": "Grants the wearer +10 IQ.",
-    "value": 380,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Alchemist pants",
-    "category": [
-      "Resource",
-      "Armour",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Alchemist_pants_%28apron_on%29_detail.png/130px-Alchemist_pants_%28apron_on%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Change",
-      "Drop"
-    ],
-    "examine": "Breezy.",
-    "value": 340,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Ale of the gods",
     "category": [
       "Resource",
@@ -844,50 +779,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Amulet of bounty",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Amulet_of_bounty_detail.png/130px-Amulet_of_bounty_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Break",
-      "Drop"
-    ],
-    "examine": "Saves seeds when planting in allotments.",
-    "value": 900,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Amulet of chemistry",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Amulet_of_chemistry_detail.png/130px-Amulet_of_chemistry_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Options",
-      "Break",
-      "Drop"
-    ],
-    "examine": "Useful when making potions - has the chance of giving an extra dose.",
-    "value": 1050,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Amulet of defence",
     "category": [
       "Resource",
@@ -974,27 +865,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Amulet of nature",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Amulet_of_nature_detail.png/130px-Amulet_of_nature_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Rub",
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An Amulet of Nature.",
-    "value": 1,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Amulet of power",
     "category": [
       "Resource",
@@ -1076,28 +946,6 @@
     ],
     "examine": "Heirloom of an ancient family of Morytania.",
     "value": 58001,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Amulet of the eye",
-    "category": [
-      "Resource",
-      "Armour",
-      "Desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Amulet_of_the_eye_detail.png/130px-Amulet_of_the_eye_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Teleport",
-      "Destroy"
-    ],
-    "examine": "An amulet in the shape of an eye.",
-    "value": 30,
     "equipmentSlot": "neck"
   },
   {
@@ -3396,27 +3244,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Binding necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Binding_necklace_detail.png/130px-Binding_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Destroy"
-    ],
-    "examine": "A necklace embedded with mystical power.",
-    "value": 1425,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Black boater",
     "category": [
       "Resource",
@@ -4254,27 +4081,6 @@
     "examine": "A helm worn by blacksmiths.",
     "value": 3000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Blade of saeldor",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Tirannwn"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blade_of_saeldor_detail.png/130px-Blade_of_saeldor_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A magical elven sword.",
-    "value": 2500000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Blessed dizana's quiver",
@@ -5401,29 +5207,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Bonecrusher necklace",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bonecrusher_necklace_detail.png/130px-Bonecrusher_necklace_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Activity",
-      "Check/Uncharge",
-      "Dismantle"
-    ],
-    "examine": "A necklace made out of dragon bones, hydra tail and a bonecrusher.",
-    "value": 80000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Boots of brimstone",
     "category": [
       "Resource",
@@ -5486,27 +5269,6 @@
     "examine": "A pair of heat resistant boots with rocky soles.",
     "value": 200,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Bow of faerdhinen",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Tirannwn"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bow_of_faerdhinen_detail.png/130px-Bow_of_faerdhinen_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A magical elven bow.",
-    "value": 2500000,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Bowl wig",
@@ -5614,26 +5376,6 @@
     "examine": "Occasionally prevents slayer kill count being decremented.",
     "value": 2500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Brass necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Brass_necklace_detail.png/130px-Brass_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I'd prefer a gold one.",
-    "value": 30,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Briefcase",
@@ -6827,26 +6569,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Corrupted sceptre",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Corrupted_sceptre_detail.png/130px-Corrupted_sceptre_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A corrupted crystalline sceptre with some magical properties.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Cow slippers",
     "category": [
       "Resource",
@@ -7053,73 +6775,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Crier bell",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crier_bell_detail.png/130px-Crier_bell_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Ring",
-      "Drop"
-    ],
-    "examine": "For whom?",
-    "value": 5000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Crier coat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crier_coat_detail.png/130px-Crier_coat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Don't shoot the messenger!",
-    "value": 5000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Crier hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crier_hat_detail.png/130px-Crier_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Hear ye! Hear ye!",
-    "value": 5000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Crossbow",
     "category": [
       "Resource",
@@ -7162,26 +6817,6 @@
     "value": 650000,
     "equipmentSlot": "body",
     "defenceRequirement": 70
-  },
-  {
-    "name": "Crystal dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_dagger_%28perfected%29_detail.png/130px-Crystal_dagger_%28perfected%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A crystalline dagger.",
-    "value": 30000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Crystal glider's hat",
@@ -7355,26 +6990,6 @@
     "value": 550000,
     "equipmentSlot": "legs",
     "defenceRequirement": 70
-  },
-  {
-    "name": "Crystal sceptre",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_sceptre_detail.png/130px-Crystal_sceptre_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A crystalline sceptre with some magical properties.",
-    "value": 1,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "New crystal shield",
@@ -8231,26 +7846,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Diamond necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diamond_necklace_detail.png/130px-Diamond_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 3675,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Diamond ring",
     "category": [
       "Resource",
@@ -8269,27 +7864,6 @@
     "examine": "A valuable ring.",
     "value": 3525,
     "equipmentSlot": "ring"
-  },
-  {
-    "name": "Digsite pendant",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Digsite_pendant_detail.png/130px-Digsite_pendant_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "An enchanted necklace.",
-    "value": 2400,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Dinh's bulwark",
@@ -8354,28 +7928,6 @@
     "examine": "A quiver awarded to those who have proved their worth in the Colosseum.",
     "value": 80000,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Dodgy necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dodgy_necklace_detail.png/130px-Dodgy_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Break",
-      "Drop"
-    ],
-    "examine": "Lets you get away with it - sometimes.",
-    "value": 1050,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Dorgeshuun crossbow",
@@ -8925,26 +8477,6 @@
     "value": 100000,
     "equipmentSlot": "head",
     "defenceRequirement": 60
-  },
-  {
-    "name": "Dragon necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragon_necklace_detail.png/130px-Dragon_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 18375,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Dragon platebody",
@@ -10078,26 +9610,6 @@
     "examine": "Dragon crossbow bolts, tipped with emerald.",
     "value": 800,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Emerald necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Emerald_necklace_detail.png/130px-Emerald_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1425,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Emerald ring",
@@ -11577,27 +11089,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Gauntlet cape",
-    "category": [
-      "Resource",
-      "Armour",
-      "Tirannwn"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gauntlet_cape_detail.png/130px-Gauntlet_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "Earned by only the most accomplished warriors of Prifddinas.",
-    "value": 20000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Ghommal's avernic defender 5",
     "category": [
       "Resource",
@@ -12621,26 +12112,6 @@
     "examine": "A minimalist's hat.",
     "value": 40,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Gold necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_necklace_detail.png/130px-Gold_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 450,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Gold ring",
@@ -15858,26 +15329,6 @@
     "examine": "A jungle specific slashing device.",
     "value": 1000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Jade necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jade_necklace_detail.png/130px-Jade_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1275,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Jade ring",
@@ -19234,26 +18685,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Necklace of faith",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Necklace_of_faith_detail.png/130px-Necklace_of_faith_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Can grant me prayer in an emergency.",
-    "value": 1425,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Necklace of passage",
     "category": [
       "Resource",
@@ -19837,26 +19268,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Onyx necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Onyx_necklace_detail.png/130px-Onyx_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 201000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Opal amulet",
     "category": [
       "Resource",
@@ -19955,26 +19366,6 @@
     "examine": "A jungle specific slashing device.",
     "value": 500,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Opal necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Opal_necklace_detail.png/130px-Opal_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1050,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Opal ring",
@@ -21000,26 +20391,6 @@
     ],
     "examine": "A small waystone which can whisk you to places of importance.",
     "value": 400,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Pre-nature amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pre-nature_amulet_detail.png/130px-Pre-nature_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Strung with the root of a Magic Tree; needs enchanting.",
-    "value": 1,
     "equipmentSlot": "neck"
   },
   {
@@ -22957,26 +22328,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Ruby necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ruby_necklace_detail.png/130px-Ruby_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 2175,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Ruby ring",
     "category": [
       "Resource",
@@ -24116,26 +23467,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Sapphire necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sapphire_necklace_detail.png/130px-Sapphire_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1050,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Sapphire ring",
     "category": [
       "Resource",
@@ -25200,27 +24531,6 @@
     "examine": "Generally used for impaling fresh meat.",
     "value": 3200,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Skills necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Skills_necklace_detail.png/130px-Skills_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "You will need to recharge the necklace at the Legends Guild.",
-    "value": 20200,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Skull sceptre",
@@ -28663,26 +27973,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Topaz necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Topaz_necklace_detail.png/130px-Topaz_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1425,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Topaz ring",
     "category": [
       "Resource",
@@ -31768,26 +31058,6 @@
     "examine": "A fiery glow emanates from this bracelet.",
     "value": 201000,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Zenyte necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zenyte_necklace_detail.png/130px-Zenyte_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A fiery glow emanates from this necklace.",
-    "value": 202000,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Zenyte ring",
