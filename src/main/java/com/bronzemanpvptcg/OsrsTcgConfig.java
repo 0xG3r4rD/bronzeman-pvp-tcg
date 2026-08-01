@@ -166,6 +166,19 @@ public interface OsrsTcgConfig extends Config
 		return DefenceLevel.LEVEL_60_PLUS;
 	}
 
+	@ConfigItem(
+		keyName = "hardMode",
+		name = "Hard mode",
+		description = "Earn 250 credits per 100k of PvP loot value instead of a full pack per kill. "
+			+ "A pack costs 2,500, so it takes 1M in loot to open one.",
+		section = generalSection,
+		position = 12
+	)
+	default boolean hardMode()
+	{
+		return false;
+	}
+
 
 	@ConfigSection(
 		name = "Duplicates",

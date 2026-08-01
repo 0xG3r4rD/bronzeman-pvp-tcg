@@ -376,6 +376,13 @@ public class OsrsTcgPlugin extends Plugin
 		{
 			TcgPluginGameMessages.setPrefixColor(config.chatPrefixColor());
 		}
+		else if ("hardMode".equals(event.getKey()))
+		{
+			tcgPanel.refresh();
+			queueGameMessage(TcgPluginGameMessages.withPrefix(config.hardMode()
+				? "Hard mode on: PvP kills pay 250 credits per 100k of loot value (1M per pack)."
+				: "Hard mode off: PvP kills pay a full booster pack each."));
+		}
 		else if ("defenceLevel".equals(event.getKey()))
 		{
 			// Roll pool size and collection totals both change with the cap.
