@@ -1,27 +1,5 @@
 [
   {
-    "name": "A powdered wig",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/A_powdered_wig_detail.png/130px-A_powdered_wig_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A big do about nothing.",
-    "value": 2000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Abyssal bludgeon",
     "category": [
       "Resource",
@@ -261,28 +239,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Adamant dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Adamant_dragon_mask_detail.png/130px-Adamant_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Adamant full helm",
     "category": [
       "Resource",
@@ -475,28 +431,6 @@
     "defenceRequirement": 30
   },
   {
-    "name": "Afro",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Afro_detail.png/130px-Afro_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Wild!",
-    "value": 684,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Ahrim's hood",
     "category": [
       "Resource",
@@ -609,28 +543,6 @@
     ],
     "examine": "It's a slightly magical stick.",
     "value": 15500,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Ale of the gods",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ale_of_the_gods_detail.png/130px-Ale_of_the_gods_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Ale of the gods.",
-    "value": 850,
     "equipmentSlot": "weapon"
   },
   {
@@ -3052,52 +2964,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Beanie",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beanie_detail.png/130px-Beanie_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Weeeeeee!",
-    "value": 600,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Bear feet",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bear_feet_detail.png/130px-Bear_feet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Vicious bear slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
-  },
-  {
     "name": "Beginner wand",
     "category": [
       "Resource",
@@ -3220,28 +3086,6 @@
     "examine": "A ring reputed to bring out a berserk fury in its wearer.",
     "value": 10000,
     "equipmentSlot": "ring"
-  },
-  {
-    "name": "Big pirate hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Big_pirate_hat_detail.png/130px-Big_pirate_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Yarrr!",
-    "value": 1500,
-    "equipmentSlot": "head"
   },
   {
     "name": "Black boater",
@@ -3485,50 +3329,6 @@
     "defenceRequirement": 10
   },
   {
-    "name": "Black demon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_demon_mask_detail.png/130px-Black_demon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Evil.",
-    "value": 4000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Black dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_dragon_mask_detail.png/130px-Black_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Black elegant legs",
     "category": [
       "Resource",
@@ -3699,28 +3499,6 @@
     "value": 1632,
     "equipmentSlot": "shield",
     "defenceRequirement": 10
-  },
-  {
-    "name": "Black leprechaun hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_leprechaun_hat_detail.png/130px-Black_leprechaun_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Try as they will, and try as they might, who steals me gold won't live through the night.",
-    "value": 5000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Black mask",
@@ -4018,28 +3796,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Black unicorn mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_unicorn_mask_detail.png/130px-Black_unicorn_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Pointy shadows.",
-    "value": 1000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Black wizard hat",
     "category": [
       "Resource",
@@ -4058,28 +3814,6 @@
     ],
     "examine": "A silly pointed hat.",
     "value": 2,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Blacksmith's helm",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blacksmith%27s_helm_detail.png/130px-Blacksmith%27s_helm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A helm worn by blacksmiths.",
-    "value": 3000,
     "equipmentSlot": "head"
   },
   {
@@ -4484,28 +4218,6 @@
     "examine": "Vambraces made from 100% real dragonhide.",
     "value": 3000,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Blue dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_dragon_mask_detail.png/130px-Blue_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Blue elegant blouse",
@@ -4931,116 +4643,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Bob's black shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bob%27s_black_shirt_detail.png/130px-Bob%27s_black_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "'Bob says: A bank pin will keep your items secure.'",
-    "value": 3,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Bob's blue shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bob%27s_blue_shirt_detail.png/130px-Bob%27s_blue_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "'Bob says: Always check the second trade screen.'",
-    "value": 3,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Bob's green shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bob%27s_green_shirt_detail.png/130px-Bob%27s_green_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "'Bob says: Never trade in the wilderness!'",
-    "value": 3,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Bob's purple shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bob%27s_purple_shirt_detail.png/130px-Bob%27s_purple_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "'Bob says: Keep your computer keylogger free and virus scanned.'",
-    "value": 3,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Bob's red shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bob%27s_red_shirt_detail.png/130px-Bob%27s_red_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "'Bob says: Never give your password out to anyone.'",
-    "value": 3,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Bolt rack",
     "category": [
       "Resource",
@@ -5272,28 +4874,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Bowl wig",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bowl_wig_detail.png/130px-Bowl_wig_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The bowl wig.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Boxing gloves",
     "category": [
       "Resource",
@@ -5377,28 +4957,6 @@
     "examine": "Occasionally prevents slayer kill count being decremented.",
     "value": 2500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Briefcase",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Briefcase_detail.png/130px-Briefcase_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "For your first day in the big city.",
-    "value": 666,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Brimstone ring",
@@ -5606,28 +5164,6 @@
     "examine": "A defensive weapon.",
     "value": 1,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Bronze dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_dragon_mask_detail.png/130px-Bronze_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Bronze fist flag",
@@ -6004,28 +5540,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Bucket helm",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bucket_helm_detail.png/130px-Bucket_helm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A helm made from a bucket.",
-    "value": 14000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Bug lantern",
     "category": [
       "Resource",
@@ -6086,29 +5600,6 @@
     "examine": "Torn from the hands of ancient demons.",
     "value": 800000,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Cabbage round shield",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cabbage_round_shield_detail.png/130px-Cabbage_round_shield_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An adamant shield shaped like a cabbage.",
-    "value": 3000,
-    "equipmentSlot": "shield",
-    "defenceRequirement": 30
   },
   {
     "name": "Camphor blowpipe",
@@ -6172,28 +5663,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Cape of skulls",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cape_of_skulls_detail.png/130px-Cape_of_skulls_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Lets the person behind you know that you mean business.",
-    "value": 5000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Castle wars arrow",
     "category": [
       "Resource",
@@ -6252,28 +5721,6 @@
     "examine": "Must be worn as you enter the game to receive the bonus for that game.",
     "value": 1675,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Cat mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cat_mask_detail.png/130px-Cat_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Miaow!",
-    "value": 2400,
-    "equipmentSlot": "head"
   },
   {
     "name": "Cavalier mask",
@@ -6400,28 +5847,6 @@
     "examine": "An effective tool for chopping tough meat.",
     "value": 25600,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Clueless scroll",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Clueless_scroll_detail.png/130px-Clueless_scroll_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Read",
-      "Drop"
-    ],
-    "examine": "The instructions are complete nonsense!",
-    "value": 1000,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Coif",
@@ -7017,28 +6442,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Cyclops head",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cyclops_head_detail.png/130px-Cyclops_head_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "You'd expect this to interfere with your 3D vision.",
-    "value": 5000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Dagon'hai hat",
     "category": [
       "Resource",
@@ -7382,28 +6785,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Deerstalker",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Deerstalker_detail.png/130px-Deerstalker_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Elementary!",
-    "value": 2300,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Defensive shield",
     "category": [
       "Resource",
@@ -7422,30 +6803,6 @@
     "examine": "Large, round, heavy shield.",
     "value": 1,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Demon feet",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Demon_feet_detail.png/130px-Demon_feet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Vicious demon slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
   },
   {
     "name": "Demonic sceptre",
@@ -8901,28 +8258,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Dual sai",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dual_sai_detail.png/130px-Dual_sai_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A pair of aggressive Sai.",
-    "value": 6000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Dust battlestaff",
     "category": [
       "Resource",
@@ -9691,28 +9026,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Explorer backpack",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Explorer_backpack_detail.png/130px-Explorer_backpack_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I'm the Backpack loaded up with things and knick knacks too.",
-    "value": 1550,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Explorer's ring",
     "category": [
       "Resource",
@@ -10131,28 +9444,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Flared trousers",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Flared_trousers_detail.png/130px-Flared_trousers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "These'll help me stay alive.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Fletching knife",
     "category": [
       "Resource",
@@ -10560,28 +9851,6 @@
     "defenceRequirement": 30
   },
   {
-    "name": "Fremennik kilt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_kilt_detail.png/130px-Fremennik_kilt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A kilt worn by the mightiest of Fremennik warriors.",
-    "value": 60000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Fremennik pink cloak",
     "category": [
       "Resource",
@@ -10782,30 +10051,6 @@
     "examine": "The latest fashion in Rellekka.",
     "value": 250,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Frog slippers",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Frog_slippers_detail.png/130px-Frog_slippers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Cute frog slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
   },
   {
     "name": "Frog-leather body",
@@ -11141,28 +10386,6 @@
     "examine": "A razor sharp rapier, smeared with vampyric blood.",
     "value": 3000000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Giant boot",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Giant_boot_detail.png/130px-Giant_boot_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Worn on head. Warning: Smelly.",
-    "value": 14000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Giant stopwatch",
@@ -11564,28 +10787,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Gilded spade",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gilded_spade_detail.png/130px-Gilded_spade_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Oh, I'm a gold digger?",
-    "value": 1000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Gilded spear",
     "category": [
       "Resource",
@@ -11782,28 +10983,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Goblin mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Goblin_mask_detail.png/130px-Goblin_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Let's start a flash mob!",
-    "value": 2000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Gold amulet",
     "category": [
       "Resource",
@@ -11931,50 +11110,6 @@
     ],
     "examine": "A minimalist's hat.",
     "value": 40,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Golden apron",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Golden_apron_detail.png/130px-Golden_apron_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An astonishingly gold apron.",
-    "value": 10000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Golden chef's hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Golden_chef%27s_hat_detail.png/130px-Golden_chef%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "What a perfectly reasonable hat.",
-    "value": 10000,
     "equipmentSlot": "head"
   },
   {
@@ -12215,28 +11350,6 @@
     "defenceRequirement": 50
   },
   {
-    "name": "Greater demon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Greater_demon_mask_detail.png/130px-Greater_demon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Evil.",
-    "value": 4000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Green boater",
     "category": [
       "Resource",
@@ -12379,28 +11492,6 @@
     "examine": "Vambraces made from 100% real dragonhide.",
     "value": 2500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Green dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_dragon_mask_detail.png/130px-Green_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Green elegant blouse",
@@ -13397,28 +12488,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Half moon spectacles",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Half_moon_spectacles_detail.png/130px-Half_moon_spectacles_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The two halfs would surely make a full moon?",
-    "value": 19450,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Hallowed focus",
     "category": [
       "Resource",
@@ -13602,28 +12671,6 @@
     "examine": "Light-weight head protection and eye shield.",
     "value": 75,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Ham joint",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_joint_detail.png/130px-Ham_joint_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A delicious joint of ham.",
-    "value": 1500,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Ham logo",
@@ -13849,28 +12896,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Heavy casket",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Heavy_casket_detail.png/130px-Heavy_casket_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Open",
-      "Drop"
-    ],
-    "examine": "Full to the brim with loot... Where's that key gone?",
-    "value": 1000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Helm of neitiznot",
     "category": [
       "Resource",
@@ -13910,28 +12935,6 @@
     ],
     "examine": "A helmet forged from moonlight.",
     "value": 2000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Highwayman mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Highwayman_mask_detail.png/130px-Highwayman_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Your money or your life!",
-    "value": 40,
     "equipmentSlot": "head"
   },
   {
@@ -14378,28 +13381,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Imp mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Imp_mask_detail.png/130px-Imp_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "What mischief can I get up to with this?",
-    "value": 2000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Infernal cape",
     "category": [
       "Resource",
@@ -14804,28 +13785,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Iron dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_dragon_mask_detail.png/130px-Iron_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Iron full helm",
     "category": [
       "Resource",
@@ -15111,28 +14070,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Jungle demon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jungle_demon_mask_detail.png/130px-Jungle_demon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mask resembling a visage of a Greater Jungle demon.",
-    "value": 4000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Justiciar chestguard",
     "category": [
       "Resource",
@@ -15360,28 +14297,6 @@
     "defenceRequirement": 70
   },
   {
-    "name": "Katana",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Katana_detail.png/130px-Katana_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Created by Hattori Hanzo in the Eastern Lands.",
-    "value": 24000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Kebbit bolts",
     "category": [
       "Resource",
@@ -15487,28 +14402,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Large spade",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Large_spade_detail.png/130px-Large_spade_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Dig",
-      "Drop"
-    ],
-    "examine": "Can you dig it?",
-    "value": 1000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Lava battlestaff",
     "category": [
       "Resource",
@@ -15527,28 +14420,6 @@
     "examine": "It's a slightly magical stick.",
     "value": 17000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Lava dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lava_dragon_mask_detail.png/130px-Lava_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Leaf-bladed battleaxe",
@@ -15735,72 +14606,6 @@
     "examine": "Better than no armour!",
     "value": 18,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Left eye patch",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Left_eye_patch_detail.png/130px-Left_eye_patch_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A black piece of cloth on a string.",
-    "value": 2,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Leprechaun hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Leprechaun_hat_detail.png/130px-Leprechaun_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Top o' the morning!",
-    "value": 1000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Lesser demon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lesser_demon_mask_detail.png/130px-Lesser_demon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Evil.",
-    "value": 4000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Light ballista",
@@ -16960,28 +15765,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Mithril dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mithril_dragon_mask_detail.png/130px-Mithril_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Mithril full helm",
     "category": [
       "Resource",
@@ -17257,30 +16040,6 @@
     "defenceRequirement": 50
   },
   {
-    "name": "Mole slippers",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mole_slippers_detail.png/130px-Mole_slippers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Cute mole slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
-  },
-  {
     "name": "Monk's robe",
     "category": [
       "Resource",
@@ -17321,28 +16080,6 @@
     "examine": "I feel closer to the gods when I am wearing this.",
     "value": 40,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Monocle",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Monocle_detail.png/130px-Monocle_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Hmm, shallow and pedantic.",
-    "value": 1200,
-    "equipmentSlot": "head"
   },
   {
     "name": "Mooleta",
@@ -17716,182 +16453,6 @@
     "examine": "Fishy, damp and smelly.",
     "value": 0,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Mummy's body",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mummy%27s_body_detail.png/130px-Mummy%27s_body_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mummy's body.",
-    "value": 250000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Mummy's feet",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mummy%27s_feet_detail.png/130px-Mummy%27s_feet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mummy's feet.",
-    "value": 250000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Mummy's hands",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mummy%27s_hands_detail.png/130px-Mummy%27s_hands_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mummy's hands.",
-    "value": 250000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Mummy's head",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mummy%27s_head_detail.png/130px-Mummy%27s_head_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mummy's head.",
-    "value": 250000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Mummy's legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mummy%27s_legs_detail.png/130px-Mummy%27s_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mummy's legs.",
-    "value": 250000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Musketeer hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Musketeer_hat_detail.png/130px-Musketeer_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Engarde!",
-    "value": 3500,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Musketeer pants",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Musketeer_pants_detail.png/130px-Musketeer_pants_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "One for all!",
-    "value": 1870,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Musketeer tabard",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Musketeer_tabard_detail.png/130px-Musketeer_tabard_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All for one!",
-    "value": 1880,
-    "equipmentSlot": "body"
   },
   {
     "name": "Myre snelm",
@@ -18448,28 +17009,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Nunchaku",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Nunchaku_detail.png/130px-Nunchaku_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A pair of Nunchaku, smells of pizza.",
-    "value": 6000,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Oak blackjack",
     "category": [
       "Resource",
@@ -18723,28 +17262,6 @@
     "defenceRequirement": 60
   },
   {
-    "name": "Old demon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Old_demon_mask_detail.png/130px-Old_demon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Lost in time.",
-    "value": 4000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "One barrel",
     "category": [
       "Resource",
@@ -18984,28 +17501,6 @@
     "value": 1
   },
   {
-    "name": "Pantaloons",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pantaloons_detail.png/130px-Pantaloons_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Alas, someone has slashed my pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Partyhat & specs",
     "category": [
       "Resource",
@@ -19152,28 +17647,6 @@
     "examine": "An ancient pendant infused with frozen tears.",
     "value": 350,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Penguin mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Penguin_mask_detail.png/130px-Penguin_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Thankfully this doesn't reset every week.",
-    "value": 1200,
-    "equipmentSlot": "head"
   },
   {
     "name": "Petal garland",
@@ -19785,28 +18258,6 @@
     "examine": "A blue scarf adorned with a sea shell.",
     "value": 10000,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Pith helmet",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pith_helmet_detail.png/130px-Pith_helmet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Official explorer headgear!",
-    "value": 860,
-    "equipmentSlot": "head"
   },
   {
     "name": "Pointed blood'n'tar snelm",
@@ -20685,28 +19136,6 @@
     "examine": "Vambraces made from 100% real dragonhide.",
     "value": 3600,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Red dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_dragon_mask_detail.png/130px-Red_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Red elegant blouse",
@@ -21654,94 +20083,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Royal crown",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_crown_detail.png/130px-Royal_crown_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Who said I'd never be royal?",
-    "value": 6000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Royal gown bottom",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_gown_bottom_detail.png/130px-Royal_gown_bottom_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Feeling distinctly ornate.",
-    "value": 5000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Royal gown top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_gown_top_detail.png/130px-Royal_gown_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Feeling distinctly ornate.",
-    "value": 5000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Royal sceptre",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Royal_sceptre_detail.png/130px-Royal_sceptre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I dub thee...",
-    "value": 5000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Ruby amulet",
     "category": [
       "Resource",
@@ -22008,28 +20349,6 @@
     "value": 65004,
     "equipmentSlot": "shield",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Rune dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_dragon_mask_detail.png/130px-Rune_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Rune full helm",
@@ -22530,28 +20849,6 @@
     "defenceRequirement": 45
   },
   {
-    "name": "Sagacious spectacles",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sagacious_spectacles_detail.png/130px-Sagacious_spectacles_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do they make me look... old?",
-    "value": 1400,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Sailors' amulet",
     "category": [
       "Resource",
@@ -22682,78 +20979,6 @@
     ],
     "examine": "A type of shirt worn by the Samurai.",
     "value": 7000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Sandwich lady bottom",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sandwich_lady_bottom_detail.png/130px-Sandwich_lady_bottom_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Bottoms worn by a sandwich lady.",
-    "value": 300,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Sandwich lady hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sandwich_lady_hat_detail.png/130px-Sandwich_lady_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A hat worn by a sandwich lady.",
-    "value": 200,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Sandwich lady top",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sandwich_lady_top_detail.png/130px-Sandwich_lady_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A top worn by a sandwich lady.",
-    "value": 500,
     "equipmentSlot": "body"
   },
   {
@@ -23387,27 +21612,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Scroll sack",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Scroll_sack_detail.png/130px-Scroll_sack_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "Gosh, you really seem to love clue scrolls.",
-    "value": 5,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Searing boots",
     "category": [
       "Resource",
@@ -23676,30 +21880,6 @@
     "examine": "A red scarf adorned with a skull.",
     "value": 10000,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Shoulder parrot",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shoulder_parrot_detail.png/130px-Shoulder_parrot_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Polly want a cracker?",
-    "value": 1000,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Silver bolts",
@@ -23975,28 +22155,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Sleeping cap",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sleeping_cap_detail.png/130px-Sleeping_cap_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cap for wearing whilzzzzzzzzzz.",
-    "value": 2000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Smoke ancient sceptre",
     "category": [
       "Resource",
@@ -24228,28 +22386,6 @@
     "examine": "A large spatula... of doom!",
     "value": 1920,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Spiked manacles",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Spiked_manacles_detail.png/130px-Spiked_manacles_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some very spikey metal bands, better make sure I don't cut myself while walking.",
-    "value": 2500,
-    "equipmentSlot": "feet"
   },
   {
     "name": "Spiky vambraces",
@@ -24603,28 +22739,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Staff of bob the cat",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Staff_of_bob_the_cat_detail.png/130px-Staff_of_bob_the_cat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A staff styled after the elusive cat.",
-    "value": 1500,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Staff of earth",
     "category": [
       "Resource",
@@ -24944,28 +23058,6 @@
     "value": 1,
     "equipmentSlot": "shield",
     "defenceRequirement": 5
-  },
-  {
-    "name": "Steel dragon mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_dragon_mask_detail.png/130px-Steel_dragon_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Do I look scary?",
-    "value": 10000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Steel full helm",
@@ -25837,72 +23929,6 @@
     "examine": "Some fine werewolf clothing.",
     "value": 500,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Team cape i",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Team_cape_i_detail.png/130px-Team_cape_i_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Ooohhh look at the dirty colours...",
-    "value": 50,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Team cape x",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Team_cape_x_detail.png/130px-Team_cape_x_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Ooohhh look at the dirty colours...",
-    "value": 50,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Team cape zero",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Team_cape_zero_detail.png/130px-Team_cape_zero_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Ooohhh look at the dirty colours...",
-    "value": 50,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Team-1 cape",
@@ -26949,28 +24975,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Thieving bag",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Thieving_bag_detail.png/130px-Thieving_bag_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A good place to store your stolen goods.",
-    "value": 1000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Three barrels",
     "category": [
       "Resource",
@@ -27181,28 +25185,6 @@
     "examine": "A rebounding throwing weapon of devastating proportions.",
     "value": 600000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Top hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Top_hat_detail.png/130px-Top_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Aint no rabbits in this hat.",
-    "value": 1800,
-    "equipmentSlot": "head"
   },
   {
     "name": "Top hat & monocle",
@@ -27978,28 +25960,6 @@
     "examine": "An unblessed symbol of Zamorak.",
     "value": 200,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Uri's hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Uri%27s_hat_detail.png/130px-Uri%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "This is top secret comrade...",
-    "value": 1000,
-    "equipmentSlot": "head"
   },
   {
     "name": "Ursine chainmace",
@@ -29101,28 +27061,6 @@
     "defenceRequirement": 10
   },
   {
-    "name": "White unicorn mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_unicorn_mask_detail.png/130px-White_unicorn_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Pointy rainbows.",
-    "value": 1000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Wilderness sword",
     "category": [
       "Resource",
@@ -29225,71 +27163,6 @@
     "examine": "Slightly magical boots.",
     "value": 200,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Wolf cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Wolf_cloak_detail.png/130px-Wolf_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A very warm wolf cloak.",
-    "value": 1000,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Wolf mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Wolf_mask_detail.png/130px-Wolf_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Howwwallll!",
-    "value": 2400,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Wooden shield",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Wooden_shield_detail.png/130px-Wooden_shield_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A solid wooden shield.",
-    "value": 20,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Wooden spoon",
