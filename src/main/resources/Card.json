@@ -5743,26 +5743,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Cleaver",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cleaver_detail.png/130px-Cleaver_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An effective tool for chopping tough meat.",
-    "value": 25600,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Coif",
     "category": [
       "Resource",
@@ -5908,28 +5888,6 @@
     "examine": "Cute cow slippers.",
     "value": 1000,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Cowbell amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cowbell_amulet_%28empty%29_detail.png/130px-Cowbell_amulet_%28empty%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Ring",
-      "Charge",
-      "Drop"
-    ],
-    "examine": "A very fashionable a-moo-let.",
-    "value": 350,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Crab claw",
@@ -8411,26 +8369,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Egg whisk",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Egg_whisk_detail.png/130px-Egg_whisk_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A large whisk of death.",
-    "value": 50,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Elder chaos hood",
     "category": [
       "Resource",
@@ -8642,27 +8580,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Elven signet",
-    "category": [
-      "Resource",
-      "Armour",
-      "Tirannwn"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elven_signet_detail.png/130px-Elven_signet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A signet ring with some elven markings.",
-    "value": 30000,
-    "equipmentSlot": "ring"
-  },
-  {
     "name": "Emberlight",
     "category": [
       "Resource",
@@ -8812,29 +8729,6 @@
     "value": 120000,
     "equipmentSlot": "body",
     "defenceRequirement": 20
-  },
-  {
-    "name": "Escape crystal",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Escape_crystal_detail.png/130px-Escape_crystal_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Teleport",
-      "Wear",
-      "Auto-afk",
-      "Configure",
-      "Drop"
-    ],
-    "examine": "A magical crystal that can transport you out of certain dangerous areas.",
-    "value": 100000,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Eternal boots",
@@ -9341,25 +9235,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Five barrels",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Five_barrels_detail.png/130px-Five_barrels_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Drop"
-    ],
-    "examine": "To put on your head.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Flamtaer bracelet",
     "category": [
       "Resource",
@@ -9469,326 +9344,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Four barrels",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Four_barrels_detail.png/130px-Four_barrels_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Drop"
-    ],
-    "examine": "To put on your head.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Fremennik beige shirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_beige_shirt_detail.png/130px-Fremennik_beige_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest in Fremennik fashion.",
-    "value": 250,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Fremennik black cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_black_cloak_detail.png/130px-Fremennik_black_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik blade",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_blade_detail.png/130px-Fremennik_blade_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A sword used only by Fremennik warriors.",
-    "value": 5000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Fremennik blue cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_blue_cloak_detail.png/130px-Fremennik_blue_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik blue shirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_blue_shirt_detail.png/130px-Fremennik_blue_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest in Fremennik fashion.",
-    "value": 250,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Fremennik boots",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_boots_detail.png/130px-Fremennik_boots_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Very stylish!",
-    "value": 500,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Fremennik brown cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_brown_cloak_detail.png/130px-Fremennik_brown_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik brown shirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_brown_shirt_detail.png/130px-Fremennik_brown_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest in Fremennik fashion.",
-    "value": 250,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Fremennik cyan cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_cyan_cloak_detail.png/130px-Fremennik_cyan_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik gloves",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_gloves_detail.png/130px-Fremennik_gloves_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "These will keep my hands warm!",
-    "value": 500,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Fremennik green cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_green_cloak_detail.png/130px-Fremennik_green_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik grey cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_grey_cloak_detail.png/130px-Fremennik_grey_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik grey shirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_grey_shirt_detail.png/130px-Fremennik_grey_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest in Fremennik fashion.",
-    "value": 250,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Fremennik hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_hat_detail.png/130px-Fremennik_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A silly pointed hat.",
-    "value": 500,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Fremennik helm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_helm_detail.png/130px-Fremennik_helm_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A sturdy helm worn only by Fremennik clan members.",
-    "value": 5000,
-    "equipmentSlot": "head",
-    "defenceRequirement": 30
-  },
-  {
     "name": "Fremennik kilt",
     "category": [
       "Resource",
@@ -9811,106 +9366,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Fremennik pink cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_pink_cloak_detail.png/130px-Fremennik_pink_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik purple cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_purple_cloak_detail.png/130px-Fremennik_purple_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik red cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_red_cloak_detail.png/130px-Fremennik_red_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik red shirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_red_shirt_detail.png/130px-Fremennik_red_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest in Fremennik fashion.",
-    "value": 250,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Fremennik robe",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_robe_detail.png/130px-Fremennik_robe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 500,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Fremennik sea boots",
     "category": [
       "Resource",
@@ -9930,87 +9385,6 @@
     "examine": "Sturdy boots for northern winters.",
     "value": 100000,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Fremennik shield",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_shield_detail.png/130px-Fremennik_shield_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A shield worn by Fremennik warriors.",
-    "value": 5000,
-    "equipmentSlot": "shield",
-    "defenceRequirement": 30
-  },
-  {
-    "name": "Fremennik skirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_skirt_detail.png/130px-Fremennik_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 500,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Fremennik teal cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_teal_cloak_detail.png/130px-Fremennik_teal_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Fremennik yellow cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_yellow_cloak_detail.png/130px-Fremennik_yellow_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The latest fashion in Rellekka.",
-    "value": 250,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Frog slippers",
@@ -10095,26 +9469,6 @@
     "examine": "Chaps made out of frog hide.",
     "value": 900,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Frying pan",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Frying_pan_detail.png/130px-Frying_pan_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Looks like it's non-stick too!",
-    "value": 1660,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Games necklace",
@@ -10390,28 +9744,6 @@
     "examine": "You won't forget the time with this.",
     "value": 50,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Giantsoul amulet",
-    "category": [
-      "Resource",
-      "Armour",
-      "Asgarnia"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Giantsoul_amulet_detail.png/130px-Giantsoul_amulet_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Charge",
-      "Drop"
-    ],
-    "examine": "An enchanted amulet.",
-    "value": 5000,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Gilded 2h sword",
@@ -12535,48 +11867,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Hallowed ring",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hallowed_ring_detail.png/130px-Hallowed_ring_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A ring which prevents damage from traps in the Hallowed Sepulchre.",
-    "value": 10000,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Hallowed symbol",
-    "category": [
-      "Resource",
-      "Armour",
-      "morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hallowed_symbol_detail.png/130px-Hallowed_symbol_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Reduces the amount of vampyre dust to sacrifice within the Hallowed Sepulchre.",
-    "value": 10000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Ham boots",
     "category": [
       "Resource",
@@ -14322,26 +13612,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Kitchen knife",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Kitchen_knife_detail.png/130px-Kitchen_knife_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A sharp, dependable knife, for filleting meat.",
-    "value": 8000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Kodai wand",
     "category": [
       "Resource",
@@ -15315,46 +14585,6 @@
     "examine": "A master level wand.",
     "value": 100001,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Meat tenderiser",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Meat_tenderiser_detail.png/130px-Meat_tenderiser_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Often used to soften tough meat up.",
-    "value": 41500,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Medallion of the deep",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Medallion_of_the_deep_detail.png/130px-Medallion_of_the_deep_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "Allows the wielder to breathe underwater.",
-    "value": 200,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Menaphite purple hat",
@@ -17270,25 +16500,6 @@
     "defenceRequirement": 60
   },
   {
-    "name": "One barrel",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/One_barrel_detail.png/130px-One_barrel_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Drop"
-    ],
-    "examine": "To put on your head.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Onyx amulet",
     "category": [
       "Resource",
@@ -17632,50 +16843,6 @@
     "value": 65005,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Pendant of ates",
-    "category": [
-      "Resource",
-      "Armour",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pendant_of_ates_detail.png/130px-Pendant_of_ates_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Check",
-      "Dismantle",
-      "Drop"
-    ],
-    "examine": "An ancient pendant infused with frozen tears.",
-    "value": 350,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Petal garland",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Petal_garland_detail.png/130px-Petal_garland_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A gift from a Dryad.",
-    "value": 1000,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Pharaoh's sceptre",
@@ -18346,27 +17513,6 @@
     "examine": "A muddy yellow coloured pointed snail shell helmet.",
     "value": 300,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Portable waystone",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Portable_waystone_detail.png/130px-Portable_waystone_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Teleport",
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A small waystone which can whisk you to places of importance.",
-    "value": 400,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Primordial boots",
@@ -20052,26 +19198,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Rolling pin",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rolling_pin_detail.png/130px-Rolling_pin_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "That's how I roll!",
-    "value": 14400,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Rosewood blowpipe",
     "category": [
       "Resource",
@@ -20855,28 +19981,6 @@
     "value": 65002,
     "equipmentSlot": "head",
     "defenceRequirement": 45
-  },
-  {
-    "name": "Sailors' amulet",
-    "category": [
-      "Resource",
-      "Armour",
-      "No"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sailors%27_amulet_detail.png/130px-Sailors%27_amulet_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Inspect",
-      "Destroy"
-    ],
-    "examine": "An old crewhand's trinket. It currently doesn't seem to do anything.",
-    "value": 350,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Samurai boots",
@@ -22033,26 +21137,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Skewer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Skewer_detail.png/130px-Skewer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Generally used for impaling fresh meat.",
-    "value": 3200,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Skull sceptre",
     "category": [
       "Resource",
@@ -22376,26 +21460,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Spatula",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Spatula_detail.png/130px-Spatula_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A large spatula... of doom!",
-    "value": 1920,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Spiky vambraces",
     "category": [
       "Resource",
@@ -22665,26 +21729,6 @@
     "value": 40000,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Spork",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Spork_detail.png/130px-Spork_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Use the spork.",
-    "value": 325,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Staff",
@@ -24983,25 +24027,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Three barrels",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Three_barrels_detail.png/130px-Three_barrels_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Drop"
-    ],
-    "examine": "To put on your head.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Toktz-ket-xil",
     "category": [
       "Resource",
@@ -25788,25 +24813,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Two barrels",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Two_barrels_detail.png/130px-Two_barrels_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Drop"
-    ],
-    "examine": "To put on your head.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Tyrannical ring",
     "category": [
       "Resource",
@@ -26479,28 +25485,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Void seal",
-    "category": [
-      "Resource",
-      "Armour",
-      "Asgarnia"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Void_seal_detail.png/130px-Void_seal_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "A seal storing the power of the Void Knights.",
-    "value": 100,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Voidwaker",
     "category": [
       "Resource",
@@ -27131,26 +26115,6 @@
     "defenceRequirement": 30
   },
   {
-    "name": "Witchwood icon",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Witchwood_icon_detail.png/130px-Witchwood_icon_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A stick on a string... pure style.",
-    "value": 900,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Wizard boots",
     "category": [
       "Resource",
@@ -27171,26 +26135,6 @@
     "examine": "Slightly magical boots.",
     "value": 200,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Wooden spoon",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Wooden_spoon_detail.png/130px-Wooden_spoon_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Spoooooon!",
-    "value": 35,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Wooden sword",
@@ -27520,26 +26464,6 @@
     "examine": "A shortbow made out of yew, still effective.",
     "value": 800,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Yin yang amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Yin_yang_amulet_detail.png/130px-Yin_yang_amulet_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A non-magical copy of the Makeover Mage's amulet.",
-    "value": 1,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Zamorak banner",
