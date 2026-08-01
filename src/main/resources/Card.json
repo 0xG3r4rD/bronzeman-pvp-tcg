@@ -1669,28 +1669,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Arceuus scarf",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arceuus_scarf_detail.png/130px-Arceuus_scarf_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A blue scarf adorned with a dark crystal.",
-    "value": 10000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Archer helm",
     "category": [
       "Resource",
@@ -3243,50 +3221,6 @@
     "defenceRequirement": 10
   },
   {
-    "name": "Black elegant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_elegant_legs_detail.png/130px-Black_elegant_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pair of men's black pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Black elegant shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_elegant_shirt_detail.png/130px-Black_elegant_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant men's black shirt.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Black full helm",
     "category": [
       "Resource",
@@ -3327,48 +3261,6 @@
     "examine": "A pair of nice gloves.",
     "value": 1000,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Black goblin mail",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_goblin_mail_detail.png/130px-Black_goblin_mail_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": false,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some black armour designed to fit goblins.",
-    "value": 40,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Black headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_headband_detail.png/130px-Black_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
-    "equipmentSlot": "head"
   },
   {
     "name": "Black med helm",
@@ -4134,94 +4026,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Blue elegant blouse",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_elegant_blouse_detail.png/130px-Blue_elegant_blouse_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant ladies' blue blouse.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Blue elegant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_elegant_legs_detail.png/130px-Blue_elegant_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pair of men's blue pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Blue elegant shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_elegant_shirt_detail.png/130px-Blue_elegant_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant men's blue shirt.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Blue elegant skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_elegant_skirt_detail.png/130px-Blue_elegant_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant blue skirt.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Blue hat",
     "category": [
       "Resource",
@@ -4239,28 +4043,6 @@
     ],
     "examine": "A silly blue pointed hat.",
     "value": 160,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Blue headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_headband_detail.png/130px-Blue_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
     "equipmentSlot": "head"
   },
   {
@@ -5080,27 +4862,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Bronze fist flag",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_fist_flag_detail.png/130px-Bronze_fist_flag_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The flag of The Bronze Fist.",
-    "value": 300,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Bronze full helm",
     "category": [
       "Resource",
@@ -5306,28 +5067,6 @@
     "examine": "A mostly clean apron.",
     "value": 2,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Brown headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Brown_headband_detail.png/130px-Brown_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
-    "equipmentSlot": "head"
   },
   {
     "name": "Brown naval shirt",
@@ -6291,27 +6030,6 @@
     "examine": "An cursed amulet of magic.",
     "value": 900,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Cutthroat flag",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cutthroat_flag_detail.png/130px-Cutthroat_flag_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The flag of The Cutthroat.",
-    "value": 200,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Dagon'hai hat",
@@ -10082,27 +9800,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Gilded smile flag",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gilded_smile_flag_detail.png/130px-Gilded_smile_flag_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The flag of The Gilded Smile.",
-    "value": 200,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Gilded spear",
     "category": [
       "Resource",
@@ -10236,29 +9933,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Gnome scarf",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kandarin",
-      "Asgarnia",
-      "Desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gnome_scarf_detail.png/130px-Gnome_scarf_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A scarf. You feel your upper lip stiffening.",
-    "value": 1000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Gnomeball",
     "category": [
       "Resource",
@@ -10279,26 +9953,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Goblin mail",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Goblin_mail_detail.png/130px-Goblin_mail_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": false,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some brown armour designed to fit goblins.",
-    "value": 40,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Gold amulet",
     "category": [
       "Resource",
@@ -10317,116 +9971,6 @@
     "examine": "A plain gold amulet.",
     "value": 350,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Gold elegant blouse",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_elegant_blouse_detail.png/130px-Gold_elegant_blouse_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant ladies' gold blouse.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Gold elegant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_elegant_legs_detail.png/130px-Gold_elegant_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pair of men's gold pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Gold elegant shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_elegant_shirt_detail.png/130px-Gold_elegant_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant men's gold shirt.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Gold elegant skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_elegant_skirt_detail.png/130px-Gold_elegant_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant gold skirt.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Gold headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_headband_detail.png/130px-Gold_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
-    "equipmentSlot": "head"
   },
   {
     "name": "Golden tench",
@@ -10810,114 +10354,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Green elegant blouse",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_elegant_blouse_detail.png/130px-Green_elegant_blouse_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant ladies' green blouse.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Green elegant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_elegant_legs_detail.png/130px-Green_elegant_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pair of men's green pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Green elegant shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_elegant_shirt_detail.png/130px-Green_elegant_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant men's green shirt.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Green elegant skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_elegant_skirt_detail.png/130px-Green_elegant_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant green skirt.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Green goblin mail",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_goblin_mail_detail.png/130px-Green_goblin_mail_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": false,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some green armour designed to fit goblins.",
-    "value": 40,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Green hat",
     "category": [
       "Resource",
@@ -10935,28 +10371,6 @@
     ],
     "examine": "A silly green pointed hat.",
     "value": 160,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Green headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_headband_detail.png/130px-Green_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
     "equipmentSlot": "head"
   },
   {
@@ -11266,26 +10680,6 @@
     "examine": "I could never look square in this.",
     "value": 50,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Guam tar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guam_tar_detail.png/130px-Guam_tar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A thick, foul-smelling, tar-like substance with a green tinge.",
-    "value": 3,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Guardian boots",
@@ -11804,209 +11198,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Hallowed focus",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hallowed_focus_detail.png/130px-Hallowed_focus_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Removes the chance of failing to enchant portals within the Hallowed Sepulchre.",
-    "value": 10000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Hallowed grapple",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hallowed_grapple_detail.png/130px-Hallowed_grapple_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Removes the chance of failing a grapple shortcut within the Hallowed Sepulchre.",
-    "value": 100,
-    "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Hallowed hammer",
-    "category": [
-      "Resource",
-      "Weapon",
-      "morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hallowed_hammer_detail.png/130px-Hallowed_hammer_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Removes the chance of bending nails within the Hallowed Sepulchre.",
-    "value": 10000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Ham boots",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_boots_detail.png/130px-Ham_boots_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "HAM boots as worn by the Humans Against Monsters group.",
-    "value": 75,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Ham cloak",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_cloak_detail.png/130px-Ham_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A HAM cape.",
-    "value": 75,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Ham gloves",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_gloves_detail.png/130px-Ham_gloves_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "HAM gloves as worn by the Humans Against Monsters group.",
-    "value": 75,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Ham hood",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_hood_detail.png/130px-Ham_hood_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Light-weight head protection and eye shield.",
-    "value": 75,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Ham logo",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_logo_detail.png/130px-Ham_logo_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A badge for the HAM cult.",
-    "value": 75,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Ham robe",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_robe_detail.png/130px-Ham_robe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The label says 'Vivid Crimson', but it looks pink to me!",
-    "value": 75,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Ham shirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ham_shirt_detail.png/130px-Ham_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The label says 'Vivid Crimson', but it looks pink to me!",
-    "value": 75,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Hard leather shield",
     "category": [
       "Resource",
@@ -12066,46 +11257,6 @@
     "examine": "A pair of gloves.",
     "value": 50,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Harralander tar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Harralander_tar_detail.png/130px-Harralander_tar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A dark, thick, foul-smelling, tar-like substance.",
-    "value": 1,
-    "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Harry's cutlass",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Harry%27s_cutlass_detail.png/130px-Harry%27s_cutlass_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "I hope he doesn't want it back.",
-    "value": 1040,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Hat eyepatch",
@@ -12364,28 +11515,6 @@
     "examine": "A rare hood from Hosidius.",
     "value": 1,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Hosidius scarf",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hosidius_scarf_detail.png/130px-Hosidius_scarf_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A green scarf adorned with an ornamental leaf.",
-    "value": 10000,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Hueycoatl hide body",
@@ -12934,26 +12063,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Irit tar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Irit_tar_detail.png/130px-Irit_tar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A dark, thick, foul-smelling, tar-like substance.",
-    "value": 1,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Iron arrow",
     "category": [
       "Resource",
@@ -13322,26 +12431,6 @@
     "examine": "Dragon crossbow bolts, tipped with jade.",
     "value": 600,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Jade machete",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jade_machete_detail.png/130px-Jade_machete_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A jungle specific slashing device.",
-    "value": 1000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Justiciar chestguard",
@@ -14159,89 +13248,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Lovakengj scarf",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lovakengj_scarf_detail.png/130px-Lovakengj_scarf_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A yellow scarf adorned with an ornamental anvil.",
-    "value": 10000,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Lucky cutlass",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lucky_cutlass_detail.png/130px-Lucky_cutlass_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Feels quite lucky.",
-    "value": 2560,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Lucky shot flag",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lucky_shot_flag_detail.png/130px-Lucky_shot_flag_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The flag of The Lucky Shot.",
-    "value": 400,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Machete",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Machete_detail.png/130px-Machete_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A jungle-specific slashing device.",
-    "value": 40,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Mage's book",
     "category": [
       "Resource",
@@ -14437,26 +13443,6 @@
     "value": 320,
     "equipmentSlot": "shield",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Marrentill tar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Marrentill_tar_detail.png/130px-Marrentill_tar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A thick, foul-smelling, tar-like substance with an orange tinge.",
-    "value": 1,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Mask of ranul",
@@ -15652,26 +14638,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Mud pie",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mud_pie_detail.png/130px-Mud_pie_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "All the good of the earth.",
-    "value": 54,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Mudskipper hat",
     "category": [
       "Resource",
@@ -16620,26 +15586,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Opal machete",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Opal_machete_detail.png/130px-Opal_machete_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A jungle specific slashing device.",
-    "value": 500,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Orange boater",
     "category": [
       "Resource",
@@ -16867,27 +15813,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Phasmatys flag",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Phasmatys_flag_detail.png/130px-Phasmatys_flag_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The flag of The Phasmatys Pride.",
-    "value": 600,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Pheasant boots",
     "category": [
       "Resource",
@@ -17056,114 +15981,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Pink elegant blouse",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pink_elegant_blouse_detail.png/130px-Pink_elegant_blouse_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant ladies' pink blouse.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Pink elegant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pink_elegant_legs_detail.png/130px-Pink_elegant_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pair of men's pink pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Pink elegant shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pink_elegant_shirt_detail.png/130px-Pink_elegant_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant men's pink shirt.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Pink elegant skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pink_elegant_skirt_detail.png/130px-Pink_elegant_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pink skirt.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Pink goblin mail",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pink_goblin_mail_detail.png/130px-Pink_goblin_mail_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": false,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some pink armour designed to fit goblins.",
-    "value": 40,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Pink hat",
     "category": [
       "Resource",
@@ -17181,28 +15998,6 @@
     ],
     "examine": "A silly pink pointed hat.",
     "value": 160,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pink headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pink_headband_detail.png/130px-Pink_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
     "equipmentSlot": "head"
   },
   {
@@ -17411,28 +16206,6 @@
     "examine": "A rare hood from Port Piscarilius.",
     "value": 1,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Piscarilius scarf",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Piscarilius_scarf_detail.png/130px-Piscarilius_scarf_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A blue scarf adorned with a sea shell.",
-    "value": 10000,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Pointed blood'n'tar snelm",
@@ -17723,94 +16496,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Purple elegant blouse",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_elegant_blouse_detail.png/130px-Purple_elegant_blouse_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant ladies' purple blouse.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Purple elegant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_elegant_legs_detail.png/130px-Purple_elegant_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pair of men's purple pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Purple elegant shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_elegant_shirt_detail.png/130px-Purple_elegant_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant men's purple shirt.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Purple elegant skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_elegant_skirt_detail.png/130px-Purple_elegant_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant purple skirt.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Purple gloves",
     "category": [
       "Resource",
@@ -17829,26 +16514,6 @@
     "examine": "These will keep my hands warm!",
     "value": 500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Purple goblin mail",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_goblin_mail_detail.png/130px-Purple_goblin_mail_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": false,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some purple armour designed to fit goblins.",
-    "value": 40,
-    "equipmentSlot": "body"
   },
   {
     "name": "Purple hat",
@@ -18292,94 +16957,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Red elegant blouse",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_elegant_blouse_detail.png/130px-Red_elegant_blouse_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant ladies' red blouse.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Red elegant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_elegant_legs_detail.png/130px-Red_elegant_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant pair of men's red pantaloons.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Red elegant shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_elegant_shirt_detail.png/130px-Red_elegant_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant men's red shirt.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Red elegant skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_elegant_skirt_detail.png/130px-Red_elegant_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant red skirt.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Red gloves",
     "category": [
       "Resource",
@@ -18400,26 +16977,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Red goblin mail",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_goblin_mail_detail.png/130px-Red_goblin_mail_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": false,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some red armour designed to fit goblins.",
-    "value": 40,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Red hat",
     "category": [
       "Resource",
@@ -18437,28 +16994,6 @@
     ],
     "examine": "A silly pointed hat.",
     "value": 500,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Red headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_headband_detail.png/130px-Red_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
     "equipmentSlot": "head"
   },
   {
@@ -18582,26 +17117,6 @@
     "examine": "Vambraces made from 100% real dragonhide. Now with added spikiness.",
     "value": 3600,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Red topaz machete",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_topaz_machete_detail.png/130px-Red_topaz_machete_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A jungle specific slashing device.",
-    "value": 2000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Red tricorn hat",
@@ -20972,28 +19487,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Shayzien scarf",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shayzien_scarf_detail.png/130px-Shayzien_scarf_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A red scarf adorned with a skull.",
-    "value": 10000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Silver bolts",
     "category": [
       "Resource",
@@ -22842,26 +21335,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Tarromin tar",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Tarromin_tar_detail.png/130px-Tarromin_tar_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A thick, foul-smelling, tar-like substance with a red tinge.",
-    "value": 1,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Teacher wand",
     "category": [
       "Resource",
@@ -24584,27 +23057,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Treasure flag",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Treasure_flag_detail.png/130px-Treasure_flag_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The flag of The Treasure Trove.",
-    "value": 500,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Trident of the seas",
     "category": [
       "Resource",
@@ -25819,50 +24271,6 @@
     "defenceRequirement": 10
   },
   {
-    "name": "White elegant blouse",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_elegant_blouse_detail.png/130px-White_elegant_blouse_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A well made elegant ladies' white blouse.",
-    "value": 2000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "White elegant skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_elegant_skirt_detail.png/130px-White_elegant_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rather elegant white skirt.",
-    "value": 2000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "White full helm",
     "category": [
       "Resource",
@@ -25903,28 +24311,6 @@
     "value": 6,
     "equipmentSlot": "hands",
     "defenceRequirement": 10
-  },
-  {
-    "name": "White headband",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_headband_detail.png/130px-White_headband_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A minimalist's hat.",
-    "value": 40,
-    "equipmentSlot": "head"
   },
   {
     "name": "White kiteshield",
@@ -26322,26 +24708,6 @@
     "examine": "These will keep my hands warm!",
     "value": 500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Yellow goblin mail",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Yellow_goblin_mail_detail.png/130px-Yellow_goblin_mail_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": false,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Some yellow armour designed to fit goblins.",
-    "value": 40,
-    "equipmentSlot": "body"
   },
   {
     "name": "Yellow hat",
