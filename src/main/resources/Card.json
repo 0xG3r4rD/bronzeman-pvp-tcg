@@ -1519,116 +1519,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Ankou gloves",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ankou_gloves_detail.png/130px-Ankou_gloves_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "These gloves will make your flesh transparent.",
-    "value": 500000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Ankou mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ankou_mask_detail.png/130px-Ankou_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "This mask will make your flesh transparent.",
-    "value": 500000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Ankou socks",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ankou_socks_detail.png/130px-Ankou_socks_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "These socks will make your flesh transparent.",
-    "value": 500000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Ankou top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ankou_top_detail.png/130px-Ankou_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "This top will make your flesh transparent.",
-    "value": 500000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Ankou's leggings",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ankou%27s_leggings_detail.png/130px-Ankou%27s_leggings_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "These leggings will make your flesh transparent.",
-    "value": 500000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Antler guard",
     "category": [
       "Resource",
@@ -2962,6 +2852,30 @@
     "examine": "For play-fighting.",
     "value": 50,
     "equipmentSlot": "2h"
+  },
+  {
+    "name": "Bear feet",
+    "category": [
+      "Resource",
+      "Armour",
+      "Misthalin",
+      "Asgarnia",
+      "Desert",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bear_feet_detail.png/130px-Bear_feet_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Vicious bear slippers.",
+    "value": 1000,
+    "equipmentSlot": "feet"
   },
   {
     "name": "Beginner wand",
@@ -6805,6 +6719,30 @@
     "equipmentSlot": "shield"
   },
   {
+    "name": "Demon feet",
+    "category": [
+      "Resource",
+      "Armour",
+      "Misthalin",
+      "Asgarnia",
+      "Desert",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Demon_feet_detail.png/130px-Demon_feet_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Vicious demon slippers.",
+    "value": 1000,
+    "equipmentSlot": "feet"
+  },
+  {
     "name": "Demonic sceptre",
     "category": [
       "Resource",
@@ -9851,6 +9789,28 @@
     "defenceRequirement": 30
   },
   {
+    "name": "Fremennik kilt",
+    "category": [
+      "Resource",
+      "Armour",
+      "General",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fremennik_kilt_detail.png/130px-Fremennik_kilt_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A kilt worn by the mightiest of Fremennik warriors.",
+    "value": 60000,
+    "equipmentSlot": "legs"
+  },
+  {
     "name": "Fremennik pink cloak",
     "category": [
       "Resource",
@@ -10051,6 +10011,30 @@
     "examine": "The latest fashion in Rellekka.",
     "value": 250,
     "equipmentSlot": "cape"
+  },
+  {
+    "name": "Frog slippers",
+    "category": [
+      "Resource",
+      "Armour",
+      "Misthalin",
+      "Asgarnia",
+      "Desert",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Frog_slippers_detail.png/130px-Frog_slippers_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Cute frog slippers.",
+    "value": 1000,
+    "equipmentSlot": "feet"
   },
   {
     "name": "Frog-leather body",
@@ -10386,6 +10370,28 @@
     "examine": "A razor sharp rapier, smeared with vampyric blood.",
     "value": 3000000,
     "equipmentSlot": "weapon"
+  },
+  {
+    "name": "Giant boot",
+    "category": [
+      "Resource",
+      "Armour",
+      "General",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Giant_boot_detail.png/130px-Giant_boot_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Worn on head. Warning: Smelly.",
+    "value": 14000,
+    "equipmentSlot": "head"
   },
   {
     "name": "Giant stopwatch",
@@ -16038,6 +16044,30 @@
     "value": 4000,
     "equipmentSlot": "body",
     "defenceRequirement": 50
+  },
+  {
+    "name": "Mole slippers",
+    "category": [
+      "Resource",
+      "Armour",
+      "Misthalin",
+      "Asgarnia",
+      "Desert",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mole_slippers_detail.png/130px-Mole_slippers_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Cute mole slippers.",
+    "value": 1000,
+    "equipmentSlot": "feet"
   },
   {
     "name": "Monk's robe",
