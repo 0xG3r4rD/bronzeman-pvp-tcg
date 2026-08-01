@@ -20,8 +20,8 @@ Card trading through the party plugin is unchanged from upstream.
 
 ## Installing
 
-Grab `Bronzeman-PVP-TCG-1.0.0.jar` from the [latest release](../../releases/latest) (or build it
-yourself with `gradlew jar`) and drop it into RuneLite's sideload folder:
+Grab the jar from the [latest release](../../releases/latest) (or build it yourself with
+`gradlew jar`) and drop it into RuneLite's sideload folder:
 
 ```
 %USERPROFILE%\.runelite\sideloaded-plugins\
@@ -65,6 +65,8 @@ through the Jagex Launcher at all, do the following as well:
 > **Never share `credentials.properties`.** It lets anyone log into your account without your
 > password. Delete it when you are done, and use the *End sessions* option on runescape.com if you
 > think it has leaked.
+
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
 
 ## Credits
 
