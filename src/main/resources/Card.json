@@ -20369,28 +20369,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Rain bow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rain_bow_detail.png/130px-Rain_bow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Short but effective and very colourful.",
-    "value": 500,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Ranger boots",
     "category": [
       "Resource",
