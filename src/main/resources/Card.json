@@ -6075,26 +6075,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Bronze speedrun trophy",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_speedrun_trophy_detail.png/130px-Bronze_speedrun_trophy_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A bronze trophy to show your speedrunning prowess.",
-    "value": 50,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Bronze sq shield",
     "category": [
       "Resource",
@@ -8289,26 +8269,6 @@
     "examine": "A valuable ring.",
     "value": 3525,
     "equipmentSlot": "ring"
-  },
-  {
-    "name": "Diamond speedrun trophy",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diamond_speedrun_trophy_detail.png/130px-Diamond_speedrun_trophy_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A diamond trophy to show your speedrunning prowess.",
-    "value": 50,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Digsite pendant",
@@ -12701,26 +12661,6 @@
     "examine": "A valuable ring.",
     "value": 350,
     "equipmentSlot": "ring"
-  },
-  {
-    "name": "Gold speedrun trophy",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_speedrun_trophy_detail.png/130px-Gold_speedrun_trophy_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A gold trophy to show your speedrunning prowess.",
-    "value": 50,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Golden apron",
@@ -20962,26 +20902,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Platinum speedrun trophy",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Platinum_speedrun_trophy_detail.png/130px-Platinum_speedrun_trophy_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A platinum trophy to show your speedrunning prowess.",
-    "value": 50,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Pointed blood'n'tar snelm",
     "category": [
       "Resource",
@@ -25157,26 +25077,6 @@
     "examine": "It's a silver sickle.",
     "value": 175,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Silver speedrun trophy",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Silver_speedrun_trophy_detail.png/130px-Silver_speedrun_trophy_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A silver trophy to show your speedrunning prowess.",
-    "value": 50,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Skeletal boots",
