@@ -4931,26 +4931,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Blurite crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blurite_crossbow_detail.png/130px-Blurite_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A blurite crossbow.",
-    "value": 93,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Bob's black shirt",
     "category": [
       "Resource",
@@ -5162,27 +5142,6 @@
     "examine": "A spiky mace hardened with Scurrius' spine.",
     "value": 10000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bone shortbow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Misthalin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bone_shortbow_detail.png/130px-Bone_shortbow_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A shortbow made out of yew and Scurrius' spine, but still effective.",
-    "value": 10000,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Bone spear",
@@ -6549,27 +6508,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Comp ogre bow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Comp_ogre_bow_detail.png/130px-Comp_ogre_bow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Check kills",
-      "Drop"
-    ],
-    "examine": "A composite ogre bow.",
-    "value": 180,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Confliction gauntlets",
     "category": [
       "Resource",
@@ -6815,26 +6753,6 @@
     "examine": "The ultimate in gnome design, now in cream!",
     "value": 180,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crossbow_detail.png/130px-Crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "This fires crossbow bolts.",
-    "value": 70,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Crystal body",
@@ -16116,26 +16034,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Longbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Longbow_detail.png/130px-Longbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A nice sturdy bow.",
-    "value": 80,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Lost bag",
     "category": [
       "Resource",
@@ -16463,68 +16361,6 @@
     "defenceRequirement": 60
   },
   {
-    "name": "Maoma's full helm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Maoma%27s_full_helm_detail.png/130px-Maoma%27s_full_helm_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Maoma the Corrupt Captain's full helm.",
-    "value": 16500,
-    "equipmentSlot": "head",
-    "defenceRequirement": 40
-  },
-  {
-    "name": "Maoma's great helm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Maoma%27s_great_helm_detail.png/130px-Maoma%27s_great_helm_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Maoma the Corrupt Captain's great helm.",
-    "value": 21500,
-    "equipmentSlot": "head",
-    "defenceRequirement": 70
-  },
-  {
-    "name": "Maoma's med helm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Maoma%27s_med_helm_detail.png/130px-Maoma%27s_med_helm_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Maoma the Corrupt Captain's med helm.",
-    "value": 11500,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Maple blackjack",
     "category": [
       "Resource",
@@ -16543,26 +16379,6 @@
     "examine": "A solid bit of maple.",
     "value": 1200,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Maple longbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Maple_longbow_detail.png/130px-Maple_longbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A nice sturdy bow made out of Maple.",
-    "value": 640,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Maple shield",
@@ -16584,26 +16400,6 @@
     "value": 320,
     "equipmentSlot": "shield",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Maple shortbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Maple_shortbow_detail.png/130px-Maple_shortbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A shortbow made out of Maple, still effective.",
-    "value": 400,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Marrentill tar",
@@ -18716,26 +18512,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Oak longbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Oak_longbow_detail.png/130px-Oak_longbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A nice sturdy bow made out of oak.",
-    "value": 160,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Oak shield",
     "category": [
       "Resource",
@@ -18755,26 +18531,6 @@
     "value": 80,
     "equipmentSlot": "shield",
     "defenceRequirement": 10
-  },
-  {
-    "name": "Oak shortbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Oak_shortbow_detail.png/130px-Oak_shortbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A shortbow made out of oak, still effective.",
-    "value": 100,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Oathplate chest",
@@ -24026,26 +23782,6 @@
     "examine": "A red scarf adorned with a skull.",
     "value": 10000,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Shortbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shortbow_detail.png/130px-Shortbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Short but effective.",
-    "value": 50,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Shoulder parrot",
@@ -29534,48 +29270,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Willow comp bow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Willow_comp_bow_detail.png/130px-Willow_comp_bow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A powerful bow made from willow wood.",
-    "value": 300,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Willow longbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Willow_longbow_detail.png/130px-Willow_longbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A nice sturdy bow made out of willow.",
-    "value": 320,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Willow shield",
     "category": [
       "Resource",
@@ -29595,27 +29289,6 @@
     "value": 160,
     "equipmentSlot": "shield",
     "defenceRequirement": 30
-  },
-  {
-    "name": "Willow shortbow",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Willow_shortbow_detail.png/130px-Willow_shortbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A shortbow made out of willow, still effective.",
-    "value": 200,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Witchwood icon",
