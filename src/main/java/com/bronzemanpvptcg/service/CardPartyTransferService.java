@@ -315,7 +315,7 @@ public class CardPartyTransferService
 	}
 
 	@Subscribe
-	public void onTcgCardGiftPartyMessage(BpvpCardGiftPartyMessage msg)
+	public void onBpvpCardGiftPartyMessage(BpvpCardGiftPartyMessage msg)
 	{
 		if (msg == null || msg.getTransferId() == null || msg.getTransferId().isEmpty())
 		{
@@ -406,7 +406,7 @@ public class CardPartyTransferService
 	}
 
 	@Subscribe
-	public void onTcgCardGiftResponsePartyMessage(BpvpCardGiftResponsePartyMessage msg)
+	public void onBpvpCardGiftResponsePartyMessage(BpvpCardGiftResponsePartyMessage msg)
 	{
 		if (msg == null || msg.getTransferId() == null || msg.getTransferId().isEmpty())
 		{

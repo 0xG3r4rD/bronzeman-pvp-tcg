@@ -375,7 +375,7 @@ public class OsrsTcgPlugin extends Plugin
 	}
 
 	@Subscribe
-	public void onTcgPullPartyMessage(BpvpPullPartyMessage message)
+	public void onBpvpPullPartyMessage(BpvpPullPartyMessage message)
 	{
 		if (!config.partyAnnounceMythicPulls())
 		{
@@ -409,7 +409,7 @@ public class OsrsTcgPlugin extends Plugin
 	}
 
 	@Subscribe
-	public void onTcgCollectionSetCompletePartyMessage(BpvpCollectionSetCompletePartyMessage message)
+	public void onBpvpCollectionSetCompletePartyMessage(BpvpCollectionSetCompletePartyMessage message)
 	{
 		if (!config.partyAnnounceMythicPulls())
 		{
@@ -438,7 +438,7 @@ public class OsrsTcgPlugin extends Plugin
 	}
 
 	@Subscribe
-	public void onTcgChatStatsPartyMessage(BpvpChatStatsPartyMessage message)
+	public void onBpvpChatStatsPartyMessage(BpvpChatStatsPartyMessage message)
 	{
 		if (message == null)
 		{

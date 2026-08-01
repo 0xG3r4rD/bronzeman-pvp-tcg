@@ -941,7 +941,7 @@ public class CardPartyTradeService
 	}
 
 	@Subscribe
-	public void onTcgTradeInvitePartyMessage(BpvpTradeInvitePartyMessage msg)
+	public void onBpvpTradeInvitePartyMessage(BpvpTradeInvitePartyMessage msg)
 	{
 		if (msg == null || msg.getTradeId() == null || msg.getTradeId().isEmpty())
 		{
@@ -956,7 +956,7 @@ public class CardPartyTradeService
 	}
 
 	@Subscribe
-	public void onTcgTradeInviteResponsePartyMessage(BpvpTradeInviteResponsePartyMessage msg)
+	public void onBpvpTradeInviteResponsePartyMessage(BpvpTradeInviteResponsePartyMessage msg)
 	{
 		if (msg == null || msg.getTradeId() == null || msg.getTradeId().isEmpty())
 		{
@@ -971,7 +971,7 @@ public class CardPartyTradeService
 	}
 
 	@Subscribe
-	public void onTcgTradeInviteAckPartyMessage(BpvpTradeInviteAckPartyMessage msg)
+	public void onBpvpTradeInviteAckPartyMessage(BpvpTradeInviteAckPartyMessage msg)
 	{
 		if (msg == null || msg.getTradeId() == null || msg.getTradeId().isEmpty())
 		{
@@ -986,7 +986,7 @@ public class CardPartyTradeService
 	}
 
 	@Subscribe
-	public void onTcgTradeOfferDeltaPartyMessage(BpvpTradeOfferDeltaPartyMessage msg)
+	public void onBpvpTradeOfferDeltaPartyMessage(BpvpTradeOfferDeltaPartyMessage msg)
 	{
 		if (msg == null || msg.getTradeId() == null || msg.getTradeId().isEmpty())
 		{
@@ -1001,7 +1001,7 @@ public class CardPartyTradeService
 	}
 
 	@Subscribe
-	public void onTcgTradeReadyPartyMessage(BpvpTradeReadyPartyMessage msg)
+	public void onBpvpTradeReadyPartyMessage(BpvpTradeReadyPartyMessage msg)
 	{
 		if (msg == null || msg.getTradeId() == null || msg.getTradeId().isEmpty())
 		{
@@ -1016,7 +1016,7 @@ public class CardPartyTradeService
 	}
 
 	@Subscribe
-	public void onTcgTradeCancelPartyMessage(BpvpTradeCancelPartyMessage msg)
+	public void onBpvpTradeCancelPartyMessage(BpvpTradeCancelPartyMessage msg)
 	{
 		if (msg == null || msg.getTradeId() == null || msg.getTradeId().isEmpty())
 		{
@@ -1031,7 +1031,7 @@ public class CardPartyTradeService
 	}
 
 	@Subscribe
-	public void onTcgTradeCommitPartyMessage(BpvpTradeCommitPartyMessage msg)
+	public void onBpvpTradeCommitPartyMessage(BpvpTradeCommitPartyMessage msg)
 	{
 		if (msg == null || msg.getTradeId() == null || msg.getTradeId().isEmpty())
 		{
