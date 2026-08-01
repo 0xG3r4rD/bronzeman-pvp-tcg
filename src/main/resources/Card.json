@@ -4083,6 +4083,27 @@
     "equipmentSlot": "head"
   },
   {
+    "name": "Blade of saeldor",
+    "category": [
+      "Resource",
+      "Weapon",
+      "Tirannwn"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blade_of_saeldor_detail.png/130px-Blade_of_saeldor_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "A magical elven sword.",
+    "value": 2500000,
+    "equipmentSlot": "weapon"
+  },
+  {
     "name": "Blessed dizana's quiver",
     "category": [
       "Resource",
@@ -5269,6 +5290,27 @@
     "examine": "A pair of heat resistant boots with rocky soles.",
     "value": 200,
     "equipmentSlot": "feet"
+  },
+  {
+    "name": "Bow of faerdhinen",
+    "category": [
+      "Resource",
+      "Weapon",
+      "Tirannwn"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bow_of_faerdhinen_detail.png/130px-Bow_of_faerdhinen_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "A magical elven bow.",
+    "value": 2500000,
+    "equipmentSlot": "2h"
   },
   {
     "name": "Bowl wig",
