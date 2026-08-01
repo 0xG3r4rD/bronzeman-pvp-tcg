@@ -274,6 +274,7 @@ public class OsrsTcgPlugin extends Plugin
 		eventBus.unregister(creditAwardService);
 		eventBus.unregister(pvpKillCreditTracker);
 		eventBus.unregister(bronzemanEquipLockService);
+		bronzemanEquipLockService.shutdown();
 		eventBus.unregister(cardPartyTransferService);
 		eventBus.unregister(cardPartyTradeService);
 		eventBus.unregister(playerCombatMonitor);
