@@ -1,0 +1,76 @@
+package com.bronzemanpvptcg.ui.collectionalbum;
+
+import com.bronzemanpvptcg.data.CardDefinition;
+import com.bronzemanpvptcg.service.RarityMath;
+import com.bronzemanpvptcg.ui.SharedCardRenderer;
+import java.awt.Color;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Rarity colors for the collection album; tiers come from {@link RarityMath#displayTierByCardName(List)} (same as pack reveal).
+ * Prefer {@link #fromColorByCardName(Map)} when colours were already computed at catalog load.
+ */
+public final class AlbumRarityTable
+{
+	private final Map<String, Color> colorByCardName;
+
+	private AlbumRarityTable(Map<String, Color> colorByCardName)
+	{
+		this.colorByCardName = colorByCardName;
+	}
+
+	/**
+	 * Wraps a precomputed colour map (exact card-name keys) without copying. Prefer this over
+	 * {@link #build(List)} when colours were already produced at catalog load. Caller must not mutate
+	 * the map afterward (e.g. {@link com.bronzemanpvptcg.data.CardDatabase#displayRarityColorsByCardName()}).
+	 */
+	public static AlbumRarityTable fromColorByCardName(Map<String, Color> colorByCardName)
+	{
+		if (colorByCardName == null || colorByCardName.isEmpty())
+		{
+			return new AlbumRarityTable(Map.of());
+		}
+		return new AlbumRarityTable(colorByCardName);
+	}
+
+	public static AlbumRarityTable build(List<CardDefinition> allCards)
+	{
+		Map<String, Color> map = new HashMap<>();
+		if (allCards == null || allCards.isEmpty())
+		{
+			return new AlbumRarityTable(map);
+		}
+
+		Map<String, RarityMath.Tier> tierByName = RarityMath.displayTierByCardName(allCards);
+		for (CardDefinition card : allCards)
+		{
+			if (card == null || card.getName() == null || card.getName().trim().isEmpty())
+			{
+				continue;
+			}
+			RarityMath.Tier tier = tierByName.getOrDefault(card.getName(), RarityMath.Tier.COMMON);
+			map.put(card.getName(), tier.getColor());
+		}
+		return new AlbumRarityTable(map);
+	}
+
+	public Color colorForCardName(String cardName)
+	{
+		if (cardName == null)
+		{
+			return Color.WHITE;
+		}
+		return colorByCardName.getOrDefault(cardName, Color.WHITE);
+	}
+
+	public String tierLabelForCard(CardDefinition card)
+	{
+		if (card == null || card.getName() == null)
+		{
+			return "Common";
+		}
+		return SharedCardRenderer.tierLabelForRarityColor(colorForCardName(card.getName()));
+	}
+}

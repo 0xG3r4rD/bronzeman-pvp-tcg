@@ -1,0 +1,167 @@
+package com.bronzemanpvptcg.service;
+
+import com.bronzemanpvptcg.data.CardDatabase;
+import com.bronzemanpvptcg.data.CardDefinition;
+import com.bronzemanpvptcg.model.CardCollectionKey;
+import com.bronzemanpvptcg.model.CollectionState;
+import com.bronzemanpvptcg.model.TcgPublicStats;
+import com.bronzemanpvptcg.model.TcgState;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import javax.inject.Inject;
+import javax.inject.Singleton;
+
+/**
+ * Computes the same collection overview numbers as the plugin panel (roll pool, owned map, score rules).
+ */
+@Singleton
+public class TcgPublicStatsCalculator
+{
+	private final TcgStateService stateService;
+	private final CardDatabase cardDatabase;
+
+	@Inject
+	public TcgPublicStatsCalculator(TcgStateService stateService, CardDatabase cardDatabase)
+	{
+		this.stateService = stateService;
+		this.cardDatabase = cardDatabase;
+	}
+
+	public TcgPublicStats computeLive()
+	{
+		Map<CardCollectionKey, Integer> owned;
+		long openedPacks;
+		boolean customRates;
+		synchronized (stateService)
+		{
+			TcgState s = stateService.getState();
+			owned = new HashMap<>(s.getCollectionState().getOwnedCards());
+			openedPacks = s.getEconomyState().getOpenedPacks();
+			customRates = !s.getRewardTuning().isDefault();
+		}
+		return compute(owned, openedPacks, customRates);
+	}
+
+	/**
+	 * Public web-share stats: same rules as {@link #computeLive()}, but owned quantities exclude
+	 * {@code DEBUG_} provenance rows so stats match the cards array that is uploaded.
+	 */
+	public TcgPublicStats computeForShare(CollectionState collectionState)
+	{
+		CollectionState shareSafe = collectionState == null
+			? CollectionState.empty()
+			: collectionState.withoutDebugProvenanceRows();
+		Map<CardCollectionKey, Integer> owned = new HashMap<>(shareSafe.getOwnedCards());
+		long openedPacks;
+		boolean customRates;
+		synchronized (stateService)
+		{
+			TcgState s = stateService.getState();
+			openedPacks = s.getEconomyState().getOpenedPacks();
+			customRates = !s.getRewardTuning().isDefault();
+		}
+		return compute(owned, openedPacks, customRates);
+	}
+
+	TcgPublicStats compute(Map<CardCollectionKey, Integer> owned, long openedPacks, boolean customRates)
+	{
+		List<CardDefinition> all = cardDatabase.getCards();
+		List<CardDefinition> rollPool = RollPoolFilter.filterRollPool(all);
+
+		Set<String> rollPoolNames = new HashSet<>();
+		for (CardDefinition c : rollPool)
+		{
+			if (c != null && c.getName() != null)
+			{
+				rollPoolNames.add(c.getName());
+			}
+		}
+
+		int uniqueOwned = (int) collectedNamesFromOwned(owned).stream()
+			.filter(rollPoolNames::contains)
+			.count();
+		int totalCardsOwned = owned.entrySet().stream()
+			.filter(e -> e.getKey().getCardName() != null && rollPoolNames.contains(e.getKey().getCardName()))
+			.mapToInt(e -> e.getValue() == null ? 0 : e.getValue())
+			.sum();
+		int uniqueFoilOwned = (int) owned.keySet().stream()
+			.filter(k -> k.isFoil()
+				&& k.getCardName() != null
+				&& rollPoolNames.contains(k.getCardName()))
+			.filter(k ->
+			{
+				Integer qty = owned.get(k);
+				return qty != null && qty > 0;
+			})
+			.count();
+		int totalCardPool = rollPool.size();
+		double completionPct = totalCardPool <= 0 ? 0.0d : (100.0d * uniqueOwned) / totalCardPool;
+		double foilCompletionPct = totalCardPool <= 0 ? 0.0d : (100.0d * uniqueFoilOwned) / totalCardPool;
+
+		Set<String> collectedNames = collectedNamesFromOwned(owned);
+		Map<String, CardDefinition> defByLower = new HashMap<>();
+		for (CardDefinition c : all)
+		{
+			if (c != null && c.getName() != null)
+			{
+				defByLower.putIfAbsent(c.getName().toLowerCase(Locale.ROOT), c);
+			}
+		}
+		long collectionScore = 0L;
+		for (String cardName : collectedNames)
+		{
+			if (cardName == null || !rollPoolNames.contains(cardName))
+			{
+				continue;
+			}
+			CardDefinition def = defByLower.get(cardName.toLowerCase(Locale.ROOT));
+			if (def == null)
+			{
+				continue;
+			}
+			boolean hasFoil = hasFoilOwned(owned, cardName);
+			collectionScore += hasFoil ? RarityMath.foilAdjustedScoreRounded(def) : Math.round(RarityMath.score(def));
+		}
+
+		return new TcgPublicStats(collectionScore, completionPct, uniqueOwned, uniqueFoilOwned, foilCompletionPct,
+			totalCardPool, openedPacks, totalCardsOwned, customRates);
+	}
+
+	private static Set<String> collectedNamesFromOwned(Map<CardCollectionKey, Integer> owned)
+	{
+		Map<String, Integer> ownedQtyByName = new HashMap<>();
+		for (Map.Entry<CardCollectionKey, Integer> entry : owned.entrySet())
+		{
+			String cardName = entry.getKey().getCardName();
+			if (cardName == null)
+			{
+				continue;
+			}
+			int qty = entry.getValue() == null ? 0 : entry.getValue();
+			ownedQtyByName.merge(cardName, qty, Integer::sum);
+		}
+		Set<String> collectedNames = new HashSet<>();
+		for (Map.Entry<String, Integer> entry : ownedQtyByName.entrySet())
+		{
+			if (entry.getValue() != null && entry.getValue() > 0)
+			{
+				collectedNames.add(entry.getKey());
+			}
+		}
+		return collectedNames;
+	}
+
+	private static boolean hasFoilOwned(Map<CardCollectionKey, Integer> owned, String cardName)
+	{
+		if (cardName == null)
+		{
+			return false;
+		}
+		Integer n = owned.get(new CardCollectionKey(cardName, true));
+		return n != null && n > 0;
+	}
+}
