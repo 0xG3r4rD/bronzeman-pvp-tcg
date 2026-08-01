@@ -100,46 +100,11 @@ public class TcgPanel extends PluginPanel
 	private static final String REWARD_TUNING_NON_DEFAULT_TRADE_WARNING =
 		"Your settings do not match the defaults. You will not be able to trade with other players unless their settings match with you!";
 
-	private static final String TCG_WELCOME_HEADER = "Welcome to OSRS TCG";
-
-	private static final String TCG_WELCOME_BODY =
-		"A card collecting game where you earn credits by gaining xp, leveling up and killing things. "
-			+ "The plugin features trading cards with other players through party integration. "
-			+ "Trading with other players requires matching plugin settings and the multipliers for receiving credits are locked in after you start "
-			+ "so it is adviced to keep everything as default and debug mode off. "
-			+ "If you want to change these settings later on, you must reset your collection and start from nothing.";
-
-	private static final String TCG_WELCOME_TCG_COMMAND_BODY =
-		"Type !tcg in chat to share your collection stats";
-
-	private static final String TCG_WELCOME_CARD_VALUES_BODY =
-		"Card score values are based on each item's in-game value data. They do not reflect the real value of items relative to one another accurately; "
-			+ "matching true market prices would require a lot of manual work.";
-
-	private static final String TCG_WELCOME_BETA_BODY =
-		"OSRS TCG is still in beta. More booster packs, features, and content are planned for future updates.";
-
-	private static final String TCG_WELCOME_COLLECTION_RESET_BODY =
-		"The planned force wipe of beta collections has been cancelled. When the full release update ships, there will be a "
-			+ "clear distinction between beta collections and collections started after the update. Existing beta "
-			+ "collections will keep their cards and credits and will be able to still open packs, but will no longer be "
-			+ "able to trade with other players unless the collection is manually reset using the sidebar panel after the "
-			+ "update. A date for this change has not been specified yet.";
-
-	private static final String TCG_WELCOME_DISCLAIMER_HEADER = "Disclaimer";
-
-	private static final String TCG_WELCOME_DISCLAIMER_BODY =
-		"This plugin is a fan-made minigame for fun only. Cards have no real-world or in-game monetary value and are not intended to be "
-			+ "bought, sold, or traded for real money, bonds, gold, items, or any other goods or services.\n\n"
-			+ "Do not pay for cards or collections, and do not accept payment from others for them. If someone offers to sell you cards or asks you "
-			+ "to pay for theirs, decline and report them if appropriate.\n\n"
-			+ "Trading cards with other players is done at your own risk.";
 
 	private static final String PATREON_URL = "https://www.patreon.com/Azderi";
 
 	private enum Tab
 	{
-		WELCOME("Welcome"),
 		OVERVIEW("Overview"),
 		SHOP("Shop");
 
@@ -169,10 +134,8 @@ public class TcgPanel extends PluginPanel
 	private final JPanel mainPanel = new JPanel();
 	private final JPanel content = new JPanel();
 	private final CardLayout contentLayout = new CardLayout();
-	private final JPanel welcomeContent = new JPanel();
 	private final JPanel overviewContent = new JPanel();
 	private final JPanel packsContent = new JPanel();
-	private final JScrollPane welcomeScrollPane = new JScrollPane(welcomeContent);
 	private final JScrollPane shopScrollPane = new JScrollPane(packsContent);
 	private final JPanel footerPanel = new JPanel();
 	private final JPanel patreonFooterWrap = new JPanel(new BorderLayout(0, 0));
@@ -182,7 +145,6 @@ public class TcgPanel extends PluginPanel
 	private final JPanel resetFooterWrap = new JPanel(new BorderLayout(0, 0));
 	private final JPanel titlePanel;
 	private final JComponent webShareLiveIndicator;
-	private final JButton welcomeTabButton = new JButton(Tab.WELCOME.getLabel());
 	private final JButton overviewTabButton = new JButton(Tab.OVERVIEW.getLabel());
 	private final JButton shopTabButton = new JButton(Tab.SHOP.getLabel());
 	private final Map<String, Long> scoreByCardName = new HashMap<>();
@@ -197,7 +159,6 @@ public class TcgPanel extends PluginPanel
 	/** While a pack is opening, sidebar stats use this pre-transaction snapshot so pulls are not spoiled. */
 	private PackCloseSnapshot sidebarRevealSpoilerFreeze;
 	/** During an active reveal, each tab is built at most once from {@link #sidebarRevealSpoilerFreeze}. */
-	private boolean welcomeBuiltForActiveReveal;
 	private boolean overviewBuiltForActiveReveal;
 	private boolean shopBuiltForActiveReveal;
 
@@ -248,15 +209,11 @@ public class TcgPanel extends PluginPanel
 		content.setLayout(contentLayout);
 		content.setOpaque(false);
 		content.setMinimumSize(new Dimension(0, 0));
-		welcomeContent.setLayout(new BorderLayout());
-		welcomeContent.setOpaque(false);
 		initializeTabContentPanel(overviewContent);
 		initializeTabContentPanel(packsContent);
-		content.add(welcomeScrollPane, Tab.WELCOME.name());
 		content.add(overviewContent, Tab.OVERVIEW.name());
 		content.add(shopScrollPane, Tab.SHOP.name());
 
-		configureTabScrollPane(welcomeScrollPane);
 		configureTabScrollPane(shopScrollPane);
 
 		populateFooterPanel();
@@ -339,7 +296,6 @@ public class TcgPanel extends PluginPanel
 
 	public void stop()
 	{
-		welcomeContent.removeAll();
 		overviewContent.removeAll();
 		packsContent.removeAll();
 		mainPanel.revalidate();
@@ -374,7 +330,7 @@ public class TcgPanel extends PluginPanel
 		clearPackRevealSidebarFreeze();
 		creditAwardService.resetExperienceCreditBaseline();
 		syncRewardDraftFromPersistent();
-		selectedTab = Tab.WELCOME;
+		selectedTab = Tab.OVERVIEW;
 		resetSessionUi();
 		if (client != null)
 		{
@@ -462,13 +418,6 @@ public class TcgPanel extends PluginPanel
 			return;
 		}
 		ensureRootAttached();
-		if (shouldShowLoggedOutPrompt())
-		{
-			showLoggedOutWelcome();
-			mainPanel.revalidate();
-			mainPanel.repaint();
-			return;
-		}
 		footerPanel.setVisible(true);
 		applyDefaultTabSelectionOnce();
 		updateTabStyles();
@@ -483,12 +432,6 @@ public class TcgPanel extends PluginPanel
 			packsContent.removeAll();
 			renderPacksTabFromPackClose(packsContent, snap, shopRows);
 			showTabContent(Tab.SHOP);
-		}
-		else if (selectedTab == Tab.WELCOME)
-		{
-			welcomeContent.removeAll();
-			renderWelcomeTab(welcomeContent);
-			showTabContent(Tab.WELCOME);
 		}
 		else
 		{
@@ -522,13 +465,6 @@ public class TcgPanel extends PluginPanel
 		}
 		ensureRootAttached();
 		updateWebShareLiveIndicator();
-		if (shouldShowLoggedOutPrompt())
-		{
-			showLoggedOutWelcome();
-			mainPanel.revalidate();
-			mainPanel.repaint();
-			return;
-		}
 		footerPanel.setVisible(true);
 		applyDefaultTabSelectionOnce();
 		updateTabStyles();
@@ -561,8 +497,7 @@ public class TcgPanel extends PluginPanel
 			return;
 		}
 		defaultTabSelectionInitialized = true;
-		long openedPacks = stateService.getState().getEconomyState().getOpenedPacks();
-		selectedTab = openedPacks == 0 ? Tab.WELCOME : Tab.OVERVIEW;
+		selectedTab = Tab.OVERVIEW;
 	}
 
 	private void populateFooterPanel()
@@ -620,23 +555,7 @@ public class TcgPanel extends PluginPanel
 		updateFooterVisibility();
 	}
 
-	private boolean shouldShowLoggedOutPrompt()
-	{
-		if (!isShowing())
-		{
-			return false;
-		}
-		return !isClientInGameWorld();
-	}
 
-	private void showLoggedOutWelcome()
-	{
-		selectedTab = Tab.WELCOME;
-		updateTabStyles();
-		welcomeContent.removeAll();
-		renderWelcomeTab(welcomeContent);
-		showTabContent(Tab.WELCOME);
-	}
 
 	/**
 	 * {@link GameState#LOGGED_IN} is the normal case; {@link Client#getLocalPlayer()} covers brief or client-specific
@@ -695,10 +614,9 @@ public class TcgPanel extends PluginPanel
 		titleRow.add(titleLabel, BorderLayout.CENTER);
 		titleRow.add(rightSlot, BorderLayout.EAST);
 
-		JPanel tabWrapper = new JPanel(new GridLayout(1, 3));
+		JPanel tabWrapper = new JPanel(new GridLayout(1, 2));
 		tabWrapper.setOpaque(false);
 		tabWrapper.setBorder(new EmptyBorder(2, 0, 0, 0));
-		tabWrapper.add(configureTabButton(welcomeTabButton, Tab.WELCOME));
 		tabWrapper.add(configureTabButton(overviewTabButton, Tab.OVERVIEW));
 		tabWrapper.add(configureTabButton(shopTabButton, Tab.SHOP));
 
@@ -857,7 +775,6 @@ public class TcgPanel extends PluginPanel
 
 	private void updateTabStyles()
 	{
-		applyTabStyle(welcomeTabButton, selectedTab == Tab.WELCOME);
 		applyTabStyle(overviewTabButton, selectedTab == Tab.OVERVIEW);
 		applyTabStyle(shopTabButton, selectedTab == Tab.SHOP);
 		updateFooterVisibility();
@@ -866,11 +783,10 @@ public class TcgPanel extends PluginPanel
 	private void updateFooterVisibility()
 	{
 		boolean inWorld = isClientInGameWorld();
-		boolean showPatreon = selectedTab == Tab.WELCOME;
 
 		footerPanel.setVisible(true);
-		patreonFooterWrap.setVisible(showPatreon);
-		patreonFooterSpacer.setVisible(showPatreon && inWorld);
+		patreonFooterWrap.setVisible(false);
+		patreonFooterSpacer.setVisible(false);
 		albumFooterWrap.setVisible(inWorld);
 		albumFooterSpacer.setVisible(inWorld);
 		resetFooterWrap.setVisible(inWorld);
@@ -887,17 +803,6 @@ public class TcgPanel extends PluginPanel
 		if (packRevealService.isActive() && sidebarRevealSpoilerFreeze != null)
 		{
 			JPanel activePanel = panelForTab(selectedTab);
-			if (selectedTab == Tab.WELCOME)
-			{
-				if (!welcomeBuiltForActiveReveal)
-				{
-					activePanel.removeAll();
-					renderWelcomeTab(activePanel);
-					welcomeBuiltForActiveReveal = true;
-				}
-				showTabContent(selectedTab);
-				return;
-			}
 			if (selectedTab == Tab.OVERVIEW)
 			{
 				if (!overviewBuiltForActiveReveal)
@@ -929,9 +834,6 @@ public class TcgPanel extends PluginPanel
 		activePanel.removeAll();
 		switch (selectedTab)
 		{
-			case WELCOME:
-				renderWelcomeTab(activePanel);
-				break;
 			case OVERVIEW:
 				renderOverviewTab(activePanel);
 				break;
@@ -964,8 +866,6 @@ public class TcgPanel extends PluginPanel
 	{
 		switch (tab)
 		{
-			case WELCOME:
-				return welcomeContent;
 			case OVERVIEW:
 				return overviewContent;
 			case SHOP:
@@ -975,11 +875,6 @@ public class TcgPanel extends PluginPanel
 		}
 	}
 
-	private void renderWelcomeTab(JPanel target)
-	{
-		int w = liveSidebarContentWidth();
-		target.add(buildTcgWelcomeBlurb(w), BorderLayout.NORTH);
-	}
 
 	private void renderOverviewTab(JPanel target)
 	{
@@ -1079,7 +974,6 @@ public class TcgPanel extends PluginPanel
 	public void beginPackRevealSidebarFreeze()
 	{
 		sidebarRevealSpoilerFreeze = capturePackCloseSnapshot();
-		welcomeBuiltForActiveReveal = false;
 		overviewBuiltForActiveReveal = false;
 		shopBuiltForActiveReveal = false;
 	}
@@ -1087,7 +981,6 @@ public class TcgPanel extends PluginPanel
 	public void clearPackRevealSidebarFreeze()
 	{
 		sidebarRevealSpoilerFreeze = null;
-		welcomeBuiltForActiveReveal = false;
 		overviewBuiltForActiveReveal = false;
 		shopBuiltForActiveReveal = false;
 	}
@@ -1391,97 +1284,10 @@ public class TcgPanel extends PluginPanel
 		return ta;
 	}
 
-	private static JTextPane buildWelcomeTextArea(int contentMaxW, String text, int topGap)
-	{
-		return buildWelcomeTextArea(contentMaxW, text, topGap, new Color(0xBBBBBB), 0);
-	}
 
-	private static JTextPane buildWelcomeTextArea(int contentMaxW, String text, int topGap, int bottomGap)
-	{
-		return buildWelcomeTextArea(contentMaxW, text, topGap, new Color(0xBBBBBB), bottomGap);
-	}
 
-	private static JTextPane buildWelcomeTextArea(int contentMaxW, String text, int topGap, Color foreground)
-	{
-		return buildWelcomeTextArea(contentMaxW, text, topGap, foreground, 0);
-	}
 
-	private static JTextPane buildWelcomeTextArea(int contentMaxW, String text, int topGap, Color foreground, int bottomGap)
-	{
-		int w = Math.max(1, contentMaxW);
-		JTextPane tp = new JTextPane();
-		tp.setEditable(false);
-		tp.setOpaque(false);
-		tp.setFocusable(false);
-		tp.setForeground(foreground);
-		tp.setFont(FontManager.getRunescapeSmallFont());
-		tp.setText(text);
-		tp.setBorder(new EmptyBorder(topGap, 0, bottomGap, 0));
-		tp.setAlignmentX(CENTER_ALIGNMENT);
 
-		SimpleAttributeSet attrs = new SimpleAttributeSet();
-		StyleConstants.setAlignment(attrs, StyleConstants.ALIGN_CENTER);
-		StyleConstants.setFontFamily(attrs, tp.getFont().getFamily());
-		StyleConstants.setFontSize(attrs, tp.getFont().getSize());
-		StyleConstants.setForeground(attrs, foreground);
-		StyledDocument doc = tp.getStyledDocument();
-		doc.setParagraphAttributes(0, doc.getLength(), attrs, false);
-		doc.setCharacterAttributes(0, doc.getLength(), attrs, false);
-
-		tp.setSize(w, Short.MAX_VALUE);
-		int bodyH = tp.getPreferredSize().height;
-		tp.setPreferredSize(new Dimension(w, bodyH));
-		tp.setMaximumSize(new Dimension(w, bodyH));
-		return tp;
-	}
-
-	private static JPanel buildTcgWelcomeBlurb(int contentMaxW)
-	{
-		int w = Math.max(1, contentMaxW);
-
-		JPanel wrap = new JPanel();
-		wrap.setLayout(new BoxLayout(wrap, BoxLayout.Y_AXIS));
-		wrap.setOpaque(false);
-		wrap.setAlignmentX(CENTER_ALIGNMENT);
-		wrap.setBorder(new EmptyBorder(8, 0, 0, 0));
-
-		JLabel head = new JLabel(TCG_WELCOME_HEADER);
-		head.setForeground(Color.WHITE);
-		head.setFont(FontManager.getRunescapeBoldFont());
-		head.setHorizontalAlignment(SwingConstants.CENTER);
-		head.setAlignmentX(CENTER_ALIGNMENT);
-		wrap.add(head);
-
-		wrap.add(buildWelcomeTextArea(w, TCG_WELCOME_BODY, 6));
-
-		JButton discordButton = createDiscordButton(w);
-		if (discordButton != null)
-		{
-			discordButton.setAlignmentX(CENTER_ALIGNMENT);
-			wrap.add(Box.createRigidArea(new Dimension(0, 8)));
-			wrap.add(discordButton);
-		}
-
-		wrap.add(buildWelcomeTextArea(w, TCG_WELCOME_TCG_COMMAND_BODY, 10));
-		wrap.add(buildWelcomeTextArea(w, TCG_WELCOME_CARD_VALUES_BODY, 10));
-		wrap.add(buildWelcomeTextArea(w, TCG_WELCOME_BETA_BODY, 10));
-		wrap.add(buildWelcomeTextArea(w, TCG_WELCOME_COLLECTION_RESET_BODY, 10, Color.YELLOW));
-
-		JLabel disclaimerHead = new JLabel(TCG_WELCOME_DISCLAIMER_HEADER);
-		disclaimerHead.setForeground(Color.WHITE);
-		disclaimerHead.setFont(FontManager.getRunescapeBoldFont());
-		disclaimerHead.setHorizontalAlignment(SwingConstants.CENTER);
-		disclaimerHead.setAlignmentX(CENTER_ALIGNMENT);
-		disclaimerHead.setBorder(new EmptyBorder(10, 0, 0, 0));
-		wrap.add(disclaimerHead);
-
-		wrap.add(buildWelcomeTextArea(w, TCG_WELCOME_DISCLAIMER_BODY, 6, 6));
-
-		int totalH = wrap.getPreferredSize().height;
-		wrap.setPreferredSize(new Dimension(w, totalH));
-		wrap.setMaximumSize(new Dimension(w, totalH));
-		return wrap;
-	}
 
 	private void persistDebugLogging(boolean enabled)
 	{
@@ -1507,7 +1313,7 @@ public class TcgPanel extends PluginPanel
 	 */
 	private int liveSidebarContentWidth()
 	{
-		int viewportWidth = Math.max(welcomeScrollPane.getViewport().getWidth(), shopScrollPane.getViewport().getWidth());
+		int viewportWidth = shopScrollPane.getViewport().getWidth();
 		if (viewportWidth > 0)
 		{
 			return Math.max(80, viewportWidth - TAB_SCROLLBAR_GAP);
@@ -2288,33 +2094,4 @@ public class TcgPanel extends PluginPanel
 		return button;
 	}
 
-	private static JButton createDiscordButton(int contentMaxW)
-	{
-		URL imgUrl = TcgPanel.class.getResource("/Discord-Logo-White.png");
-		if (imgUrl != null)
-		{
-			int buttonH = 36;
-			int hPad = 14;
-			int vPad = 8;
-
-			ImageIcon rawIcon = new ImageIcon(imgUrl);
-			int iconH = buttonH - (2 * vPad);
-			int iconW = Math.max(1, Math.round(iconH * (rawIcon.getIconWidth() / (float) rawIcon.getIconHeight())));
-			Image scaled = rawIcon.getImage().getScaledInstance(iconW, iconH, Image.SCALE_SMOOTH);
-
-			var discordButton = new JButton(new ImageIcon(scaled));
-			discordButton.setToolTipText("Join our Discord!");
-			discordButton.setBorder(new CompoundBorder(
-				new MatteBorder(1, 1, 1, 1, ColorScheme.LIGHT_GRAY_COLOR.darker()),
-				new EmptyBorder(vPad, hPad, vPad, hPad)
-			));
-			Dimension size = new Dimension(Math.max(1, contentMaxW), buttonH);
-			discordButton.setPreferredSize(size);
-			discordButton.setMaximumSize(size);
-			discordButton.addActionListener(e -> LinkBrowser.browse("https://discord.gg/P4pPu6RnCj"));
-			return discordButton;
-		}
-
-		return null;
-	}
 }
