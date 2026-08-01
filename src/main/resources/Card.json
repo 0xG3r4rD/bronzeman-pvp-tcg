@@ -3430,8 +3430,7 @@
     ],
     "examine": "A pair of very nice gloves.",
     "value": 100000,
-    "equipmentSlot": "hands",
-    "defenceRequirement": 60
+    "equipmentSlot": "hands"
   },
   {
     "name": "Battlehat",
@@ -9644,8 +9643,7 @@
     ],
     "examine": "A pair of very nice gloves.",
     "value": 90000,
-    "equipmentSlot": "hands",
-    "defenceRequirement": 50
+    "equipmentSlot": "hands"
   },
   {
     "name": "Dragon halberd",
@@ -25507,7 +25505,7 @@
     "examine": "A pair of very nice gloves.",
     "value": 5000,
     "equipmentSlot": "hands",
-    "defenceRequirement": 40
+    "defenceRequirement": 1
   },
   {
     "name": "Rune halberd",
