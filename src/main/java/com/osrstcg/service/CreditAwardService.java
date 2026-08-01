@@ -28,14 +28,6 @@ import net.runelite.client.eventbus.Subscribe;
 @Slf4j
 public class CreditAwardService
 {
-	private static final long XP_PER_CREDIT_CHUNK = 1000L;
-	private static final long CREDITS_PER_CHUNK = 100L;
-	/** Level-up bonus at levels 1–2; base of the exponential curve to level 99. */
-	private static final int LEVEL_UP_REWARD_FLOOR = 1_250;
-	/** Level-up bonus at level 99 and each virtual level after (100–126). */
-	private static final int LEVEL_UP_REWARD_CAP = 25_000;
-	private static final int LEVEL_UP_PROGRESS_LEVELS = 97;
-	private static final double LEVEL_UP_CURVE_STEEPNESS = 2.5d;
 	/** Ignore bogus fake XP drop payloads. */
 	private static final int FAKE_XP_DROP_SANITY_CAP = 20_000_000;
 	/** Suppress credit awards while stats settle after login or a world hop. */
@@ -121,35 +113,32 @@ public class CreditAwardService
 		persistSkillBaselineToState(false);
 	}
 
+	/** PvP-only economy: PvM kills no longer award credits (see {@link PvpKillCreditTracker}). */
 	public void awardNpcKillCredits(String npcName, int combatLevel)
 	{
-		if (combatLevel <= 0 || isCreditAwardOnCooldown())
-		{
-			return;
-		}
-
-		int creditsPerKill = applyKillCreditTuning(combatLevel);
-		long totalCredits = creditsPerKill;
-		if (totalCredits <= 0)
-		{
-			return;
-		}
-
-		addCredits(totalCredits);
-		debugAward(String.format("Killed %s (lvl %d) -> +%s credits (total %s)",
-			safeName(npcName), combatLevel, NumberFormatting.format(totalCredits), NumberFormatting.format(stateService.getCredits())));
 	}
 
+	/** PvP-only economy: raid/boss completions no longer award credits (see {@link PvpKillCreditTracker}). */
 	public void awardFlatCredits(String reason, long credits)
 	{
-		if (credits <= 0L || isCreditAwardOnCooldown())
+	}
+
+	/**
+	 * PvP kills are the only external credit source: one kill pays for exactly one standard booster pack.
+	 *
+	 * @return true if the credits were awarded
+	 */
+	public boolean awardPvpKillCredits(String victimName, long packPrice)
+	{
+		if (packPrice <= 0L || isCreditAwardOnCooldown())
 		{
-			return;
+			return false;
 		}
 
-		addCredits(credits);
-		debugAward(String.format("%s -> +%s credits (total %s)",
-			safeName(reason), NumberFormatting.format(credits), NumberFormatting.format(stateService.getCredits())));
+		addCredits(packPrice);
+		debugAward(String.format("PvP kill on %s -> +%s credits (total %s)",
+			safeName(victimName), NumberFormatting.format(packPrice), NumberFormatting.format(stateService.getCredits())));
+		return true;
 	}
 
 	public void onStatChanged(StatChanged event)
@@ -463,25 +452,10 @@ public class CreditAwardService
 		return totalReward;
 	}
 
+	/** PvP-only economy: level-ups no longer award credits (see {@link PvpKillCreditTracker}). */
 	private long awardLevelUps(int previousLevel, int currentLevel)
 	{
-		if (currentLevel <= previousLevel)
-		{
-			return 0L;
-		}
-
-		long totalReward = 0L;
-		double levelMult = Math.max(0.0d, stateService.getState().getRewardTuning().getLevelUpCreditMultiplier());
-		for (int level = previousLevel + 1; level <= currentLevel; level++)
-		{
-			totalReward += Math.round(levelUpReward(level) * levelMult);
-		}
-
-		if (totalReward > 0L)
-		{
-			addCredits(totalReward);
-		}
-		return totalReward;
+		return 0L;
 	}
 
 	private void trackXpGainFromStatChanged(Skill skill, int currentXp)
@@ -529,47 +503,9 @@ public class CreditAwardService
 		previousSkillXp[skillIndex] = currentXp;
 	}
 
+	/** PvP-only economy: skilling XP no longer awards credits (see {@link PvpKillCreditTracker}). */
 	private void applyXpGain(long xpGained, String source)
 	{
-		if (xpGained <= 0L)
-		{
-			return;
-		}
-
-		long nextUncreditedXp = uncreditedXp + xpGained;
-		debugAward(String.format("Registered +%s XP (%s) -> uncredited pool %s / %s",
-			NumberFormatting.format(xpGained), safeName(source),
-			NumberFormatting.format(nextUncreditedXp), NumberFormatting.format(XP_PER_CREDIT_CHUNK)));
-
-		uncreditedXp = nextUncreditedXp;
-		awardCreditsFromUncreditedXp(source);
-		persistSkillBaselineToState(false);
-	}
-
-	/** @return true if credits were added from XP chunks */
-	private boolean awardCreditsFromUncreditedXp(String source)
-	{
-		long chunks = uncreditedXp / XP_PER_CREDIT_CHUNK;
-		if (chunks <= 0L)
-		{
-			return false;
-		}
-
-		double mult = Math.max(0.0d, stateService.getState().getRewardTuning().getXpCreditMultiplier());
-		long credits = Math.round((double) (chunks * CREDITS_PER_CHUNK) * mult);
-		long xpCredited = chunks * XP_PER_CREDIT_CHUNK;
-		if (credits <= 0L)
-		{
-			uncreditedXp -= xpCredited;
-			return false;
-		}
-
-		addCredits(credits);
-		uncreditedXp -= xpCredited;
-		debugAward(String.format("XP drop +%s (%s) -> +%s credits (total %s)",
-			NumberFormatting.format(xpCredited), safeName(source),
-			NumberFormatting.format(credits), NumberFormatting.format(stateService.getCredits())));
-		return true;
 	}
 
 	private void addCredits(long credits)
@@ -729,30 +665,6 @@ public class CreditAwardService
 			}
 		}
 		skillLevelsInitialized = true;
-	}
-
-	private int applyKillCreditTuning(int baseLevel)
-	{
-		double scaled = baseLevel * stateService.getState().getRewardTuning().getKillCreditMultiplier();
-		return Math.max(0, (int) Math.round(scaled));
-	}
-
-	private int levelUpReward(int level)
-	{
-		int clamped = clampLevel(level);
-		if (clamped <= 2)
-		{
-			return LEVEL_UP_REWARD_FLOOR;
-		}
-		if (clamped >= Experience.MAX_REAL_LEVEL)
-		{
-			return LEVEL_UP_REWARD_CAP;
-		}
-
-		double progress = (clamped - 2.0d) / LEVEL_UP_PROGRESS_LEVELS;
-		double curve = Math.pow(progress, LEVEL_UP_CURVE_STEEPNESS);
-		double multiplier = Math.pow((double) LEVEL_UP_REWARD_CAP / LEVEL_UP_REWARD_FLOOR, curve);
-		return (int) Math.round(LEVEL_UP_REWARD_FLOOR * multiplier);
 	}
 
 	/** Virtual-aware skill level from total XP (1–126). */

@@ -23,6 +23,7 @@ import com.osrstcg.service.CardPartyTransferService;
 import com.osrstcg.service.CreditAwardService;
 import com.osrstcg.service.GameMessageCreditTracker;
 import com.osrstcg.service.NpcKillCreditTracker;
+import com.osrstcg.service.PvpKillCreditTracker;
 import com.osrstcg.service.CollectionSetCompletionUtil;
 import com.osrstcg.service.PackOpeningService;
 import com.osrstcg.service.PackSafeModeService;
@@ -159,6 +160,8 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private GameMessageCreditTracker gameMessageCreditTracker;
 	@Inject
+	private PvpKillCreditTracker pvpKillCreditTracker;
+	@Inject
 	private PartyService partyService;
 	@Inject
 	private WSClient wsClient;
@@ -219,8 +222,8 @@ public class OsrsTcgPlugin extends Plugin
 		keyManager.registerKeyListener(packRevealInputListener);
 		eventBus.register(creditAwardService);
 		creditAwardService.onPluginStarted();
-		eventBus.register(npcKillCreditTracker);
-		eventBus.register(gameMessageCreditTracker);
+		// PvP-only economy: NpcKillCreditTracker and GameMessageCreditTracker stay unregistered.
+		eventBus.register(pvpKillCreditTracker);
 		eventBus.register(cardPartyTransferService);
 		eventBus.register(cardPartyTradeService);
 		eventBus.register(playerCombatMonitor);
@@ -264,8 +267,7 @@ public class OsrsTcgPlugin extends Plugin
 			navigationButton = null;
 		}
 		eventBus.unregister(creditAwardService);
-		eventBus.unregister(npcKillCreditTracker);
-		eventBus.unregister(gameMessageCreditTracker);
+		eventBus.unregister(pvpKillCreditTracker);
 		eventBus.unregister(cardPartyTransferService);
 		eventBus.unregister(cardPartyTradeService);
 		eventBus.unregister(playerCombatMonitor);
