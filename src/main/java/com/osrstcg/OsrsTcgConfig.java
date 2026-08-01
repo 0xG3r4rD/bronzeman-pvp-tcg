@@ -153,6 +153,7 @@ public interface OsrsTcgConfig extends Config
 		return false;
 	}
 
+
 	@ConfigSection(
 		name = "Duplicates",
 		description = "Duplicates settings.",

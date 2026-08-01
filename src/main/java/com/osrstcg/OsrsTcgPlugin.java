@@ -21,6 +21,7 @@ import com.osrstcg.service.OwnedCardNamesApiService;
 import com.osrstcg.service.CardPartyTradeService;
 import com.osrstcg.service.CardPartyTransferService;
 import com.osrstcg.service.CreditAwardService;
+import com.osrstcg.service.BronzemanEquipLockService;
 import com.osrstcg.service.GameMessageCreditTracker;
 import com.osrstcg.service.NpcKillCreditTracker;
 import com.osrstcg.service.PvpKillCreditTracker;
@@ -162,6 +163,8 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private PvpKillCreditTracker pvpKillCreditTracker;
 	@Inject
+	private BronzemanEquipLockService bronzemanEquipLockService;
+	@Inject
 	private PartyService partyService;
 	@Inject
 	private WSClient wsClient;
@@ -224,6 +227,7 @@ public class OsrsTcgPlugin extends Plugin
 		creditAwardService.onPluginStarted();
 		// PvP-only economy: NpcKillCreditTracker and GameMessageCreditTracker stay unregistered.
 		eventBus.register(pvpKillCreditTracker);
+		eventBus.register(bronzemanEquipLockService);
 		eventBus.register(cardPartyTransferService);
 		eventBus.register(cardPartyTradeService);
 		eventBus.register(playerCombatMonitor);
@@ -268,6 +272,7 @@ public class OsrsTcgPlugin extends Plugin
 		}
 		eventBus.unregister(creditAwardService);
 		eventBus.unregister(pvpKillCreditTracker);
+		eventBus.unregister(bronzemanEquipLockService);
 		eventBus.unregister(cardPartyTransferService);
 		eventBus.unregister(cardPartyTradeService);
 		eventBus.unregister(playerCombatMonitor);
