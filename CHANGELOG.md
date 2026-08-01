@@ -3,6 +3,13 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.1.2] — 2026-08-02
+
+### Changed
+- The **Hard mode** and **Defence level** explanations are now hover tooltips rather than text
+  printed in the panel, keeping the Overview tab compact. The Defence tooltip still shows the live
+  pool count, and the Hard mode tooltip spells out both payout rates.
+
 ## [1.1.1] — 2026-08-02
 
 ### Added

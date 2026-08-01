@@ -1010,8 +1010,6 @@ public class TcgPanel extends PluginPanel
 		target.add(Box.createRigidArea(new Dimension(0, 6)));
 		target.add(statPanel("Collection score", format(m.collectionScore)));
 		target.add(Box.createRigidArea(new Dimension(0, 8)));
-		target.add(buildEarningRateInfoTextArea(liveSidebarContentWidth()));
-		target.add(Box.createRigidArea(new Dimension(0, 8)));
 		addGameModeOverviewSection(target);
 	}
 
@@ -1159,13 +1157,22 @@ public class TcgPanel extends PluginPanel
 		section.add(heading);
 		section.add(Box.createRigidArea(new Dimension(0, 6)));
 
+		long standardPackPrice = packCatalog.getBoosters().stream()
+			.filter(b -> b != null && !b.isDebugOnly() && b.getPrice() > 0)
+			.mapToLong(BoosterPackDefinition::getPrice)
+			.findFirst()
+			.orElse(2_500L);
+
 		JCheckBox hard = new JCheckBox("Hard mode");
 		hard.setOpaque(false);
 		hard.setForeground(Color.WHITE);
 		hard.setFont(FontManager.getRunescapeSmallFont());
 		hard.setAlignmentX(LEFT_ALIGNMENT);
 		hard.setSelected(config.hardMode());
-		hard.setToolTipText("Earn 250 credits per 100k of PvP loot instead of a full pack per kill.");
+		hard.setToolTipText("<html>Off: every PvP kill pays " + format(standardPackPrice)
+			+ " credits &mdash; one kill, one booster pack.<br>"
+			+ "On: a kill pays 250 credits per 100k of loot value instead,<br>"
+			+ "so a pack costs 1M in loot. Partial loot counts pro rata.</html>");
 		hard.addActionListener(e -> configManager.setConfiguration(
 			OsrsTcgConfig.GROUP, "hardMode", hard.isSelected()));
 		section.add(hard);
@@ -1183,7 +1190,11 @@ public class TcgPanel extends PluginPanel
 		defence.setFocusable(false);
 		defence.setFont(FontManager.getRunescapeSmallFont());
 		defence.setAlignmentX(LEFT_ALIGNMENT);
-		defence.setToolTipText("Cards for gear you cannot equip at this level are never pulled.");
+		defence.setToolTipText(String.format("<html>Packs only roll gear you could equip at this "
+			+ "Defence level,<br>so a pure never pulls armour it can't wear.<br>"
+			+ "Currently <b>%s</b> of %s cards are in the pool.</html>",
+			format(rollPoolFilter.filterRollPool(cardDatabase.getCards()).size()),
+			format(cardDatabase.size())));
 		Dimension boxSize = new Dimension(contentW, defence.getPreferredSize().height);
 		defence.setPreferredSize(boxSize);
 		defence.setMaximumSize(boxSize);
@@ -1196,11 +1207,6 @@ public class TcgPanel extends PluginPanel
 			}
 		});
 		section.add(defence);
-		section.add(buildGameModeHintTextArea(contentW, String.format(
-			"Packs only roll gear you could equip at this Defence level, so a pure never pulls "
-				+ "armour it can't wear. Currently %s of %s cards are in the pool.",
-			format(rollPoolFilter.filterRollPool(cardDatabase.getCards()).size()),
-			format(cardDatabase.size()))));
 
 		if (runeliteDeveloperMode)
 		{
@@ -1211,26 +1217,6 @@ public class TcgPanel extends PluginPanel
 		target.add(section);
 	}
 
-	/** Small grey explainer under a Game mode control. */
-	private JTextArea buildGameModeHintTextArea(int contentMaxW, String text)
-	{
-		int w = Math.max(120, contentMaxW);
-		JTextArea ta = new JTextArea(text);
-		ta.setEditable(false);
-		ta.setOpaque(false);
-		ta.setFocusable(false);
-		ta.setForeground(new Color(0xBBBBBB));
-		ta.setFont(FontManager.getRunescapeSmallFont());
-		ta.setLineWrap(true);
-		ta.setWrapStyleWord(true);
-		ta.setBorder(new EmptyBorder(4, 0, 0, 0));
-		ta.setAlignmentX(JComponent.LEFT_ALIGNMENT);
-		ta.setSize(w, Short.MAX_VALUE);
-		int bodyH = ta.getPreferredSize().height;
-		ta.setPreferredSize(new Dimension(w, bodyH));
-		ta.setMaximumSize(new Dimension(w, bodyH));
-		return ta;
-	}
 
 	private JCheckBox buildDebugModeCheckbox()
 	{
@@ -1247,32 +1233,6 @@ public class TcgPanel extends PluginPanel
 
 
 
-	/** Small grey note under the stats spelling out how the current mode pays for packs. */
-	private JTextArea buildEarningRateInfoTextArea(int contentMaxW)
-	{
-		String body = config.hardMode()
-			? "Hard mode: PvP kills pay 250 credits per 100k of loot value, so a 2,500 credit pack "
-				+ "takes 1M in loot. Partial loot counts pro rata."
-			: "PvP kills pay 2,500 credits each — one kill, one booster pack. Enable Hard mode to "
-				+ "earn by loot value instead (250 credits per 100k).";
-
-		int w = Math.max(120, contentMaxW);
-		JTextArea ta = new JTextArea(body);
-		ta.setEditable(false);
-		ta.setOpaque(false);
-		ta.setFocusable(false);
-		ta.setForeground(new Color(0xBBBBBB));
-		ta.setFont(FontManager.getRunescapeSmallFont());
-		ta.setLineWrap(true);
-		ta.setWrapStyleWord(true);
-		ta.setBorder(new EmptyBorder(0, 0, 0, 0));
-		ta.setAlignmentX(JComponent.LEFT_ALIGNMENT);
-		ta.setSize(w, Short.MAX_VALUE);
-		int bodyH = ta.getPreferredSize().height;
-		ta.setPreferredSize(new Dimension(w, bodyH));
-		ta.setMaximumSize(new Dimension(w, bodyH));
-		return ta;
-	}
 
 
 
