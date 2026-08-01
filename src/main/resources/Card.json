@@ -17084,27 +17084,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Ring of 3rd age",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_3rd_age_detail.png/130px-Ring_of_3rd_age_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": false,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Makes you look like something really old, for those moments when you want that.",
-    "value": 120000,
-    "equipmentSlot": "ring"
-  },
-  {
     "name": "Ring of coins",
     "category": [
       "Resource",
@@ -17124,27 +17103,6 @@
     ],
     "examine": "A valuable ring.",
     "value": 8000,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of dueling",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_dueling_detail.png/130px-Ring_of_dueling_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "An enchanted ring.",
-    "value": 1275,
     "equipmentSlot": "ring"
   },
   {
@@ -17186,27 +17144,6 @@
     ],
     "examine": "An enchanted ring.",
     "value": 2025,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of life",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_life_detail.png/130px-Ring_of_life_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Toggle-respawn",
-      "Drop"
-    ],
-    "examine": "An enchanted ring.",
-    "value": 3525,
     "equipmentSlot": "ring"
   },
   {
@@ -17275,27 +17212,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Ring of returning",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_returning_detail.png/130px-Ring_of_returning_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "This ring returns you to your spawn point.",
-    "value": 1275,
-    "equipmentSlot": "ring"
-  },
-  {
     "name": "Ring of stone",
     "category": [
       "Resource",
@@ -17336,28 +17252,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Ring of the elements",
-    "category": [
-      "Resource",
-      "Armour",
-      "Desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_the_elements_detail.png/130px-Ring_of_the_elements_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "A mystical ring.",
-    "value": 2000,
-    "equipmentSlot": "ring"
-  },
-  {
     "name": "Ring of the gods",
     "category": [
       "Resource",
@@ -17376,29 +17270,6 @@
     ],
     "examine": "An ancient ring said to bring you closer to the Gods.",
     "value": 50000,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of wealth",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_wealth_detail.png/130px-Ring_of_wealth_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Features",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "It can be charged at the Fountain of Rune.",
-    "value": 17625,
     "equipmentSlot": "ring"
   },
   {
@@ -19555,29 +19426,6 @@
     "value": 40000,
     "equipmentSlot": "head",
     "defenceRequirement": 10
-  },
-  {
-    "name": "Slayer ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Slayer_ring_detail.png/130px-Slayer_ring_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Rub",
-      "Teleport",
-      "Check",
-      "Drop"
-    ],
-    "examine": "A beautifully mounted Slayer gem.",
-    "value": 930,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Slayer's staff",
