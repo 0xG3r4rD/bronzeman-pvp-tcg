@@ -469,7 +469,8 @@
     ],
     "examine": "Designer leg protection.",
     "value": 6400,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant sq shield",
@@ -1459,7 +1460,8 @@
     ],
     "examine": "Ancient blessed dragonhide coif.",
     "value": 2000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient crozier",
@@ -1526,7 +1528,8 @@
     ],
     "examine": "Ancient blessed dragonhide boots.",
     "value": 9300,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Ancient d'hide shield",
@@ -2401,7 +2404,8 @@
     ],
     "examine": "Armadyl blessed dragonhide coif.",
     "value": 2000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Armadyl crossbow",
@@ -2466,7 +2470,8 @@
     ],
     "examine": "Armadyl blessed dragonhide body armour.",
     "value": 13000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Armadyl d'hide boots",
@@ -2488,7 +2493,8 @@
     ],
     "examine": "Armadyl blessed dragonhide boots.",
     "value": 9300,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Armadyl d'hide shield",
@@ -3033,7 +3039,8 @@
     ],
     "examine": "Bandos blessed dragonhide coif.",
     "value": 2000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos crozier",
@@ -3077,7 +3084,8 @@
     ],
     "examine": "Bandos blessed dragonhide body armour.",
     "value": 13000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos d'hide boots",
@@ -3099,7 +3107,8 @@
     ],
     "examine": "Bandos blessed dragonhide boots.",
     "value": 9300,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Bandos d'hide shield",
@@ -14092,8 +14101,7 @@
     ],
     "examine": "These look pretty heavy.",
     "value": 66000,
-    "equipmentSlot": "legs",
-    "defenceRequirement": 50
+    "equipmentSlot": "legs"
   },
   {
     "name": "Granite longsword",
@@ -15134,7 +15142,8 @@
     ],
     "examine": "Guthix blessed dragonhide coif.",
     "value": 2000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix crozier",
@@ -15178,7 +15187,8 @@
     ],
     "examine": "Guthix blessed dragonhide body armour.",
     "value": 13000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix d'hide boots",
@@ -15200,7 +15210,8 @@
     ],
     "examine": "Guthix blessed dragonhide boots.",
     "value": 9300,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Guthix d'hide shield",
@@ -16645,7 +16656,8 @@
     ],
     "examine": "Mystical robes.",
     "value": 90000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 25
   },
   {
     "name": "Infinity gloves",
@@ -16666,7 +16678,8 @@
     ],
     "examine": "Mystical gloves.",
     "value": 12000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 25
   },
   {
     "name": "Infinity hat",
@@ -16687,7 +16700,8 @@
     ],
     "examine": "A mystic hat.",
     "value": 17000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 25
   },
   {
     "name": "Infinity top",
@@ -16708,7 +16722,8 @@
     ],
     "examine": "Mystical robes.",
     "value": 140000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 25
   },
   {
     "name": "Initiate cuisse",
@@ -19947,7 +19962,8 @@
     ],
     "examine": "Designer leg protection.",
     "value": 2600,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril sq shield",
@@ -23705,8 +23721,7 @@
     ],
     "examine": "Lightweight body armour ideal for rangers.",
     "value": 12000,
-    "equipmentSlot": "body",
-    "defenceRequirement": 1
+    "equipmentSlot": "body"
   },
   {
     "name": "Rapier",
@@ -24397,7 +24412,8 @@
     ],
     "examine": "Helps to restore Hitpoints.",
     "value": 202000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 1
   },
   {
     "name": "Right eye patch",
@@ -24905,7 +24921,8 @@
     ],
     "examine": "A sturdy body armour made from rock crab pieces.",
     "value": 65000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Rolling pin",
@@ -25961,7 +25978,7 @@
     "examine": "Boots made from a Penance Runner.",
     "value": 65003,
     "equipmentSlot": "feet",
-    "defenceRequirement": 10
+    "defenceRequirement": 40
   },
   {
     "name": "Runner hat",
@@ -26564,7 +26581,8 @@
     ],
     "examine": "Saradomin blessed dragonhide coif.",
     "value": 2000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin crozier",
@@ -26608,7 +26626,8 @@
     ],
     "examine": "Saradomin blessed dragonhide body armour.",
     "value": 13000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin d'hide boots",
@@ -26630,7 +26649,8 @@
     ],
     "examine": "Saradomin blessed dragonhide boots.",
     "value": 9300,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Saradomin d'hide shield",
@@ -27868,7 +27888,8 @@
     ],
     "examine": "Lightweight head protection.",
     "value": 300,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 30
   },
   {
     "name": "Snakeskin body",
@@ -27888,7 +27909,8 @@
     ],
     "examine": "Made from 100% real snakeskin.",
     "value": 1250,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 30
   },
   {
     "name": "Snakeskin boots",
@@ -27908,7 +27930,8 @@
     ],
     "examine": "Made from snakes.",
     "value": 250,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 30
   },
   {
     "name": "Snakeskin chaps",
@@ -27928,7 +27951,8 @@
     ],
     "examine": "Made from 100% real snake.",
     "value": 1175,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 30
   },
   {
     "name": "Snakeskin shield",
@@ -27968,7 +27992,8 @@
     ],
     "examine": "Made from 100% real snake.",
     "value": 434,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 30
   },
   {
     "name": "Soulflame horn",
@@ -28242,7 +28267,8 @@
     ],
     "examine": "Provides good protection.",
     "value": 45000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Splitbark boots",
@@ -28262,7 +28288,8 @@
     ],
     "examine": "Wooden foot protection.",
     "value": 5000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Splitbark gauntlets",
@@ -28282,7 +28309,8 @@
     ],
     "examine": "These should keep my hands safe.",
     "value": 5000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 40
   },
   {
     "name": "Splitbark helm",
@@ -28323,7 +28351,8 @@
     ],
     "examine": "These should protect my legs.",
     "value": 40000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Spork",
@@ -28785,8 +28814,7 @@
     ],
     "examine": "A series of connected metal rings.",
     "value": 750,
-    "equipmentSlot": "body",
-    "defenceRequirement": 5
+    "equipmentSlot": "body"
   },
   {
     "name": "Steel coffin",
@@ -31946,8 +31974,7 @@
     ],
     "examine": "As used by King Tyras' personal guard.",
     "value": 550,
-    "equipmentSlot": "head",
-    "defenceRequirement": 5
+    "equipmentSlot": "head"
   },
   {
     "name": "Tzhaar-ket-em",
@@ -32876,8 +32903,7 @@
     ],
     "examine": "This helmet is worn by warriors.",
     "value": 60000,
-    "equipmentSlot": "head",
-    "defenceRequirement": 45
+    "equipmentSlot": "head"
   },
   {
     "name": "Warrior ring",
@@ -34300,7 +34326,8 @@
     ],
     "examine": "Zamorak blessed dragonhide coif.",
     "value": 2000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak crozier",
@@ -34344,7 +34371,8 @@
     ],
     "examine": "Zamorak blessed dragonhide body armour.",
     "value": 13000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak d'hide boots",
@@ -34366,7 +34394,8 @@
     ],
     "examine": "Zamorak blessed dragonhide boots.",
     "value": 9300,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Zamorak d'hide shield",
