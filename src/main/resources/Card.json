@@ -22596,68 +22596,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Saika's hood",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saika%27s_hood_detail.png/130px-Saika%27s_hood_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Saika the puppet master's hood.",
-    "value": 11500,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Saika's shroud",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saika%27s_shroud_detail.png/130px-Saika%27s_shroud_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Saika the puppet master's shroud.",
-    "value": 21500,
-    "equipmentSlot": "head",
-    "defenceRequirement": 70
-  },
-  {
-    "name": "Saika's veil",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saika%27s_veil_detail.png/130px-Saika%27s_veil_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Saika the puppet master's veil.",
-    "value": 16500,
-    "equipmentSlot": "head",
-    "defenceRequirement": 40
-  },
-  {
     "name": "Sailors' amulet",
     "category": [
       "Resource",
