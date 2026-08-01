@@ -10372,28 +10372,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Giant boot",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Giant_boot_detail.png/130px-Giant_boot_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Worn on head. Warning: Smelly.",
-    "value": 14000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Giant stopwatch",
     "category": [
       "Resource",
