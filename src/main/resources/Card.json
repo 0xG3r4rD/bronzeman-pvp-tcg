@@ -7848,26 +7848,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Diamond bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diamond_bracelet_detail.png/130px-Diamond_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 3825,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Diamond dragon bolts",
     "category": [
       "Resource",
@@ -7886,26 +7866,6 @@
     "examine": "Dragon crossbow bolts, tipped with diamond.",
     "value": 850,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Diamond ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diamond_ring_detail.png/130px-Diamond_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 3525,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Dinh's bulwark",
@@ -8854,26 +8814,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Dragonstone bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragonstone_bracelet_detail.png/130px-Dragonstone_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 19125,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Dragonstone dragon bolts",
     "category": [
       "Resource",
@@ -8980,26 +8920,6 @@
     "value": 64000,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Dragonstone ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragonstone_ring_detail.png/130px-Dragonstone_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 17625,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Druid's robe",
@@ -9614,26 +9534,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Emerald bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Emerald_bracelet_detail.png/130px-Emerald_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1525,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Emerald dragon bolts",
     "category": [
       "Resource",
@@ -9652,26 +9552,6 @@
     "examine": "Dragon crossbow bolts, tipped with emerald.",
     "value": 800,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Emerald ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Emerald_ring_detail.png/130px-Emerald_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 1275,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Enchanted hat",
@@ -12026,26 +11906,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Gold bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_bracelet_detail.png/130px-Gold_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 550,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Gold elegant blouse",
     "category": [
       "Resource",
@@ -12154,26 +12014,6 @@
     "examine": "A minimalist's hat.",
     "value": 40,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Gold ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_ring_detail.png/130px-Gold_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 350,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Golden apron",
@@ -15313,26 +15153,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Jade bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jade_bracelet_detail.png/130px-Jade_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1300,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Jade dragon bolts",
     "category": [
       "Resource",
@@ -15371,26 +15191,6 @@
     "examine": "A jungle specific slashing device.",
     "value": 1000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Jade ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jade_ring_detail.png/130px-Jade_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 1275,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Jungle demon mask",
@@ -19270,26 +19070,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Onyx bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Onyx_bracelet_detail.png/130px-Onyx_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Yep, this is most definitely valuable!",
-    "value": 201000,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Onyx dragon bolts",
     "category": [
       "Resource",
@@ -19350,26 +19130,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Opal bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Opal_bracelet_detail.png/130px-Opal_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1150,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Opal dragon bolts",
     "category": [
       "Resource",
@@ -19408,26 +19168,6 @@
     "examine": "A jungle specific slashing device.",
     "value": 500,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Opal ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Opal_ring_detail.png/130px-Opal_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 1050,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Orange boater",
@@ -22330,26 +22070,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Ruby bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ruby_bracelet_detail.png/130px-Ruby_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 2325,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Ruby dragon bolts",
     "category": [
       "Resource",
@@ -22368,26 +22088,6 @@
     "examine": "Dragon crossbow bolts, tipped with ruby.",
     "value": 800,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Ruby ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ruby_ring_detail.png/130px-Ruby_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 2025,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Rune 2h sword",
@@ -23469,26 +23169,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Sapphire bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sapphire_bracelet_detail.png/130px-Sapphire_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1150,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Sapphire dragon bolts",
     "category": [
       "Resource",
@@ -23507,26 +23187,6 @@
     "examine": "Dragon crossbow bolts, tipped with sapphire.",
     "value": 750,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Sapphire ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sapphire_ring_detail.png/130px-Sapphire_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 900,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Sarachnis cudgel",
@@ -27975,26 +27635,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Topaz bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Topaz_bracelet_detail.png/130px-Topaz_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this is valuable.",
-    "value": 1500,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Topaz dragon bolts",
     "category": [
       "Resource",
@@ -28013,26 +27653,6 @@
     "examine": "Dragon crossbow bolts, tipped with red topaz.",
     "value": 700,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Topaz ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Topaz_ring_detail.png/130px-Topaz_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 1425,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Torag's hammers",
@@ -31080,46 +30700,6 @@
     "examine": "A fiery glow emanates from this amulet.",
     "value": 202000,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Zenyte bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zenyte_bracelet_detail.png/130px-Zenyte_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A fiery glow emanates from this bracelet.",
-    "value": 201000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Zenyte ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zenyte_ring_detail.png/130px-Zenyte_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A fiery glow emanates from this ring.",
-    "value": 201000,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Zombie axe",
