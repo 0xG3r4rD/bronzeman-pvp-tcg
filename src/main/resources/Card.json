@@ -4509,6 +4509,26 @@
     "equipmentSlot": "body"
   },
   {
+    "name": "Black salamander",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_salamander_detail.png/130px-Black_salamander_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Release"
+    ],
+    "examine": "Slightly slimy and somewhat menacing.",
+    "value": 200,
+    "equipmentSlot": "2h"
+  },
+  {
     "name": "Black satchel",
     "category": [
       "Resource",
@@ -21274,6 +21294,26 @@
     "equipmentSlot": "weapon"
   },
   {
+    "name": "Orange salamander",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Orange_salamander_detail.png/130px-Orange_salamander_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Release"
+    ],
+    "examine": "Slightly slimy but kind of cute.",
+    "value": 100,
+    "equipmentSlot": "2h"
+  },
+  {
     "name": "Paddle",
     "category": [
       "Resource",
@@ -23392,6 +23432,26 @@
     "examine": "Some fine werewolf clothing.",
     "value": 500,
     "equipmentSlot": "body"
+  },
+  {
+    "name": "Red salamander",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_salamander_detail.png/130px-Red_salamander_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Release"
+    ],
+    "examine": "Slightly slimy but certainly striking.",
+    "value": 150,
+    "equipmentSlot": "2h"
   },
   {
     "name": "Red satchel",
@@ -28401,6 +28461,26 @@
     "equipmentSlot": "legs"
   },
   {
+    "name": "Swamp lizard",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swamp_lizard_detail.png/130px-Swamp_lizard_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Release"
+    ],
+    "examine": "A very slimy and generally disgusting green lizard.",
+    "value": 50,
+    "equipmentSlot": "2h"
+  },
+  {
     "name": "Swampbark body",
     "category": [
       "Resource",
@@ -29774,6 +29854,27 @@
     "examine": "Ooohhh look at the pretty colours...",
     "value": 50,
     "equipmentSlot": "cape"
+  },
+  {
+    "name": "Tecu salamander",
+    "category": [
+      "Resource",
+      "Weapon",
+      "Varlamore"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Tecu_salamander_detail.png/130px-Tecu_salamander_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Release"
+    ],
+    "examine": "I thought this would be slimier.",
+    "value": 200,
+    "equipmentSlot": "2h"
   },
   {
     "name": "Thammaron's sceptre",
