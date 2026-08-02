@@ -3,6 +3,18 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.9.0] — 2026-08-02
+
+### Added
+- **Arcane**, **Spectral** and **Elysian spirit shields** (75 Defence each), joining the Blessed
+  spirit shield.
+- **Elidinis' ward (f)** — the ward with the arcane sigil attached — as its own card, separate from
+  the base ward.
+
+### Notes
+- **Osmumten's fang (or)** needs no card of its own: the ornament-kit form already resolves to the
+  base Osmumten's fang card, as does the ward's `(or)` form.
+
 ## [1.8.4] — 2026-08-02
 
 ### Removed

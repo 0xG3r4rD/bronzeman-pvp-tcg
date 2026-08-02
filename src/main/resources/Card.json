@@ -1481,6 +1481,27 @@
     "equipmentSlot": "shield"
   },
   {
+    "name": "Arcane spirit shield",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arcane_spirit_shield_detail.png/130px-Arcane_spirit_shield_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An ethereal shield with an arcane sigil attached to it.",
+    "value": 2000000,
+    "equipmentSlot": "shield",
+    "defenceRequirement": 75
+  },
+  {
     "name": "Archer helm",
     "category": [
       "Resource",
@@ -6376,6 +6397,26 @@
     "equipmentSlot": "shield"
   },
   {
+    "name": "Elidinis' ward (f)",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elidinis%27_ward_%28f%29_detail.png/130px-Elidinis%27_ward_%28f%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A fortified ward once used by Elidinis herself.",
+    "value": 5750000,
+    "equipmentSlot": "shield"
+  },
+  {
     "name": "Elite void robe",
     "category": [
       "Resource",
@@ -6420,6 +6461,27 @@
     "examine": "Superior torso armour from the order of the Void Knights.",
     "value": 48500,
     "equipmentSlot": "body"
+  },
+  {
+    "name": "Elysian spirit shield",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elysian_spirit_shield_detail.png/130px-Elysian_spirit_shield_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An ethereal shield with an elysian sigil attached to it.",
+    "value": 2000000,
+    "equipmentSlot": "shield",
+    "defenceRequirement": 75
   },
   {
     "name": "Emberlight",
@@ -15600,6 +15662,27 @@
     "examine": "An axe that manipulates the very lifeforce of those who touch it.",
     "value": 240000,
     "equipmentSlot": "2h"
+  },
+  {
+    "name": "Spectral spirit shield",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Spectral_spirit_shield_detail.png/130px-Spectral_spirit_shield_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An ethereal shield with a spectral sigil attached to it.",
+    "value": 2000000,
+    "equipmentSlot": "shield",
+    "defenceRequirement": 75
   },
   {
     "name": "Spiky vambraces",
