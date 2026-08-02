@@ -3,6 +3,20 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.7.1] — 2026-08-02
+
+### Fixed
+- **Tyras helm** now correctly needs 5 Defence, so it no longer appears in the 1 Defence pool. The
+  wiki phrases it as "can be worn with a Defence level of 5", which the requirement parser did not
+  recognise; it now also reads "worn", "wielded" and "equipped" as requirement wording.
+
+### Changed
+- **Moonclan** gear moved to the 40 Defence bracket. This one is a house rule rather than wiki data
+  — the wiki states no Defence requirement for those pieces.
+
+### Removed
+- Wooden sword and Falconer's glove.
+
 ## [1.7.0] — 2026-08-02
 
 ### Changed

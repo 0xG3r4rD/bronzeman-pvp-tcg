@@ -6546,26 +6546,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Falconer's glove",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Falconer%27s_glove_detail.png/130px-Falconer%27s_glove_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A very large, single leather glove.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Fancier boots",
     "category": [
       "Resource",
@@ -10849,7 +10829,8 @@
     ],
     "examine": "Provides good protection.",
     "value": 1000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Moonclan boots",
@@ -10869,7 +10850,8 @@
     ],
     "examine": "Groovy foot protection.",
     "value": 900,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 40
   },
   {
     "name": "Moonclan cape",
@@ -10889,7 +10871,8 @@
     ],
     "examine": "A mystical cape.",
     "value": 200,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "defenceRequirement": 40
   },
   {
     "name": "Moonclan gloves",
@@ -10909,7 +10892,8 @@
     ],
     "examine": "These should keep my hands safe.",
     "value": 900,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 40
   },
   {
     "name": "Moonclan hat",
@@ -10929,7 +10913,8 @@
     ],
     "examine": "A mystical hat.",
     "value": 1000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Moonclan helm",
@@ -10949,7 +10934,8 @@
     ],
     "examine": "Mystical headgear.",
     "value": 1000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 40
   },
   {
     "name": "Moonclan skirt",
@@ -10969,7 +10955,8 @@
     ],
     "examine": "This should protect my legs.",
     "value": 1000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 40
   },
   {
     "name": "Moonlight antler bolts",
@@ -18368,7 +18355,8 @@
     ],
     "examine": "As used by King Tyras' personal guard.",
     "value": 550,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 5
   },
   {
     "name": "Tzhaar-ket-em",
@@ -19562,26 +19550,6 @@
     "examine": "Slightly magical boots.",
     "value": 200,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Wooden sword",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Wooden_sword_detail.png/130px-Wooden_sword_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A less-than razor sharp sword.",
-    "value": 1,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Wristbands of the arena",
