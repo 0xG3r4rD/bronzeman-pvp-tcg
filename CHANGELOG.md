@@ -3,6 +3,11 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.7.2] — 2026-08-02
+
+### Removed
+- Silver sickle — 954 cards.
+
 ## [1.7.1] — 2026-08-02
 
 ### Fixed

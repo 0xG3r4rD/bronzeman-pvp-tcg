@@ -14944,26 +14944,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Silver sickle",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Silver_sickle_detail.png/130px-Silver_sickle_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "It's a silver sickle.",
-    "value": 175,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Skeletal boots",
     "category": [
       "Resource",
