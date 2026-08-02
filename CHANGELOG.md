@@ -3,6 +3,11 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.4.2] — 2026-08-02
+
+### Removed
+- Bone weaponry (club, dagger, mace, spear, staff and bolts) and all nine snelms — 983 cards.
+
 ## [1.4.1] — 2026-08-02
 
 ### Added

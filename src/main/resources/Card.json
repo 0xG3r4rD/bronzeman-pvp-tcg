@@ -3260,26 +3260,6 @@
     "defenceRequirement": 50
   },
   {
-    "name": "Blood'n'tar snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blood%27n%27tar_snelm_detail.png/130px-Blood%27n%27tar_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A red and black Snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Bloodbark body",
     "category": [
       "Resource",
@@ -3784,130 +3764,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Bone bolts",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bone_bolts_detail.png/130px-Bone_bolts_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Good if you have a bone crossbow!",
-    "value": 3,
-    "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Bone club",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bone_club_detail.png/130px-Bone_club_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Basic but brutal!",
-    "value": 600,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bone dagger",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bone_dagger_detail.png/130px-Bone_dagger_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A powerful dagger.",
-    "value": 2000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bone mace",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Misthalin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bone_mace_detail.png/130px-Bone_mace_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A spiky mace hardened with Scurrius' spine.",
-    "value": 10000,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bone spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bone_spear_detail.png/130px-Bone_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Basic but brutal!",
-    "value": 600,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bone staff",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Misthalin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bone_staff_detail.png/130px-Bone_staff_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Check",
-      "Uncharge",
-      "Drop"
-    ],
-    "examine": "It's a slightly magical stick intertwined with Scurrius' spine.",
-    "value": 10000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Boots of brimstone",
     "category": [
       "Resource",
@@ -4093,26 +3949,6 @@
     "examine": "Crossbow bolts with broad tips.",
     "value": 55,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Broken bark snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Broken_bark_snelm_detail.png/130px-Broken_bark_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An orange and bark coloured snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
   },
   {
     "name": "Bronze arrow",
@@ -4405,26 +4241,6 @@
     "examine": "A medium square shield.",
     "value": 48,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Bruise blue snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bruise_blue_snelm_detail.png/130px-Bruise_blue_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A moody blue snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
   },
   {
     "name": "Bryophyta's staff",
@@ -11796,26 +11612,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Myre snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Myre_snelm_detail.png/130px-Myre_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A marshy coloured snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Mystic air staff",
     "category": [
       "Resource",
@@ -12484,26 +12280,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Ochre snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ochre_snelm_detail.png/130px-Ochre_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A muddy yellow snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Odium ward",
     "category": [
       "Resource",
@@ -13101,86 +12877,6 @@
     "examine": "A stained glass banner displaying the Piscarilius sigil.",
     "value": 70,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Pointed blood'n'tar snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pointed_blood%27n%27tar_snelm_detail.png/130px-Pointed_blood%27n%27tar_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A red and black pointed snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pointed bruise blue snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pointed_bruise_blue_snelm_detail.png/130px-Pointed_bruise_blue_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A moody blue pointed snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pointed myre snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pointed_myre_snelm_detail.png/130px-Pointed_myre_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A swamp coloured pointed snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pointed ochre snelm",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pointed_ochre_snelm_detail.png/130px-Pointed_ochre_snelm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A muddy yellow coloured pointed snail shell helmet.",
-    "value": 300,
-    "equipmentSlot": "head"
   },
   {
     "name": "Primordial boots",
