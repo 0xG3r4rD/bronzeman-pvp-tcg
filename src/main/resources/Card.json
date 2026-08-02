@@ -2412,26 +2412,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Beach boxing gloves",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Beach_boxing_gloves_%28pink%29_detail.png/130px-Beach_boxing_gloves_%28pink%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "For play-fighting.",
-    "value": 50,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Beginner wand",
     "category": [
       "Resource",
@@ -3788,26 +3768,6 @@
     ],
     "examine": "A magical elven bow.",
     "value": 2500000,
-    "equipmentSlot": "2h"
-  },
-  {
-    "name": "Boxing gloves",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Boxing_gloves_%28red%29_detail.png/130px-Boxing_gloves_%28red%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I think they look a bit silly.",
-    "value": 0,
     "equipmentSlot": "2h"
   },
   {
