@@ -3,6 +3,22 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.13.0] — 2026-08-02
+
+### Fixed
+Closed every gap the `::btcg-escapes` scan found. Of the 2,543 equipable items with no card, all
+but these were deliberate (removed gear is meant to stay unrestricted):
+
+- **Recolours and ornamented forms** now resolve to their base card: New crystal bow, Volcanic and
+  Frozen abyssal whip, Twisted ancestral, Holy sanguinesti staff, Holy ghrazi rapier, Sanguine
+  torva, Radiant oathplate, Oathplate and Radiant slayer helmets, and every Echo variant
+  (venator bow, virtus, Ahrim's).
+
+### Added
+- Cards for the **Harmonised**, **Volatile** and **Eldritch nightmare staves** — distinct top-tier
+  weapons rather than recolours, so each is gated on its own. The corrupted volatile form is
+  covered by the Volatile card.
+
 ## [1.12.1] — 2026-08-02
 
 ### Changed

@@ -94,7 +94,11 @@
     ],
     "examine": "A weapon from the Abyss.",
     "value": 120001,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Frozen abyssal whip",
+      "Volcanic abyssal whip"
+    ]
   },
   {
     "name": "Accursed sceptre",
@@ -438,7 +442,10 @@
     "examine": "Ahrim the Blighted's leather hood.",
     "value": 13000,
     "equipmentSlot": "head",
-    "defenceRequirement": 70
+    "defenceRequirement": 70,
+    "aliases": [
+      "Echo ahrim's hood"
+    ]
   },
   {
     "name": "Ahrim's robeskirt",
@@ -462,7 +469,10 @@
     "examine": "Ahrim the Blighted's armoured robe skirt.",
     "value": 47000,
     "equipmentSlot": "legs",
-    "defenceRequirement": 70
+    "defenceRequirement": 70,
+    "aliases": [
+      "Echo ahrim's robeskirt"
+    ]
   },
   {
     "name": "Ahrim's robetop",
@@ -486,7 +496,10 @@
     "examine": "Ahrim the Blighted's armoured robe top.",
     "value": 50000,
     "equipmentSlot": "body",
-    "defenceRequirement": 70
+    "defenceRequirement": 70,
+    "aliases": [
+      "Echo ahrim's robetop"
+    ]
   },
   {
     "name": "Ahrim's staff",
@@ -509,7 +522,10 @@
     ],
     "examine": "Ahrim the Blighted's quarterstaff.",
     "value": 85000,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Echo ahrim's staff"
+    ]
   },
   {
     "name": "Air battlestaff",
@@ -886,7 +902,10 @@
     "examine": "The hat of a powerful sorceress from a bygone era.",
     "value": 650000,
     "equipmentSlot": "head",
-    "defenceRequirement": 65
+    "defenceRequirement": 65,
+    "aliases": [
+      "Twisted ancestral hat"
+    ]
   },
   {
     "name": "Ancestral robe bottom",
@@ -908,7 +927,10 @@
     "examine": "The robe bottoms of a powerful sorceress from a bygone era.",
     "value": 700000,
     "equipmentSlot": "legs",
-    "defenceRequirement": 65
+    "defenceRequirement": 65,
+    "aliases": [
+      "Twisted ancestral robe bottom"
+    ]
   },
   {
     "name": "Ancestral robe top",
@@ -930,7 +952,10 @@
     "examine": "The robe top of a powerful sorceress from a bygone era.",
     "value": 750000,
     "equipmentSlot": "body",
-    "defenceRequirement": 65
+    "defenceRequirement": 65,
+    "aliases": [
+      "Twisted ancestral robe top"
+    ]
   },
   {
     "name": "Ancient bracers",
@@ -4665,10 +4690,12 @@
     "value": 300000,
     "equipmentSlot": "2h",
     "aliases": [
-      "Crystal bow (basic)",
       "Crystal bow (attuned)",
+      "Crystal bow (basic)",
+      "Crystal bow (i)",
       "Crystal bow (perfected)",
-      "Crystal bow (i)"
+      "New crystal bow",
+      "New crystal bow (i)"
     ]
   },
   {
@@ -6416,6 +6443,26 @@
     "equipmentSlot": "2h"
   },
   {
+    "name": "Eldritch nightmare staff",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Eldritch_nightmare_staff_detail.png/130px-Eldritch_nightmare_staff_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "An ancient staff corrupted by darkness. An eldritch orb has been added to it.",
+    "value": 4600000,
+    "equipmentSlot": "weapon"
+  },
+  {
     "name": "Elidinis' ward",
     "category": [
       "Resource",
@@ -7286,7 +7333,10 @@
     ],
     "examine": "A razor sharp rapier, smeared with vampyric blood.",
     "value": 3000000,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Holy ghrazi rapier"
+    ]
   },
   {
     "name": "Gilded 2h sword",
@@ -8754,6 +8804,26 @@
     "examine": "A pair of gloves.",
     "value": 50,
     "equipmentSlot": "hands"
+  },
+  {
+    "name": "Harmonised nightmare staff",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Harmonised_nightmare_staff_detail.png/130px-Harmonised_nightmare_staff_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "An ancient staff corrupted by darkness. A harmonised orb has been added to it.",
+    "value": 4600000,
+    "equipmentSlot": "weapon"
   },
   {
     "name": "Healer hat",
@@ -12053,7 +12123,10 @@
     "examine": "A chestplate forged from infernal metal.",
     "value": 600000,
     "equipmentSlot": "body",
-    "defenceRequirement": 78
+    "defenceRequirement": 78,
+    "aliases": [
+      "Radiant oathplate chest"
+    ]
   },
   {
     "name": "Oathplate helm",
@@ -12075,7 +12148,10 @@
     "examine": "A helm forged from infernal metal.",
     "value": 200000,
     "equipmentSlot": "head",
-    "defenceRequirement": 78
+    "defenceRequirement": 78,
+    "aliases": [
+      "Radiant oathplate helm"
+    ]
   },
   {
     "name": "Oathplate legs",
@@ -12097,7 +12173,10 @@
     "examine": "Platelegs forged from infernal metal.",
     "value": 400000,
     "equipmentSlot": "legs",
-    "defenceRequirement": 78
+    "defenceRequirement": 78,
+    "aliases": [
+      "Radiant oathplate legs"
+    ]
   },
   {
     "name": "Obsidian cape",
@@ -14670,7 +14749,10 @@
     ],
     "examine": "A sacred staff imbued with the power of blood. It is currently uncharged.",
     "value": 3000000,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Holy sanguinesti staff"
+    ]
   },
   {
     "name": "Sapphire bolts",
@@ -15615,7 +15697,9 @@
       "Green slayer helmet",
       "Hooded slayer helmet",
       "Hydra slayer helmet",
+      "Oathplate slayer helmet",
       "Purple slayer helmet",
+      "Radiant slayer helmet",
       "Red slayer helmet",
       "Turquoise slayer helmet",
       "Twisted slayer helmet",
@@ -18535,7 +18619,10 @@
     "examine": "An ancient warrior's full helm.",
     "value": 700000,
     "equipmentSlot": "head",
-    "defenceRequirement": 80
+    "defenceRequirement": 80,
+    "aliases": [
+      "Sanguine torva full helm"
+    ]
   },
   {
     "name": "Torva platebody",
@@ -18557,7 +18644,10 @@
     "examine": "An ancient warrior's platebody.",
     "value": 700000,
     "equipmentSlot": "body",
-    "defenceRequirement": 80
+    "defenceRequirement": 80,
+    "aliases": [
+      "Sanguine torva platebody"
+    ]
   },
   {
     "name": "Torva platelegs",
@@ -18579,7 +18669,10 @@
     "examine": "An ancient warrior's platelegs.",
     "value": 700000,
     "equipmentSlot": "legs",
-    "defenceRequirement": 80
+    "defenceRequirement": 80,
+    "aliases": [
+      "Sanguine torva platelegs"
+    ]
   },
   {
     "name": "Toxic blowpipe",
@@ -19064,7 +19157,10 @@
     ],
     "examine": "A bow used by hunters from a forgotten empire.",
     "value": 750000,
-    "equipmentSlot": "2h"
+    "equipmentSlot": "2h",
+    "aliases": [
+      "Echo venator bow"
+    ]
   },
   {
     "name": "Venator ring",
@@ -19433,7 +19529,10 @@
     "examine": "An ancient mage's mask.",
     "value": 200000,
     "equipmentSlot": "head",
-    "defenceRequirement": 75
+    "defenceRequirement": 75,
+    "aliases": [
+      "Echo virtus mask"
+    ]
   },
   {
     "name": "Virtus robe bottom",
@@ -19458,7 +19557,10 @@
     "examine": "An ancient mage's robe bottom.",
     "value": 400000,
     "equipmentSlot": "legs",
-    "defenceRequirement": 75
+    "defenceRequirement": 75,
+    "aliases": [
+      "Echo virtus robe bottom"
+    ]
   },
   {
     "name": "Virtus robe top",
@@ -19483,7 +19585,10 @@
     "examine": "An ancient mage's robe top.",
     "value": 600000,
     "equipmentSlot": "body",
-    "defenceRequirement": 75
+    "defenceRequirement": 75,
+    "aliases": [
+      "Echo virtus robe top"
+    ]
   },
   {
     "name": "Void knight gloves",
@@ -19652,6 +19757,29 @@
     "examine": "A truly fearsome weapon.",
     "value": 2000000,
     "equipmentSlot": "weapon"
+  },
+  {
+    "name": "Volatile nightmare staff",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Volatile_nightmare_staff_detail.png/130px-Volatile_nightmare_staff_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "An ancient staff corrupted by darkness. A volatile orb has been added to it.",
+    "value": 4600000,
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Corrupted volatile nightmare staff"
+    ]
   },
   {
     "name": "Vyrewatch legs",
