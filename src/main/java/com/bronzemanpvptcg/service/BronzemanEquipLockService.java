@@ -28,6 +28,7 @@ import net.runelite.client.callback.ClientThread;
 import net.runelite.client.chat.ChatMessageManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.game.ItemManager;
+import net.runelite.api.widgets.WidgetUtil;
 import net.runelite.client.util.Text;
 
 /**
@@ -106,6 +107,11 @@ public final class BronzemanEquipLockService
 			return;
 		}
 
+		if (blockLockedGrandExchangeChoice(event))
+		{
+			return;
+		}
+
 		MenuEntry entry = event.getMenuEntry();
 		if (entry == null || !entry.isItemOp() || entry.getItemId() <= 0)
 		{
@@ -128,6 +134,36 @@ public final class BronzemanEquipLockService
 		event.consume();
 		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
 			"%s is locked — pull its card from a pack to equip it.", card.get().getName()));
+	}
+
+	/**
+	 * Grand Exchange search results are drawn in the chatbox, so consuming the selection is the
+	 * available hook for stopping a locked item being bought. Best effort: a keyboard-driven
+	 * flow can still reach the offer screen.
+	 *
+	 * @return true when the click was for a locked item and has been consumed
+	 */
+	private boolean blockLockedGrandExchangeChoice(MenuOptionClicked event)
+	{
+		MenuEntry entry = event.getMenuEntry();
+		if (entry == null
+			|| WidgetUtil.componentToInterface(entry.getParam1()) != InterfaceID.CHATBOX
+			|| client.getWidget(InterfaceID.GE_OFFERS, 0) == null)
+		{
+			return false;
+		}
+
+		String itemName = Text.removeTags(event.getMenuTarget()).trim();
+		Optional<CardDefinition> card = findCardForItemName(itemName);
+		if (card.isEmpty() || isCardOwned(card.get()))
+		{
+			return false;
+		}
+
+		event.consume();
+		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
+			"%s is locked — pull its card before buying it.", card.get().getName()));
+		return true;
 	}
 
 	/**

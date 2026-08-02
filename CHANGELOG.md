@@ -6,6 +6,9 @@ All notable changes to Bronzeman PVP TCG. Versions link to their downloadable ja
 ## [1.4.1] — 2026-08-02
 
 ### Added
+- Locked items can no longer be **bought from the Grand Exchange**: selecting one in the GE search
+  results is blocked until you own its card. Best effort — the search results are drawn in the
+  chatbox, so a purely keyboard-driven flow can still reach the offer screen.
 - **Lightbearer** restored. It carries no equipment bonuses so the zero-stat sweep removed it, but
   its special-attack regeneration makes it worth collecting.
 
