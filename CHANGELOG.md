@@ -3,6 +3,12 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.7.3] — 2026-08-02
+
+### Added
+- Cards for **Arkan blade** and **Sunspear**, neither of which existed. The Sunspear card also
+  covers its melee, ranged and magic forms.
+
 ## [1.7.2] — 2026-08-02
 
 ### Removed

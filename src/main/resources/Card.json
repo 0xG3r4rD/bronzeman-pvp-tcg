@@ -1545,6 +1545,26 @@
     "equipmentSlot": "cape"
   },
   {
+    "name": "Arkan blade",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arkan_blade_detail.png/130px-Arkan_blade_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "A powerful sword imbued with the fire of the sun.",
+    "value": 250000,
+    "equipmentSlot": "weapon"
+  },
+  {
     "name": "Armadyl bracers",
     "category": [
       "Resource",
@@ -16279,6 +16299,31 @@
     "examine": "Bolts made from the antlers of a sunlight antelope.",
     "value": 31,
     "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Sunspear",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sunspear_detail.png/130px-Sunspear_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "A holy spear.",
+    "value": 100000,
+    "equipmentSlot": "2h",
+    "aliases": [
+      "Sunspear (melee)",
+      "Sunspear (ranged)",
+      "Sunspear (magic)"
+    ]
   },
   {
     "name": "Swamp lizard",
