@@ -3,6 +3,18 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.10.2] — 2026-08-02
+
+### Changed
+- The bank's unlocked-items grid now counts **degraded and variant copies** as held. A banked
+  "Dharok's helm 25", a broken moon piece or an ornamented copy is resolved through the same rules
+  the equip lock uses, so the card no longer shows as "not in bank" when you clearly own one.
+
+### Notes
+- Degraded gear was **already locked** behind its card and needed no change: Barrows charge levels
+  (100 / 75 / 50 / 25 / 0), broken Moons of Peril pieces, and `(inactive)`, `(uncharged)` and
+  `(empty)` forms all resolve to the base card. Verified across 42 degraded item names.
+
 ## [1.10.1] — 2026-08-02
 
 ### Added

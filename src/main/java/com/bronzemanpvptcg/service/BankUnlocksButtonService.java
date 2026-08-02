@@ -59,6 +59,7 @@ public final class BankUnlocksButtonService
 	private final ClientThread clientThread;
 	private final CardDatabase cardDatabase;
 	private final TcgStateService stateService;
+	private final BronzemanEquipLockService equipLockService;
 
 	/** Lower-case item name -> lowest matching item id; built once, then reused. */
 	private final Map<String, Integer> itemIdByName = new ConcurrentHashMap<>();
@@ -70,12 +71,14 @@ public final class BankUnlocksButtonService
 		Client client,
 		ClientThread clientThread,
 		CardDatabase cardDatabase,
-		TcgStateService stateService)
+		TcgStateService stateService,
+		BronzemanEquipLockService equipLockService)
 	{
 		this.client = client;
 		this.clientThread = clientThread;
 		this.cardDatabase = cardDatabase;
 		this.stateService = stateService;
+		this.equipLockService = equipLockService;
 	}
 
 	@Subscribe
@@ -185,7 +188,11 @@ public final class BankUnlocksButtonService
 		int shown = Math.min(itemIds.size(), maxCells);
 
 		Widget header = parent.createChild(-1, WidgetType.TEXT);
-		long inBank = itemIds.stream().filter(bankedQuantities()::containsKey).count();
+		Map<String, Integer> banked = bankedByCard();
+		long inBank = itemIds.stream()
+			.map(this::cardNameForItemId)
+			.filter(n -> n != null && banked.containsKey(n))
+			.count();
 		header.setText(itemIds.isEmpty()
 			? "No items unlocked yet — open a pack to start."
 			: "Unlocked: " + itemIds.size() + "  |  in bank: " + inBank
@@ -199,12 +206,12 @@ public final class BankUnlocksButtonService
 		header.setOriginalHeight(HEADER_HEIGHT);
 		header.revalidate();
 
-		Map<Integer, Integer> banked = bankedQuantities();
 		int gridTop = PANEL_Y + HEADER_HEIGHT + 6;
 		for (int i = 0; i < shown; i++)
 		{
 			int itemId = itemIds.get(i);
-			Integer heldQuantity = banked.get(itemId);
+			String cardName = cardNameForItemId(itemId);
+			Integer heldQuantity = cardName == null ? null : banked.get(cardName);
 			Widget slot = parent.createChild(-1, WidgetType.GRAPHIC);
 			slot.setItemId(itemId);
 			slot.setItemQuantity(heldQuantity == null ? 1 : heldQuantity);
@@ -225,10 +232,14 @@ public final class BankUnlocksButtonService
 		}
 	}
 
-	/** Item id -> quantity currently in the bank, so held unlocks can be shown at full opacity. */
-	private Map<Integer, Integer> bankedQuantities()
+	/**
+	 * Card name -> total quantity banked. Banked items are resolved through the same variant rules
+	 * the equip lock uses, so a degraded "Dharok's helm 25" or an ornamented copy still counts as
+	 * holding that card's item.
+	 */
+	private Map<String, Integer> bankedByCard()
 	{
-		Map<Integer, Integer> held = new java.util.HashMap<>();
+		Map<String, Integer> held = new java.util.HashMap<>();
 		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
 		if (bank == null)
 		{
@@ -236,12 +247,31 @@ public final class BankUnlocksButtonService
 		}
 		for (Item item : bank.getItems())
 		{
-			if (item != null && item.getId() > 0 && item.getQuantity() > 0)
+			if (item == null || item.getId() <= 0 || item.getQuantity() <= 0)
 			{
-				held.merge(item.getId(), item.getQuantity(), Integer::sum);
+				continue;
 			}
+			ItemComposition comp = client.getItemDefinition(item.getId());
+			if (comp == null || comp.getName() == null)
+			{
+				continue;
+			}
+			equipLockService.findCardForItemName(comp.getName())
+				.ifPresent(card -> held.merge(card.getName(), item.getQuantity(), Integer::sum));
 		}
 		return held;
+	}
+
+	private String cardNameForItemId(int itemId)
+	{
+		ItemComposition comp = client.getItemDefinition(itemId);
+		if (comp == null || comp.getName() == null)
+		{
+			return null;
+		}
+		return equipLockService.findCardForItemName(comp.getName())
+			.map(CardDefinition::getName)
+			.orElse(null);
 	}
 
 	/**

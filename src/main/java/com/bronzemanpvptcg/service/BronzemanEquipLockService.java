@@ -172,10 +172,10 @@ public final class BronzemanEquipLockService
 
 	/**
 	 * Resolves an in-game item to its card. Tries the exact name first, then peels one variant
-	 * marker at a time, so every untradeable, imbued, ornamented or bundled variant lands on the
-	 * card that unlocks it.
+	 * marker at a time, so every untradeable, imbued, ornamented, degraded or bundled variant
+	 * lands on the card that unlocks it. Shared with the bank unlocks panel.
 	 */
-	private Optional<CardDefinition> findCardForItemName(String itemName)
+	public Optional<CardDefinition> findCardForItemName(String itemName)
 	{
 		if (itemName == null || itemName.trim().isEmpty())
 		{
