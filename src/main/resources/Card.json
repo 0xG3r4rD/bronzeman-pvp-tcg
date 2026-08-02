@@ -4187,26 +4187,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Castle wars arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Castle_wars_arrow_detail.png/130px-Castle_wars_arrow_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An arrow made using an imitation dragon's talon.",
-    "value": 10,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Chinchompa",
     "category": [
       "Resource",

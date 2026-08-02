@@ -3,6 +3,11 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.5.3] — 2026-08-02
+
+### Removed
+- Castle wars arrow — 966 cards.
+
 ## [1.5.2] — 2026-08-02
 
 ### Removed
