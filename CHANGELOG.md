@@ -3,6 +3,12 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.5.0] — 2026-08-02
+
+### Changed
+- All of **Ava's devices** (attractor, accumulator, assembler and contraption) now sit behind a
+  single card named "Ava's devices", using the assembler's artwork.
+
 ## [1.4.3] — 2026-08-02
 
 ### Removed

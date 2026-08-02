@@ -1902,7 +1902,7 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Ava's assembler",
+    "name": "Ava's devices",
     "category": [
       "Resource",
       "Armour",
@@ -1919,9 +1919,15 @@
       "Commune",
       "Drop"
     ],
-    "examine": "A superior bagged chicken empowered by Vorkath, ready to serve you, magnet in claw.",
+    "examine": "Any of Ava's ranged-ammo devices.",
     "value": 51000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Ava's accumulator",
+      "Ava's assembler",
+      "Ava's attractor",
+      "Ava's contraption"
+    ]
   },
   {
     "name": "Avernic defender",
