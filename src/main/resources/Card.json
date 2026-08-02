@@ -7141,6 +7141,126 @@
     "equipmentSlot": "shield"
   },
   {
+    "name": "Ghostly boots",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghostly_boots_detail.png/130px-Ghostly_boots_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "They seem to be not quite of this world...",
+    "value": 30,
+    "equipmentSlot": "feet"
+  },
+  {
+    "name": "Ghostly cloak",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghostly_cloak_detail.png/130px-Ghostly_cloak_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Made of a strange ghostly material...",
+    "value": 25,
+    "equipmentSlot": "cape"
+  },
+  {
+    "name": "Ghostly gloves",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghostly_gloves_detail.png/130px-Ghostly_gloves_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "They seem to fade in and out of existence...",
+    "value": 30,
+    "equipmentSlot": "hands"
+  },
+  {
+    "name": "Ghostly hood",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghostly_hood_detail.png/130px-Ghostly_hood_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A ghostly hood, fit for a ghostly head.",
+    "value": 30,
+    "equipmentSlot": "head"
+  },
+  {
+    "name": "Ghostly robe (bottom)",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghostly_robe_%28bottom%29_detail.png/130px-Ghostly_robe_%28bottom%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An unearthly set of robe bottoms.",
+    "value": 30,
+    "equipmentSlot": "legs"
+  },
+  {
+    "name": "Ghostly robe (top)",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghostly_robe_%28top%29_detail.png/130px-Ghostly_robe_%28top%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A particularly spooky robe top.",
+    "value": 30,
+    "equipmentSlot": "body"
+  },
+  {
     "name": "Ghrazi rapier",
     "category": [
       "Resource",

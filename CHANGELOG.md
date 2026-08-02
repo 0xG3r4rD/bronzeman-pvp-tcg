@@ -3,6 +3,11 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.10.1] — 2026-08-02
+
+### Added
+- The full **Ghostly robes** set — hood, robe (top), robe (bottom), cloak, boots and gloves.
+
 ## [1.10.0] — 2026-08-02
 
 ### Added
