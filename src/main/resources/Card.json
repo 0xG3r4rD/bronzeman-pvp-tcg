@@ -2373,6 +2373,29 @@
     "defenceRequirement": 65
   },
   {
+    "name": "Barrelchest anchor",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Barrelchest_anchor_detail.png/130px-Barrelchest_anchor_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "equipmentSlot": "2h",
+    "aliases": [
+      "Barrelchest anchor (bh)"
+    ]
+  },
+  {
     "name": "Barronite mace",
     "category": [
       "Resource",
@@ -7221,27 +7244,7 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Ghostly robe (bottom)",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghostly_robe_%28bottom%29_detail.png/130px-Ghostly_robe_%28bottom%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An unearthly set of robe bottoms.",
-    "value": 30,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Ghostly robe (top)",
+    "name": "Ghostly robe",
     "category": [
       "Resource",
       "Armour"
@@ -7256,9 +7259,13 @@
       "Wear",
       "Drop"
     ],
-    "examine": "A particularly spooky robe top.",
+    "examine": "Ghostly robes, top or bottom.",
     "value": 30,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "aliases": [
+      "Ghostly robe (bottom)",
+      "Ghostly robe (top)"
+    ]
   },
   {
     "name": "Ghrazi rapier",
@@ -8675,7 +8682,17 @@
     ],
     "examine": "Halo with the protection of the gods.",
     "value": 150000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "aliases": [
+      "Ancient halo",
+      "Armadyl halo",
+      "Bandos halo",
+      "Brassica halo",
+      "Guthix halo",
+      "Saradomin halo",
+      "Seren halo",
+      "Zamorak halo"
+    ]
   },
   {
     "name": "Hard leather shield",
@@ -15590,7 +15607,22 @@
     "examine": "You don't want to wear it inside-out.",
     "value": 40000,
     "equipmentSlot": "head",
-    "defenceRequirement": 10
+    "defenceRequirement": 10,
+    "aliases": [
+      "Araxyte slayer helmet",
+      "Black slayer helmet",
+      "Demonic slayer helmet",
+      "Green slayer helmet",
+      "Hooded slayer helmet",
+      "Hydra slayer helmet",
+      "Purple slayer helmet",
+      "Red slayer helmet",
+      "Turquoise slayer helmet",
+      "Twisted slayer helmet",
+      "Tzkal slayer helmet",
+      "Tztok slayer helmet",
+      "Vampyric slayer helmet"
+    ]
   },
   {
     "name": "Slayer's staff",

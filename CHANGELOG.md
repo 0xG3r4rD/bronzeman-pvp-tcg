@@ -3,6 +3,20 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.11.1] — 2026-08-02
+
+### Fixed
+- **Halos and slayer helmets were equipable with no card.** Both families were merged onto a single
+  card back before cards could carry aliases, so the eight god halos and thirteen slayer helmet
+  recolours matched nothing and counted as untracked. They now resolve to the Halo and Slayer
+  helmet cards.
+- **Ghostly robes were equipable with no card.** Both pieces are simply called "Ghostly robe"
+  in game — the "(top)" and "(bottom)" are wiki disambiguation — so neither card ever matched.
+  They are now one **Ghostly robe** card.
+
+### Added
+- **Barrelchest anchor**, covering its Bounty Hunter variant.
+
 ## [1.11.0] — 2026-08-02
 
 ### Changed
