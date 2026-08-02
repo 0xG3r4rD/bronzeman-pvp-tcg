@@ -1585,7 +1585,11 @@
     ],
     "examine": "A shadowy Ardougne cloak.",
     "value": 100000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Ardougne max cape",
+      "Ardougne max hood"
+    ]
   },
   {
     "name": "Arkan blade",
@@ -2007,11 +2011,17 @@
     "value": 51000,
     "equipmentSlot": "cape",
     "aliases": [
+      "Accumulator max cape",
+      "Accumulator max hood",
+      "Assembler max cape",
+      "Assembler max hood",
       "Ava's accumulator",
       "Ava's assembler",
       "Ava's attractor",
       "Ava's contraption",
-      "Masori assembler"
+      "Masori assembler",
+      "Masori assembler max cape",
+      "Masori assembler max hood"
     ]
   },
   {
@@ -5143,7 +5153,11 @@
     ],
     "examine": "A quiver awarded to those who have proved their worth in the Colosseum.",
     "value": 80000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Dizana's max cape",
+      "Dizana's max hood"
+    ]
   },
   {
     "name": "Dragon 2h sword",
@@ -7016,7 +7030,11 @@
     ],
     "examine": "A cape of fire.",
     "value": 65007,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Fire max cape",
+      "Fire max hood"
+    ]
   },
   {
     "name": "Fish sack",
@@ -9232,8 +9250,14 @@
     "equipmentSlot": "cape",
     "aliases": [
       "Imbued guthix cape",
+      "Imbued guthix max cape",
+      "Imbued guthix max hood",
       "Imbued saradomin cape",
-      "Imbued zamorak cape"
+      "Imbued saradomin max cape",
+      "Imbued saradomin max hood",
+      "Imbued zamorak cape",
+      "Imbued zamorak max cape",
+      "Imbued zamorak max hood"
     ]
   },
   {
@@ -9255,7 +9279,11 @@
     ],
     "examine": "Whose idea was it to have a cape made of lava anyway?",
     "value": 80000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Infernal max cape",
+      "Infernal max hood"
+    ]
   },
   {
     "name": "Infinity boots",
@@ -10433,8 +10461,14 @@
     "equipmentSlot": "cape",
     "aliases": [
       "Guthix cape",
+      "Guthix max cape",
+      "Guthix max hood",
       "Saradomin cape",
-      "Zamorak cape"
+      "Saradomin max cape",
+      "Saradomin max hood",
+      "Zamorak cape",
+      "Zamorak max cape",
+      "Zamorak max hood"
     ]
   },
   {
@@ -11954,7 +11988,11 @@
     ],
     "examine": "The cape worn by members of the Myths' Guild.",
     "value": 10000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Mythical max cape",
+      "Mythical max hood"
+    ]
   },
   {
     "name": "Necklace of anguish",

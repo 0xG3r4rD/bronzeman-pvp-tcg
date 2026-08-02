@@ -3,6 +3,15 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.13.1] — 2026-08-02
+
+### Fixed
+- **Max cape variants now sit behind the card for the item they were fused with** — 28 capes and
+  hoods in all. Infernal max cape and hood need the Infernal cape; the assembler, accumulator and
+  Masori assembler max capes need Ava's devices; the imbued god max capes need the Imbued mage
+  arena cape; and so on for Fire, Ardougne, Mythical and Dizana's.
+- The plain **Max cape and Max hood stay unrestricted** — no card was added for them.
+
 ## [1.13.0] — 2026-08-02
 
 ### Fixed
