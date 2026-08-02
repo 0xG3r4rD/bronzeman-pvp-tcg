@@ -3,6 +3,12 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.8.4] — 2026-08-02
+
+### Removed
+- Wristbands of the arena, Trapper's tipple, Rapier, Dark flippers and Defensive shield. The
+  Ghrazi rapier and the plain Flippers are untouched.
+
 ## [1.8.3] — 2026-08-02
 
 ### Added

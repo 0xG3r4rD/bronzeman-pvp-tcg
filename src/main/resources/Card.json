@@ -4795,49 +4795,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Dark flippers",
-    "category": [
-      "Resource",
-      "Armour",
-      "Asgarnia",
-      "Kourend",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_flippers_detail.png/130px-Dark_flippers_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Spooky, scary, strangely uncomfortable flippers.",
-    "value": 1,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Defensive shield",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Defensive_shield_detail.png/130px-Defensive_shield_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Large, round, heavy shield.",
-    "value": 1,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Desert amulet",
     "category": [
       "Resource",
@@ -12994,26 +12951,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Rapier",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rapier_detail.png/130px-Rapier_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The very butcher of a silk button.",
-    "value": 25600,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Red boater",
     "category": [
       "Resource",
@@ -18451,26 +18388,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Trapper's tipple",
-    "category": [
-      "Resource",
-      "Equipment",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Trapper%27s_tipple_detail.png/130px-Trapper%27s_tipple_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Drink",
-      "Drop"
-    ],
-    "examine": "A glass of frothy ale.",
-    "value": 2
-  },
-  {
     "name": "Treasonous ring",
     "category": [
       "Resource",
@@ -19940,27 +19857,6 @@
     "examine": "Slightly magical boots.",
     "value": 200,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Wristbands of the arena",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Wristbands_of_the_arena_detail.png/130px-Wristbands_of_the_arena_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A pair of wristbands to protect your hands in combat.",
-    "value": 85000,
-    "equipmentSlot": "hands",
-    "defenceRequirement": 20
   },
   {
     "name": "Xerician hat",
