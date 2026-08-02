@@ -13,7 +13,6 @@ import java.util.Map;
 import java.util.Set;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
 import com.bronzemanpvptcg.model.TcgPublicStats;
-import com.bronzemanpvptcg.overlay.BankUnlockedHighlightOverlay;
 import com.bronzemanpvptcg.overlay.CreditsInfoboxOverlay;
 import com.bronzemanpvptcg.overlay.PackRevealInputListener;
 import com.bronzemanpvptcg.overlay.PackRevealOverlay;
@@ -172,8 +171,6 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private BankUnlocksButtonService bankUnlocksButtonService;
 	@Inject
-	private BankUnlockedHighlightOverlay bankUnlockedHighlightOverlay;
-	@Inject
 	private PartyService partyService;
 	@Inject
 	private WSClient wsClient;
@@ -229,7 +226,6 @@ public class OsrsTcgPlugin extends Plugin
 		clientToolbar.addNavigation(navigationButton);
 		overlayManager.add(packRevealOverlay);
 		overlayManager.add(creditsInfoboxOverlay);
-		overlayManager.add(bankUnlockedHighlightOverlay);
 		mouseManager.registerMouseListener(packRevealInputListener);
 		mouseManager.registerMouseWheelListener(packRevealInputListener);
 		keyManager.registerKeyListener(packRevealInputListener);
@@ -307,7 +303,6 @@ public class OsrsTcgPlugin extends Plugin
 		npcKillCreditTracker.shutdown();
 		overlayManager.remove(packRevealOverlay);
 		overlayManager.remove(creditsInfoboxOverlay);
-		overlayManager.remove(bankUnlockedHighlightOverlay);
 		mouseManager.unregisterMouseListener(packRevealInputListener);
 		mouseManager.unregisterMouseWheelListener(packRevealInputListener);
 		keyManager.unregisterKeyListener(packRevealInputListener);
@@ -603,6 +598,28 @@ public class OsrsTcgPlugin extends Plugin
 				}
 			}
 			pvpKillCreditTracker.simulateKill(lootValue);
+			return;
+		}
+
+		if ("btcg-escapes".equalsIgnoreCase(cmd))
+		{
+			if (!stateService.isDebugLogging())
+			{
+				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
+					"[Bronzeman PVP TCG] That command requires Overview debug mode.", null);
+				return;
+			}
+			List<String> escapes = bronzemanEquipLockService.findUnmatchedEquipableItems();
+			log.info("[Bronzeman PVP TCG] {} equipable items resolve to no card: {}",
+				escapes.size(), escapes);
+			queueGameMessage(TcgPluginGameMessages.withPrefix(String.format(
+				"%d equipable items have no card (full list in the client log).", escapes.size())));
+			int shown = Math.min(escapes.size(), 20);
+			if (shown > 0)
+			{
+				queueGameMessage(TcgPluginGameMessages.withPrefix(
+					"First " + shown + ": " + String.join(", ", escapes.subList(0, shown))));
+			}
 			return;
 		}
 

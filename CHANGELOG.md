@@ -3,6 +3,20 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.12.0] — 2026-08-02
+
+### Changed
+- The bank icon now **filters the bank to only your unlocked items**, the way Quest Helper's bank
+  filter works, rather than merely highlighting them. Locked slots are hidden and the survivors
+  repack into a gapless grid with a corrected scrollbar. The filter re-applies automatically when
+  the bank redraws (search, tab change, deposit), and clicking the icon again restores everything.
+
+### Added
+- `::btcg-escapes` (debug mode): scans every item definition in the client and reports equipable
+  items that resolve to no card — i.e. anything currently wearable without unlocking it. Card data
+  is name-keyed, so name rules are unavoidable; this makes the remaining gaps visible instead of
+  silent, which is how the halo, slayer helmet and ghostly robe escapes were found.
+
 ## [1.11.1] — 2026-08-02
 
 ### Fixed

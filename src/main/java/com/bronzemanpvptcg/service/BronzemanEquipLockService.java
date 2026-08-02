@@ -5,7 +5,10 @@ import com.bronzemanpvptcg.data.CardDatabase;
 import com.bronzemanpvptcg.data.CardDefinition;
 import com.bronzemanpvptcg.model.CollectionState;
 import com.bronzemanpvptcg.util.TcgPluginGameMessages;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
@@ -14,6 +17,7 @@ import java.util.regex.Pattern;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import net.runelite.api.Client;
+import net.runelite.api.ItemComposition;
 import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
 import net.runelite.api.ScriptID;
@@ -245,6 +249,57 @@ public final class BronzemanEquipLockService
 	{
 		return !stateService.getState().getCollectionState()
 			.instancesForCardName(card.getName()).isEmpty();
+	}
+
+	/**
+	 * Walks every item definition the client knows and reports equipable ones that resolve to no
+	 * card — i.e. items currently wearable without unlocking anything. Name rules are unavoidable
+	 * (card data is name-keyed), so this makes the gaps visible instead of silent.
+	 *
+	 * @return item names with no card, in id order
+	 */
+	public List<String> findUnmatchedEquipableItems()
+	{
+		List<String> escapes = new ArrayList<>();
+		Set<String> seen = new HashSet<>();
+		int count = client.getItemCount();
+		for (int id = 0; id < count; id++)
+		{
+			ItemComposition comp;
+			try
+			{
+				comp = client.getItemDefinition(id);
+			}
+			catch (RuntimeException ex)
+			{
+				continue;
+			}
+			if (comp == null || comp.getName() == null || comp.getPlaceholderTemplateId() != -1
+				|| comp.getNote() != -1)
+			{
+				continue;
+			}
+			String name = comp.getName().trim();
+			if (name.isEmpty() || "null".equalsIgnoreCase(name) || !seen.add(name.toLowerCase(Locale.ROOT)))
+			{
+				continue;
+			}
+			// Only equipable items matter; the client exposes this through the Wear/Wield op.
+			boolean equipable = false;
+			for (String action : comp.getInventoryActions())
+			{
+				if (action != null && EQUIP_VERBS.contains(action.trim().toLowerCase(Locale.ROOT)))
+				{
+					equipable = true;
+					break;
+				}
+			}
+			if (equipable && findCardForItemName(name).isEmpty())
+			{
+				escapes.add(name);
+			}
+		}
+		return escapes;
 	}
 
 	private boolean isEnforcementBypassed()

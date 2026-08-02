@@ -3,7 +3,6 @@ package com.bronzemanpvptcg.service;
 import com.bronzemanpvptcg.data.CardDatabase;
 import com.bronzemanpvptcg.data.CardDefinition;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
-import com.bronzemanpvptcg.overlay.BankUnlockedHighlightOverlay;
 import com.bronzemanpvptcg.util.TcgPluginGameMessages;
 import net.runelite.client.chat.ChatMessageManager;
 import java.awt.image.BufferedImage;
@@ -19,6 +18,8 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 import net.runelite.api.Client;
 import net.runelite.api.ItemComposition;
+import net.runelite.api.ScriptID;
+import net.runelite.api.events.ScriptPostFired;
 import net.runelite.api.events.WidgetLoaded;
 import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.JavaScriptCallback;
@@ -48,12 +49,21 @@ public final class BankUnlocksButtonService
 	private final ClientThread clientThread;
 	private final CardDatabase cardDatabase;
 	private final TcgStateService stateService;
-	private final BankUnlockedHighlightOverlay highlightOverlay;
+	private final BronzemanEquipLockService equipLockService;
 	private final ChatMessageManager chatMessageManager;
 
 	/** Lower-case item name -> lowest matching item id; built once, then reused. */
 	private final Map<String, Integer> itemIdByName = new ConcurrentHashMap<>();
 	private boolean itemIndexBuilt;
+	private boolean filterActive;
+
+	/** Bank grid geometry, matching the client's own layout. */
+	private static final int ITEMS_PER_ROW = 8;
+	private static final int ITEM_X_SPACING = 48;
+	private static final int ITEM_Y_SPACING = 36;
+	private static final int ITEM_ROW_START = 51;
+	private static final int ITEM_Y_START = 0;
+	private static final int BANK_REBUILD_SCRIPT = 29;
 
 	@Inject
 	public BankUnlocksButtonService(
@@ -61,14 +71,14 @@ public final class BankUnlocksButtonService
 		ClientThread clientThread,
 		CardDatabase cardDatabase,
 		TcgStateService stateService,
-		BankUnlockedHighlightOverlay highlightOverlay,
+		BronzemanEquipLockService equipLockService,
 		ChatMessageManager chatMessageManager)
 	{
 		this.client = client;
 		this.clientThread = clientThread;
 		this.cardDatabase = cardDatabase;
 		this.stateService = stateService;
-		this.highlightOverlay = highlightOverlay;
+		this.equipLockService = equipLockService;
 		this.chatMessageManager = chatMessageManager;
 	}
 
@@ -77,6 +87,7 @@ public final class BankUnlocksButtonService
 	{
 		if (event.getGroupId() == InterfaceID.BANKMAIN)
 		{
+			filterActive = false;
 			clientThread.invokeLater(this::addButton);
 		}
 	}
@@ -99,7 +110,7 @@ public final class BankUnlocksButtonService
 		button.setOriginalY(BUTTON_MARGIN_Y);
 		button.setHasListener(true);
 		button.setNoClickThrough(true);
-		button.setAction(0, "Toggle unlocked-item highlight");
+		button.setAction(0, "Show only unlocked items");
 		button.setOnOpListener((JavaScriptCallback) e -> togglePanel());
 		button.setOnMouseOverListener((JavaScriptCallback) e -> button.setOpacity(40));
 		button.setOnMouseLeaveListener((JavaScriptCallback) e -> button.setOpacity(0));
@@ -108,12 +119,88 @@ public final class BankUnlocksButtonService
 
 	private void togglePanel()
 	{
-		highlightOverlay.toggle();
-		buildItemIndex();
-		int unlocked = unlockedItemIds().size();
-		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, highlightOverlay.isEnabled()
-			? String.format("Highlighting your %d unlocked items in the bank.", unlocked)
-			: "Unlocked-item highlighting off.");
+		filterActive = !filterActive;
+		if (filterActive)
+		{
+			applyBankFilter();
+			TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager,
+				"Bank filtered to your unlocked items. Click the icon again to show everything.");
+		}
+		else
+		{
+			// Let the client redraw the bank normally, which restores every hidden slot.
+			client.runScript(BANK_REBUILD_SCRIPT);
+			clientThread.invokeLater(this::addButton);
+			TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, "Bank filter off.");
+		}
+	}
+
+	@Subscribe
+	public void onScriptPostFired(ScriptPostFired event)
+	{
+		// The bank redraws on search, tab change and deposits; re-apply so the filter sticks.
+		if (filterActive && event.getScriptId() == ScriptID.BANKMAIN_BUILD)
+		{
+			clientThread.invokeLater(this::applyBankFilter);
+		}
+	}
+
+	/**
+	 * Hides every bank slot whose item is not unlocked and repacks the survivors into a gapless
+	 * grid, the way the bank-tag plugins filter. Scroll height is recomputed so the bar matches.
+	 */
+	private void applyBankFilter()
+	{
+		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
+		if (container == null || container.getDynamicChildren() == null)
+		{
+			return;
+		}
+
+		int shown = 0;
+		for (Widget child : container.getDynamicChildren())
+		{
+			if (child == null || child.getItemId() <= 0)
+			{
+				continue;
+			}
+			if (!isUnlockedItem(child.getItemId()))
+			{
+				child.setHidden(true);
+				child.setOriginalX(0);
+				child.setOriginalY(0);
+				child.revalidate();
+				continue;
+			}
+			child.setHidden(false);
+			child.setOriginalX(ITEM_ROW_START + (shown % ITEMS_PER_ROW) * ITEM_X_SPACING);
+			child.setOriginalY(ITEM_Y_START + (shown / ITEMS_PER_ROW) * ITEM_Y_SPACING);
+			child.revalidate();
+			shown++;
+		}
+
+		int rows = (shown + ITEMS_PER_ROW - 1) / ITEMS_PER_ROW;
+		container.setScrollHeight(Math.max(0, rows * ITEM_Y_SPACING + ITEM_Y_START));
+		container.revalidate();
+		Widget scrollbar = client.getWidget(InterfaceID.Bankmain.SCROLLBAR);
+		if (scrollbar != null)
+		{
+			client.runScript(ScriptID.UPDATE_SCROLLBAR, scrollbar.getId(), container.getId(),
+				container.getScrollY());
+		}
+	}
+
+	/** True when the item, or the base item behind a variant, has an owned card. */
+	private boolean isUnlockedItem(int itemId)
+	{
+		ItemComposition comp = client.getItemDefinition(itemId);
+		if (comp == null || comp.getName() == null)
+		{
+			return false;
+		}
+		Optional<CardDefinition> card = equipLockService.findCardForItemName(comp.getName());
+		return card.isPresent() && !stateService.getState().getCollectionState()
+			.instancesForCardName(card.get().getName()).isEmpty();
 	}
 
 	/** Item ids for every card the player owns, including the extra items a bundled card covers. */
