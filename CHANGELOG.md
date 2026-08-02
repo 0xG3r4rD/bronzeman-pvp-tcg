@@ -3,6 +3,12 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.4.1] — 2026-08-02
+
+### Added
+- **Lightbearer** restored. It carries no equipment bonuses so the zero-stat sweep removed it, but
+  its special-attack regeneration makes it worth collecting.
+
 ## [1.4.0] — 2026-08-02
 
 ### Added

@@ -10562,6 +10562,27 @@
     "equipmentSlot": "body"
   },
   {
+    "name": "Lightbearer",
+    "category": [
+      "Resource",
+      "Armour",
+      "Desert"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lightbearer_detail.png/130px-Lightbearer_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A heavy ring that glimmers with a strange power.",
+    "value": 1000000,
+    "equipmentSlot": "ring"
+  },
+  {
     "name": "Long kebbit bolts",
     "category": [
       "Resource",
