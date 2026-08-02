@@ -194,7 +194,7 @@ public final class BankUnlocksButtonService
 	private boolean isUnlockedItem(int itemId)
 	{
 		ItemComposition comp = client.getItemDefinition(itemId);
-		if (comp == null || comp.getName() == null)
+		if (comp == null || comp.getName() == null || !BronzemanEquipLockService.isEquipable(comp))
 		{
 			return false;
 		}

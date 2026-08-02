@@ -411,10 +411,30 @@ public final class BronzemanEquipLockService
 		{
 			return cached;
 		}
-		String name = itemManager.getItemComposition(itemId).getName();
-		Optional<CardDefinition> card = findCardForItemName(name);
+		ItemComposition comp = itemManager.getItemComposition(itemId);
+		String name = comp.getName();
+		// Something you cannot wear is never "locked" — unstrung bows, unfinished potions and other
+		// crafting intermediates share a name with equipable gear but are not gear themselves.
+		Optional<CardDefinition> card = isEquipable(comp) ? findCardForItemName(name) : Optional.empty();
 		boolean locked = card.isPresent() && !isWhitelisted(name) && !isCardOwned(card.get());
 		lockedItemCache.put(itemId, locked);
 		return locked;
+	}
+
+	/** True when the client offers a Wear/Wield/Equip option on the item itself. */
+	public static boolean isEquipable(ItemComposition comp)
+	{
+		if (comp == null || comp.getInventoryActions() == null)
+		{
+			return false;
+		}
+		for (String action : comp.getInventoryActions())
+		{
+			if (action != null && EQUIP_VERBS.contains(action.trim().toLowerCase(Locale.ROOT)))
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 }

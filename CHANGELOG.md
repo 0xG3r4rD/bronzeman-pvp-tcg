@@ -3,6 +3,14 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.13.2] — 2026-08-02
+
+### Fixed
+- **Unstrung bows and other non-equipable items no longer show as locked.** The greying-out and the
+  bank filter matched purely on name, so an unstrung `Magic longbow (u)` inherited the strung bow's
+  card even though it can never be worn. Both now require the item to actually offer a
+  Wear/Wield/Equip option before it counts as gear.
+
 ## [1.13.1] — 2026-08-02
 
 ### Fixed
