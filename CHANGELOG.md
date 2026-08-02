@@ -3,6 +3,13 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.8.1] — 2026-08-02
+
+### Fixed
+- **Masori assembler** was equipable without any card — it has no card of its own and nothing
+  resolved to one. It now sits under the **Ava's devices** card, alongside the attractor,
+  accumulator, assembler and contraption.
+
 ## [1.8.0] — 2026-08-02
 
 ### Added
