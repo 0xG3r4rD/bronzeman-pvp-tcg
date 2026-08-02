@@ -2311,26 +2311,6 @@
     "defenceRequirement": 65
   },
   {
-    "name": "Barbed bolts",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Barbed_bolts_detail.png/130px-Barbed_bolts_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Great if you have a crossbow!",
-    "value": 200,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Barronite mace",
     "category": [
       "Resource",
@@ -3644,26 +3624,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Blurite bolts",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blurite_bolts_detail.png/130px-Blurite_bolts_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Blurite crossbow bolts.",
-    "value": 2,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Bolt rack",
     "category": [
       "Resource",
@@ -4243,26 +4203,6 @@
       "Drop"
     ],
     "examine": "An arrow made using an imitation dragon's talon.",
-    "value": 10,
-    "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Castle wars bolts",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Castle_wars_bolts_detail.png/130px-Castle_wars_bolts_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Fake dragon crossbow bolts.",
     "value": 10,
     "equipmentSlot": "ammo"
   },
