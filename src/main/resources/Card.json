@@ -15157,7 +15157,11 @@
     "examine": "Needs to be charged with Zulrah's scales.",
     "value": 110000,
     "equipmentSlot": "head",
-    "defenceRequirement": 75
+    "defenceRequirement": 75,
+    "aliases": [
+      "Magma helm",
+      "Tanzanite helm"
+    ]
   },
   {
     "name": "Severed leg",

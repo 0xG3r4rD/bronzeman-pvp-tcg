@@ -3,6 +3,13 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.9.1] — 2026-08-02
+
+### Fixed
+- **Tanzanite helm** and **Magma helm** were equipable without a card. Applying a mutagen renames
+  the item outright, so suffix-stripping never reached them; both now sit under the **Serpentine
+  helm** card, uncharged forms included.
+
 ## [1.9.0] — 2026-08-02
 
 ### Added
