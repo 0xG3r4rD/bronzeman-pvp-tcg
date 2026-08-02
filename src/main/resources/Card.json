@@ -21,26 +21,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Abyssal bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Abyssal_bracelet_detail.png/130px-Abyssal_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Makes using the Abyss just slightly safer.",
-    "value": 4200,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Abyssal dagger",
     "category": [
       "Resource",
@@ -62,7 +42,12 @@
     ],
     "examine": "Something sharp from the body of a defeated Abyssal Sire.",
     "value": 115001,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Abyssal dagger (p)",
+      "Abyssal dagger (p+)",
+      "Abyssal dagger (p++)"
+    ]
   },
   {
     "name": "Abyssal tentacle",
@@ -626,28 +611,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Amulet of Glory",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Amulet_of_glory_detail.png/130px-Amulet_of_glory_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Rub",
-      "Drop"
-    ],
-    "examine": "A very powerful dragonstone amulet.",
-    "value": 17625,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Amulet of avarice",
     "category": [
       "Resource",
@@ -753,6 +716,28 @@
     ],
     "examine": "A very powerful onyx amulet.",
     "value": 202000,
+    "equipmentSlot": "neck"
+  },
+  {
+    "name": "Amulet of Glory",
+    "category": [
+      "Resource",
+      "Armour",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Amulet_of_glory_detail.png/130px-Amulet_of_glory_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Rub",
+      "Drop"
+    ],
+    "examine": "A very powerful dragonstone amulet.",
+    "value": 17625,
     "equipmentSlot": "neck"
   },
   {
@@ -1559,28 +1544,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Arceuus hood",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arceuus_hood_detail.png/130px-Arceuus_hood_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rare hood from Arceuus.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Archer helm",
     "category": [
       "Resource",
@@ -2003,27 +1966,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Atlatl dart",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Atlatl_dart_5_detail.png/130px-Atlatl_dart_5_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Quite big for a dart.",
-    "value": 490,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Ava's assembler",
     "category": [
       "Resource",
@@ -2086,26 +2028,6 @@
     "examine": "A finely crafted pair of boots.",
     "value": 192000,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Banana hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Banana_hat_detail.png/130px-Banana_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "You'd be bananas to think this isn't cute.",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Bandos boots",
@@ -2568,30 +2490,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Bear feet",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bear_feet_detail.png/130px-Bear_feet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Vicious bear slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
-  },
-  {
     "name": "Beginner wand",
     "category": [
       "Resource",
@@ -2783,28 +2681,6 @@
     "examine": "A warm black cape.",
     "value": 7,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Black cavalier",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_cavalier_detail.png/130px-Black_cavalier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All for one and one for all!",
-    "value": 200,
-    "equipmentSlot": "head"
   },
   {
     "name": "Black chainbody",
@@ -2999,28 +2875,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Black med helm",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_med_helm_detail.png/130px-Black_med_helm_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A medium sized helmet.",
-    "value": 576,
-    "equipmentSlot": "head",
-    "defenceRequirement": 10
-  },
-  {
     "name": "Black kiteshield",
     "category": [
       "Resource",
@@ -3065,55 +2919,13 @@
     "defenceRequirement": 10
   },
   {
-    "name": "Black naval shirt",
+    "name": "Black med helm",
     "category": [
       "Resource",
       "Armour",
-      "Morytania"
+      "Clue"
     ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_naval_shirt_detail.png/130px-Black_naval_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "...You can sail the seven seas...",
-    "value": 100,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Black navy slacks",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_navy_slacks_detail.png/130px-Black_navy_slacks_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for slackers.",
-    "value": 100,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Occult necklace",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Occult_necklace_detail.png/130px-Occult_necklace_detail.png",
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_med_helm_detail.png/130px-Black_med_helm_detail.png",
     "questItem": false,
     "tradeable": true,
     "equipable": true,
@@ -3123,9 +2935,10 @@
       "Wear",
       "Drop"
     ],
-    "examine": "A smokey evil embodies this amulet.",
-    "value": 45000,
-    "equipmentSlot": "neck"
+    "examine": "A medium sized helmet.",
+    "value": 576,
+    "equipmentSlot": "head",
+    "defenceRequirement": 10
   },
   {
     "name": "Black platebody",
@@ -3194,47 +3007,6 @@
     "defenceRequirement": 10
   },
   {
-    "name": "Black ring",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Onyx_ring_detail.png/130px-Onyx_ring_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 201000,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Black wizard robe",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_robe_detail.png/130px-Black_robe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I can do magic better in this.",
-    "value": 13,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Black salamander",
     "category": [
       "Resource",
@@ -3253,27 +3025,6 @@
     "examine": "Slightly slimy and somewhat menacing.",
     "value": 200,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Black skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_skirt_detail.png/130px-Black_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Clothing favoured by women and dark wizards.",
-    "value": 2,
-    "equipmentSlot": "legs"
   },
   {
     "name": "Black spiky vambraces",
@@ -3317,27 +3068,6 @@
     "defenceRequirement": 10
   },
   {
-    "name": "Black tricorn hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_tricorn_hat_detail.png/130px-Black_tricorn_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I could never look square in this.",
-    "value": 50,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Black wizard hat",
     "category": [
       "Resource",
@@ -3357,6 +3087,27 @@
     "examine": "A silly pointed hat.",
     "value": 2,
     "equipmentSlot": "head"
+  },
+  {
+    "name": "Black wizard robe",
+    "category": [
+      "Resource",
+      "Armour",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Black_robe_detail.png/130px-Black_robe_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "I can do magic better in this.",
+    "value": 13,
+    "equipmentSlot": "body"
   },
   {
     "name": "Blade of saeldor",
@@ -3400,6 +3151,26 @@
     "examine": "A quiver awarded to those who have proved their worth in the Colosseum. It's been blessed by Ralos.",
     "value": 100000,
     "equipmentSlot": "cape"
+  },
+  {
+    "name": "Blessed spirit shield",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blessed_spirit_shield_detail.png/130px-Blessed_spirit_shield_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "An ethereal shield that has been blessed with holy powers.",
+    "value": 1200000,
+    "equipmentSlot": "shield"
   },
   {
     "name": "Blood ancient sceptre",
@@ -3869,48 +3640,6 @@
     "defenceRequirement": 50
   },
   {
-    "name": "Blue naval shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_naval_shirt_detail.png/130px-Blue_naval_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "...You can sail the seven seas...",
-    "value": 100,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Blue navy slacks",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_navy_slacks_detail.png/130px-Blue_navy_slacks_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for slackers.",
-    "value": 100,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Blue robe bottoms",
     "category": [
       "Resource",
@@ -3951,27 +3680,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Blue skirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_skirt_detail.png/130px-Blue_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Leg covering favoured by women and wizards.",
-    "value": 2,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Blue spiky vambraces",
     "category": [
       "Resource",
@@ -3990,27 +3698,6 @@
     "examine": "Vambraces made from 100% real dragonhide. Now with added spikiness.",
     "value": 3000,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Blue tricorn hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_tricorn_hat_detail.png/130px-Blue_tricorn_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I could never look square in this.",
-    "value": 50,
-    "equipmentSlot": "head"
   },
   {
     "name": "Blue wizard hat",
@@ -4324,71 +4011,6 @@
     "examine": "I think they look a bit silly.",
     "value": 0,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Bracelet of clay",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bracelet_of_clay_detail.png/130px-Bracelet_of_clay_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Now I can become a potter.",
-    "value": 1265,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Bracelet of ethereum",
-    "category": [
-      "Resource",
-      "Armour",
-      "wilderness"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bracelet_of_ethereum_detail.png/130px-Bracelet_of_ethereum_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Toggle-absorption",
-      "Dismantle",
-      "Drop"
-    ],
-    "examine": "The bracelet is dull and powerless.",
-    "value": 72000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Bracelet of slaughter",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bracelet_of_slaughter_detail.png/130px-Bracelet_of_slaughter_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Break",
-      "Drop"
-    ],
-    "examine": "Occasionally prevents slayer kill count being decremented.",
-    "value": 2500,
-    "equipmentSlot": "hands"
   },
   {
     "name": "Brimstone ring",
@@ -4785,89 +4407,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Brown apron",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Brown_apron_detail.png/130px-Brown_apron_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mostly clean apron.",
-    "value": 2,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Brown naval shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Brown_naval_shirt_detail.png/130px-Brown_naval_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "...You can sail the seven seas...",
-    "value": 100,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Brown navy slacks",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Brown_navy_slacks_detail.png/130px-Brown_navy_slacks_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for slackers.",
-    "value": 100,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Brown tricorn hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Brown_tricorn_hat_detail.png/130px-Brown_tricorn_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I could never look square in this.",
-    "value": 50,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Bruise blue snelm",
     "category": [
       "Resource",
@@ -4886,26 +4425,6 @@
     "examine": "A moody blue snail shell helmet.",
     "value": 300,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Brutus slippers",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Brutus_slippers_detail.png/130px-Brutus_slippers_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Less cute cow slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
   },
   {
     "name": "Bryophyta's staff",
@@ -4927,26 +4446,6 @@
     "examine": "It's a slightly magical stick. All natural, of course.",
     "value": 65000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Bug lantern",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lit_bug_lantern_detail.png/130px-Lit_bug_lantern_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A lantern to aid attacking Harpie bugs.",
-    "value": 130,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Burning claws",
@@ -4987,27 +4486,6 @@
     "examine": "Breath powered dart delivering system with a hint of camphor.",
     "value": 2200,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Cap and goggles",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cap_and_goggles_detail.png/130px-Cap_and_goggles_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Split",
-      "Drop"
-    ],
-    "examine": "For better flying vision.",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Cape of legends",
@@ -5071,90 +4549,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Castle wars bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Castle_wars_bracelet_detail.png/130px-Castle_wars_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Must be worn as you enter the game to receive the bonus for that game.",
-    "value": 1675,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Cavalier mask",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cavalier_mask_detail.png/130px-Cavalier_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I hope I don't meet any roundheads...",
-    "value": 200,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Champion's cape",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Karamja",
-      "Morytania",
-      "Wilderness"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Champion%27s_cape_detail.png/130px-Champion%27s_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Formerly owned by Leon d'Cour, the Champion of Champions.",
-    "value": 50000,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Chef's hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Chef%27s_hat_detail.png/130px-Chef%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "What a silly hat.",
-    "value": 2,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Chinchompa",
     "category": [
       "Resource",
@@ -5173,28 +4567,6 @@
     "examine": "Handle with care.",
     "value": 140,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Chronicle",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Chronicle_detail.png/130px-Chronicle_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Teleport",
-      "Check charges",
-      "Destroy"
-    ],
-    "examine": "The legends of RuneScape.",
-    "value": 200,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Coif",
@@ -5216,28 +4588,6 @@
     "examine": "Light weight head protection.",
     "value": 200,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Collection log",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Collection_log_detail.png/130px-Collection_log_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Read",
-      "Collections overview",
-      "Destroy"
-    ],
-    "examine": "A record of rewards and loot obtained all throughout Gielinor.",
-    "value": 6,
-    "equipmentSlot": "shield"
   },
   {
     "name": "Colossal blade",
@@ -5320,28 +4670,6 @@
     "examine": "A very large, single leather glove.",
     "value": 1,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Cow slippers",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cow_slippers_%284%29_detail.png/130px-Cow_slippers_%284%29_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Swap",
-      "Drop"
-    ],
-    "examine": "Cute cow slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
   },
   {
     "name": "Crab claw",
@@ -5530,107 +4858,6 @@
     "defenceRequirement": 70
   },
   {
-    "name": "Crystal glider's hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_glider%27s_hat_detail.png/130px-Crystal_glider%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The hat of a captain who loved to sail the most graceful of seas.",
-    "value": 35,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Crystal glider's jacket",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_glider%27s_jacket_detail.png/130px-Crystal_glider%27s_jacket_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The jacket of a captain who loved to sail the most graceful of seas.",
-    "value": 35,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Crystal glider's shoes",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_glider%27s_shoes_detail.png/130px-Crystal_glider%27s_shoes_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The shoes of a captain who loved to sail the most graceful of seas.",
-    "value": 35,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Crystal glider's trousers",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_glider%27s_trousers_detail.png/130px-Crystal_glider%27s_trousers_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The trousers of a captain who loved to sail the most graceful of seas.",
-    "value": 35,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Crystal grail",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Tirannwn"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_grail_detail.png/130px-Crystal_grail_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Smells of victory.",
-    "value": 30000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Crystal halberd",
     "category": [
       "Resource",
@@ -5700,30 +4927,6 @@
     "examine": "A bright, shiny set of leg armour.",
     "value": 550000,
     "equipmentSlot": "legs",
-    "defenceRequirement": 70
-  },
-  {
-    "name": "New crystal shield",
-    "category": [
-      "Resource",
-      "Armour",
-      "Tirannwn"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_shield_detail.png/130px-Crystal_shield_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Check",
-      "Revert",
-      "Drop"
-    ],
-    "examine": "A nice sturdy crystal shield.",
-    "value": 300000,
-    "equipmentSlot": "shield",
     "defenceRequirement": 70
   },
   {
@@ -5834,50 +5037,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Dark bow tie",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_bow_tie_detail.png/130px-Dark_bow_tie_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Bow ties are cool.",
-    "value": 5000,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Dark cavalier",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_cavalier_detail.png/130px-Dark_cavalier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All for one and one for all!",
-    "value": 200,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Dark flippers",
     "category": [
       "Resource",
@@ -5961,94 +5120,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Dark trousers",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_trousers_detail.png/130px-Dark_trousers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Dark tuxedo trousers with white stockings.",
-    "value": 6000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Dark tuxedo cuffs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_tuxedo_cuffs_detail.png/130px-Dark_tuxedo_cuffs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Linked tuxedo cuffs with a dark trim.",
-    "value": 3000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Dark tuxedo jacket",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_tuxedo_jacket_detail.png/130px-Dark_tuxedo_jacket_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A dark tuxedo jacket with a white shirt.",
-    "value": 10000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Dark tuxedo shoes",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_tuxedo_shoes_detail.png/130px-Dark_tuxedo_shoes_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Dark shoes to match your dark tuxedo.",
-    "value": 3000,
-    "equipmentSlot": "feet"
-  },
-  {
     "name": "Dawnbringer",
     "category": [
       "Resource",
@@ -6067,27 +5138,6 @@
     "examine": "A weapon of light to hold back the darkness.",
     "value": 1,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Deep sea apparatus",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Deep_sea_apparatus_detail.png/130px-Deep_sea_apparatus_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Inspect",
-      "Destroy"
-    ],
-    "examine": "I'll need a helmet to make this work.",
-    "value": 50,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Defensive shield",
@@ -6110,50 +5160,6 @@
     "equipmentSlot": "shield"
   },
   {
-    "name": "Demon feet",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Demon_feet_detail.png/130px-Demon_feet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Vicious demon slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Demonic sceptre",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Demonic_sceptre_detail.png/130px-Demonic_sceptre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The sceptre of a Demonic Relic Hunter.",
-    "value": 1000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Desert amulet",
     "category": [
       "Resource",
@@ -6174,126 +5180,6 @@
     "examine": "A heart shaped amulet containing sand.",
     "value": 100000,
     "equipmentSlot": "neck"
-  },
-  {
-    "name": "Desert boots",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Desert_boots_detail.png/130px-Desert_boots_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Comfortable desert shoes.",
-    "value": 20,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Desert legs",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Desert_legs_detail.png/130px-Desert_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Better than factor 50 sun cream.",
-    "value": 25,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Desert robe",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Desert_robe_detail.png/130px-Desert_robe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cool, light desert robe.",
-    "value": 40,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Desert robes",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Desert_robes_detail.png/130px-Desert_robes_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Has a coarse hard wearing texture.",
-    "value": 25,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Desert shirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Desert_shirt_detail.png/130px-Desert_shirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cool, light desert shirt.",
-    "value": 40,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Desert top",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Desert_top_detail.png/130px-Desert_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A bit itchy.",
-    "value": 15,
-    "equipmentSlot": "body"
   },
   {
     "name": "Devout boots",
@@ -6412,26 +5298,6 @@
     "defenceRequirement": 70
   },
   {
-    "name": "Diamond amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diamond_amulet_detail.png/130px-Diamond_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 3525,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Diamond bolts",
     "category": [
       "Resource",
@@ -6449,6 +5315,26 @@
     ],
     "examine": "Diamond tipped Adamantite crossbow bolts.",
     "value": 192,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Diamond bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diamond_bolts_%28e%29_detail.png/130px-Diamond_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Diamond tipped Adamantite Crossbow Bolts.",
+    "value": 211,
     "equipmentSlot": "ammo"
   },
   {
@@ -6472,6 +5358,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Diamond dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diamond_dragon_bolts_%28e%29_detail.png/130px-Diamond_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with diamond.",
+    "value": 880,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Dinh's bulwark",
     "category": [
       "Resource",
@@ -6491,26 +5397,6 @@
     "examine": "Is it... looking at me?",
     "value": 560000,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Diving helmet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Diving_helmet_detail.png/130px-Diving_helmet_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A rudimentary diving helmet.",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Dizana's quiver",
@@ -6554,26 +5440,6 @@
     "examine": "This fires crossbow bolts.",
     "value": 2000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Double eye patch",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Double_eye_patch_detail.png/130px-Double_eye_patch_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A black piece of cloth on a string.",
-    "value": 2,
-    "equipmentSlot": "head"
   },
   {
     "name": "Dragon 2h sword",
@@ -6768,7 +5634,12 @@
     ],
     "examine": "A powerful dagger.",
     "value": 30000,
-    "equipmentSlot": "weapon"
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Dragon dagger(p)",
+      "Dragon dagger(p+)",
+      "Dragon dagger(p++)"
+    ]
   },
   {
     "name": "Dragon dart",
@@ -7204,27 +6075,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Dragon staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragon_staff_of_collection_detail.png/130px-Dragon_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, dragon tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Dragon sword",
     "category": [
       "Resource",
@@ -7356,26 +6206,6 @@
     "defenceRequirement": 75
   },
   {
-    "name": "Dragonstone amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragonstone_amulet_detail.png/130px-Dragonstone_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 17625,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Dragonstone bolts",
     "category": [
       "Resource",
@@ -7393,6 +6223,26 @@
     ],
     "examine": "Dragonstone tipped Runite crossbow bolts.",
     "value": 967,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Dragonstone bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragonstone_bolts_%28e%29_detail.png/130px-Dragonstone_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragonstone tipped Runite Crossbow Bolts.",
+    "value": 1063,
     "equipmentSlot": "ammo"
   },
   {
@@ -7435,6 +6285,26 @@
     ],
     "examine": "Dragon crossbow bolts, tipped with dragonstone. Double dragon!",
     "value": 995,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Dragonstone dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragonstone_dragon_bolts_%28e%29_detail.png/130px-Dragonstone_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with dragonstone. Double dragon!",
+    "value": 1150,
     "equipmentSlot": "ammo"
   },
   {
@@ -7608,26 +6478,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Earmuffs",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Earmuffs_detail.png/130px-Earmuffs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "These will protect my ears from loud noise.",
-    "value": 200,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Earth battlestaff",
     "category": [
       "Resource",
@@ -7778,28 +6628,6 @@
     "value": 289910,
     "equipmentSlot": "legs",
     "defenceRequirement": 50
-  },
-  {
-    "name": "Efaritay's aid",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Efaritay%27s_aid_detail.png/130px-Efaritay%27s_aid_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Break",
-      "Drop"
-    ],
-    "examine": "Aids the user against vampyres.",
-    "value": 1425,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Elder chaos hood",
@@ -7953,66 +6781,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Elven boots",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elven_boots_detail.png/130px-Elven_boots_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Decorative elven boots.",
-    "value": 10000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Elven gloves",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elven_gloves_detail.png/130px-Elven_gloves_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Decorative elven gloves.",
-    "value": 10000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Elven legwear",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Elven_legwear_detail.png/130px-Elven_legwear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Clothing from the elven city of Prifddinas.",
-    "value": 5000,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Emberlight",
     "category": [
       "Resource",
@@ -8035,26 +6803,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Emerald amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Emerald_amulet_detail.png/130px-Emerald_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 1275,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Emerald bolts",
     "category": [
       "Resource",
@@ -8075,6 +6823,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Emerald bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Emerald_bolts_%28e%29_detail.png/130px-Emerald_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Emerald tipped Mithril Crossbow Bolts.",
+    "value": 59,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Emerald dragon bolts",
     "category": [
       "Resource",
@@ -8092,6 +6860,26 @@
     ],
     "examine": "Dragon crossbow bolts, tipped with emerald.",
     "value": 800,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Emerald dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Emerald_dragon_bolts_%28e%29_detail.png/130px-Emerald_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with emerald.",
+    "value": 830,
     "equipmentSlot": "ammo"
   },
   {
@@ -8185,112 +6973,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Evil chicken feet",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Evil_chicken_feet_detail.png/130px-Evil_chicken_feet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Perfect for crossing the road in an evil manner.",
-    "value": 50000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Evil chicken head",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Evil_chicken_head_detail.png/130px-Evil_chicken_head_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Cock-a-doodle-do!",
-    "value": 50000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Evil chicken legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Evil_chicken_legs_detail.png/130px-Evil_chicken_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Evil legs for an evil human wanting to dress like an evil chicken.",
-    "value": 50000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Evil chicken wings",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Evil_chicken_wings_detail.png/130px-Evil_chicken_wings_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I look evil and fowl in this.",
-    "value": 50000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Expeditious bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Expeditious_bracelet_detail.png/130px-Expeditious_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Break",
-      "Drop"
-    ],
-    "examine": "Allows one slayer kill to count as two.",
-    "value": 1150,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Explorer's ring",
     "category": [
       "Resource",
@@ -8335,26 +7017,6 @@
     "examine": "This staff is imbued with demonic power. It is currently uncharged.",
     "value": 3000000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Facemask",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Facemask_detail.png/130px-Facemask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Stops me breathing in too much dust.",
-    "value": 200,
-    "equipmentSlot": "head"
   },
   {
     "name": "Falador shield",
@@ -8439,27 +7101,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Osmumten's fang",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Osmumten%27s_fang_detail.png/130px-Osmumten%27s_fang_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A deadly sword created long ago.",
-    "value": 1000000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Farseer helm",
     "category": [
       "Resource",
@@ -8477,27 +7118,6 @@
     ],
     "examine": "This helmet is worn by farseers.",
     "value": 60000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Fedora",
-    "category": [
-      "Resource",
-      "Armour",
-      "Wilderness"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fedora_detail.png/130px-Fedora_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Makes you look fedorable.",
-    "value": 300,
     "equipmentSlot": "head"
   },
   {
@@ -8520,26 +7140,6 @@
     "examine": "A pair of very very nice gloves.",
     "value": 100000,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Fez",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fez_detail.png/130px-Fez_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Fez hat. Juss like that.",
-    "value": 20,
-    "equipmentSlot": "head"
   },
   {
     "name": "Fighter hat",
@@ -8668,49 +7268,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Flamtaer bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Flamtaer_bracelet_detail.png/130px-Flamtaer_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Break",
-      "Drop"
-    ],
-    "examine": "Helps when building the Shades of Mort'ton temple.",
-    "value": 1300,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Fletching knife",
-    "category": [
-      "Resource",
-      "Armour",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Fletching_knife_detail.png/130px-Fletching_knife_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A crafty looking knife.",
-    "value": 5000,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Flippers",
     "category": [
       "Resource",
@@ -8730,51 +7287,6 @@
     "examine": "Strangely uncomfortable flippers.",
     "value": 1,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Forager's pouch",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Forager%27s_pouch_detail.png/130px-Forager%27s_pouch_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Check",
-      "Withdraw",
-      "Fill",
-      "Destroy"
-    ],
-    "examine": "A perfect pouch for foraging herbs.",
-    "value": 1,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Forestry basket",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Forestry_basket_detail.png/130px-Forestry_basket_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "* Fill -> Forestry kit",
-      "Log basket<br />\n* Wear<br />\n* View  -> Forestry kit",
-      "Empty basket<br />\n* Configure -> Open/Close",
-      "Dismantle<br />\n* Destroy"
-    ],
-    "examine": "The most efficient woodcutting utility out there.",
-    "value": 1000,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Fremennik kilt",
@@ -8817,30 +7329,6 @@
     ],
     "examine": "Sturdy boots for northern winters.",
     "value": 100000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Frog slippers",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Frog_slippers_detail.png/130px-Frog_slippers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Cute frog slippers.",
-    "value": 1000,
     "equipmentSlot": "feet"
   },
   {
@@ -8904,26 +7392,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Gardening boots",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gardening_boots_detail.png/130px-Gardening_boots_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A pair of gardening boots.",
-    "value": 25,
-    "equipmentSlot": "feet"
-  },
-  {
     "name": "Ghommal's avernic defender 5",
     "category": [
       "Resource",
@@ -8966,155 +7434,6 @@
     "examine": "A defensive weapon with prestigious ornamentation.",
     "value": 2750000,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Ghommal's hilt 1",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghommal%27s_hilt_1_detail.png/130px-Ghommal%27s_hilt_1_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Trollheim",
-      "Drop"
-    ],
-    "examine": "A basic artifact .",
-    "value": 25000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Ghommal's hilt 2",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghommal%27s_hilt_2_detail.png/130px-Ghommal%27s_hilt_2_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Trollheim",
-      "Drop"
-    ],
-    "examine": "A modest artifact .",
-    "value": 50000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Ghommal's hilt 3",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghommal%27s_hilt_3_detail.png/130px-Ghommal%27s_hilt_3_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Trollheim",
-      "Drop"
-    ],
-    "examine": "An attractive artifact .",
-    "value": 75000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Ghommal's hilt 4",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghommal%27s_hilt_4_detail.png/130px-Ghommal%27s_hilt_4_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Trollheim",
-      "Mor Ul Rek",
-      "Drop"
-    ],
-    "examine": "An elegant artifact .",
-    "value": 100000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Ghommal's hilt 5",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghommal%27s_hilt_5_detail.png/130px-Ghommal%27s_hilt_5_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Trollheim",
-      "Mor Ul Rek",
-      "Drop"
-    ],
-    "examine": "A sublime artifact .",
-    "value": 125000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Ghommal's hilt 6",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghommal%27s_hilt_6_detail.png/130px-Ghommal%27s_hilt_6_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Trollheim",
-      "Mor Ul Rek",
-      "Drop"
-    ],
-    "examine": "A prestigious artifact .",
-    "value": 150000,
-    "equipmentSlot": "shield"
-  },
-  {
-    "name": "Ghommal's lucky penny",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ghommal%27s_lucky_penny_detail.png/130px-Ghommal%27s_lucky_penny_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Equip",
-      "Drop"
-    ],
-    "examine": "I'm sure he won't mind me borrowing this...",
-    "value": 1,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Ghrazi rapier",
@@ -9539,27 +7858,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Gilded staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gilded_staff_of_collection_detail.png/130px-Gilded_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, gilded tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Glacial temotli",
     "category": [
       "Resource",
@@ -9602,69 +7900,6 @@
     "value": 10000,
     "equipmentSlot": "hands",
     "defenceRequirement": 20
-  },
-  {
-    "name": "Gnome goggles",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kandarin",
-      "Asgarnia",
-      "Desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gnome_goggles_detail.png/130px-Gnome_goggles_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Tally Ho!",
-    "value": 1000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Gnomeball",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gnomeball_detail.png/130px-Gnomeball_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Hold",
-      "Drop"
-    ],
-    "examine": "A ball used in Gnomeball.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Gold amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Gold_amulet_detail.png/130px-Gold_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A plain gold amulet.",
-    "value": 350,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Golden tench",
@@ -10068,48 +8303,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Green naval shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_naval_shirt_detail.png/130px-Green_naval_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "...You can sail the seven seas...",
-    "value": 100,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Green navy slacks",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_navy_slacks_detail.png/130px-Green_navy_slacks_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for slackers.",
-    "value": 100,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Green robe bottoms",
     "category": [
       "Resource",
@@ -10168,49 +8361,6 @@
     "examine": "Vambraces made from 100% real dragonhide. Now with added spikiness.",
     "value": 2500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Green tricorn hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Green_tricorn_hat_detail.png/130px-Green_tricorn_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I could never look square in this.",
-    "value": 50,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Greenman mask",
-    "category": [
-      "Resource",
-      "Armour",
-      "Varlamore"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Greenman_mask_detail.png/130px-Greenman_mask_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Change-style",
-      "Destroy"
-    ],
-    "examine": "Makes you feel at one with nature.",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Grey boots",
@@ -10273,48 +8423,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Grey naval shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Grey_naval_shirt_detail.png/130px-Grey_naval_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "...You can sail the seven seas...",
-    "value": 100,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Grey navy slacks",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Grey_navy_slacks_detail.png/130px-Grey_navy_slacks_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for slackers.",
-    "value": 100,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Grey robe bottoms",
     "category": [
       "Resource",
@@ -10353,27 +8461,6 @@
     "examine": "Some fine werewolf clothing.",
     "value": 500,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Grey tricorn hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Grey_tricorn_hat_detail.png/130px-Grey_tricorn_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I could never look square in this.",
-    "value": 50,
-    "equipmentSlot": "head"
   },
   {
     "name": "Guardian boots",
@@ -10784,6 +8871,27 @@
     "equipmentSlot": "weapon"
   },
   {
+    "name": "Halo",
+    "category": [
+      "Resource",
+      "Armour",
+      "Kandarin"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_halo_detail.png/130px-Saradomin_halo_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Halo with the protection of the gods.",
+    "value": 150000,
+    "equipmentSlot": "head"
+  },
+  {
     "name": "Hard leather shield",
     "category": [
       "Resource",
@@ -10843,26 +8951,6 @@
     "examine": "A pair of gloves.",
     "value": 50,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Hat eyepatch",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hat_eyepatch_detail.png/130px-Hat_eyepatch_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Essential pirate wear.",
-    "value": 100,
-    "equipmentSlot": "head"
   },
   {
     "name": "Healer hat",
@@ -11081,28 +9169,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Hosidius hood",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hosidius_hood_detail.png/130px-Hosidius_hood_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rare hood from Hosidius.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Hueycoatl hide body",
     "category": [
       "Resource",
@@ -11187,26 +9253,6 @@
     "examine": "Made from real Huey hide!",
     "value": 4320,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Hunter's honour",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hunter%27s_honour_detail.png/130px-Hunter%27s_honour_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "Go forth, bold and proud.",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Hunter's spear",
@@ -11313,26 +9359,6 @@
       "Imbued saradomin cape",
       "Imbued zamorak cape"
     ]
-  },
-  {
-    "name": "Imbued tephra",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Imbued_tephra_detail.png/130px-Imbued_tephra_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Destroy"
-    ],
-    "examine": "This is refined, imbued, and ready to go.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Infernal cape",
@@ -11485,26 +9511,6 @@
     "value": 8000,
     "equipmentSlot": "legs",
     "defenceRequirement": 20
-  },
-  {
-    "name": "Inoculation bracelet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Inoculation_bracelet_detail.png/130px-Inoculation_bracelet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "It eases diseases!",
-    "value": 2560,
-    "equipmentSlot": "hands"
   },
   {
     "name": "Inquisitor's great helm",
@@ -11924,26 +9930,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Jade amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jade_amulet_detail.png/130px-Jade_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 1050,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Jade bolts",
     "category": [
       "Resource",
@@ -11964,6 +9950,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Jade bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jade_bolts_%28e%29_detail.png/130px-Jade_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Jade tipped Blurite Crossbow Bolts.",
+    "value": 13,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Jade dragon bolts",
     "category": [
       "Resource",
@@ -11981,6 +9987,26 @@
     ],
     "examine": "Dragon crossbow bolts, tipped with jade.",
     "value": 600,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Jade dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Jade_dragon_bolts_%28e%29_detail.png/130px-Jade_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with jade.",
+    "value": 630,
     "equipmentSlot": "ammo"
   },
   {
@@ -12091,29 +10117,6 @@
     "examine": "A pair of gloves from Karamja.",
     "value": 100000,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Karamjan monkey",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Karamjan_monkey_%28item%29_detail.png/130px-Karamjan_monkey_%28item%29_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Transform",
-      "Lap-count",
-      "Release"
-    ],
-    "examine": "A monkey retrieved from the wreckage of Glough's airship laboratory.",
-    "value": 1,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Karil's coif",
@@ -12271,29 +10274,6 @@
     "examine": "A wand of an ancient Kodai mage.",
     "value": 1250000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Kruk jr",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Kruk_jr_detail.png/130px-Kruk_jr_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Transform",
-      "Lap-count",
-      "Release"
-    ],
-    "examine": "A monkey retrieved from the wreckage of Glough's airship laboratory.",
-    "value": 1,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Lava battlestaff",
@@ -12522,28 +10502,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Light bow tie",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_bow_tie_detail.png/130px-Light_bow_tie_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Bow ties are cool.",
-    "value": 5000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Light infinity bottoms",
     "category": [
       "Resource",
@@ -12604,115 +10562,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Light trousers",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_trousers_detail.png/130px-Light_trousers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Light tuxedo trousers with matching stockings.",
-    "value": 6000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Light tuxedo cuffs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_tuxedo_cuffs_detail.png/130px-Light_tuxedo_cuffs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Linked tuxedo cuffs with a gold trim.",
-    "value": 3000,
-    "equipmentSlot": "hands"
-  },
-  {
-    "name": "Light tuxedo jacket",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_tuxedo_jacket_detail.png/130px-Light_tuxedo_jacket_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A light tuxedo jacket with a matching shirt.",
-    "value": 10000,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Light tuxedo shoes",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_tuxedo_shoes_detail.png/130px-Light_tuxedo_shoes_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Light shoes to match your light tuxedo.",
-    "value": 3000,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Lightbearer",
-    "category": [
-      "Resource",
-      "Armour",
-      "Desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lightbearer_detail.png/130px-Lightbearer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A heavy ring that glimmers with a strange power.",
-    "value": 1000000,
-    "equipmentSlot": "ring"
-  },
-  {
     "name": "Long kebbit bolts",
     "category": [
       "Resource",
@@ -12731,28 +10580,6 @@
     "examine": "Bolts made from the spikes of a razor-backed kebbit.",
     "value": 31,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Lost bag",
-    "category": [
-      "Resource",
-      "Armour",
-      "desert"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lost_bag_detail.png/130px-Lost_bag_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Inspect",
-      "Destroy"
-    ],
-    "examine": "A bag with strange markings on it... How did it fit into that small pouch?",
-    "value": 100,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Lovakengj banner",
@@ -12777,26 +10604,29 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Lovakengj hood",
+    "name": "Mage arena cape",
     "category": [
       "Resource",
-      "Armour",
-      "General",
-      "Clue"
+      "Armour"
     ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lovakengj_hood_detail.png/130px-Lovakengj_hood_detail.png",
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_cape_detail.png/130px-Saradomin_cape_detail.png",
     "questItem": false,
-    "tradeable": true,
+    "tradeable": false,
     "equipable": true,
     "stackable": false,
-    "noteable": true,
+    "noteable": false,
     "options": [
       "Wear",
       "Drop"
     ],
-    "examine": "A rare hood from Lovakengj.",
-    "value": 1,
-    "equipmentSlot": "head"
+    "examine": "Any of the 3 mage arena cape variants.",
+    "value": 1000,
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Guthix cape",
+      "Saradomin cape",
+      "Zamorak cape"
+    ]
   },
   {
     "name": "Mage's book",
@@ -12997,26 +10827,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Mask of rebirth",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mask_of_rebirth_detail.png/130px-Mask_of_rebirth_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A mask representing rebirth.",
-    "value": 2000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Masori body",
     "category": [
       "Resource",
@@ -13102,166 +10912,6 @@
     "examine": "A master level wand.",
     "value": 100001,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Menaphite purple hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_purple_hat_detail.png/130px-Menaphite_purple_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Good for keeping the sun off my neck.",
-    "value": 35,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Menaphite purple kilt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_purple_kilt_detail.png/130px-Menaphite_purple_kilt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Look at those nobbily knees.",
-    "value": 20,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Menaphite purple robe",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_purple_robe_detail.png/130px-Menaphite_purple_robe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cool light Menaphite robe.",
-    "value": 40,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Menaphite purple top",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_purple_top_detail.png/130px-Menaphite_purple_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Colourful.",
-    "value": 20,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Menaphite red hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_red_hat_detail.png/130px-Menaphite_red_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Good for keeping the sun off my neck.",
-    "value": 35,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Menaphite red kilt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_red_kilt_detail.png/130px-Menaphite_red_kilt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Look at those nobbily knees.",
-    "value": 20,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Menaphite red robe",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_red_robe_detail.png/130px-Menaphite_red_robe_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cool light Menaphite robe.",
-    "value": 40,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Menaphite red top",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Menaphite_red_top_detail.png/130px-Menaphite_red_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Colourful.",
-    "value": 20,
-    "equipmentSlot": "body"
   },
   {
     "name": "Merfolk trident",
@@ -13367,26 +11017,6 @@
     "examine": "It's a slightly magical stick.",
     "value": 15500,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Mith grapple",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mith_grapple_detail.png/130px-Mith_grapple_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A mithril grapple tipped bolt with a rope.",
-    "value": 1,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Mithril arrow",
@@ -13771,30 +11401,6 @@
     "defenceRequirement": 50
   },
   {
-    "name": "Mole slippers",
-    "category": [
-      "Resource",
-      "Armour",
-      "Misthalin",
-      "Asgarnia",
-      "Desert",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mole_slippers_detail.png/130px-Mole_slippers_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Cute mole slippers.",
-    "value": 1000,
-    "equipmentSlot": "feet"
-  },
-  {
     "name": "Monk's robe",
     "category": [
       "Resource",
@@ -14169,27 +11775,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Mudskipper hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Asgarnia"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Mudskipper_hat_detail.png/130px-Mudskipper_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Fishy, damp and smelly.",
-    "value": 0,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Myre snelm",
     "category": [
       "Resource",
@@ -14555,28 +12140,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Navy cavalier",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Navy_cavalier_detail.png/130px-Navy_cavalier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All for one and one for all!",
-    "value": 200,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Necklace of anguish",
     "category": [
       "Resource",
@@ -14641,6 +12204,30 @@
     "defenceRequirement": 25
   },
   {
+    "name": "New crystal shield",
+    "category": [
+      "Resource",
+      "Armour",
+      "Tirannwn"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_shield_detail.png/130px-Crystal_shield_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Check",
+      "Revert",
+      "Drop"
+    ],
+    "examine": "A nice sturdy crystal shield.",
+    "value": 300000,
+    "equipmentSlot": "shield",
+    "defenceRequirement": 70
+  },
+  {
     "name": "Nightmare staff",
     "category": [
       "Resource",
@@ -14660,46 +12247,6 @@
     "examine": "An ancient staff corrupted by darkness.",
     "value": 600000,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Noose wand",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Noose_wand_detail.png/130px-Noose_wand_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A noose on a stick.",
-    "value": 4,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Nose peg",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Nose_peg_detail.png/130px-Nose_peg_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Protects me from any bad smells.",
-    "value": 200,
-    "equipmentSlot": "head"
   },
   {
     "name": "Noxious halberd",
@@ -14895,6 +12442,27 @@
     "equipmentSlot": "legs"
   },
   {
+    "name": "Occult necklace",
+    "category": [
+      "Resource",
+      "Armour",
+      "Kandarin"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Occult_necklace_detail.png/130px-Occult_necklace_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A smokey evil embodies this amulet.",
+    "value": 45000,
+    "equipmentSlot": "neck"
+  },
+  {
     "name": "Ochre snelm",
     "category": [
       "Resource",
@@ -14937,26 +12505,6 @@
     "defenceRequirement": 60
   },
   {
-    "name": "Onyx amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Onyx_amulet_detail.png/130px-Onyx_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 201000,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Onyx bolts",
     "category": [
       "Resource",
@@ -14974,6 +12522,26 @@
     ],
     "examine": "Onyx tipped Runite crossbow bolts.",
     "value": 13633,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Onyx bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Onyx_bolts_%28e%29_detail.png/130px-Onyx_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Onyx tipped Runite Crossbow Bolts.",
+    "value": 15000,
     "equipmentSlot": "ammo"
   },
   {
@@ -14997,24 +12565,24 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Opal amulet",
+    "name": "Onyx dragon bolts (e)",
     "category": [
       "Resource",
-      "Armour"
+      "Weapon"
     ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Opal_amulet_detail.png/130px-Opal_amulet_detail.png",
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Onyx_dragon_bolts_%28e%29_detail.png/130px-Onyx_dragon_bolts_%28e%29_detail.png",
     "questItem": false,
     "tradeable": true,
     "equipable": true,
-    "stackable": false,
-    "noteable": true,
+    "stackable": true,
+    "noteable": false,
     "options": [
-      "Wear",
+      "Wield",
       "Drop"
     ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 900,
-    "equipmentSlot": "neck"
+    "examine": "Enchanted Dragon crossbow bolts, tipped with onyx.",
+    "value": 15800,
+    "equipmentSlot": "ammo"
   },
   {
     "name": "Opal bolts",
@@ -15037,6 +12605,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Opal bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Opal_bolts_%28e%29_detail.png/130px-Opal_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Opal tipped Bronze Crossbow Bolts.",
+    "value": 7,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Opal dragon bolts",
     "category": [
       "Resource",
@@ -15054,6 +12642,26 @@
     ],
     "examine": "Dragon crossbow bolts, tipped with opal.",
     "value": 550,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Opal dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Opal_dragon_bolts_%28e%29_detail.png/130px-Opal_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with opal.",
+    "value": 580,
     "equipmentSlot": "ammo"
   },
   {
@@ -15119,24 +12727,25 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Partyhat & specs",
+    "name": "Osmumten's fang",
     "category": [
       "Resource",
-      "Armour"
+      "Weapon",
+      "Desert"
     ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Partyhat_%26_specs_detail.png/130px-Partyhat_%26_specs_detail.png",
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Osmumten%27s_fang_detail.png/130px-Osmumten%27s_fang_detail.png",
     "questItem": false,
     "tradeable": true,
     "equipable": true,
     "stackable": false,
     "noteable": true,
     "options": [
-      "Wear",
+      "Wield",
       "Drop"
     ],
-    "examine": "I have the sudden urge to rob the bank...",
-    "value": 250000,
-    "equipmentSlot": "head"
+    "examine": "A deadly sword created long ago.",
+    "value": 1000000,
+    "equipmentSlot": "weapon"
   },
   {
     "name": "Pearl bolts",
@@ -15159,6 +12768,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Pearl bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pearl_bolts_%28e%29_detail.png/130px-Pearl_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Pearl tipped Iron Crossbow Bolts.",
+    "value": 15,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Pearl dragon bolts",
     "category": [
       "Resource",
@@ -15176,6 +12805,26 @@
     ],
     "examine": "Dragon crossbow bolts, tipped with pearl.",
     "value": 650,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Pearl dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pearl_dragon_bolts_%28e%29_detail.png/130px-Pearl_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with pearl.",
+    "value": 680,
     "equipmentSlot": "ammo"
   },
   {
@@ -15264,110 +12913,6 @@
     "examine": "This sceptre has no remaining charges.",
     "value": 83334,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Pheasant boots",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pheasant_boots_detail.png/130px-Pheasant_boots_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "You'll look magni-pheasant wearing these!",
-    "value": 200,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Pheasant cape",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pheasant_cape_detail.png/130px-Pheasant_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "You'll look magni-pheasant wearing this!",
-    "value": 200,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Pheasant hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pheasant_hat_detail.png/130px-Pheasant_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "You'll look magni-pheasant wearing this!",
-    "value": 200,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pheasant legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pheasant_legs_detail.png/130px-Pheasant_legs_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "You'll look magni-pheasant wearing these!",
-    "value": 200,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Phoenix necklace",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Phoenix_necklace_detail.png/130px-Phoenix_necklace_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "In case of emergency, wear necklace.",
-    "value": 4050,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Pink boater",
@@ -15494,108 +13039,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Pink skirt",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pink_skirt_detail.png/130px-Pink_skirt_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A ladies skirt.",
-    "value": 2,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Pirate boots",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pirate_boots_detail.png/130px-Pirate_boots_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for land lubbers.",
-    "value": 350,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Pirate hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pirate_hat_detail.png/130px-Pirate_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A red pirate hat.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pirate hat & patch",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pirate_hat_%26_patch_detail.png/130px-Pirate_hat_%26_patch_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All I need now is a parrot.",
-    "value": 3000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pirate's hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pirate%27s_hat_detail.png/130px-Pirate%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Shiver me timbers!",
-    "value": 180,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Pirate's hook",
     "category": [
       "Resource",
@@ -15637,28 +13080,6 @@
     "examine": "A stained glass banner displaying the Piscarilius sigil.",
     "value": 70,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Piscarilius hood",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Piscarilius_hood_detail.png/130px-Piscarilius_hood_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rare hood from Port Piscarilius.",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Pointed blood'n'tar snelm",
@@ -15760,109 +13181,6 @@
     "examine": "A pair of upgraded dragon boots.",
     "value": 120000,
     "equipmentSlot": "feet"
-  },
-  {
-    "name": "Princely monkey",
-    "category": [
-      "Resource",
-      "Armour",
-      "kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Princely_monkey_detail.png/130px-Princely_monkey_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Transform",
-      "Lap-count",
-      "Release"
-    ],
-    "examine": "A monkey retrieved from the wreckage of Glough's airship laboratory.",
-    "value": 1,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Prison uniform top",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Prison_uniform_top_detail.png/130px-Prison_uniform_top_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "The top part of a prisoner's uniform.",
-    "value": 0,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Prison uniform trousers",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Prison_uniform_trousers_detail.png/130px-Prison_uniform_trousers_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "The bottom part of a prisoner's uniform.",
-    "value": 0,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Progress hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Progress_hat_detail.png/130px-Progress_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Talk-to",
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "A magic training arena progress hat.",
-    "value": 1,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Pugel",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Pugel_detail.png/130px-Pugel_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Drop"
-    ],
-    "examine": "A good tool for bashing someone.",
-    "value": 1,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Purging staff",
@@ -15989,48 +13307,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Purple naval shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_naval_shirt_detail.png/130px-Purple_naval_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "...You can sail the seven seas...",
-    "value": 100,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Purple navy slacks",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_navy_slacks_detail.png/130px-Purple_navy_slacks_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for slackers.",
-    "value": 100,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Purple robe bottoms",
     "category": [
       "Resource",
@@ -16069,27 +13345,6 @@
     "examine": "Some fine werewolf clothing.",
     "value": 500,
     "equipmentSlot": "body"
-  },
-  {
-    "name": "Purple tricorn hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Purple_tricorn_hat_detail.png/130px-Purple_tricorn_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I could never look square in this.",
-    "value": 50,
-    "equipmentSlot": "head"
   },
   {
     "name": "Ranger boots",
@@ -16284,28 +13539,6 @@
     "equipmentSlot": "cape"
   },
   {
-    "name": "Red cavalier",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_cavalier_detail.png/130px-Red_cavalier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All for one and one for all!",
-    "value": 200,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Red chinchompa",
     "category": [
       "Resource",
@@ -16450,48 +13683,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Red naval shirt",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_naval_shirt_detail.png/130px-Red_naval_shirt_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "...You can sail the seven seas...",
-    "value": 100,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Red navy slacks",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_navy_slacks_detail.png/130px-Red_navy_slacks_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not for slackers.",
-    "value": 100,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Red robe bottoms",
     "category": [
       "Resource",
@@ -16572,27 +13763,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Red tricorn hat",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Red_tricorn_hat_detail.png/130px-Red_tricorn_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I could never look square in this.",
-    "value": 50,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Redwood hiking staff",
     "category": [
       "Resource",
@@ -16655,174 +13825,6 @@
     "value": 202000,
     "equipmentSlot": "hands",
     "defenceRequirement": 1
-  },
-  {
-    "name": "Right eye patch",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Right_eye_patch_detail.png/130px-Right_eye_patch_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A black piece of cloth on a string.",
-    "value": 2,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Ring of coins",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_coins_detail.png/130px-Ring_of_coins_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A valuable ring.",
-    "value": 8000,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of endurance",
-    "category": [
-      "Resource",
-      "Armour",
-      "Morytania"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_endurance_detail.png/130px-Ring_of_endurance_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if this ring helps with...",
-    "value": 64000,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of forging",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_forging_detail.png/130px-Ring_of_forging_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Break",
-      "Drop"
-    ],
-    "examine": "An enchanted ring.",
-    "value": 2025,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of nature",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_nature_detail.png/130px-Ring_of_nature_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A ring shaped like the nature rune symbol.",
-    "value": 8000,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of pursuit",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_pursuit_detail.png/130px-Ring_of_pursuit_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Check",
-      "Break",
-      "Drop"
-    ],
-    "examine": "This ring can reveal a hunter creature's track.",
-    "value": 1050,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of recoil",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_recoil_detail.png/130px-Ring_of_recoil_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Break",
-      "Drop"
-    ],
-    "examine": "An enchanted ring.",
-    "value": 900,
-    "equipmentSlot": "ring"
-  },
-  {
-    "name": "Ring of stone",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_stone_detail.png/130px-Ring_of_stone_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An enchanted ring.",
-    "value": 202000,
-    "equipmentSlot": "ring"
   },
   {
     "name": "Ring of suffering",
@@ -17056,26 +14058,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Ruby amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ruby_amulet_detail.png/130px-Ruby_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 2025,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Ruby bolts",
     "category": [
       "Resource",
@@ -17096,6 +14078,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Ruby bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ruby_bolts_%28e%29_detail.png/130px-Ruby_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Ruby tipped Adamantite Crossbow Bolts.",
+    "value": 138,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Ruby dragon bolts",
     "category": [
       "Resource",
@@ -17113,6 +14115,26 @@
     ],
     "examine": "Dragon crossbow bolts, tipped with ruby.",
     "value": 800,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Ruby dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ruby_dragon_bolts_%28e%29_detail.png/130px-Ruby_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with ruby.",
+    "value": 830,
     "equipmentSlot": "ammo"
   },
   {
@@ -17240,26 +14262,6 @@
     "examine": "A set of fighting claws.",
     "value": 12000,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Runite crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_crossbow_detail.png/130px-Rune_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A runite crossbow.",
-    "value": 16200,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Rune dagger",
@@ -17657,27 +14659,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Rune staff of collection",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_staff_of_collection_detail.png/130px-Rune_staff_of_collection_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Create-book",
-      "Drop"
-    ],
-    "examine": "A staff of collection, rune tier.",
-    "value": 15,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Rune sword",
     "category": [
       "Resource",
@@ -17738,26 +14719,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Runefest shield",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Runefest_shield_detail.png/130px-Runefest_shield_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "Celebrating RuneFest 2017.",
-    "value": 1,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Runite bolts",
     "category": [
       "Resource",
@@ -17776,6 +14737,29 @@
     "examine": "Runite crossbow bolts.",
     "value": 300,
     "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Runite crossbow",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rune_crossbow_detail.png/130px-Rune_crossbow_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "A runite crossbow.",
+    "value": 16200,
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Rune crossbow"
+    ]
   },
   {
     "name": "Runner boots",
@@ -17955,26 +14939,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Sapphire amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sapphire_amulet_detail.png/130px-Sapphire_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 900,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Sapphire bolts",
     "category": [
       "Resource",
@@ -17992,6 +14956,26 @@
     ],
     "examine": "Sapphire tipped Mithril crossbow bolts.",
     "value": 37,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Sapphire bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sapphire_bolts_%28e%29_detail.png/130px-Sapphire_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Sapphire tipped Mithril Crossbow Bolts.",
+    "value": 40,
     "equipmentSlot": "ammo"
   },
   {
@@ -18015,6 +14999,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Sapphire dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sapphire_dragon_bolts_%28e%29_detail.png/130px-Sapphire_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with sapphire.",
+    "value": 780,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Sarachnis cudgel",
     "category": [
       "Resource",
@@ -18033,27 +15037,6 @@
     ],
     "examine": "Not to be confused with a Sarachnis cuddle.",
     "value": 120001,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Saradomin banner",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_banner_detail.png/130px-Saradomin_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The Saradomin Team Standard.",
-    "value": 1,
     "equipmentSlot": "weapon"
   },
   {
@@ -18079,31 +15062,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Mage arena cape",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_cape_detail.png/130px-Saradomin_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Any of the 3 mage arena cape variants.",
-    "value": 1000,
-    "equipmentSlot": "cape",
-    "aliases": [
-      "Guthix cape",
-      "Saradomin cape",
-      "Zamorak cape"
-    ]
-  },
-  {
     "name": "Saradomin chaps",
     "category": [
       "Resource",
@@ -18124,36 +15082,6 @@
     "examine": "Saradomin blessed dragonhide chaps.",
     "value": 6000,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Vestment cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_cloak_detail.png/130px-Saradomin_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Any of the 6 vestment cloak variants.",
-    "value": 2000,
-    "equipmentSlot": "cape",
-    "aliases": [
-      "Ancient cloak",
-      "Armadyl cloak",
-      "Bandos cloak",
-      "Guthix cloak",
-      "Saradomin cloak",
-      "Zamorak cloak"
-    ]
   },
   {
     "name": "Saradomin coif",
@@ -18293,27 +15221,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Halo",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_halo_detail.png/130px-Saradomin_halo_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Halo with the protection of the gods.",
-    "value": 150000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Saradomin kiteshield",
     "category": [
       "Resource",
@@ -18335,36 +15242,6 @@
     "value": 54400,
     "equipmentSlot": "shield",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Vestment mitre",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_mitre_detail.png/130px-Saradomin_mitre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Any of the 6 vestment mitre variants.",
-    "value": 5000,
-    "equipmentSlot": "head",
-    "aliases": [
-      "Ancient mitre",
-      "Armadyl mitre",
-      "Bandos mitre",
-      "Guthix mitre",
-      "Saradomin mitre",
-      "Zamorak mitre"
-    ]
   },
   {
     "name": "Saradomin mjolnir",
@@ -18456,66 +15333,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Vestment robe legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_robe_legs_detail.png/130px-Saradomin_robe_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Any of the 6 vestment robe legs variants.",
-    "value": 7000,
-    "equipmentSlot": "legs",
-    "aliases": [
-      "Ancient robe legs",
-      "Armadyl robe legs",
-      "Bandos robe legs",
-      "Guthix robe legs",
-      "Saradomin robe legs",
-      "Zamorak robe legs"
-    ]
-  },
-  {
-    "name": "Vestment robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_robe_top_detail.png/130px-Saradomin_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Any of the 6 vestment robe top variants.",
-    "value": 7000,
-    "equipmentSlot": "body",
-    "aliases": [
-      "Ancient robe top",
-      "Armadyl robe top",
-      "Bandos robe top",
-      "Guthix robe top",
-      "Saradomin robe top",
-      "Zamorak robe top"
-    ]
-  },
-  {
     "name": "Saradomin staff",
     "category": [
       "Resource",
@@ -18598,25 +15415,6 @@
     "examine": "The ashen wood is warm to the touch.",
     "value": 800000,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Searing boots",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Searing_boots_detail.png/130px-Searing_boots_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "Greaves that give you blazing speed.",
-    "value": 1,
-    "equipmentSlot": "feet"
   },
   {
     "name": "Seercull",
@@ -18784,26 +15582,6 @@
     "equipmentSlot": "head"
   },
   {
-    "name": "Shattered banner",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shattered_banner_detail.png/130px-Shattered_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A banner showcasing the colours of Leagues III - Shattered Relics.",
-    "value": 1000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Shayzien banner",
     "category": [
       "Resource",
@@ -18824,28 +15602,6 @@
     "examine": "A war torn banner bearing the Shayzien sigil.",
     "value": 70,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Shayzien hood",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shayzien_hood_detail.png/130px-Shayzien_hood_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A rare hood from Shayzien.",
-    "value": 1,
-    "equipmentSlot": "head"
   },
   {
     "name": "Silver bolts",
@@ -20156,106 +16912,6 @@
     "defenceRequirement": 5
   },
   {
-    "name": "Storm cruiser's coat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Storm_cruiser%27s_coat_detail.png/130px-Storm_cruiser%27s_coat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The coat of a captain who loved to sail even the most stormy of seas.",
-    "value": 35,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Storm cruiser's hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Storm_cruiser%27s_hat_detail.png/130px-Storm_cruiser%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The hat of a captain who loved to sail even the most stormy of seas.",
-    "value": 35,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Storm cruiser's shoes",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Storm_cruiser%27s_shoes_detail.png/130px-Storm_cruiser%27s_shoes_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The shoes of a captain who loved to sail even the most stormy of seas.",
-    "value": 35,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Storm cruiser's trousers",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Storm_cruiser%27s_trousers_detail.png/130px-Storm_cruiser%27s_trousers_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The trousers of a captain who loved to sail even the most stormy of seas.",
-    "value": 35,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Strung rabbit foot",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Strung_rabbit_foot_detail.png/130px-Strung_rabbit_foot_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Not so lucky for the rabbit.",
-    "value": 30,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Studded body",
     "category": [
       "Resource",
@@ -20405,86 +17061,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Swamp cruiser's hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swamp_cruiser%27s_hat_detail.png/130px-Swamp_cruiser%27s_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The hat of a captain who loved to sail even the most fetid of seas.",
-    "value": 35,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Swamp cruiser's jacket",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swamp_cruiser%27s_jacket_detail.png/130px-Swamp_cruiser%27s_jacket_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The jacket of a captain who loved to sail even the most fetid of seas.",
-    "value": 35,
-    "equipmentSlot": "body"
-  },
-  {
-    "name": "Swamp cruiser's shoes",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swamp_cruiser%27s_shoes_detail.png/130px-Swamp_cruiser%27s_shoes_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The shoes of a captain who loved to sail even the most fetid of seas.",
-    "value": 35,
-    "equipmentSlot": "feet"
-  },
-  {
-    "name": "Swamp cruiser's trousers",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swamp_cruiser%27s_trousers_detail.png/130px-Swamp_cruiser%27s_trousers_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The trousers of a captain who loved to sail even the most fetid of seas.",
-    "value": 35,
-    "equipmentSlot": "legs"
-  },
-  {
     "name": "Swamp lizard",
     "category": [
       "Resource",
@@ -20608,69 +17184,6 @@
     "value": 80000,
     "equipmentSlot": "legs",
     "defenceRequirement": 50
-  },
-  {
-    "name": "Swift blade",
-    "category": [
-      "Resource",
-      "Weapon",
-      "No"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swift_blade_detail.png/130px-Swift_blade_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A dull blade that moves at incredible speed.",
-    "value": 1500,
-    "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Swords and emblem",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swords_and_emblem_detail.png/130px-Swords_and_emblem_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Sadly, the blades are only decorative",
-    "value": 100000,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Tan cavalier",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Tan_cavalier_detail.png/130px-Tan_cavalier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All for one and one for all!",
-    "value": 200,
-    "equipmentSlot": "head"
   },
   {
     "name": "Teacher wand",
@@ -22031,46 +18544,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Top hat & monocle",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Top_hat_%26_monocle_detail.png/130px-Top_hat_%26_monocle_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Like a sir.",
-    "value": 4000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Topaz amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Topaz_amulet_detail.png/130px-Topaz_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "I wonder if I can get this enchanted.",
-    "value": 1250,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Topaz bolts",
     "category": [
       "Resource",
@@ -22091,6 +18564,26 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Topaz bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Topaz_bolts_%28e%29_detail.png/130px-Topaz_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Red Topaz tipped Steel Crossbow Bolts.",
+    "value": 24,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Topaz dragon bolts",
     "category": [
       "Resource",
@@ -22108,6 +18601,26 @@
     ],
     "examine": "Dragon crossbow bolts, tipped with red topaz.",
     "value": 700,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Topaz dragon bolts (e)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Topaz_dragon_bolts_%28e%29_detail.png/130px-Topaz_dragon_bolts_%28e%29_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Enchanted Dragon crossbow bolts, tipped with red topaz.",
+    "value": 730,
     "equipmentSlot": "ammo"
   },
   {
@@ -22542,26 +19055,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Twisted banner",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Twisted_banner_detail.png/130px-Twisted_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A banner showcasing the colours of Leagues I - Twisted.",
-    "value": 1000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Twisted buckler",
     "category": [
       "Resource",
@@ -22581,26 +19074,6 @@
     "examine": "A buckler carved from the twisted remains of the Great Olm.",
     "value": 500000,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Twisted trousers",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Twisted_trousers_%28t3%29_detail.png/130px-Twisted_trousers_%28t3%29_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "The trousers of a twisted relic hunter.",
-    "value": 100000,
-    "equipmentSlot": "legs"
   },
   {
     "name": "Tyrannical ring",
@@ -22706,26 +19179,6 @@
     "equipmentSlot": "ring"
   },
   {
-    "name": "Unblessed symbol",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Unblessed_symbol_detail.png/130px-Unblessed_symbol_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A symbol of Saradomin.",
-    "value": 200,
-    "equipmentSlot": "neck"
-  },
-  {
     "name": "Unholy symbol",
     "category": [
       "Resource",
@@ -22742,26 +19195,6 @@
       "Drop"
     ],
     "examine": "An unholy symbol of Zamorak.",
-    "value": 200,
-    "equipmentSlot": "neck"
-  },
-  {
-    "name": "Unpowered symbol",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Unpowered_symbol_detail.png/130px-Unpowered_symbol_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An unblessed symbol of Zamorak.",
     "value": 200,
     "equipmentSlot": "neck"
   },
@@ -23029,6 +19462,126 @@
     "examine": "A powerful spear.",
     "value": 300000,
     "equipmentSlot": "2h"
+  },
+  {
+    "name": "Vestment cloak",
+    "category": [
+      "Resource",
+      "Armour",
+      "General",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_cloak_detail.png/130px-Saradomin_cloak_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Any of the 6 vestment cloak variants.",
+    "value": 2000,
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Ancient cloak",
+      "Armadyl cloak",
+      "Bandos cloak",
+      "Guthix cloak",
+      "Saradomin cloak",
+      "Zamorak cloak"
+    ]
+  },
+  {
+    "name": "Vestment mitre",
+    "category": [
+      "Resource",
+      "Armour",
+      "General",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_mitre_detail.png/130px-Saradomin_mitre_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Any of the 6 vestment mitre variants.",
+    "value": 5000,
+    "equipmentSlot": "head",
+    "aliases": [
+      "Ancient mitre",
+      "Armadyl mitre",
+      "Bandos mitre",
+      "Guthix mitre",
+      "Saradomin mitre",
+      "Zamorak mitre"
+    ]
+  },
+  {
+    "name": "Vestment robe legs",
+    "category": [
+      "Resource",
+      "Armour",
+      "General",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_robe_legs_detail.png/130px-Saradomin_robe_legs_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Any of the 6 vestment robe legs variants.",
+    "value": 7000,
+    "equipmentSlot": "legs",
+    "aliases": [
+      "Ancient robe legs",
+      "Armadyl robe legs",
+      "Bandos robe legs",
+      "Guthix robe legs",
+      "Saradomin robe legs",
+      "Zamorak robe legs"
+    ]
+  },
+  {
+    "name": "Vestment robe top",
+    "category": [
+      "Resource",
+      "Armour",
+      "General",
+      "Clue"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_robe_top_detail.png/130px-Saradomin_robe_top_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Any of the 6 vestment robe top variants.",
+    "value": 7000,
+    "equipmentSlot": "body",
+    "aliases": [
+      "Ancient robe top",
+      "Armadyl robe top",
+      "Bandos robe top",
+      "Guthix robe top",
+      "Saradomin robe top",
+      "Zamorak robe top"
+    ]
   },
   {
     "name": "Viggora's chainmace",
@@ -23356,27 +19909,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Warm gloves",
-    "category": [
-      "Resource",
-      "Armour",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Warm_gloves_detail.png/130px-Warm_gloves_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Possibly fireproof. Possibly.",
-    "value": 200,
-    "equipmentSlot": "hands"
-  },
-  {
     "name": "Warped sceptre",
     "category": [
       "Resource",
@@ -23503,26 +20035,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "White apron",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_apron_detail.png/130px-White_apron_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A mostly clean apron.",
-    "value": 2,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "White boater",
     "category": [
       "Resource",
@@ -23564,28 +20076,6 @@
     "value": 576,
     "equipmentSlot": "feet",
     "defenceRequirement": 10
-  },
-  {
-    "name": "White cavalier",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/White_cavalier_detail.png/130px-White_cavalier_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "All for one and one for all!",
-    "value": 200,
-    "equipmentSlot": "head"
   },
   {
     "name": "White chainbody",
@@ -24127,27 +20617,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Zamorak banner",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Kandarin"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_banner_detail.png/130px-Zamorak_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The Zamorak Team Standard.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Zamorak bracers",
     "category": [
       "Resource",
@@ -24583,26 +21052,6 @@
     "value": 600000,
     "equipmentSlot": "hands",
     "defenceRequirement": 45
-  },
-  {
-    "name": "Zenyte amulet",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zenyte_amulet_detail.png/130px-Zenyte_amulet_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A fiery glow emanates from this amulet.",
-    "value": 202000,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Zombie axe",

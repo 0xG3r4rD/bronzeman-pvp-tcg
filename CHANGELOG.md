@@ -3,6 +3,21 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.4.0] — 2026-08-02
+
+### Added
+- **Blessed spirit shield** and a card for **every enchanted bolt** — all ten gem types in both
+  regular and dragon form (20 cards), built from wiki data.
+- Aliases so the in-game **Rune crossbow** matches its card (catalogued as "Runite crossbow"), and
+  so the poisoned **Dragon dagger** and **Abyssal dagger** grades map to their base card.
+
+### Removed
+- Items the wiki shows with **no equipment bonuses at all** (180 cards) — naval and tuxedo outfits,
+  cavaliers, tricorns, novelty slippers, banners, utility bracelets and rings, and similar. **Boaters
+  are kept** by request. Cards whose wiki page carries no bonus block at all (merged family cards
+  and diary rewards) are kept, since missing data is not proof of zero stats.
+- The remaining unenchanted gem **amulets**, leaving only enchanted neckwear.
+
 ## [1.3.0] — 2026-08-02
 
 ### Fixed
