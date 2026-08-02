@@ -1241,26 +1241,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Ancient mjolnir",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_mjolnir_detail.png/130px-Ancient_mjolnir_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An Ancient Mjolnir.",
-    "value": 625,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Ancient platebody",
     "category": [
       "Resource",
@@ -1498,28 +1478,6 @@
     "examine": "A powerful tome filled with the knowledge of the magical arts.",
     "value": 1,
     "equipmentSlot": "shield"
-  },
-  {
-    "name": "Arceuus banner",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arceuus_banner_detail.png/130px-Arceuus_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An ancient banner bearing the mark of the Arceuus Elders.",
-    "value": 70,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Archer helm",
@@ -8556,26 +8514,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Guthix mjolnir",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_mjolnir_detail.png/130px-Guthix_mjolnir_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Guthix Mjolnir.",
-    "value": 625,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Guthix platebody",
     "category": [
       "Resource",
@@ -8939,28 +8877,6 @@
     "value": 10000,
     "equipmentSlot": "head",
     "defenceRequirement": 20
-  },
-  {
-    "name": "Hosidius banner",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hosidius_banner_detail.png/130px-Hosidius_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A banner made of redwood bearing the Hosidius sigil.",
-    "value": 70,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Hueycoatl hide body",
@@ -10395,28 +10311,6 @@
     "examine": "Bolts made from the spikes of a razor-backed kebbit.",
     "value": 31,
     "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Lovakengj banner",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Lovakengj_banner_detail.png/130px-Lovakengj_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A lovakite banner bearing the Lovakengj sigil.",
-    "value": 70,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Mage arena cape",
@@ -12835,28 +12729,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Piscarilius banner",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Piscarilius_banner_detail.png/130px-Piscarilius_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A stained glass banner displaying the Piscarilius sigil.",
-    "value": 70,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Primordial boots",
     "category": [
       "Resource",
@@ -14939,26 +14811,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Saradomin mjolnir",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_mjolnir_detail.png/130px-Saradomin_mjolnir_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Saradomin Mjolnir.",
-    "value": 625,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Saradomin platebody",
     "category": [
       "Resource",
@@ -15275,28 +15127,6 @@
     "examine": "The mask worn by ogre shamans.",
     "value": 8000,
     "equipmentSlot": "head"
-  },
-  {
-    "name": "Shayzien banner",
-    "category": [
-      "Resource",
-      "Weapon",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shayzien_banner_detail.png/130px-Shayzien_banner_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A war torn banner bearing the Shayzien sigil.",
-    "value": 70,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Silver bolts",
@@ -19709,27 +19539,6 @@
     "equipmentSlot": "2h"
   },
   {
-    "name": "Western banner",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Western_banner_4_detail.png/130px-Western_banner_4_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Teleport",
-      "Drop"
-    ],
-    "examine": "A mysterious crystal banner.",
-    "value": 100000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "White boater",
     "category": [
       "Resource",
@@ -20514,26 +20323,6 @@
     "value": 54400,
     "equipmentSlot": "shield",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Zamorak mjolnir",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_mjolnir_detail.png/130px-Zamorak_mjolnir_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A Zamorak Mjolnir.",
-    "value": 625,
-    "equipmentSlot": "2h"
   },
   {
     "name": "Zamorak monk bottom",

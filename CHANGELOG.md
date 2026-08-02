@@ -6,7 +6,7 @@ All notable changes to Bronzeman PVP TCG. Versions link to their downloadable ja
 ## [1.4.3] — 2026-08-02
 
 ### Removed
-- Amy's saw.
+- Amy's saw, the god mjolnirs and all banners.
 
 ## [1.4.2] — 2026-08-02
 
