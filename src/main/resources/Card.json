@@ -866,28 +866,6 @@
     "equipmentSlot": "neck"
   },
   {
-    "name": "Amy's saw",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Asgarnia"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Amy%27s_saw_detail.png/130px-Amy%27s_saw_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Swap",
-      "Drop"
-    ],
-    "examine": "She saw scope for improvement.",
-    "value": 280,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Ancestral hat",
     "category": [
       "Resource",

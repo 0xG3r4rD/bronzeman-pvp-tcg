@@ -3,6 +3,11 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.4.3] — 2026-08-02
+
+### Removed
+- Amy's saw.
+
 ## [1.4.2] — 2026-08-02
 
 ### Removed
