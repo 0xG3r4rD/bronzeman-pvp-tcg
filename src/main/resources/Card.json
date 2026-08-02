@@ -1458,29 +1458,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Arcane grimoire",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Arcane_grimoire_detail.png/130px-Arcane_grimoire_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Change Spellbook",
-      "Wield",
-      "Previous Spellbook",
-      "Check Previous",
-      "Destroy"
-    ],
-    "examine": "A powerful tome filled with the knowledge of the magical arts.",
-    "value": 1,
-    "equipmentSlot": "shield"
-  },
-  {
     "name": "Arcane spirit shield",
     "category": [
       "Resource",
@@ -1534,6 +1511,26 @@
     "equipable": true,
     "stackable": false,
     "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A fabled ring that improves the wearer's skill with a bow...",
+    "value": 10000,
+    "equipmentSlot": "ring"
+  },
+  {
+    "name": "Archers ring (i)",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Archers_ring_%28i%29_detail.png/130px-Archers_ring_%28i%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
     "options": [
       "Wear",
       "Drop"
@@ -2552,6 +2549,26 @@
     "equipable": true,
     "stackable": false,
     "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A ring reputed to bring out a berserk fury in its wearer.",
+    "value": 10000,
+    "equipmentSlot": "ring"
+  },
+  {
+    "name": "Berserker ring (i)",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Berserker_ring_%28i%29_detail.png/130px-Berserker_ring_%28i%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
     "options": [
       "Wear",
       "Drop"
@@ -15139,6 +15156,26 @@
     "equipmentSlot": "ring"
   },
   {
+    "name": "Seers ring (i)",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Seers_ring_%28i%29_detail.png/130px-Seers_ring_%28i%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A mysterious ring that can fill the wearer with magical power...",
+    "value": 10000,
+    "equipmentSlot": "ring"
+  },
+  {
     "name": "Serpentine helm",
     "category": [
       "Resource",
@@ -15162,26 +15199,6 @@
       "Magma helm",
       "Tanzanite helm"
     ]
-  },
-  {
-    "name": "Severed leg",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Severed_leg_detail.png/130px-Severed_leg_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A severed human leg.",
-    "value": 1,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Shade robe",
@@ -19599,6 +19616,26 @@
     "equipable": true,
     "stackable": false,
     "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A legendary ring once worn by Fremennik warriors.",
+    "value": 10000,
+    "equipmentSlot": "ring"
+  },
+  {
+    "name": "Warrior ring (i)",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Warrior_ring_%28i%29_detail.png/130px-Warrior_ring_%28i%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
     "options": [
       "Wear",
       "Drop"

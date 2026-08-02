@@ -15,6 +15,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import net.runelite.api.Client;
+import net.runelite.api.Item;
+import net.runelite.api.ItemContainer;
+import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.ItemComposition;
 import net.runelite.api.events.WidgetLoaded;
 import net.runelite.api.gameval.InterfaceID;
@@ -182,10 +185,11 @@ public final class BankUnlocksButtonService
 		int shown = Math.min(itemIds.size(), maxCells);
 
 		Widget header = parent.createChild(-1, WidgetType.TEXT);
+		long inBank = itemIds.stream().filter(bankedQuantities()::containsKey).count();
 		header.setText(itemIds.isEmpty()
 			? "No items unlocked yet — open a pack to start."
-			: "Unlocked items: " + itemIds.size()
-				+ (itemIds.size() > shown ? " (showing " + shown + ")" : ""));
+			: "Unlocked: " + itemIds.size() + "  |  in bank: " + inBank
+				+ (itemIds.size() > shown ? "  (showing " + shown + ")" : ""));
 		header.setTextColor(0xFF981F);
 		header.setFontId(FONT_PLAIN_12);
 		header.setTextShadowed(true);
@@ -195,24 +199,49 @@ public final class BankUnlocksButtonService
 		header.setOriginalHeight(HEADER_HEIGHT);
 		header.revalidate();
 
+		Map<Integer, Integer> banked = bankedQuantities();
 		int gridTop = PANEL_Y + HEADER_HEIGHT + 6;
 		for (int i = 0; i < shown; i++)
 		{
 			int itemId = itemIds.get(i);
+			Integer heldQuantity = banked.get(itemId);
 			Widget slot = parent.createChild(-1, WidgetType.GRAPHIC);
 			slot.setItemId(itemId);
-			slot.setItemQuantity(1);
-			slot.setItemQuantityMode(0);
+			slot.setItemQuantity(heldQuantity == null ? 1 : heldQuantity);
+			// Quantity text only makes sense for something actually sitting in the bank.
+			slot.setItemQuantityMode(heldQuantity == null ? 0 : 1);
 			slot.setOriginalWidth(36);
 			slot.setOriginalHeight(32);
 			slot.setOriginalX(PANEL_X + GRID_PAD + (i % GRID_COLUMNS) * CELL);
 			slot.setOriginalY(gridTop + (i / GRID_COLUMNS) * CELL);
+			// Unlocked but not banked stays dim, so a glance shows what you actually hold.
+			slot.setOpacity(heldQuantity == null ? 120 : 0);
 			slot.setHasListener(true);
 			slot.setNoClickThrough(true);
 			ItemComposition comp = client.getItemDefinition(itemId);
-			slot.setAction(0, comp == null ? "Unlocked" : comp.getName());
+			String name = comp == null ? "Unlocked" : comp.getName();
+			slot.setAction(0, heldQuantity == null ? name + " (not in bank)" : name);
 			slot.revalidate();
 		}
+	}
+
+	/** Item id -> quantity currently in the bank, so held unlocks can be shown at full opacity. */
+	private Map<Integer, Integer> bankedQuantities()
+	{
+		Map<Integer, Integer> held = new java.util.HashMap<>();
+		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
+		if (bank == null)
+		{
+			return held;
+		}
+		for (Item item : bank.getItems())
+		{
+			if (item != null && item.getId() > 0 && item.getQuantity() > 0)
+			{
+				held.merge(item.getId(), item.getQuantity(), Integer::sum);
+			}
+		}
+		return held;
 	}
 
 	/**

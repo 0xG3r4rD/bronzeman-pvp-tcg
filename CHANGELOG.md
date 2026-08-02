@@ -3,6 +3,25 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.10.0] — 2026-08-02
+
+### Added
+- Separate cards for the imbued Dagannoth Kings rings: **Berserker (i)**, **Archers (i)**,
+  **Seers (i)** and **Warrior ring (i)**.
+
+### Changed
+- The bank's unlocked-items grid now shows **what you actually hold**: items sitting in your bank
+  render at full brightness with their stack size, while unlocked-but-unbanked items are dimmed and
+  labelled "(not in bank)". The header counts both.
+
+### Removed
+- Arcane grimoire and Severed leg.
+
+### Notes
+- **Poison variants need no cards or aliases.** `Rune arrow(p++)`, `Rune knife(p)`,
+  `Dragon javelin(p)` and `Adamant bolts (p+)` already resolve to their base card through
+  variant-stripping — verified across arrows, bolts, knives, darts and javelins.
+
 ## [1.9.1] — 2026-08-02
 
 ### Fixed
