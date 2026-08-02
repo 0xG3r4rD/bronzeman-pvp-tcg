@@ -3,6 +3,13 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.7.0] — 2026-08-02
+
+### Changed
+- The bank icon now opens an **in-bank grid of your unlocked items**, drawn with the real item
+  sprites, instead of the Swing card album. Hovering a slot names the item, and a bundled card
+  shows every item it covers. Click the icon again to close.
+
 ## [1.6.1] — 2026-08-02
 
 ### Added
