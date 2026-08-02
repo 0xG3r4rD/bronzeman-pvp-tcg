@@ -8,6 +8,8 @@ All notable changes to Bronzeman PVP TCG. Versions link to their downloadable ja
 ### Added
 - Cards for **Arkan blade** and **Sunspear**, neither of which existed. The Sunspear card also
   covers its melee, ranged and magic forms.
+- A single **Vampire flail** card covering the Ivandis, Blisterwood and Hallowed flails, using the
+  Hallowed flail's artwork.
 
 ## [1.7.2] — 2026-08-02
 

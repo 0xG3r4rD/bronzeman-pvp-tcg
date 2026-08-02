@@ -18488,6 +18488,32 @@
     "equipmentSlot": "weapon"
   },
   {
+    "name": "Vampire flail",
+    "category": [
+      "Resource",
+      "Weapon",
+      "Morytania"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hallowed_flail_detail.png/130px-Hallowed_flail_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Any of the legendary vampyre-slaying flails.",
+    "value": 80000,
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Ivandis flail",
+      "Blisterwood flail",
+      "Hallowed flail"
+    ]
+  },
+  {
     "name": "Varrock armour",
     "category": [
       "Resource",
