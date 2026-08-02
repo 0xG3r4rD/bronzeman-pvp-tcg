@@ -3,6 +3,18 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.8.0] — 2026-08-02
+
+### Added
+- 21 new cards, all built from wiki data with their real Defence requirements:
+  - **Atlatl dart**, **Ring of shadows**, **Ring of recoil**, **Climbing boots** (covers the gilded pair).
+  - **God books** — Holy, Unholy, Balance, Law, War, Darkness — plus the **Book of the dead**.
+  - **Initiate** sallet and hauberk (20 Defence), joining the existing cuisse.
+  - **Proselyte** sallet, hauberk, cuisse and tasset (30 Defence).
+- Families bundled onto one card each: **Crystal bow** (basic / attuned / perfected / imbued),
+  **Crystal shield** (70 Defence, absorbing the old New crystal shield card), **Iban's staff**
+  (upgraded and ornamented forms) and **Dragon sq shield** (60 Defence, gilded and corrupted forms).
+
 ## [1.7.3] — 2026-08-02
 
 ### Added

@@ -1923,6 +1923,26 @@
     "equipmentSlot": "legs"
   },
   {
+    "name": "Atlatl dart",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Atlatl_dart_detail.png/130px-Atlatl_dart_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Quite big for a dart.",
+    "value": 490,
+    "equipmentSlot": "ammo"
+  },
+  {
     "name": "Ava's devices",
     "category": [
       "Resource",
@@ -3650,6 +3670,106 @@
     "equipmentSlot": "ammo"
   },
   {
+    "name": "Book of balance",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Book_of_balance_detail.png/130px-Book_of_balance_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "The holy book of Guthix.",
+    "value": 200,
+    "equipmentSlot": "shield"
+  },
+  {
+    "name": "Book of darkness",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Book_of_darkness_detail.png/130px-Book_of_darkness_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "The dark book of a forgotten god.",
+    "value": 200,
+    "equipmentSlot": "shield"
+  },
+  {
+    "name": "Book of law",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Book_of_law_detail.png/130px-Book_of_law_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "The book of Armadyl's Law.",
+    "value": 200,
+    "equipmentSlot": "shield"
+  },
+  {
+    "name": "Book of the dead",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Book_of_the_dead_detail.png/130px-Book_of_the_dead_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A book that grants its holder the powers of resurrection.",
+    "value": 80,
+    "equipmentSlot": "shield"
+  },
+  {
+    "name": "Book of war",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Book_of_war_detail.png/130px-Book_of_war_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "The short book of the wisdom of Bandos.",
+    "value": 200,
+    "equipmentSlot": "shield"
+  },
+  {
     "name": "Boots of brimstone",
     "category": [
       "Resource",
@@ -4152,6 +4272,29 @@
     "equipmentSlot": "weapon"
   },
   {
+    "name": "Climbing boots",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Climbing_boots_detail.png/130px-Climbing_boots_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "Boots made for climbing.",
+    "value": 12,
+    "equipmentSlot": "feet",
+    "aliases": [
+      "Climbing boots (g)"
+    ]
+  },
+  {
     "name": "Coif",
     "category": [
       "Resource",
@@ -4441,6 +4584,32 @@
     "defenceRequirement": 70
   },
   {
+    "name": "Crystal bow",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_bow_detail.png/130px-Crystal_bow_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "A nice sturdy magical bow.",
+    "value": 300000,
+    "equipmentSlot": "2h",
+    "aliases": [
+      "Crystal bow (basic)",
+      "Crystal bow (attuned)",
+      "Crystal bow (perfected)",
+      "Crystal bow (i)"
+    ]
+  },
+  {
     "name": "Crystal halberd",
     "category": [
       "Resource",
@@ -4511,6 +4680,31 @@
     "value": 550000,
     "equipmentSlot": "legs",
     "defenceRequirement": 70
+  },
+  {
+    "name": "Crystal shield",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_shield_detail.png/130px-Crystal_shield_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A nice sturdy crystal shield.",
+    "value": 300000,
+    "equipmentSlot": "shield",
+    "defenceRequirement": 70,
+    "aliases": [
+      "Crystal shield (i)",
+      "New crystal shield"
+    ]
   },
   {
     "name": "Dagon'hai hat",
@@ -5597,6 +5791,31 @@
     "examine": "A dragon tipped spear.",
     "value": 62400,
     "equipmentSlot": "2h"
+  },
+  {
+    "name": "Dragon sq shield",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dragon_sq_shield_detail.png/130px-Dragon_sq_shield_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An ancient and powerful looking Dragon Square shield.",
+    "value": 500000,
+    "equipmentSlot": "shield",
+    "defenceRequirement": 60,
+    "aliases": [
+      "Dragon sq shield (g)",
+      "Dragon sq shield (cr)"
+    ]
   },
   {
     "name": "Dragon sword",
@@ -8528,6 +8747,26 @@
     "equipmentSlot": "2h"
   },
   {
+    "name": "Holy book",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Holy_book_detail.png/130px-Holy_book_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "The holy book of Saradomin.",
+    "value": 200,
+    "equipmentSlot": "shield"
+  },
+  {
     "name": "Holy moleys",
     "category": [
       "Resource",
@@ -8743,6 +8982,31 @@
     "equipmentSlot": "weapon"
   },
   {
+    "name": "Iban's staff",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iban%27s_staff_detail.png/130px-Iban%27s_staff_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": false,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "equipmentSlot": "weapon",
+    "aliases": [
+      "Iban's staff (u)",
+      "Iban's staff (o)",
+      "Iban's staff (u) (o)"
+    ]
+  },
+  {
     "name": "Ice ancient sceptre",
     "category": [
       "Resource",
@@ -8938,6 +9202,48 @@
     "examine": "An initiate Temple Knight's leg armour.",
     "value": 8000,
     "equipmentSlot": "legs",
+    "defenceRequirement": 20
+  },
+  {
+    "name": "Initiate hauberk",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Initiate_hauberk_detail.png/130px-Initiate_hauberk_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An initiate Temple Knight's Armour.",
+    "value": 10000,
+    "equipmentSlot": "body",
+    "defenceRequirement": 20
+  },
+  {
+    "name": "Initiate sallet",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Initiate_sallet_detail.png/130px-Initiate_sallet_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An initiate Temple Knight's helm.",
+    "value": 6000,
+    "equipmentSlot": "head",
     "defenceRequirement": 20
   },
   {
@@ -11579,30 +11885,6 @@
     "defenceRequirement": 25
   },
   {
-    "name": "New crystal shield",
-    "category": [
-      "Resource",
-      "Armour",
-      "Tirannwn"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crystal_shield_detail.png/130px-Crystal_shield_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Check",
-      "Revert",
-      "Drop"
-    ],
-    "examine": "A nice sturdy crystal shield.",
-    "value": 300000,
-    "equipmentSlot": "shield",
-    "defenceRequirement": 70
-  },
-  {
     "name": "Nightmare staff",
     "category": [
       "Resource",
@@ -12441,6 +12723,90 @@
     "defenceRequirement": 75
   },
   {
+    "name": "Proselyte cuisse",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Proselyte_cuisse_detail.png/130px-Proselyte_cuisse_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A Proselyte Temple Knight's leg armour.",
+    "value": 10000,
+    "equipmentSlot": "legs",
+    "defenceRequirement": 30
+  },
+  {
+    "name": "Proselyte hauberk",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Proselyte_hauberk_detail.png/130px-Proselyte_hauberk_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A Proselyte Temple Knight's armour.",
+    "value": 12000,
+    "equipmentSlot": "body",
+    "defenceRequirement": 30
+  },
+  {
+    "name": "Proselyte sallet",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Proselyte_sallet_detail.png/130px-Proselyte_sallet_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A Proselyte Temple Knight's helm.",
+    "value": 8000,
+    "equipmentSlot": "head",
+    "defenceRequirement": 30
+  },
+  {
+    "name": "Proselyte tasset",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Proselyte_tasset_detail.png/130px-Proselyte_tasset_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A Proselyte Temple Knight's leg armour.",
+    "value": 10000,
+    "equipmentSlot": "legs",
+    "defenceRequirement": 30
+  },
+  {
     "name": "Purging staff",
     "category": [
       "Resource",
@@ -13083,6 +13449,46 @@
     "value": 202000,
     "equipmentSlot": "hands",
     "defenceRequirement": 1
+  },
+  {
+    "name": "Ring of recoil",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_recoil_detail.png/130px-Ring_of_recoil_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "An enchanted ring.",
+    "value": 900,
+    "equipmentSlot": "ring"
+  },
+  {
+    "name": "Ring of shadows",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ring_of_shadows_detail.png/130px-Ring_of_shadows_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "A powerful ring used to see into other realms...",
+    "value": 75000,
+    "equipmentSlot": "ring"
   },
   {
     "name": "Ring of suffering",
@@ -18444,6 +18850,26 @@
     "examine": "An occult ring that grants immense physical power.",
     "value": 140000,
     "equipmentSlot": "ring"
+  },
+  {
+    "name": "Unholy book",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Unholy_book_detail.png/130px-Unholy_book_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "The unholy book of Zamorak.",
+    "value": 200,
+    "equipmentSlot": "shield"
   },
   {
     "name": "Unholy symbol",
