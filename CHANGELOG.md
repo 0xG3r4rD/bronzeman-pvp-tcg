@@ -3,6 +3,15 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.11.0] — 2026-08-02
+
+### Changed
+- Unlocked items are now **highlighted in the bank itself**, the way Quest Helper marks the items a
+  quest needs, instead of being listed in a custom widget grid. The bank icon toggles the highlight,
+  which uses RuneLite's `WidgetItemOverlay`, so it tracks the real slots through scrolling,
+  searching and tab switches, and works in the inventory too. Variants and degraded copies
+  highlight against the card that unlocks them.
+
 ## [1.10.2] — 2026-08-02
 
 ### Changed

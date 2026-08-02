@@ -3,6 +3,9 @@ package com.bronzemanpvptcg.service;
 import com.bronzemanpvptcg.data.CardDatabase;
 import com.bronzemanpvptcg.data.CardDefinition;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
+import com.bronzemanpvptcg.overlay.BankUnlockedHighlightOverlay;
+import com.bronzemanpvptcg.util.TcgPluginGameMessages;
+import net.runelite.client.chat.ChatMessageManager;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -15,9 +18,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import net.runelite.api.Client;
-import net.runelite.api.Item;
-import net.runelite.api.ItemContainer;
-import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.ItemComposition;
 import net.runelite.api.events.WidgetLoaded;
 import net.runelite.api.gameval.InterfaceID;
@@ -43,28 +43,17 @@ public final class BankUnlocksButtonService
 	/** Custom sprite slot for the plugin icon; negative ids never collide with cache sprites. */
 	private static final int ICON_SPRITE_ID = -1401;
 
-	private static final int PANEL_X = 8;
-	private static final int PANEL_Y = 34;
-	private static final int PANEL_WIDTH = 472;
-	private static final int PANEL_HEIGHT = 300;
-	private static final int GRID_COLUMNS = 10;
-	private static final int CELL = 44;
-	private static final int GRID_PAD = 10;
-	private static final int HEADER_HEIGHT = 18;
-	private static final int FONT_PLAIN_12 = 495;
-	/** Redraws the bank interface, which is how the dynamic children get discarded. */
-	private static final int BANK_REBUILD_SCRIPT = 29;
 
 	private final Client client;
 	private final ClientThread clientThread;
 	private final CardDatabase cardDatabase;
 	private final TcgStateService stateService;
-	private final BronzemanEquipLockService equipLockService;
+	private final BankUnlockedHighlightOverlay highlightOverlay;
+	private final ChatMessageManager chatMessageManager;
 
 	/** Lower-case item name -> lowest matching item id; built once, then reused. */
 	private final Map<String, Integer> itemIdByName = new ConcurrentHashMap<>();
 	private boolean itemIndexBuilt;
-	private boolean panelOpen;
 
 	@Inject
 	public BankUnlocksButtonService(
@@ -72,13 +61,15 @@ public final class BankUnlocksButtonService
 		ClientThread clientThread,
 		CardDatabase cardDatabase,
 		TcgStateService stateService,
-		BronzemanEquipLockService equipLockService)
+		BankUnlockedHighlightOverlay highlightOverlay,
+		ChatMessageManager chatMessageManager)
 	{
 		this.client = client;
 		this.clientThread = clientThread;
 		this.cardDatabase = cardDatabase;
 		this.stateService = stateService;
-		this.equipLockService = equipLockService;
+		this.highlightOverlay = highlightOverlay;
+		this.chatMessageManager = chatMessageManager;
 	}
 
 	@Subscribe
@@ -86,7 +77,6 @@ public final class BankUnlocksButtonService
 	{
 		if (event.getGroupId() == InterfaceID.BANKMAIN)
 		{
-			panelOpen = false;
 			clientThread.invokeLater(this::addButton);
 		}
 	}
@@ -109,7 +99,7 @@ public final class BankUnlocksButtonService
 		button.setOriginalY(BUTTON_MARGIN_Y);
 		button.setHasListener(true);
 		button.setNoClickThrough(true);
-		button.setAction(0, "View unlocked items");
+		button.setAction(0, "Toggle unlocked-item highlight");
 		button.setOnOpListener((JavaScriptCallback) e -> togglePanel());
 		button.setOnMouseOverListener((JavaScriptCallback) e -> button.setOpacity(40));
 		button.setOnMouseLeaveListener((JavaScriptCallback) e -> button.setOpacity(0));
@@ -118,23 +108,12 @@ public final class BankUnlocksButtonService
 
 	private void togglePanel()
 	{
-		Widget parent = client.getWidget(InterfaceID.Bankmain.UNIVERSE);
-		if (parent == null)
-		{
-			return;
-		}
-
-		if (panelOpen)
-		{
-			panelOpen = false;
-			client.runScript(BANK_REBUILD_SCRIPT);
-			clientThread.invokeLater(this::addButton);
-			return;
-		}
-
-		panelOpen = true;
+		highlightOverlay.toggle();
 		buildItemIndex();
-		drawPanel(parent, unlockedItemIds());
+		int unlocked = unlockedItemIds().size();
+		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, highlightOverlay.isEnabled()
+			? String.format("Highlighting your %d unlocked items in the bank.", unlocked)
+			: "Unlocked-item highlighting off.");
 	}
 
 	/** Item ids for every card the player owns, including the extra items a bundled card covers. */
@@ -168,110 +147,6 @@ public final class BankUnlocksButtonService
 			}
 		}
 		return ids;
-	}
-
-	private void drawPanel(Widget parent, List<Integer> itemIds)
-	{
-		Widget background = parent.createChild(-1, WidgetType.RECTANGLE);
-		background.setOriginalX(PANEL_X);
-		background.setOriginalY(PANEL_Y);
-		background.setOriginalWidth(PANEL_WIDTH);
-		background.setOriginalHeight(PANEL_HEIGHT);
-		background.setFilled(true);
-		background.setTextColor(0x1A1A1A);
-		background.setOpacity(15);
-		background.setNoClickThrough(true);
-		background.revalidate();
-
-		int visibleRows = Math.max(1, (PANEL_HEIGHT - HEADER_HEIGHT - 12) / CELL);
-		int maxCells = visibleRows * GRID_COLUMNS;
-		int shown = Math.min(itemIds.size(), maxCells);
-
-		Widget header = parent.createChild(-1, WidgetType.TEXT);
-		Map<String, Integer> banked = bankedByCard();
-		long inBank = itemIds.stream()
-			.map(this::cardNameForItemId)
-			.filter(n -> n != null && banked.containsKey(n))
-			.count();
-		header.setText(itemIds.isEmpty()
-			? "No items unlocked yet — open a pack to start."
-			: "Unlocked: " + itemIds.size() + "  |  in bank: " + inBank
-				+ (itemIds.size() > shown ? "  (showing " + shown + ")" : ""));
-		header.setTextColor(0xFF981F);
-		header.setFontId(FONT_PLAIN_12);
-		header.setTextShadowed(true);
-		header.setOriginalX(PANEL_X + GRID_PAD);
-		header.setOriginalY(PANEL_Y + 4);
-		header.setOriginalWidth(PANEL_WIDTH - 2 * GRID_PAD);
-		header.setOriginalHeight(HEADER_HEIGHT);
-		header.revalidate();
-
-		int gridTop = PANEL_Y + HEADER_HEIGHT + 6;
-		for (int i = 0; i < shown; i++)
-		{
-			int itemId = itemIds.get(i);
-			String cardName = cardNameForItemId(itemId);
-			Integer heldQuantity = cardName == null ? null : banked.get(cardName);
-			Widget slot = parent.createChild(-1, WidgetType.GRAPHIC);
-			slot.setItemId(itemId);
-			slot.setItemQuantity(heldQuantity == null ? 1 : heldQuantity);
-			// Quantity text only makes sense for something actually sitting in the bank.
-			slot.setItemQuantityMode(heldQuantity == null ? 0 : 1);
-			slot.setOriginalWidth(36);
-			slot.setOriginalHeight(32);
-			slot.setOriginalX(PANEL_X + GRID_PAD + (i % GRID_COLUMNS) * CELL);
-			slot.setOriginalY(gridTop + (i / GRID_COLUMNS) * CELL);
-			// Unlocked but not banked stays dim, so a glance shows what you actually hold.
-			slot.setOpacity(heldQuantity == null ? 120 : 0);
-			slot.setHasListener(true);
-			slot.setNoClickThrough(true);
-			ItemComposition comp = client.getItemDefinition(itemId);
-			String name = comp == null ? "Unlocked" : comp.getName();
-			slot.setAction(0, heldQuantity == null ? name + " (not in bank)" : name);
-			slot.revalidate();
-		}
-	}
-
-	/**
-	 * Card name -> total quantity banked. Banked items are resolved through the same variant rules
-	 * the equip lock uses, so a degraded "Dharok's helm 25" or an ornamented copy still counts as
-	 * holding that card's item.
-	 */
-	private Map<String, Integer> bankedByCard()
-	{
-		Map<String, Integer> held = new java.util.HashMap<>();
-		ItemContainer bank = client.getItemContainer(InventoryID.BANK);
-		if (bank == null)
-		{
-			return held;
-		}
-		for (Item item : bank.getItems())
-		{
-			if (item == null || item.getId() <= 0 || item.getQuantity() <= 0)
-			{
-				continue;
-			}
-			ItemComposition comp = client.getItemDefinition(item.getId());
-			if (comp == null || comp.getName() == null)
-			{
-				continue;
-			}
-			equipLockService.findCardForItemName(comp.getName())
-				.ifPresent(card -> held.merge(card.getName(), item.getQuantity(), Integer::sum));
-		}
-		return held;
-	}
-
-	private String cardNameForItemId(int itemId)
-	{
-		ItemComposition comp = client.getItemDefinition(itemId);
-		if (comp == null || comp.getName() == null)
-		{
-			return null;
-		}
-		return equipLockService.findCardForItemName(comp.getName())
-			.map(CardDefinition::getName)
-			.orElse(null);
 	}
 
 	/**

@@ -13,6 +13,7 @@ import java.util.Map;
 import java.util.Set;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
 import com.bronzemanpvptcg.model.TcgPublicStats;
+import com.bronzemanpvptcg.overlay.BankUnlockedHighlightOverlay;
 import com.bronzemanpvptcg.overlay.CreditsInfoboxOverlay;
 import com.bronzemanpvptcg.overlay.PackRevealInputListener;
 import com.bronzemanpvptcg.overlay.PackRevealOverlay;
@@ -171,6 +172,8 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private BankUnlocksButtonService bankUnlocksButtonService;
 	@Inject
+	private BankUnlockedHighlightOverlay bankUnlockedHighlightOverlay;
+	@Inject
 	private PartyService partyService;
 	@Inject
 	private WSClient wsClient;
@@ -226,6 +229,7 @@ public class OsrsTcgPlugin extends Plugin
 		clientToolbar.addNavigation(navigationButton);
 		overlayManager.add(packRevealOverlay);
 		overlayManager.add(creditsInfoboxOverlay);
+		overlayManager.add(bankUnlockedHighlightOverlay);
 		mouseManager.registerMouseListener(packRevealInputListener);
 		mouseManager.registerMouseWheelListener(packRevealInputListener);
 		keyManager.registerKeyListener(packRevealInputListener);
@@ -303,6 +307,7 @@ public class OsrsTcgPlugin extends Plugin
 		npcKillCreditTracker.shutdown();
 		overlayManager.remove(packRevealOverlay);
 		overlayManager.remove(creditsInfoboxOverlay);
+		overlayManager.remove(bankUnlockedHighlightOverlay);
 		mouseManager.unregisterMouseListener(packRevealInputListener);
 		mouseManager.unregisterMouseWheelListener(packRevealInputListener);
 		keyManager.unregisterKeyListener(packRevealInputListener);
