@@ -3,6 +3,12 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.12.1] — 2026-08-02
+
+### Changed
+- `::btcg-escapes` no longer requires Debug mode. It only reads item definitions and changes
+  nothing, unlike the state-changing debug commands.
+
 ## [1.12.0] — 2026-08-02
 
 ### Changed

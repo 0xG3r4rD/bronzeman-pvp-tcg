@@ -601,14 +601,9 @@ public class OsrsTcgPlugin extends Plugin
 			return;
 		}
 
+		// Read-only diagnostic, so it is not gated behind debug mode like the state-changing commands.
 		if ("btcg-escapes".equalsIgnoreCase(cmd))
 		{
-			if (!stateService.isDebugLogging())
-			{
-				client.addChatMessage(ChatMessageType.GAMEMESSAGE, "",
-					"[Bronzeman PVP TCG] That command requires Overview debug mode.", null);
-				return;
-			}
 			List<String> escapes = bronzemanEquipLockService.findUnmatchedEquipableItems();
 			log.info("[Bronzeman PVP TCG] {} equipable items resolve to no card: {}",
 				escapes.size(), escapes);
