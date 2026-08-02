@@ -221,7 +221,8 @@
     ],
     "examine": "A defensive weapon.",
     "value": 1,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 30
   },
   {
     "name": "Adamant full helm",
@@ -1949,7 +1950,8 @@
     ],
     "examine": "A defensive weapon.",
     "value": 2250000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 70
   },
   {
     "name": "Avernic treads",
@@ -1969,7 +1971,8 @@
     ],
     "examine": "A finely crafted pair of boots.",
     "value": 192000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 80
   },
   {
     "name": "Bandos boots",
@@ -3052,7 +3055,8 @@
     ],
     "examine": "An ethereal shield that has been blessed with holy powers.",
     "value": 1200000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 70
   },
   {
     "name": "Blood ancient sceptre",
@@ -3644,7 +3648,8 @@
     ],
     "examine": "A pair of heat resistant boots charged with the claw of the ferocious Drake.",
     "value": 20000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 70
   },
   {
     "name": "Boots of darkness",
@@ -4372,6 +4377,26 @@
     "equipmentSlot": "body"
   },
   {
+    "name": "Crimson kisten",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Crimson_kisten_detail.png/130px-Crimson_kisten_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "A nasty war implement. I should be careful not to hit myself.",
+    "value": 240000,
+    "equipmentSlot": "2h"
+  },
+  {
     "name": "Crystal body",
     "category": [
       "Resource",
@@ -4914,7 +4939,8 @@
     ],
     "examine": "Is it... looking at me?",
     "value": 560000,
-    "equipmentSlot": "2h"
+    "equipmentSlot": "2h",
+    "defenceRequirement": 75
   },
   {
     "name": "Dizana's quiver",
@@ -6468,7 +6494,8 @@
     ],
     "examine": "A pair of upgraded infinity boots.",
     "value": 120000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 75
   },
   {
     "name": "Explorer's ring",
@@ -6637,7 +6664,8 @@
     ],
     "examine": "A pair of very very nice gloves.",
     "value": 100000,
-    "equipmentSlot": "hands"
+    "equipmentSlot": "hands",
+    "defenceRequirement": 80
   },
   {
     "name": "Fighter hat",
@@ -6847,7 +6875,8 @@
     ],
     "examine": "Armour made out of frog hide.",
     "value": 1000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 25
   },
   {
     "name": "Frog-leather boots",
@@ -6867,7 +6896,8 @@
     ],
     "examine": "Boots made out of frog hide.",
     "value": 200,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 25
   },
   {
     "name": "Frog-leather chaps",
@@ -6887,7 +6917,8 @@
     ],
     "examine": "Chaps made out of frog hide.",
     "value": 900,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 25
   },
   {
     "name": "Ghommal's avernic defender 5",
@@ -7676,7 +7707,8 @@
     ],
     "examine": "Made from 100% real dragonhide.",
     "value": 7800,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 40
   },
   {
     "name": "Green d'hide chaps",
@@ -7717,7 +7749,8 @@
     ],
     "examine": "A solid maple shield covered in green dragon leather.",
     "value": 5500,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 40
   },
   {
     "name": "Green d'hide vambraces",
@@ -8306,6 +8339,26 @@
     "examine": "A magical staff imbued with the power of Guthix.",
     "value": 80000,
     "equipmentSlot": "weapon"
+  },
+  {
+    "name": "Hallowfell",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hallowfell_detail.png/130px-Hallowfell_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "This really fells my hallow.",
+    "value": 1250000,
+    "equipmentSlot": "2h"
   },
   {
     "name": "Halo",
@@ -10457,7 +10510,8 @@
     ],
     "examine": "A defensive weapon.",
     "value": 1,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 20
   },
   {
     "name": "Mithril full helm",
@@ -11474,6 +11528,26 @@
     "equipmentSlot": "neck"
   },
   {
+    "name": "Necklace of rupture",
+    "category": [
+      "Resource",
+      "Armour"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Necklace_of_rupture_detail.png/130px-Necklace_of_rupture_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Wear",
+      "Drop"
+    ],
+    "examine": "The necklace vibrates threateningly when pressed.",
+    "value": 242000,
+    "equipmentSlot": "neck"
+  },
+  {
     "name": "Neitiznot faceguard",
     "category": [
       "Resource",
@@ -11711,7 +11785,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 56320,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 60
   },
   {
     "name": "Obsidian platebody",
@@ -11732,7 +11807,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 84000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 60
   },
   {
     "name": "Obsidian platelegs",
@@ -11753,7 +11829,8 @@
     ],
     "examine": "Provides excellent protection.",
     "value": 67000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 60
   },
   {
     "name": "Occult necklace",
@@ -12140,7 +12217,8 @@
     ],
     "examine": "A pair of upgraded ranger boots.",
     "value": 120000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 75
   },
   {
     "name": "Penance gloves",
@@ -12372,7 +12450,8 @@
     ],
     "examine": "A pair of upgraded dragon boots.",
     "value": 120000,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 75
   },
   {
     "name": "Purging staff",
@@ -14017,7 +14096,8 @@
     ],
     "examine": "Armoured socks of the Samurai.",
     "value": 4500,
-    "equipmentSlot": "feet"
+    "equipmentSlot": "feet",
+    "defenceRequirement": 35
   },
   {
     "name": "Samurai gloves",
@@ -14062,7 +14142,8 @@
     ],
     "examine": "Armoured greaves of the Samurai.",
     "value": 3200,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "defenceRequirement": 35
   },
   {
     "name": "Samurai kasa",
@@ -14084,7 +14165,8 @@
     ],
     "examine": "A conical hat.",
     "value": 4000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "defenceRequirement": 35
   },
   {
     "name": "Samurai shirt",
@@ -14106,7 +14188,8 @@
     ],
     "examine": "A type of shirt worn by the Samurai.",
     "value": 7000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 35
   },
   {
     "name": "Sanguinesti staff",
@@ -15127,7 +15210,8 @@
     ],
     "examine": "A solid willow shield covered in snakeskin leather.",
     "value": 920,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 30
   },
   {
     "name": "Snakeskin vambraces",
@@ -15998,7 +16082,8 @@
     ],
     "examine": "Those studs should provide a bit more protection.",
     "value": 850,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "defenceRequirement": 20
   },
   {
     "name": "Studded chaps",
@@ -18141,7 +18226,8 @@
     ],
     "examine": "A buckler carved from the twisted remains of the Great Olm.",
     "value": 500000,
-    "equipmentSlot": "shield"
+    "equipmentSlot": "shield",
+    "defenceRequirement": 75
   },
   {
     "name": "Tyrannical ring",

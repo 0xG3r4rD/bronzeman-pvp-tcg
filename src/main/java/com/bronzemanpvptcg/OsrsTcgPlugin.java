@@ -21,6 +21,7 @@ import com.bronzemanpvptcg.service.OwnedCardNamesApiService;
 import com.bronzemanpvptcg.service.CardPartyTradeService;
 import com.bronzemanpvptcg.service.CardPartyTransferService;
 import com.bronzemanpvptcg.service.CreditAwardService;
+import com.bronzemanpvptcg.service.BankUnlocksButtonService;
 import com.bronzemanpvptcg.service.BronzemanEquipLockService;
 import com.bronzemanpvptcg.service.GameMessageCreditTracker;
 import com.bronzemanpvptcg.service.NpcKillCreditTracker;
@@ -168,6 +169,8 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private RollPoolFilter rollPoolFilter;
 	@Inject
+	private BankUnlocksButtonService bankUnlocksButtonService;
+	@Inject
 	private PartyService partyService;
 	@Inject
 	private WSClient wsClient;
@@ -231,6 +234,7 @@ public class OsrsTcgPlugin extends Plugin
 		// PvP-only economy: NpcKillCreditTracker and GameMessageCreditTracker stay unregistered.
 		eventBus.register(pvpKillCreditTracker);
 		eventBus.register(bronzemanEquipLockService);
+		eventBus.register(bankUnlocksButtonService);
 		eventBus.register(cardPartyTransferService);
 		eventBus.register(cardPartyTradeService);
 		eventBus.register(playerCombatMonitor);
@@ -275,6 +279,7 @@ public class OsrsTcgPlugin extends Plugin
 		}
 		eventBus.unregister(creditAwardService);
 		eventBus.unregister(pvpKillCreditTracker);
+		eventBus.unregister(bankUnlocksButtonService);
 		eventBus.unregister(bronzemanEquipLockService);
 		bronzemanEquipLockService.shutdown();
 		eventBus.unregister(cardPartyTransferService);
@@ -375,6 +380,11 @@ public class OsrsTcgPlugin extends Plugin
 		else if ("chatPrefixColor".equals(event.getKey()))
 		{
 			TcgPluginGameMessages.setPrefixColor(config.chatPrefixColor());
+		}
+		else if ("hardModeRate".equals(event.getKey()) || "hardModeGpPerPoint".equals(event.getKey())
+			|| "itemWhitelist".equals(event.getKey()))
+		{
+			tcgPanel.refresh();
 		}
 		else if ("hardMode".equals(event.getKey()))
 		{

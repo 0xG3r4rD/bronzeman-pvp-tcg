@@ -3,6 +3,30 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.6.0] — 2026-08-02
+
+### Fixed
+- **`::btcg-*` commands did nothing.** The handler still required the old `tcg` prefix after the
+  rename, so every command was silently ignored.
+- **26 wrong Defence requirements**, found by re-auditing the pool against the wiki with a parser
+  that now understands the phrasings "70 Attack and Defence" and "level 80 in Defence, ...". Among
+  them: Blessed spirit shield 70, Avernic defender 70, Avernic treads 80, Pegasian / Primordial /
+  Eternal boots 75, Ferocious gloves 80, Dinh's bulwark 75, Twisted buckler 75, obsidian armour 60.
+
+### Added
+- A **Config tab** beside Shop holding the Defence level dropdown, the Hard mode toggle, the new
+  hard-mode rate picker and an item **whitelist** — comma-separated names that stay equipable,
+  buyable and unfaded without owning their card.
+- **Hard mode playstyles**: a rate dropdown with *Default* (250 credits per 100,000 gp) and
+  *Custom*, where you type your own gp-per-point value as a plain number.
+- Hard mode now ignores kills worth under **10,000 gp** of loot.
+- An **icon button in the bank** that opens your unlocked-card album.
+- Cards for the newest content: **Crimson kisten**, **Hallowfell** and **Necklace of rupture**.
+
+### Removed
+- Battlehat, Giant stopwatch, Cormorant's glove, Cursed amulet of magic, Dorgeshuun crossbow,
+  Soulflame horn, Hunter's spear, Golden tench, and all bronze/iron/steel arrows, bolts and javelins.
+
 ## [1.5.3] — 2026-08-02
 
 ### Removed

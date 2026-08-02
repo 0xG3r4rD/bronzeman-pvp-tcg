@@ -3,6 +3,7 @@ package com.bronzemanpvptcg.service;
 import com.bronzemanpvptcg.OsrsTcgConfig;
 import com.bronzemanpvptcg.data.BoosterPackDefinition;
 import com.bronzemanpvptcg.data.PackCatalog;
+import com.bronzemanpvptcg.model.HardModeRate;
 import com.bronzemanpvptcg.ui.TcgPanel;
 import com.bronzemanpvptcg.util.NumberFormatting;
 import com.bronzemanpvptcg.util.TcgPluginGameMessages;
@@ -26,9 +27,8 @@ import net.runelite.client.game.ItemStack;
 public final class PvpKillCreditTracker
 {
 	private static final long FALLBACK_PACK_PRICE = 2_500L;
-	/** Hard mode pays pro rata, so this is a rate rather than a threshold. */
-	private static final long HARD_MODE_LOOT_CHUNK = 100_000L;
-	private static final long HARD_MODE_CREDITS_PER_CHUNK = 250L;
+	/** Kills worth less than this in loot pay nothing, so scraps are not farmable. */
+	private static final long HARD_MODE_MIN_LOOT = 10_000L;
 
 	private final PackCatalog packCatalog;
 	private final CreditAwardService creditAwardService;
@@ -95,7 +95,7 @@ public final class PvpKillCreditTracker
 	private void awardHardMode(PlayerLootReceived event, String victimName)
 	{
 		long lootValue = lootValue(event);
-		long credits = lootValue * HARD_MODE_CREDITS_PER_CHUNK / HARD_MODE_LOOT_CHUNK;
+		long credits = hardModeCredits(lootValue);
 		boolean awarded = credits > 0L && creditAwardService.awardPvpKillCredits(victimName, credits);
 
 		if (awarded)
@@ -112,11 +112,32 @@ public final class PvpKillCreditTracker
 		}
 
 		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
-			"PvP kill on %s: %s loot -> no credits (hard mode pays %s per %s of tradeable loot).",
+			lootValue < HARD_MODE_MIN_LOOT
+				? "PvP kill on %s: %s loot -> no credits (hard mode needs at least %s in tradeable loot)."
+				: "PvP kill on %s: %s loot -> no credits (hard mode pays 1 credit per %s gp).",
 			victimName,
 			NumberFormatting.format(lootValue),
-			NumberFormatting.format(HARD_MODE_CREDITS_PER_CHUNK),
-			NumberFormatting.format(HARD_MODE_LOOT_CHUNK)));
+			NumberFormatting.format(lootValue < HARD_MODE_MIN_LOOT ? HARD_MODE_MIN_LOOT : gpPerPoint())));
+	}
+
+	/** Loot value that buys one credit: the default rate, or the player's own when set to Custom. */
+	private long gpPerPoint()
+	{
+		if (config.hardModeRate() != HardModeRate.CUSTOM)
+		{
+			return HardModeRate.DEFAULT_GP_PER_POINT;
+		}
+		return Math.max(1L, config.hardModeGpPerPoint());
+	}
+
+	/** @return credits for a kill, or 0 when the loot is under the hard-mode minimum. */
+	private long hardModeCredits(long lootValue)
+	{
+		if (lootValue < HARD_MODE_MIN_LOOT)
+		{
+			return 0L;
+		}
+		return lootValue / gpPerPoint();
 	}
 
 	/** Debug hook ({@code ::btcg-pvp}): runs the real award path against a made-up loot value. */
@@ -134,7 +155,7 @@ public final class PvpKillCreditTracker
 			return;
 		}
 
-		long credits = Math.max(0L, lootValue) * HARD_MODE_CREDITS_PER_CHUNK / HARD_MODE_LOOT_CHUNK;
+		long credits = hardModeCredits(Math.max(0L, lootValue));
 		boolean ok = credits > 0L && creditAwardService.awardPvpKillCredits("a test target", credits);
 		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
 			"Test kill: %s loot -> %s%s credits. Total %s / %s for a pack.",

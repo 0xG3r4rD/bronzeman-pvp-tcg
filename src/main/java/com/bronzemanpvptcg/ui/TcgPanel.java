@@ -8,6 +8,7 @@ import com.bronzemanpvptcg.data.PackCatalog;
 import com.bronzemanpvptcg.model.CardCollectionKey;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
 import com.bronzemanpvptcg.model.DefenceLevel;
+import com.bronzemanpvptcg.model.HardModeRate;
 import com.bronzemanpvptcg.model.RewardTuningState;
 import com.bronzemanpvptcg.model.TcgState;
 import com.bronzemanpvptcg.service.CollectionShareService;
@@ -72,6 +73,7 @@ import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JSpinner;
 import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.JTextPane;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingConstants;
@@ -1192,6 +1194,12 @@ public class TcgPanel extends PluginPanel
 		hard.addActionListener(e -> configManager.setConfiguration(
 			OsrsTcgConfig.GROUP, "hardMode", hard.isSelected()));
 		section.add(hard);
+
+		if (config.hardMode())
+		{
+			section.add(Box.createRigidArea(new Dimension(0, 6)));
+			section.add(buildHardModeRateControls(contentW));
+		}
 		section.add(Box.createRigidArea(new Dimension(0, 8)));
 
 		JLabel defLabel = new JLabel("Defence level");
@@ -1240,6 +1248,84 @@ public class TcgPanel extends PluginPanel
 	 * Free-text escape hatch: items listed here stay equipable without their card. Saved on
 	 * focus loss or Enter so every keystroke does not hit the config store.
 	 */
+	/** Playstyle picker for hard mode: the default rate, or your own gp-per-point figure. */
+	private JPanel buildHardModeRateControls(int contentW)
+	{
+		JPanel wrap = new JPanel();
+		wrap.setLayout(new BoxLayout(wrap, BoxLayout.Y_AXIS));
+		wrap.setOpaque(false);
+		wrap.setAlignmentX(LEFT_ALIGNMENT);
+
+		JComboBox<HardModeRate> rate = new JComboBox<>(HardModeRate.values());
+		rate.setSelectedItem(config.hardModeRate());
+		rate.setFocusable(false);
+		rate.setFont(FontManager.getRunescapeSmallFont());
+		rate.setAlignmentX(LEFT_ALIGNMENT);
+		rate.setToolTipText("<html>How much PvP loot earns one credit.<br>"
+			+ "Default pays 250 credits per 100,000 gp, so a 2,500 credit pack costs 1M in loot.<br>"
+			+ "Kills under 10,000 gp of loot never pay.</html>");
+		Dimension box = new Dimension(contentW, rate.getPreferredSize().height);
+		rate.setPreferredSize(box);
+		rate.setMaximumSize(box);
+		rate.addActionListener(e ->
+		{
+			HardModeRate picked = (HardModeRate) rate.getSelectedItem();
+			if (picked != null && picked != config.hardModeRate())
+			{
+				configManager.setConfiguration(OsrsTcgConfig.GROUP, "hardModeRate", picked);
+			}
+		});
+		wrap.add(rate);
+
+		if (config.hardModeRate() == HardModeRate.CUSTOM)
+		{
+			JLabel label = new JLabel("GP per point");
+			label.setForeground(Color.WHITE);
+			label.setFont(FontManager.getRunescapeSmallFont());
+			label.setAlignmentX(LEFT_ALIGNMENT);
+			wrap.add(Box.createRigidArea(new Dimension(0, 4)));
+			wrap.add(label);
+
+			JTextField gp = new JTextField(String.valueOf(config.hardModeGpPerPoint()));
+			gp.setFont(FontManager.getRunescapeSmallFont());
+			gp.setForeground(Color.WHITE);
+			gp.setCaretColor(Color.WHITE);
+			gp.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+			gp.setBorder(new CompoundBorder(
+				new MatteBorder(1, 1, 1, 1, ColorScheme.LIGHT_GRAY_COLOR.darker()),
+				new EmptyBorder(3, 6, 3, 6)));
+			gp.setAlignmentX(LEFT_ALIGNMENT);
+			gp.setToolTipText("Loot value that earns one credit. Plain numbers only, e.g. 400.");
+			Dimension field = new Dimension(contentW, gp.getPreferredSize().height);
+			gp.setPreferredSize(field);
+			gp.setMaximumSize(field);
+			gp.addActionListener(e -> saveGpPerPoint(gp));
+			gp.addFocusListener(new java.awt.event.FocusAdapter()
+			{
+				@Override
+				public void focusLost(java.awt.event.FocusEvent e)
+				{
+					saveGpPerPoint(gp);
+				}
+			});
+			wrap.add(Box.createRigidArea(new Dimension(0, 3)));
+			wrap.add(gp);
+		}
+		return wrap;
+	}
+
+	private void saveGpPerPoint(JTextField field)
+	{
+		String raw = field.getText() == null ? "" : field.getText().replaceAll("[^0-9]", "");
+		int value = raw.isEmpty() ? HardModeRate.DEFAULT_GP_PER_POINT : Integer.parseInt(raw);
+		value = Math.max(1, value);
+		field.setText(String.valueOf(value));
+		if (value != config.hardModeGpPerPoint())
+		{
+			configManager.setConfiguration(OsrsTcgConfig.GROUP, "hardModeGpPerPoint", value);
+		}
+	}
+
 	private JPanel buildWhitelistEditor(int contentW)
 	{
 		JPanel wrap = new JPanel();

@@ -2,6 +2,7 @@ package com.bronzemanpvptcg;
 
 import com.bronzemanpvptcg.model.DefenceLevel;
 import com.bronzemanpvptcg.model.DinkNotificationTrigger;
+import com.bronzemanpvptcg.model.HardModeRate;
 import com.bronzemanpvptcg.model.DuplicateKeepTier;
 import com.bronzemanpvptcg.model.DuplicateKeepVersion;
 import com.bronzemanpvptcg.model.PullNotifyTier;
@@ -183,6 +184,34 @@ public interface OsrsTcgConfig extends Config
 	default boolean hardMode()
 	{
 		return false;
+	}
+
+	/** Shown in the plugin panel's Config tab, not the settings panel. */
+	@ConfigItem(
+		hidden = true,
+		keyName = "hardModeRate",
+		name = "Hard mode rate",
+		description = "Default pays 250 credits per 100k of loot; Custom uses your own gp-per-point value.",
+		section = generalSection,
+		position = 13
+	)
+	default HardModeRate hardModeRate()
+	{
+		return HardModeRate.DEFAULT;
+	}
+
+	/** Shown in the plugin panel's Config tab, not the settings panel. */
+	@ConfigItem(
+		hidden = true,
+		keyName = "hardModeGpPerPoint",
+		name = "GP per point",
+		description = "Loot value that earns one credit when the rate is set to Custom.",
+		section = generalSection,
+		position = 14
+	)
+	default int hardModeGpPerPoint()
+	{
+		return HardModeRate.DEFAULT_GP_PER_POINT;
 	}
 
 	/** Shown in the plugin panel's Config tab, not the settings panel. */
