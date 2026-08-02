@@ -4818,66 +4818,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Dark infinity bottoms",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_infinity_bottoms_detail.png/130px-Dark_infinity_bottoms_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Dismantle"
-    ],
-    "examine": "Mystical robes with a dark recolour.",
-    "value": 90000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Dark infinity hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_infinity_hat_detail.png/130px-Dark_infinity_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Dismantle"
-    ],
-    "examine": "A mystic hat with a dark recolour.",
-    "value": 17000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Dark infinity top",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_infinity_top_detail.png/130px-Dark_infinity_top_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Dismantle"
-    ],
-    "examine": "Mystical robes with a dark recolour.",
-    "value": 140000,
-    "equipmentSlot": "body"
-  },
-  {
     "name": "Defensive shield",
     "category": [
       "Resource",
@@ -9116,7 +9056,11 @@
     "examine": "Mystical robes.",
     "value": 90000,
     "equipmentSlot": "legs",
-    "defenceRequirement": 25
+    "defenceRequirement": 25,
+    "aliases": [
+      "Dark infinity bottoms",
+      "Light infinity bottoms"
+    ]
   },
   {
     "name": "Infinity gloves",
@@ -9160,7 +9104,11 @@
     "examine": "A mystic hat.",
     "value": 17000,
     "equipmentSlot": "head",
-    "defenceRequirement": 25
+    "defenceRequirement": 25,
+    "aliases": [
+      "Dark infinity hat",
+      "Light infinity hat"
+    ]
   },
   {
     "name": "Infinity top",
@@ -9182,7 +9130,11 @@
     "examine": "Mystical robes.",
     "value": 140000,
     "equipmentSlot": "body",
-    "defenceRequirement": 25
+    "defenceRequirement": 25,
+    "aliases": [
+      "Dark infinity top",
+      "Light infinity top"
+    ]
   },
   {
     "name": "Initiate cuisse",
@@ -10175,66 +10127,6 @@
     "examine": "A weapon forged from the wreckage of an airship.",
     "value": 125000,
     "equipmentSlot": "2h"
-  },
-  {
-    "name": "Light infinity bottoms",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_infinity_bottoms_detail.png/130px-Light_infinity_bottoms_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Dismantle"
-    ],
-    "examine": "Mystical robes with a light recolour.",
-    "value": 90000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Light infinity hat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_infinity_hat_detail.png/130px-Light_infinity_hat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Dismantle"
-    ],
-    "examine": "A mystic hat with a light recolour.",
-    "value": 17000,
-    "equipmentSlot": "head"
-  },
-  {
-    "name": "Light infinity top",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Light_infinity_top_detail.png/130px-Light_infinity_top_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Dismantle"
-    ],
-    "examine": "Mystical robes with a light recolour.",
-    "value": 140000,
-    "equipmentSlot": "body"
   },
   {
     "name": "Lightbearer",

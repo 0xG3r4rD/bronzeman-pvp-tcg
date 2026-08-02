@@ -3,6 +3,13 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.8.2] — 2026-08-02
+
+### Changed
+- **Infinity** recolours bundled onto their base cards — dark and light hats onto Infinity hat,
+  tops onto Infinity top, bottoms onto Infinity bottoms. They are colour-kit variants of the same
+  item, so one card now unlocks all three colours of each piece.
+
 ## [1.8.1] — 2026-08-02
 
 ### Fixed
