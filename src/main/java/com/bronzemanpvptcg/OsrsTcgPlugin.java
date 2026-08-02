@@ -557,7 +557,8 @@ public class OsrsTcgPlugin extends Plugin
 			return;
 		}
 		String cmd = event.getCommand();
-		if (cmd == null || cmd.length() < 4 || !cmd.regionMatches(true, 0, "tcg", 0, 3))
+		// Commands are namespaced "btcg-*" so they cannot collide with the upstream OSRS TCG plugin.
+		if (cmd == null || cmd.length() < 5 || !cmd.regionMatches(true, 0, "btcg", 0, 4))
 		{
 			return;
 		}

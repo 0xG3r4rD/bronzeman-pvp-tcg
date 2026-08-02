@@ -185,6 +185,20 @@ public interface OsrsTcgConfig extends Config
 		return false;
 	}
 
+	/** Shown in the plugin panel's Config tab, not the settings panel. */
+	@ConfigItem(
+		hidden = true,
+		keyName = "itemWhitelist",
+		name = "Whitelisted items",
+		description = "Comma-separated item names that stay equipable without owning their card.",
+		section = generalSection,
+		position = 13
+	)
+	default String itemWhitelist()
+	{
+		return "";
+	}
+
 
 	@ConfigSection(
 		name = "Duplicates",

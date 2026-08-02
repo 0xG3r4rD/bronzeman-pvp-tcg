@@ -2352,26 +2352,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Battlehat",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Battlehat_detail.png/130px-Battlehat_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Destroy"
-    ],
-    "examine": "You gotta fight for your right to party!",
-    "value": 0,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Battlestaff",
     "category": [
       "Resource",
@@ -3813,46 +3793,6 @@
     "equipmentSlot": "ammo"
   },
   {
-    "name": "Bronze arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_arrow_detail.png/130px-Bronze_arrow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with bronze heads.",
-    "value": 1,
-    "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Bronze bolts",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_bolts_detail.png/130px-Bronze_bolts_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Bronze crossbow bolts.",
-    "value": 0,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Bronze boots",
     "category": [
       "Resource",
@@ -3957,26 +3897,6 @@
     "examine": "A pair of gloves.",
     "value": 100,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Bronze javelin",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bronze_javelin_detail.png/130px-Bronze_javelin_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A bronze tipped javelin.",
-    "value": 4,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Bronze kiteshield",
@@ -4290,26 +4210,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Cormorant's glove",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cormorant%27s_glove_detail.png/130px-Cormorant%27s_glove_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A very large, single leather glove.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Crab claw",
     "category": [
       "Resource",
@@ -4566,26 +4466,6 @@
     "value": 550000,
     "equipmentSlot": "legs",
     "defenceRequirement": 70
-  },
-  {
-    "name": "Cursed amulet of magic",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cursed_amulet_of_magic_detail.png/130px-Cursed_amulet_of_magic_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An cursed amulet of magic.",
-    "value": 900,
-    "equipmentSlot": "neck"
   },
   {
     "name": "Dagon'hai hat",
@@ -5058,26 +4938,6 @@
     "examine": "A quiver awarded to those who have proved their worth in the Colosseum.",
     "value": 80000,
     "equipmentSlot": "cape"
-  },
-  {
-    "name": "Dorgeshuun crossbow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dorgeshuun_crossbow_detail.png/130px-Dorgeshuun_crossbow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "This fires crossbow bolts.",
-    "value": 2000,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Dragon 2h sword",
@@ -7095,26 +6955,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Giant stopwatch",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Giant_stopwatch_detail.png/130px-Giant_stopwatch_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "You won't forget the time with this.",
-    "value": 50,
-    "equipmentSlot": "2h"
-  },
-  {
     "name": "Gilded 2h sword",
     "category": [
       "Resource",
@@ -7538,27 +7378,6 @@
     "value": 10000,
     "equipmentSlot": "hands",
     "defenceRequirement": 20
-  },
-  {
-    "name": "Golden tench",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Golden_tench_detail.png/130px-Golden_tench_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "The henchest tench.",
-    "value": 100,
-    "equipmentSlot": "weapon"
   },
   {
     "name": "Granite body",
@@ -8851,26 +8670,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Hunter's spear",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Hunter%27s_spear_detail.png/130px-Hunter%27s_spear_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Throw it... Or don't.",
-    "value": 350,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Hunters' crossbow",
     "category": [
       "Resource",
@@ -9216,46 +9015,6 @@
     "equipmentSlot": "feet"
   },
   {
-    "name": "Iron arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_arrow_detail.png/130px-Iron_arrow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with iron heads.",
-    "value": 3,
-    "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Iron bolts",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_bolts_detail.png/130px-Iron_bolts_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Iron crossbow bolts.",
-    "value": 2,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Iron boots",
     "category": [
       "Resource",
@@ -9360,26 +9119,6 @@
     "examine": "A pair of gloves.",
     "value": 250,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Iron javelin",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Iron_javelin_detail.png/130px-Iron_javelin_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "An iron tipped javelin.",
-    "value": 6,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Iron kiteshield",
@@ -15412,28 +15151,6 @@
     "defenceRequirement": 30
   },
   {
-    "name": "Soulflame horn",
-    "category": [
-      "Resource",
-      "Weapon",
-      "Kourend"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Soulflame_horn_detail.png/130px-Soulflame_horn_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wield",
-      "Configure (-> Max Players)",
-      "Drop"
-    ],
-    "examine": "A horn sculpted in the depths of the earth. Its violent reverbrations fan the flames of the soul.",
-    "value": 220000,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Soulreaper axe",
     "category": [
       "Resource",
@@ -15999,46 +15716,6 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Steel arrow",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_arrow_detail.png/130px-Steel_arrow_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Arrows with steel heads.",
-    "value": 12,
-    "equipmentSlot": "ammo"
-  },
-  {
-    "name": "Steel bolts",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_bolts_detail.png/130px-Steel_bolts_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "Steel crossbow bolts.",
-    "value": 8,
-    "equipmentSlot": "ammo"
-  },
-  {
     "name": "Steel boots",
     "category": [
       "Resource",
@@ -16150,26 +15827,6 @@
     "examine": "A pair of gloves.",
     "value": 500,
     "equipmentSlot": "hands"
-  },
-  {
-    "name": "Steel javelin",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Steel_javelin_detail.png/130px-Steel_javelin_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": true,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A steel tipped javelin.",
-    "value": 24,
-    "equipmentSlot": "ammo"
   },
   {
     "name": "Steel kiteshield",

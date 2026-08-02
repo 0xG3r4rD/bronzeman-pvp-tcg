@@ -105,7 +105,8 @@ public class TcgPanel extends PluginPanel
 	private enum Tab
 	{
 		OVERVIEW("Overview"),
-		SHOP("Shop");
+		SHOP("Shop"),
+		CONFIG("Config");
 
 		@Getter
 		private final String label;
@@ -148,6 +149,9 @@ public class TcgPanel extends PluginPanel
 	private final JComponent webShareLiveIndicator;
 	private final JButton overviewTabButton = new JButton(Tab.OVERVIEW.getLabel());
 	private final JButton shopTabButton = new JButton(Tab.SHOP.getLabel());
+	private final JButton configTabButton = new JButton(Tab.CONFIG.getLabel());
+	private final JPanel configContent = new JPanel();
+	private final JScrollPane configScrollPane = new JScrollPane(configContent);
 	private final Map<String, Long> scoreByCardName = new HashMap<>();
 	private Tab selectedTab = Tab.OVERVIEW;
 	/** After first in-world refresh, {@link #selectedTab} is only user-driven unless reset clears progress. */
@@ -218,8 +222,11 @@ public class TcgPanel extends PluginPanel
 		initializeTabContentPanel(packsContent);
 		content.add(overviewContent, Tab.OVERVIEW.name());
 		content.add(shopScrollPane, Tab.SHOP.name());
+		initializeTabContentPanel(configContent);
+		content.add(configScrollPane, Tab.CONFIG.name());
 
 		configureTabScrollPane(shopScrollPane);
+		configureTabScrollPane(configScrollPane);
 
 		populateFooterPanel();
 
@@ -303,6 +310,7 @@ public class TcgPanel extends PluginPanel
 	{
 		overviewContent.removeAll();
 		packsContent.removeAll();
+		configContent.removeAll();
 		mainPanel.revalidate();
 		mainPanel.repaint();
 	}
@@ -619,11 +627,12 @@ public class TcgPanel extends PluginPanel
 		titleRow.add(titleLabel, BorderLayout.CENTER);
 		titleRow.add(rightSlot, BorderLayout.EAST);
 
-		JPanel tabWrapper = new JPanel(new GridLayout(1, 2));
+		JPanel tabWrapper = new JPanel(new GridLayout(1, 3));
 		tabWrapper.setOpaque(false);
 		tabWrapper.setBorder(new EmptyBorder(2, 0, 0, 0));
 		tabWrapper.add(configureTabButton(overviewTabButton, Tab.OVERVIEW));
 		tabWrapper.add(configureTabButton(shopTabButton, Tab.SHOP));
+		tabWrapper.add(configureTabButton(configTabButton, Tab.CONFIG));
 
 		title.add(titleRow);
 		title.add(tabWrapper);
@@ -782,6 +791,7 @@ public class TcgPanel extends PluginPanel
 	{
 		applyTabStyle(overviewTabButton, selectedTab == Tab.OVERVIEW);
 		applyTabStyle(shopTabButton, selectedTab == Tab.SHOP);
+		applyTabStyle(configTabButton, selectedTab == Tab.CONFIG);
 		updateFooterVisibility();
 	}
 
@@ -845,6 +855,9 @@ public class TcgPanel extends PluginPanel
 			case SHOP:
 				renderPacksTab(activePanel);
 				break;
+			case CONFIG:
+				renderConfigTab(activePanel);
+				break;
 			default:
 				log.warn("Unsupported tab {}", selectedTab);
 		}
@@ -875,6 +888,8 @@ public class TcgPanel extends PluginPanel
 				return overviewContent;
 			case SHOP:
 				return packsContent;
+			case CONFIG:
+				return configContent;
 			default:
 				return overviewContent;
 		}
@@ -1010,7 +1025,6 @@ public class TcgPanel extends PluginPanel
 		target.add(Box.createRigidArea(new Dimension(0, 6)));
 		target.add(statPanel("Collection score", format(m.collectionScore)));
 		target.add(Box.createRigidArea(new Dimension(0, 8)));
-		addGameModeOverviewSection(target);
 		target.add(Box.createRigidArea(new Dimension(0, 10)));
 		target.add(buildOverviewPatreonPanel(liveSidebarContentWidth()));
 	}
@@ -1140,7 +1154,7 @@ public class TcgPanel extends PluginPanel
 
 
 	/** Game-mode controls live here rather than the RuneLite settings panel. */
-	private void addGameModeOverviewSection(JPanel target)
+	private void renderConfigTab(JPanel target)
 	{
 		int contentW = Math.max(160, liveSidebarContentWidth() - 12);
 
@@ -1210,6 +1224,9 @@ public class TcgPanel extends PluginPanel
 		});
 		section.add(defence);
 
+		section.add(Box.createRigidArea(new Dimension(0, 12)));
+		section.add(buildWhitelistEditor(contentW));
+
 		if (runeliteDeveloperMode)
 		{
 			section.add(Box.createRigidArea(new Dimension(0, 8)));
@@ -1217,6 +1234,73 @@ public class TcgPanel extends PluginPanel
 		}
 		finishRewardTuningSectionLayout(section);
 		target.add(section);
+	}
+
+	/**
+	 * Free-text escape hatch: items listed here stay equipable without their card. Saved on
+	 * focus loss or Enter so every keystroke does not hit the config store.
+	 */
+	private JPanel buildWhitelistEditor(int contentW)
+	{
+		JPanel wrap = new JPanel();
+		wrap.setLayout(new BoxLayout(wrap, BoxLayout.Y_AXIS));
+		wrap.setOpaque(false);
+		wrap.setAlignmentX(LEFT_ALIGNMENT);
+
+		JLabel label = new JLabel("Whitelisted items");
+		label.setForeground(Color.WHITE);
+		label.setFont(FontManager.getRunescapeSmallFont());
+		label.setAlignmentX(LEFT_ALIGNMENT);
+		wrap.add(label);
+		wrap.add(Box.createRigidArea(new Dimension(0, 4)));
+
+		JTextArea field = new JTextArea(config.itemWhitelist());
+		field.setLineWrap(true);
+		field.setWrapStyleWord(true);
+		field.setFont(FontManager.getRunescapeSmallFont());
+		field.setForeground(Color.WHITE);
+		field.setCaretColor(Color.WHITE);
+		field.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+		field.setBorder(new CompoundBorder(
+			new MatteBorder(1, 1, 1, 1, ColorScheme.LIGHT_GRAY_COLOR.darker()),
+			new EmptyBorder(4, 6, 4, 6)));
+		field.setToolTipText("<html>Item names that stay equipable without owning their card.<br>"
+			+ "Separate with commas, for example:<br><b>Dragon scimitar, Rune platebody</b></html>");
+		field.setAlignmentX(LEFT_ALIGNMENT);
+		Dimension size = new Dimension(contentW, Math.max(52, field.getPreferredSize().height));
+		field.setPreferredSize(size);
+		field.setMaximumSize(size);
+		field.addFocusListener(new java.awt.event.FocusAdapter()
+		{
+			@Override
+			public void focusLost(java.awt.event.FocusEvent e)
+			{
+				saveWhitelist(field.getText());
+			}
+		});
+		wrap.add(field);
+
+		JButton save = new JButton("Save whitelist");
+		save.setFocusable(false);
+		save.setFont(FontManager.getRunescapeSmallFont());
+		save.setAlignmentX(LEFT_ALIGNMENT);
+		Dimension btn = new Dimension(contentW, save.getPreferredSize().height);
+		save.setPreferredSize(btn);
+		save.setMaximumSize(btn);
+		save.addActionListener(e -> saveWhitelist(field.getText()));
+		wrap.add(Box.createRigidArea(new Dimension(0, 4)));
+		wrap.add(save);
+		return wrap;
+	}
+
+	private void saveWhitelist(String raw)
+	{
+		String cleaned = raw == null ? "" : raw.replaceAll("\\s*,\\s*", ", ").trim();
+		if (cleaned.equals(config.itemWhitelist()))
+		{
+			return;
+		}
+		configManager.setConfiguration(OsrsTcgConfig.GROUP, "itemWhitelist", cleaned);
 	}
 
 

@@ -1,5 +1,6 @@
 package com.bronzemanpvptcg.service;
 
+import com.bronzemanpvptcg.OsrsTcgConfig;
 import com.bronzemanpvptcg.data.CardDatabase;
 import com.bronzemanpvptcg.data.CardDefinition;
 import com.bronzemanpvptcg.model.CollectionState;
@@ -70,6 +71,7 @@ public final class BronzemanEquipLockService
 	private final CardDatabase cardDatabase;
 	private final TcgStateService stateService;
 	private final ChatMessageManager chatMessageManager;
+	private final OsrsTcgConfig config;
 
 	private final Map<Integer, Boolean> lockedItemCache = new HashMap<>();
 	private CollectionState lockedItemCacheCollection;
@@ -83,7 +85,8 @@ public final class BronzemanEquipLockService
 		ItemManager itemManager,
 		CardDatabase cardDatabase,
 		TcgStateService stateService,
-		ChatMessageManager chatMessageManager)
+		ChatMessageManager chatMessageManager,
+		OsrsTcgConfig config)
 	{
 		this.client = client;
 		this.clientThread = clientThread;
@@ -91,6 +94,7 @@ public final class BronzemanEquipLockService
 		this.cardDatabase = cardDatabase;
 		this.stateService = stateService;
 		this.chatMessageManager = chatMessageManager;
+		this.config = config;
 	}
 
 	@Subscribe
@@ -126,7 +130,7 @@ public final class BronzemanEquipLockService
 
 		String itemName = itemManager.getItemComposition(entry.getItemId()).getName();
 		Optional<CardDefinition> card = findCardForItemName(itemName);
-		if (card.isEmpty() || isCardOwned(card.get()))
+		if (card.isEmpty() || isWhitelisted(itemName) || isCardOwned(card.get()))
 		{
 			return;
 		}
@@ -155,7 +159,7 @@ public final class BronzemanEquipLockService
 
 		String itemName = Text.removeTags(event.getMenuTarget()).trim();
 		Optional<CardDefinition> card = findCardForItemName(itemName);
-		if (card.isEmpty() || isCardOwned(card.get()))
+		if (card.isEmpty() || isWhitelisted(itemName) || isCardOwned(card.get()))
 		{
 			return false;
 		}
@@ -211,6 +215,29 @@ public final class BronzemanEquipLockService
 			return stripped;
 		}
 		return UPGRADE_PREFIX.matcher(name).replaceFirst("").trim();
+	}
+
+	/**
+	 * User-managed escape hatch: a comma-separated list of item names that stay equipable
+	 * regardless of the collection. Matched on the raw in-game name, case-insensitively.
+	 */
+	private boolean isWhitelisted(String itemName)
+	{
+		String list = config.itemWhitelist();
+		if (list == null || list.trim().isEmpty() || itemName == null)
+		{
+			return false;
+		}
+		String needle = itemName.trim().toLowerCase(Locale.ROOT);
+		for (String entry : list.split(","))
+		{
+			String candidate = entry.trim().toLowerCase(Locale.ROOT);
+			if (!candidate.isEmpty() && candidate.equals(needle))
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 
 	/** Owning any instance of the card (normal or foil) unlocks the item. */
@@ -329,8 +356,9 @@ public final class BronzemanEquipLockService
 		{
 			return cached;
 		}
-		Optional<CardDefinition> card = findCardForItemName(itemManager.getItemComposition(itemId).getName());
-		boolean locked = card.isPresent() && !isCardOwned(card.get());
+		String name = itemManager.getItemComposition(itemId).getName();
+		Optional<CardDefinition> card = findCardForItemName(name);
+		boolean locked = card.isPresent() && !isWhitelisted(name) && !isCardOwned(card.get());
 		lockedItemCache.put(itemId, locked);
 		return locked;
 	}
