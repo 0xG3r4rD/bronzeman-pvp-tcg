@@ -3,6 +3,15 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.6.1] — 2026-08-02
+
+### Added
+- Individual cards for the **Seeking arrows** — mithril, adamant, rune, amethyst, dragon and broad.
+  The bronze, iron and steel tiers are left out to match the existing below-mithril ammo rule.
+
+### Removed
+- Dawnbringer.
+
 ## [1.6.0] — 2026-08-02
 
 ### Fixed

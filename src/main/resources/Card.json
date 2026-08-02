@@ -4663,26 +4663,6 @@
     "equipmentSlot": "body"
   },
   {
-    "name": "Dawnbringer",
-    "category": [
-      "Resource",
-      "Weapon"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dawnbringer_detail.png/130px-Dawnbringer_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wield",
-      "Drop"
-    ],
-    "examine": "A weapon of light to hold back the darkness.",
-    "value": 1,
-    "equipmentSlot": "weapon"
-  },
-  {
     "name": "Defensive shield",
     "category": [
       "Resource",
@@ -14670,6 +14650,126 @@
     "examine": "The ashen wood is warm to the touch.",
     "value": 800000,
     "equipmentSlot": "2h"
+  },
+  {
+    "name": "Seeking adamant arrow",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Seeking_adamant_arrow_detail.png/130px-Seeking_adamant_arrow_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Bloodwood-treated arrows with adamant heads.",
+    "value": 80,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Seeking amethyst arrow",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Seeking_amethyst_arrow_detail.png/130px-Seeking_amethyst_arrow_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Bloodwood-treated arrows with amethyst heads.",
+    "value": 490,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Seeking broad arrows",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Seeking_broad_arrows_detail.png/130px-Seeking_broad_arrows_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Bloodwood-treated arrows with a wider than normal tip.",
+    "value": 60,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Seeking dragon arrow",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Seeking_dragon_arrow_detail.png/130px-Seeking_dragon_arrow_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "An arrow made using a dragon's talon.",
+    "value": 800,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Seeking mithril arrow",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Seeking_mithril_arrow_detail.png/130px-Seeking_mithril_arrow_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Bloodwood-treated arrows with mithril heads.",
+    "value": 32,
+    "equipmentSlot": "ammo"
+  },
+  {
+    "name": "Seeking rune arrow",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Seeking_rune_arrow_detail.png/130px-Seeking_rune_arrow_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": true,
+    "stackable": true,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Bloodwood-treated arrows with rune heads.",
+    "value": 400,
+    "equipmentSlot": "ammo"
   },
   {
     "name": "Seercull",
