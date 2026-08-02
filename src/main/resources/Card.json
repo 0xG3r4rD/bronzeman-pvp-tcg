@@ -10277,6 +10277,26 @@
     "equipmentSlot": "2h"
   },
   {
+    "name": "Magic shortbow (i)",
+    "category": [
+      "Resource",
+      "Weapon"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Magic_shortbow_%28i%29_detail.png/130px-Magic_shortbow_%28i%29_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": true,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Wield",
+      "Drop"
+    ],
+    "examine": "Short and magical, but still effective.",
+    "value": 1600,
+    "equipmentSlot": "2h"
+  },
+  {
     "name": "Magic staff",
     "category": [
       "Resource",

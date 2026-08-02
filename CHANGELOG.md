@@ -3,6 +3,17 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.8.3] — 2026-08-02
+
+### Added
+- **Magic shortbow (i)** as its own card. An exact name match beats variant-stripping, so the
+  imbued bow is now gated separately from the plain Magic shortbow.
+
+### Notes
+- Verified that **Mystic** recolours need no change: the in-game names are `Mystic hat (dark)`,
+  `Mystic boots (light)` and so on, which the variant resolver already maps to the base card, as
+  do the `(or)` ornamented forms. The "Dark mystic hat" style names are only wiki redirects.
+
 ## [1.8.2] — 2026-08-02
 
 ### Changed
