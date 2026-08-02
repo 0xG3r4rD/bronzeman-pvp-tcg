@@ -42,10 +42,19 @@ public final class BronzemanEquipLockService
 {
 	private static final Set<String> EQUIP_VERBS = Set.of("wear", "wield", "equip");
 
-	/** "Amulet of glory(4)", "Games necklace(8)" -> cards carry no charge suffix. */
-	private static final Pattern CHARGE_SUFFIX = Pattern.compile("\\s*\\(\\d+\\)$");
+	/**
+	 * Trailing variant marker: charges ("Amulet of glory(4)"), locked and imbued items
+	 * ("Fire cape (l)", "Ring of suffering (ri)"), ornament kits ("Amulet of fury (or)"),
+	 * autocast forms ("Accursed sceptre (au)") and poison grades ("Dragon dagger (p++)").
+	 * No card name contains brackets, so stripping these is unambiguous.
+	 */
+	private static final Pattern BRACKET_SUFFIX = Pattern.compile("\\s*\\([^()]*\\)$");
 	/** "Dharok's helm 100" -> Barrows degradation states share the undegraded card. */
 	private static final Pattern DEGRADATION_SUFFIX = Pattern.compile("\\s+\\d+$");
+	/** Upgraded forms that keep the base item's name ("Imbued saradomin cape"). */
+	private static final Pattern UPGRADE_PREFIX =
+		Pattern.compile("^(imbued|superior|corrupted)\\s+", Pattern.CASE_INSENSITIVE);
+	private static final int MAX_NORMALISE_STEPS = 4;
 
 	/** Fade level for locked item sprites (Alch Blocker's widget-opacity technique). */
 	private static final int LOCKED_ITEM_OPACITY = 140;
@@ -121,6 +130,11 @@ public final class BronzemanEquipLockService
 			"%s is locked — pull its card from a pack to equip it.", card.get().getName()));
 	}
 
+	/**
+	 * Resolves an in-game item to its card. Tries the exact name first, then peels one variant
+	 * marker at a time, so every untradeable, imbued, ornamented or bundled variant lands on the
+	 * card that unlocks it.
+	 */
 	private Optional<CardDefinition> findCardForItemName(String itemName)
 	{
 		if (itemName == null || itemName.trim().isEmpty())
@@ -128,28 +142,39 @@ public final class BronzemanEquipLockService
 			return Optional.empty();
 		}
 
-		Optional<CardDefinition> direct = cardDatabase.findByName(itemName);
-		if (direct.isPresent())
+		String candidate = itemName.trim();
+		for (int step = 0; step <= MAX_NORMALISE_STEPS; step++)
 		{
-			return direct;
-		}
-
-		String chargeless = CHARGE_SUFFIX.matcher(itemName.trim()).replaceFirst("");
-		if (!chargeless.equals(itemName.trim()))
-		{
-			Optional<CardDefinition> byCharge = cardDatabase.findByName(chargeless);
-			if (byCharge.isPresent())
+			Optional<CardDefinition> hit = cardDatabase.findByNameOrAlias(candidate);
+			if (hit.isPresent())
 			{
-				return byCharge;
+				return hit;
 			}
-		}
 
-		String undegraded = DEGRADATION_SUFFIX.matcher(itemName.trim()).replaceFirst("");
-		if (!undegraded.equals(itemName.trim()))
-		{
-			return cardDatabase.findByName(undegraded);
+			String next = stripOneVariantMarker(candidate);
+			if (next.equals(candidate))
+			{
+				return Optional.empty();
+			}
+			candidate = next;
 		}
 		return Optional.empty();
+	}
+
+	/** @return the name with one trailing/leading variant marker removed, or unchanged if none. */
+	private static String stripOneVariantMarker(String name)
+	{
+		String stripped = BRACKET_SUFFIX.matcher(name).replaceFirst("").trim();
+		if (!stripped.equals(name))
+		{
+			return stripped;
+		}
+		stripped = DEGRADATION_SUFFIX.matcher(name).replaceFirst("").trim();
+		if (!stripped.equals(name))
+		{
+			return stripped;
+		}
+		return UPGRADE_PREFIX.matcher(name).replaceFirst("").trim();
 	}
 
 	/** Owning any instance of the card (normal or foil) unlocks the item. */

@@ -1118,28 +1118,6 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Ancient cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_cloak_detail.png/130px-Ancient_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An Ancient cloak.",
-    "value": 2000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Ancient coif",
     "category": [
       "Resource",
@@ -1300,28 +1278,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Ancient mitre",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_mitre_detail.png/130px-Ancient_mitre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An Ancient mitre.",
-    "value": 5000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Ancient mjolnir",
     "category": [
       "Resource",
@@ -1409,50 +1365,6 @@
     "value": 64000,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Ancient robe legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_robe_legs_detail.png/130px-Ancient_robe_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Leggings from the Ancient Vestments.",
-    "value": 7000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Ancient robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ancient_robe_top_detail.png/130px-Ancient_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Ancient Vestments.",
-    "value": 7000,
-    "equipmentSlot": "body"
   },
   {
     "name": "Ancient sceptre",
@@ -1821,28 +1733,6 @@
     "defenceRequirement": 70
   },
   {
-    "name": "Armadyl cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Armadyl_cloak_detail.png/130px-Armadyl_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An Armadyl cloak.",
-    "value": 2000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Armadyl coif",
     "category": [
       "Resource",
@@ -2046,28 +1936,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Armadyl mitre",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Armadyl_mitre_detail.png/130px-Armadyl_mitre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "An Armadyl mitre.",
-    "value": 5000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Armadyl platebody",
     "category": [
       "Resource",
@@ -2133,50 +2001,6 @@
     "examine": "Rune plateskirt in the colours of Armadyl.",
     "value": 64000,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Armadyl robe legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Armadyl_robe_legs_detail.png/130px-Armadyl_robe_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Leggings from the Armadyl Vestments.",
-    "value": 7000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Armadyl robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Armadyl_robe_top_detail.png/130px-Armadyl_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Armadyl Vestments.",
-    "value": 7000,
-    "equipmentSlot": "body"
   },
   {
     "name": "Atlatl dart",
@@ -2372,28 +2196,6 @@
     "defenceRequirement": 65
   },
   {
-    "name": "Bandos cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bandos_cloak_detail.png/130px-Bandos_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Bandos cloak.",
-    "value": 2000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Bandos coif",
     "category": [
       "Resource",
@@ -2554,28 +2356,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Bandos mitre",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bandos_mitre_detail.png/130px-Bandos_mitre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Bandos mitre.",
-    "value": 5000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Bandos platebody",
     "category": [
       "Resource",
@@ -2643,50 +2423,6 @@
     "value": 64000,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Bandos robe legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bandos_robe_legs_detail.png/130px-Bandos_robe_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Leggings from the Bandos Vestments.",
-    "value": 7000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Bandos robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bandos_robe_top_detail.png/130px-Bandos_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Bandos Vestments.",
-    "value": 7000,
-    "equipmentSlot": "body"
   },
   {
     "name": "Bandos tassets",
@@ -10779,26 +10515,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Guthix cape",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_cape_detail.png/130px-Guthix_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cape from the almighty god Guthix.",
-    "value": 1000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Guthix chaps",
     "category": [
       "Resource",
@@ -10819,28 +10535,6 @@
     "examine": "Guthix blessed dragonhide chaps.",
     "value": 6000,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Guthix cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_cloak_detail.png/130px-Guthix_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Guthix cloak.",
-    "value": 2000,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Guthix coif",
@@ -10981,28 +10675,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Guthix mitre",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_mitre_detail.png/130px-Guthix_mitre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Guthix mitre.",
-    "value": 5000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Guthix mjolnir",
     "category": [
       "Resource",
@@ -11090,50 +10762,6 @@
     "value": 64000,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Guthix robe legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_robe_legs_detail.png/130px-Guthix_robe_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Leggings from the Guthix Vestments.",
-    "value": 7000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Guthix robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Guthix_robe_top_detail.png/130px-Guthix_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Guthix Vestments.",
-    "value": 7000,
-    "equipmentSlot": "body"
   },
   {
     "name": "Guthix staff",
@@ -11662,27 +11290,7 @@
     "equipmentSlot": "weapon"
   },
   {
-    "name": "Imbued guthix cape",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Imbued_guthix_cape_detail.png/130px-Imbued_guthix_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cape from the almighty god Guthix, imbued with great power.",
-    "value": 80000,
-    "equipmentSlot": "cape"
-  },
-  {
-    "name": "Imbued saradomin cape",
+    "name": "Imbued mage arena cape",
     "category": [
       "Resource",
       "Armour"
@@ -11697,9 +11305,14 @@
       "Wear",
       "Drop"
     ],
-    "examine": "A cape from the almighty god Saradomin, imbued with great power.",
+    "examine": "Any of the 3 imbued mage arena cape variants.",
     "value": 80000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Imbued guthix cape",
+      "Imbued saradomin cape",
+      "Imbued zamorak cape"
+    ]
   },
   {
     "name": "Imbued tephra",
@@ -11720,26 +11333,6 @@
     "examine": "This is refined, imbued, and ready to go.",
     "value": 100,
     "equipmentSlot": "weapon"
-  },
-  {
-    "name": "Imbued zamorak cape",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Imbued_zamorak_cape_detail.png/130px-Imbued_zamorak_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cape from the almighty god Zamorak, imbued with great power.",
-    "value": 80000,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Infernal cape",
@@ -18486,7 +18079,7 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Saradomin cape",
+    "name": "Mage arena cape",
     "category": [
       "Resource",
       "Armour"
@@ -18501,9 +18094,14 @@
       "Wear",
       "Drop"
     ],
-    "examine": "A cape from the almighty god Saradomin.",
+    "examine": "Any of the 3 mage arena cape variants.",
     "value": 1000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Guthix cape",
+      "Saradomin cape",
+      "Zamorak cape"
+    ]
   },
   {
     "name": "Saradomin chaps",
@@ -18528,7 +18126,7 @@
     "equipmentSlot": "legs"
   },
   {
-    "name": "Saradomin cloak",
+    "name": "Vestment cloak",
     "category": [
       "Resource",
       "Armour",
@@ -18545,9 +18143,17 @@
       "Wear",
       "Drop"
     ],
-    "examine": "A Saradomin cloak.",
+    "examine": "Any of the 6 vestment cloak variants.",
     "value": 2000,
-    "equipmentSlot": "cape"
+    "equipmentSlot": "cape",
+    "aliases": [
+      "Ancient cloak",
+      "Armadyl cloak",
+      "Bandos cloak",
+      "Guthix cloak",
+      "Saradomin cloak",
+      "Zamorak cloak"
+    ]
   },
   {
     "name": "Saradomin coif",
@@ -18731,7 +18337,7 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Saradomin mitre",
+    "name": "Vestment mitre",
     "category": [
       "Resource",
       "Armour",
@@ -18748,9 +18354,17 @@
       "Wear",
       "Drop"
     ],
-    "examine": "A Saradomin mitre.",
+    "examine": "Any of the 6 vestment mitre variants.",
     "value": 5000,
-    "equipmentSlot": "head"
+    "equipmentSlot": "head",
+    "aliases": [
+      "Ancient mitre",
+      "Armadyl mitre",
+      "Bandos mitre",
+      "Guthix mitre",
+      "Saradomin mitre",
+      "Zamorak mitre"
+    ]
   },
   {
     "name": "Saradomin mjolnir",
@@ -18842,7 +18456,7 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Saradomin robe legs",
+    "name": "Vestment robe legs",
     "category": [
       "Resource",
       "Armour",
@@ -18859,12 +18473,20 @@
       "Wear",
       "Drop"
     ],
-    "examine": "Leggings from the Saradomin Vestments.",
+    "examine": "Any of the 6 vestment robe legs variants.",
     "value": 7000,
-    "equipmentSlot": "legs"
+    "equipmentSlot": "legs",
+    "aliases": [
+      "Ancient robe legs",
+      "Armadyl robe legs",
+      "Bandos robe legs",
+      "Guthix robe legs",
+      "Saradomin robe legs",
+      "Zamorak robe legs"
+    ]
   },
   {
-    "name": "Saradomin robe top",
+    "name": "Vestment robe top",
     "category": [
       "Resource",
       "Armour",
@@ -18881,9 +18503,17 @@
       "Wear",
       "Drop"
     ],
-    "examine": "Saradomin Vestments.",
+    "examine": "Any of the 6 vestment robe top variants.",
     "value": 7000,
-    "equipmentSlot": "body"
+    "equipmentSlot": "body",
+    "aliases": [
+      "Ancient robe top",
+      "Armadyl robe top",
+      "Bandos robe top",
+      "Guthix robe top",
+      "Saradomin robe top",
+      "Zamorak robe top"
+    ]
   },
   {
     "name": "Saradomin staff",
@@ -24540,26 +24170,6 @@
     "equipmentSlot": "hands"
   },
   {
-    "name": "Zamorak cape",
-    "category": [
-      "Resource",
-      "Armour"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_cape_detail.png/130px-Zamorak_cape_detail.png",
-    "questItem": false,
-    "tradeable": false,
-    "equipable": true,
-    "stackable": false,
-    "noteable": false,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A cape from the almighty god Zamorak.",
-    "value": 1000,
-    "equipmentSlot": "cape"
-  },
-  {
     "name": "Zamorak chaps",
     "category": [
       "Resource",
@@ -24580,28 +24190,6 @@
     "examine": "Zamorak blessed dragonhide chaps.",
     "value": 6000,
     "equipmentSlot": "legs"
-  },
-  {
-    "name": "Zamorak cloak",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_cloak_detail.png/130px-Zamorak_cloak_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Zamorak cloak.",
-    "value": 2000,
-    "equipmentSlot": "cape"
   },
   {
     "name": "Zamorak coif",
@@ -24764,28 +24352,6 @@
     "defenceRequirement": 40
   },
   {
-    "name": "Zamorak mitre",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_mitre_detail.png/130px-Zamorak_mitre_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "A Zamorak mitre.",
-    "value": 5000,
-    "equipmentSlot": "head"
-  },
-  {
     "name": "Zamorak mjolnir",
     "category": [
       "Resource",
@@ -24913,50 +24479,6 @@
     "value": 64000,
     "equipmentSlot": "legs",
     "defenceRequirement": 40
-  },
-  {
-    "name": "Zamorak robe legs",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_robe_legs_detail.png/130px-Zamorak_robe_legs_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Leggings from the Zamorak Vestments.",
-    "value": 7000,
-    "equipmentSlot": "legs"
-  },
-  {
-    "name": "Zamorak robe top",
-    "category": [
-      "Resource",
-      "Armour",
-      "General",
-      "Clue"
-    ],
-    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_robe_top_detail.png/130px-Zamorak_robe_top_detail.png",
-    "questItem": false,
-    "tradeable": true,
-    "equipable": true,
-    "stackable": false,
-    "noteable": true,
-    "options": [
-      "Wear",
-      "Drop"
-    ],
-    "examine": "Zamorak Vestments.",
-    "value": 7000,
-    "equipmentSlot": "body"
   },
   {
     "name": "Zamorak staff",

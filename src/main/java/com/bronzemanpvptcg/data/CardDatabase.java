@@ -40,6 +40,8 @@ public class CardDatabase
 	private Map<String, Color> displayRarityColorByCardName = Map.of();
 	/** Exact card-name keys; display tiers (same as collection album / pack reveal). */
 	private Map<String, RarityMath.Tier> displayTierByCardName = Map.of();
+	/** Lower-case card names and their aliases -> card, for item-name lookups. */
+	private Map<String, CardDefinition> cardByLookupName = Map.of();
 
 	@Inject
 	public CardDatabase(Gson gson)
@@ -80,6 +82,19 @@ public class CardDatabase
 	public synchronized int size()
 	{
 		return cards.size();
+	}
+
+	/**
+	 * Resolves an in-game item name to its card, honouring {@link CardDefinition#getAliasNames()}
+	 * so variants and bundled family members hit the same card.
+	 */
+	public synchronized Optional<CardDefinition> findByNameOrAlias(String itemName)
+	{
+		if (isBlank(itemName))
+		{
+			return Optional.empty();
+		}
+		return Optional.ofNullable(cardByLookupName.get(itemName.trim().toLowerCase(Locale.ROOT)));
 	}
 
 	public synchronized Optional<CardDefinition> findByName(String cardName)
@@ -146,6 +161,7 @@ public class CardDatabase
 			chatRarityColorByLowerCaseName = Map.of();
 			displayRarityColorByCardName = Map.of();
 			displayTierByCardName = Map.of();
+			cardByLookupName = Map.of();
 			return;
 		}
 		List<CardDefinition> all = new ArrayList<>(cards);
@@ -166,6 +182,24 @@ public class CardDatabase
 				: displayColor;
 			chatMap.put(c.getName().trim().toLowerCase(Locale.ROOT), chatColor);
 		}
+		Map<String, CardDefinition> lookup = new HashMap<>();
+		for (CardDefinition c : all)
+		{
+			if (c == null || c.getName() == null || c.getName().trim().isEmpty())
+			{
+				continue;
+			}
+			lookup.putIfAbsent(c.getName().trim().toLowerCase(Locale.ROOT), c);
+			for (String alias : c.getAliasNames())
+			{
+				if (alias != null && !alias.trim().isEmpty())
+				{
+					lookup.putIfAbsent(alias.trim().toLowerCase(Locale.ROOT), c);
+				}
+			}
+		}
+		cardByLookupName = Collections.unmodifiableMap(lookup);
+
 		chatRarityColorByLowerCaseName = Collections.unmodifiableMap(chatMap);
 		displayRarityColorByCardName = Collections.unmodifiableMap(displayMap);
 		displayTierByCardName = Collections.unmodifiableMap(tierByName);

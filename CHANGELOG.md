@@ -3,6 +3,24 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.3.0] — 2026-08-02
+
+### Fixed
+- Item **variants no longer bypass the equip lock**. Previously anything whose in-game name did not
+  match a card exactly — `Accursed sceptre (a)` / `(au)`, `Ring of suffering (i)` / `(ri)`, locked
+  `(l)` untradeables such as void and fire/infernal capes, and ornament-kitted gear like
+  `Amulet of fury (or)` — counted as untracked and could be worn without the card. Item names are
+  now resolved by peeling one variant marker at a time (brackets, degradation counters, and
+  `Imbued`/`Superior`/`Corrupted` prefixes) until a card matches.
+
+### Added
+- Cards can carry an `aliases` list, so one card can cover several in-game items.
+
+### Changed
+- Bundled onto single cards (1,191 → 1,167): the six god **vestment** mitres, robe tops, robe legs
+  and cloaks each collapse to one card; the three **Mage Arena** capes to one, and the three
+  **imbued Mage Arena** capes to another.
+
 ## [1.2.0] — 2026-08-02
 
 ### Added

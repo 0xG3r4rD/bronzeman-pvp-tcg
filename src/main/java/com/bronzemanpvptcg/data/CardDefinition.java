@@ -20,6 +20,16 @@ public class CardDefinition
 	private Boolean questItem;
 	/** Defence level needed to equip the item; absent means none (wearable at 1 Defence). */
 	private Integer defenceRequirement;
+	/**
+	 * Other in-game item names this one card covers — untradeable or cosmetic variants, and the
+	 * members of a family bundled onto a single card. Owning the card unlocks every alias.
+	 */
+	private List<String> aliases;
+
+	public List<String> getAliasNames()
+	{
+		return aliases == null ? Collections.emptyList() : aliases;
+	}
 
 	/** Defence requirement as a plain level, treating an absent value as no requirement. */
 	public int defenceRequirementLevel()
