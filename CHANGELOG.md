@@ -3,6 +3,17 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.13.3] — 2026-08-02
+
+### Fixed
+- **Client freeze risks in the bank filter.** Turning the filter off ran client script 29, an id I
+  had guessed — the bank build script is 277, so this invoked an unrelated script with no
+  arguments. The filter now restores the slots itself and runs no script at all.
+- The filter could also **recurse into itself**: `revalidate()` can make the client re-run the bank
+  build script, which lands back in the `ScriptPostFired` handler that triggered the filter. It is
+  now guarded against re-entry, and any failure inside it falls back to showing the full bank
+  instead of leaving the interface half-rebuilt.
+
 ## [1.13.2] — 2026-08-02
 
 ### Fixed

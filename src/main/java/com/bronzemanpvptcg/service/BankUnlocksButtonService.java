@@ -16,6 +16,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import javax.inject.Inject;
 import javax.inject.Singleton;
+import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
 import net.runelite.api.ItemComposition;
 import net.runelite.api.ScriptID;
@@ -34,6 +35,7 @@ import net.runelite.client.util.ImageUtil;
  * drawn with the real item sprites. Item ids come from a one-off scan of the client's item
  * definitions, matched against card names and their aliases.
  */
+@Slf4j
 @Singleton
 public final class BankUnlocksButtonService
 {
@@ -56,6 +58,10 @@ public final class BankUnlocksButtonService
 	private final Map<String, Integer> itemIdByName = new ConcurrentHashMap<>();
 	private boolean itemIndexBuilt;
 	private boolean filterActive;
+	/** Guards against re-entering the filter from a script we ourselves triggered. */
+	private boolean applyingFilter;
+	/** Slot layout before filtering, so toggling off restores the client's own arrangement. */
+	private final Map<Integer, int[]> originalSlotPositions = new java.util.HashMap<>();
 
 	/** Bank grid geometry, matching the client's own layout. */
 	private static final int ITEMS_PER_ROW = 8;
@@ -63,7 +69,6 @@ public final class BankUnlocksButtonService
 	private static final int ITEM_Y_SPACING = 36;
 	private static final int ITEM_ROW_START = 51;
 	private static final int ITEM_Y_START = 0;
-	private static final int BANK_REBUILD_SCRIPT = 29;
 
 	@Inject
 	public BankUnlocksButtonService(
@@ -128,9 +133,7 @@ public final class BankUnlocksButtonService
 		}
 		else
 		{
-			// Let the client redraw the bank normally, which restores every hidden slot.
-			client.runScript(BANK_REBUILD_SCRIPT);
-			clientThread.invokeLater(this::addButton);
+			restoreBank();
 			TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, "Bank filter off.");
 		}
 	}
@@ -152,11 +155,66 @@ public final class BankUnlocksButtonService
 	private void applyBankFilter()
 	{
 		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
-		if (container == null || container.getDynamicChildren() == null)
+		if (container == null || container.getDynamicChildren() == null || applyingFilter)
 		{
 			return;
 		}
 
+		// revalidate() can make the client re-run the bank build script, which lands us back in
+		// onScriptPostFired; without this guard that recurses until the client locks up.
+		applyingFilter = true;
+		try
+		{
+			filterSlots(container);
+		}
+		catch (RuntimeException ex)
+		{
+			log.warn("Bank filter failed; showing the full bank", ex);
+			filterActive = false;
+			restoreBank();
+		}
+		finally
+		{
+			applyingFilter = false;
+		}
+	}
+
+	/** Puts every slot back where the client had it and unhides it. */
+	private void restoreBank()
+	{
+		Widget container = client.getWidget(InterfaceID.Bankmain.ITEMS);
+		if (container == null || container.getDynamicChildren() == null)
+		{
+			return;
+		}
+		applyingFilter = true;
+		try
+		{
+			for (Widget child : container.getDynamicChildren())
+			{
+				if (child == null)
+				{
+					continue;
+				}
+				int[] xy = originalSlotPositions.get(child.getIndex());
+				if (xy != null)
+				{
+					child.setOriginalX(xy[0]);
+					child.setOriginalY(xy[1]);
+				}
+				child.setHidden(false);
+				child.revalidate();
+			}
+			container.revalidate();
+		}
+		finally
+		{
+			applyingFilter = false;
+		}
+	}
+
+	private void filterSlots(Widget container)
+	{
 		int shown = 0;
 		for (Widget child : container.getDynamicChildren())
 		{
@@ -164,6 +222,8 @@ public final class BankUnlocksButtonService
 			{
 				continue;
 			}
+			originalSlotPositions.putIfAbsent(child.getIndex(),
+				new int[]{child.getOriginalX(), child.getOriginalY()});
 			if (!isUnlockedItem(child.getItemId()))
 			{
 				child.setHidden(true);
