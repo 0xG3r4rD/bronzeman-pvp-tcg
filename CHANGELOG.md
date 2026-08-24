@@ -3,6 +3,20 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.15.1] — 2026-08-03
+
+### Fixed
+- **Removed "Super ranging potion"** — it is not an OSRS item. Its wiki page redirects to an
+  RS-era article and no in-game art exists for either spelling.
+- **Every potion card had broken art.** Card names are dose-less on purpose, but the wiki pictures
+  potions per dose, so the generated image URLs 404'd. All 14 now point at the 4-dose image, and
+  the Snowy knight's jar art is fixed too.
+
+### Notes
+- Confirmed all four doses resolve to one card: 56 dose names checked across every potion and the
+  blighted super restore, with no mismatches. `Prayer potion(1)` through `(4)` all need the single
+  Prayer potion card.
+
 ## [1.15.0] — 2026-08-03
 
 ### Fixed
