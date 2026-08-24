@@ -1400,6 +1400,25 @@
     "equipmentSlot": "shield"
   },
   {
+    "name": "Anglerfish",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Anglerfish_detail.png/130px-Anglerfish_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "I hope this tastes better than it looks.",
+    "value": 450,
+    "consumable": true
+  },
+  {
     "name": "Antler guard",
     "category": [
       "Resource",
@@ -1632,6 +1651,26 @@
     "examine": "Armadyl blessed dragonhide vambraces.",
     "value": 4000,
     "equipmentSlot": "hands"
+  },
+  {
+    "name": "Armadyl brew",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Armadyl_brew_detail.png/130px-Armadyl_brew_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
   },
   {
     "name": "Armadyl chainskirt",
@@ -2472,6 +2511,45 @@
     "equipmentSlot": "hands"
   },
   {
+    "name": "Bass",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bass_detail.png/130px-Bass_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Wow, this is a big fish.",
+    "value": 40,
+    "consumable": true
+  },
+  {
+    "name": "Bastion potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bastion_potion_detail.png/130px-Bastion_potion_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
     "name": "Battlestaff",
     "category": [
       "Resource",
@@ -3196,6 +3274,83 @@
     "defenceRequirement": 70
   },
   {
+    "name": "Blighted anglerfish",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blighted_anglerfish_detail.png/130px-Blighted_anglerfish_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "An unappetising fish, now blighted so it can be eaten only in the Wilderness.",
+    "value": 50,
+    "consumable": true
+  },
+  {
+    "name": "Blighted karambwan",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blighted_karambwan_detail.png/130px-Blighted_karambwan_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "A nutritious octopus, now blighted so it can be eaten only in the Wilderness.",
+    "value": 60,
+    "consumable": true
+  },
+  {
+    "name": "Blighted manta ray",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blighted_manta_ray_detail.png/130px-Blighted_manta_ray_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "A rare catch, now blighted so it can be eaten only in the Wilderness.",
+    "value": 50,
+    "consumable": true
+  },
+  {
+    "name": "Blighted super restore",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blighted_super_restore_detail.png/130px-Blighted_super_restore_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
     "name": "Blood ancient sceptre",
     "category": [
       "Resource",
@@ -3450,6 +3605,25 @@
     "examine": "A thick blue cape.",
     "value": 32,
     "equipmentSlot": "cape"
+  },
+  {
+    "name": "Blue crab meat",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Blue_crab_meat_detail.png/130px-Blue_crab_meat_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "This looks tricky to eat.",
+    "value": 320,
+    "consumable": true
   },
   {
     "name": "Blue d'hide body",
@@ -3743,6 +3917,25 @@
     "examine": "I can do magic better in this.",
     "value": 15,
     "equipmentSlot": "body"
+  },
+  {
+    "name": "Bluefin",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Bluefin_detail.png/130px-Bluefin_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Some nicely cooked bluefin.",
+    "value": 170,
+    "consumable": true
   },
   {
     "name": "Bolt rack",
@@ -4475,6 +4668,63 @@
     "equipmentSlot": "hands"
   },
   {
+    "name": "Cooked dashing kebbit",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cooked_dashing_kebbit_detail.png/130px-Cooked_dashing_kebbit_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "I should eat this quickly.",
+    "value": 4,
+    "consumable": true
+  },
+  {
+    "name": "Cooked karambwan",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cooked_karambwan_detail.png/130px-Cooked_karambwan_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Cooked octopus. It looks very nutritious.",
+    "value": 250,
+    "consumable": true
+  },
+  {
+    "name": "Cooked moonlight antelope",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Cooked_moonlight_antelope_detail.png/130px-Cooked_moonlight_antelope_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Mmm, this looks tasty.",
+    "value": 4,
+    "consumable": true
+  },
+  {
     "name": "Crab claw",
     "category": [
       "Resource",
@@ -4806,6 +5056,25 @@
     ]
   },
   {
+    "name": "Curry",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Curry_detail.png/130px-Curry_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "It's a spicy hot curry.",
+    "value": 20,
+    "consumable": true
+  },
+  {
     "name": "Dagon'hai hat",
     "category": [
       "Resource",
@@ -4891,6 +5160,45 @@
     "examine": "A bow from a darker dimension.",
     "value": 120002,
     "equipmentSlot": "2h"
+  },
+  {
+    "name": "Dark crab",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Dark_crab_detail.png/130px-Dark_crab_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "This looks tricky to eat.",
+    "value": 320,
+    "consumable": true
+  },
+  {
+    "name": "Defence potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Defence_potion_detail.png/130px-Defence_potion_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
   },
   {
     "name": "Desert amulet",
@@ -7079,6 +7387,26 @@
     "equipmentSlot": "feet"
   },
   {
+    "name": "Forgotten brew",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Forgotten_brew_detail.png/130px-Forgotten_brew_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
     "name": "Fremennik kilt",
     "category": [
       "Resource",
@@ -7355,6 +7683,25 @@
     "aliases": [
       "Holy ghrazi rapier"
     ]
+  },
+  {
+    "name": "Giant krill",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Giant_krill_detail.png/130px-Giant_krill_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Some nicely cooked krill.",
+    "value": 170,
+    "consumable": true
   },
   {
     "name": "Gilded 2h sword",
@@ -8712,6 +9059,44 @@
     "equipmentSlot": "weapon"
   },
   {
+    "name": "Haddock",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Haddock_detail.png/130px-Haddock_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Some nicely cooked haddock.",
+    "value": 170,
+    "consumable": true
+  },
+  {
+    "name": "Halibut",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Halibut_detail.png/130px-Halibut_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Some nicely cooked halibut.",
+    "value": 170,
+    "consumable": true
+  },
+  {
     "name": "Hallowfell",
     "category": [
       "Resource",
@@ -9828,6 +10213,25 @@
     "equipmentSlot": "2h"
   },
   {
+    "name": "Ixcoztic white",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ixcoztic_white_detail.png/130px-Ixcoztic_white_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Drop"
+    ],
+    "examine": "A crisp and citrusy Aldarin White that's popular for all occasions.",
+    "value": 100,
+    "consumable": true
+  },
+  {
     "name": "Jade bolts",
     "category": [
       "Resource",
@@ -10513,6 +10917,26 @@
     "equipmentSlot": "2h"
   },
   {
+    "name": "Magic potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Magic_potion_detail.png/130px-Magic_potion_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
     "name": "Magic shield",
     "category": [
       "Resource",
@@ -10648,6 +11072,25 @@
     "defenceRequirement": 60
   },
   {
+    "name": "Manta ray",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Manta_ray_detail.png/130px-Manta_ray_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "A rare catch.",
+    "value": 200,
+    "consumable": true
+  },
+  {
     "name": "Maple shield",
     "category": [
       "Resource",
@@ -10667,6 +11110,25 @@
     "value": 320,
     "equipmentSlot": "shield",
     "defenceRequirement": 40
+  },
+  {
+    "name": "Marlin",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Marlin_detail.png/130px-Marlin_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Some nicely cooked marlin.",
+    "value": 170,
+    "consumable": true
   },
   {
     "name": "Mask of ranul",
@@ -11305,6 +11767,25 @@
     "examine": "I feel closer to the gods when I am wearing this.",
     "value": 40,
     "equipmentSlot": "body"
+  },
+  {
+    "name": "Monkfish",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Monkfish_detail.png/130px-Monkfish_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "A tasty fish.",
+    "value": 230,
+    "consumable": true
   },
   {
     "name": "Mooleta",
@@ -12904,6 +13385,45 @@
     "equipmentSlot": "hands"
   },
   {
+    "name": "Potato with cheese",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Potato_with_cheese_detail.png/130px-Potato_with_cheese_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "A baked potato with butter and cheese.",
+    "value": 8,
+    "consumable": true
+  },
+  {
+    "name": "Prayer potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Prayer_potion_detail.png/130px-Prayer_potion_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
     "name": "Primordial boots",
     "category": [
       "Resource",
@@ -13174,6 +13694,25 @@
     "equipmentSlot": "body"
   },
   {
+    "name": "Rainbow crab meat",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Rainbow_crab_meat_detail.png/130px-Rainbow_crab_meat_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "This looks tricky to eat.",
+    "value": 300,
+    "consumable": true
+  },
+  {
     "name": "Ranger boots",
     "category": [
       "Resource",
@@ -13282,6 +13821,26 @@
     "examine": "Lightweight body armour ideal for rangers.",
     "value": 12000,
     "equipmentSlot": "body"
+  },
+  {
+    "name": "Ranging potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Ranging_potion_detail.png/130px-Ranging_potion_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
   },
   {
     "name": "Red boater",
@@ -13632,6 +14191,26 @@
     "value": 202000,
     "equipmentSlot": "hands",
     "defenceRequirement": 1
+  },
+  {
+    "name": "Restore potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Restore_potion_detail.png/130px-Restore_potion_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
   },
   {
     "name": "Ring of recoil",
@@ -14916,6 +15495,26 @@
     "equipmentSlot": "hands"
   },
   {
+    "name": "Saradomin brew",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Saradomin_brew_detail.png/130px-Saradomin_brew_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
     "name": "Saradomin chaps",
     "category": [
       "Resource",
@@ -15251,6 +15850,25 @@
     "equipmentSlot": "2h"
   },
   {
+    "name": "Sea turtle",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Sea_turtle_detail.png/130px-Sea_turtle_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Tasty!",
+    "value": 200,
+    "consumable": true
+  },
+  {
     "name": "Seeking adamant arrow",
     "category": [
       "Resource",
@@ -15538,6 +16156,25 @@
     "examine": "The mask worn by ogre shamans.",
     "value": 8000,
     "equipmentSlot": "head"
+  },
+  {
+    "name": "Shark",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Shark_detail.png/130px-Shark_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "I'd better be careful eating this.",
+    "value": 170,
+    "consumable": true
   },
   {
     "name": "Silver bolts",
@@ -15933,6 +16570,24 @@
     "value": 434,
     "equipmentSlot": "hands",
     "defenceRequirement": 30
+  },
+  {
+    "name": "Snowy knight",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Snowy_knight_detail.png/130px-Snowy_knight_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": false,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Catch"
+    ],
+    "examine": "It's a snowy knight butterfly.",
+    "value": 0,
+    "consumable": true
   },
   {
     "name": "Soulreaper axe",
@@ -16960,6 +17615,85 @@
     ]
   },
   {
+    "name": "Super combat potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Super_combat_potion_detail.png/130px-Super_combat_potion_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
+    "name": "Super defence",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Super_defence_detail.png/130px-Super_defence_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
+    "name": "Super ranging potion",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Super_ranging_potion_detail.png/130px-Super_ranging_potion_detail.png",
+    "questItem": false,
+    "tradeable": false,
+    "equipable": false,
+    "stackable": false,
+    "noteable": false,
+    "options": [
+      "Drink",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
+    "name": "Super restore",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Super_restore_detail.png/130px-Super_restore_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
+  },
+  {
     "name": "Swamp lizard",
     "category": [
       "Resource",
@@ -17083,6 +17817,25 @@
     "value": 80000,
     "equipmentSlot": "legs",
     "defenceRequirement": 50
+  },
+  {
+    "name": "Swordfish",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Swordfish_detail.png/130px-Swordfish_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "I'd better be careful eating this!",
+    "value": 80,
+    "consumable": true
   },
   {
     "name": "Teacher wand",
@@ -18842,6 +19595,25 @@
     "equipmentSlot": "weapon"
   },
   {
+    "name": "Tuna potato",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Tuna_potato_detail.png/130px-Tuna_potato_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "A baked potato with tuna and sweetcorn.",
+    "value": 113,
+    "consumable": true
+  },
+  {
     "name": "Turquoise boots",
     "category": [
       "Resource",
@@ -20484,6 +21256,25 @@
     "equipmentSlot": "body"
   },
   {
+    "name": "Yellowfin",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Yellowfin_detail.png/130px-Yellowfin_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Eat",
+      "Drop"
+    ],
+    "examine": "Some nicely cooked yellowfin.",
+    "value": 170,
+    "consumable": true
+  },
+  {
     "name": "Yew longbow",
     "category": [
       "Resource",
@@ -20566,6 +21357,26 @@
     "examine": "Zamorak blessed dragonhide vambraces.",
     "value": 4000,
     "equipmentSlot": "hands"
+  },
+  {
+    "name": "Zamorak brew",
+    "category": [
+      "Consumable"
+    ],
+    "imageUrl": "https://oldschool.runescape.wiki/images/thumb/Zamorak_brew_detail.png/130px-Zamorak_brew_detail.png",
+    "questItem": false,
+    "tradeable": true,
+    "equipable": false,
+    "stackable": false,
+    "noteable": true,
+    "options": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "examine": "",
+    "value": 0,
+    "consumable": true
   },
   {
     "name": "Zamorak chaps",

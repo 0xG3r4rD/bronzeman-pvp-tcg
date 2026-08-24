@@ -3,6 +3,29 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.14.0] — 2026-08-03
+
+### Added
+- **"Lock food and potions" toggle** in the Config tab, off by default. With it on, eating or
+  drinking a locked consumable is blocked just like equipping locked gear, and those items grey out
+  in the inventory and bank.
+- **42 consumable cards**, all built from wiki data:
+  - **Food healing over 12 per serving** (24 cards) — Marlin, Manta ray, Anglerfish, Dark crab,
+    Shark, Karambwan, Monkfish, Swordfish and the rest. Judged on a single serving, so Lobster (12)
+    and the multi-bite pies and pizzas (11 per bite) are not included.
+  - **Potions** (14) — Prayer, Restore, Super restore, Ranging, Super ranging, Bastion, Zamorak
+    brew, Saradomin brew, Forgotten brew, Armadyl brew, Super combat, Defence, Super defence, Magic.
+  - **Blighted supplies on their own cards** (4) — super restore, anglerfish, karambwan and manta
+    ray. Owning the normal version does not unlock the blighted one, or the reverse.
+- Consumable cards **only enter the pack pool while the toggle is on**, so they are never dead
+  pulls; the roll pool moves between 982 and 1,024 cards as you switch it.
+
+### Notes
+- Every dose resolves to one card: `Prayer potion(1)` through `(4)` share the Prayer potion card,
+  and `Blighted super restore(4)` maps to the blighted card rather than the normal one.
+- `Blighted dark crab` turned out to be a wiki redirect to `Dark crab`, not a separate item, so it
+  has no card of its own.
+
 ## [1.13.3] — 2026-08-02
 
 ### Fixed

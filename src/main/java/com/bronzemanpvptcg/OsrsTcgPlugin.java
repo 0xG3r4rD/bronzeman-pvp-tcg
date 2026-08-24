@@ -381,6 +381,16 @@ public class OsrsTcgPlugin extends Plugin
 		{
 			TcgPluginGameMessages.setPrefixColor(config.chatPrefixColor());
 		}
+		else if ("consumableCards".equals(event.getKey()))
+		{
+			tcgPanel.refresh();
+			queueGameMessage(TcgPluginGameMessages.withPrefix(String.format(
+				config.consumableCards()
+					? "Food and potions are now card-locked. %s of %s cards are pullable."
+					: "Food and potions unlocked. %s of %s cards are pullable.",
+				NumberFormatting.format(rollPoolFilter.filterRollPool(cardDatabase.getCards()).size()),
+				NumberFormatting.format(cardDatabase.size()))));
+		}
 		else if ("hardModeRate".equals(event.getKey()) || "hardModeGpPerPoint".equals(event.getKey())
 			|| "itemWhitelist".equals(event.getKey()))
 		{

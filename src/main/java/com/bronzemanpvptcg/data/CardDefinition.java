@@ -20,6 +20,13 @@ public class CardDefinition
 	private Boolean questItem;
 	/** Defence level needed to equip the item; absent means none (wearable at 1 Defence). */
 	private Integer defenceRequirement;
+	/** Food and potions, which are only in play while the consumable lock is switched on. */
+	private Boolean consumable;
+
+	public boolean isConsumableCard()
+	{
+		return Boolean.TRUE.equals(consumable);
+	}
 	/**
 	 * Other in-game item names this one card covers — untradeable or cosmetic variants, and the
 	 * members of a family bundled onto a single card. Owning the card unlocks every alias.

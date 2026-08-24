@@ -31,19 +31,27 @@ public final class RollPoolFilter
 		}
 
 		DefenceLevel level = config.defenceLevel();
-		if (level == null || level.isUnrestricted())
+		boolean consumables = config.consumableCards();
+		boolean unrestricted = level == null || level.isUnrestricted();
+		if (unrestricted && consumables)
 		{
 			return cards;
 		}
 
-		int cap = level.getMaxRequirement();
+		int cap = unrestricted ? Integer.MAX_VALUE : level.getMaxRequirement();
 		List<CardDefinition> allowed = new ArrayList<>(cards.size());
 		for (CardDefinition card : cards)
 		{
-			if (card != null && card.defenceRequirementLevel() <= cap)
+			if (card == null || card.defenceRequirementLevel() > cap)
 			{
-				allowed.add(card);
+				continue;
 			}
+			// A consumable card is dead weight unless its lock is switched on.
+			if (card.isConsumableCard() && !consumables)
+			{
+				continue;
+			}
+			allowed.add(card);
 		}
 		return List.copyOf(allowed);
 	}

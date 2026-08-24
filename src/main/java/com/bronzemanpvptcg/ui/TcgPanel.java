@@ -1232,6 +1232,21 @@ public class TcgPanel extends PluginPanel
 		});
 		section.add(defence);
 
+		section.add(Box.createRigidArea(new Dimension(0, 8)));
+
+		JCheckBox consumables = new JCheckBox("Lock food and potions");
+		consumables.setOpaque(false);
+		consumables.setForeground(Color.WHITE);
+		consumables.setFont(FontManager.getRunescapeSmallFont());
+		consumables.setAlignmentX(LEFT_ALIGNMENT);
+		consumables.setSelected(config.consumableCards());
+		consumables.setToolTipText("<html>Gate food healing over 12 and the combat potions behind cards.<br>"
+			+ "Blighted supplies have their own cards, separate from the normal versions.<br>"
+			+ "Their cards only enter the pack pool while this is on.</html>");
+		consumables.addActionListener(e -> configManager.setConfiguration(
+			OsrsTcgConfig.GROUP, "consumableCards", consumables.isSelected()));
+		section.add(consumables);
+
 		section.add(Box.createRigidArea(new Dimension(0, 12)));
 		section.add(buildWhitelistEditor(contentW));
 

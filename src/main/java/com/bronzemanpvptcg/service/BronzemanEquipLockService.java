@@ -47,6 +47,8 @@ import net.runelite.client.util.Text;
 public final class BronzemanEquipLockService
 {
 	private static final Set<String> EQUIP_VERBS = Set.of("wear", "wield", "equip");
+	/** Consuming verbs, blocked only while the consumable lock is on. */
+	private static final Set<String> CONSUME_VERBS = Set.of("eat", "drink");
 
 	/**
 	 * Trailing variant marker: charges ("Amulet of glory(4)"), locked and imbued items
@@ -127,7 +129,9 @@ public final class BronzemanEquipLockService
 		}
 
 		String option = Text.removeTags(event.getMenuOption()).trim().toLowerCase(Locale.ROOT);
-		if (!EQUIP_VERBS.contains(option))
+		boolean equipping = EQUIP_VERBS.contains(option);
+		boolean consuming = config.consumableCards() && CONSUME_VERBS.contains(option);
+		if (!equipping && !consuming)
 		{
 			return;
 		}
@@ -141,7 +145,8 @@ public final class BronzemanEquipLockService
 
 		event.consume();
 		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
-			"%s is locked — pull its card from a pack to equip it.", card.get().getName()));
+			"%s is locked — pull its card from a pack to %s it.",
+			card.get().getName(), consuming ? "use" : "equip"));
 	}
 
 	/**
@@ -415,14 +420,34 @@ public final class BronzemanEquipLockService
 		String name = comp.getName();
 		// Something you cannot wear is never "locked" — unstrung bows, unfinished potions and other
 		// crafting intermediates share a name with equipable gear but are not gear themselves.
-		Optional<CardDefinition> card = isEquipable(comp) ? findCardForItemName(name) : Optional.empty();
+		// Food and potions only join in while the consumable lock is switched on.
+		Optional<CardDefinition> card = Optional.empty();
+		if (isEquipable(comp))
+		{
+			card = findCardForItemName(name);
+		}
+		else if (config.consumableCards() && isConsumable(comp))
+		{
+			card = findCardForItemName(name).filter(CardDefinition::isConsumableCard);
+		}
 		boolean locked = card.isPresent() && !isWhitelisted(name) && !isCardOwned(card.get());
 		lockedItemCache.put(itemId, locked);
 		return locked;
 	}
 
+	/** True when the client offers an Eat/Drink option on the item itself. */
+	public static boolean isConsumable(ItemComposition comp)
+	{
+		return hasAction(comp, CONSUME_VERBS);
+	}
+
 	/** True when the client offers a Wear/Wield/Equip option on the item itself. */
 	public static boolean isEquipable(ItemComposition comp)
+	{
+		return hasAction(comp, EQUIP_VERBS);
+	}
+
+	private static boolean hasAction(ItemComposition comp, Set<String> verbs)
 	{
 		if (comp == null || comp.getInventoryActions() == null)
 		{
@@ -430,7 +455,7 @@ public final class BronzemanEquipLockService
 		}
 		for (String action : comp.getInventoryActions())
 		{
-			if (action != null && EQUIP_VERBS.contains(action.trim().toLowerCase(Locale.ROOT)))
+			if (action != null && verbs.contains(action.trim().toLowerCase(Locale.ROOT)))
 			{
 				return true;
 			}

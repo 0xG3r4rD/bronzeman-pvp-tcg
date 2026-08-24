@@ -217,6 +217,21 @@ public interface OsrsTcgConfig extends Config
 	/** Shown in the plugin panel's Config tab, not the settings panel. */
 	@ConfigItem(
 		hidden = true,
+		keyName = "consumableCards",
+		name = "Lock food and potions",
+		description = "Gate food healing over 12 and the combat potions behind cards. Their cards only "
+			+ "enter the pack pool while this is on.",
+		section = generalSection,
+		position = 15
+	)
+	default boolean consumableCards()
+	{
+		return false;
+	}
+
+	/** Shown in the plugin panel's Config tab, not the settings panel. */
+	@ConfigItem(
+		hidden = true,
 		keyName = "itemWhitelist",
 		name = "Whitelisted items",
 		description = "Comma-separated item names that stay equipable without owning their card.",
