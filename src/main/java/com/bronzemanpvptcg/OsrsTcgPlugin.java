@@ -14,7 +14,6 @@ import java.util.Set;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
 import com.bronzemanpvptcg.model.TcgPublicStats;
 import com.bronzemanpvptcg.overlay.CreditsInfoboxOverlay;
-import com.bronzemanpvptcg.overlay.LockedItemMarkOverlay;
 import com.bronzemanpvptcg.overlay.PackRevealInputListener;
 import com.bronzemanpvptcg.overlay.PackRevealOverlay;
 import com.bronzemanpvptcg.service.CollectionShareService;
@@ -25,6 +24,7 @@ import com.bronzemanpvptcg.service.CreditAwardService;
 import com.bronzemanpvptcg.service.BankUnlocksButtonService;
 import com.bronzemanpvptcg.service.BronzemanEquipLockService;
 import com.bronzemanpvptcg.service.GameMessageCreditTracker;
+import com.bronzemanpvptcg.service.GrandExchangeUnlocksService;
 import com.bronzemanpvptcg.service.NpcKillCreditTracker;
 import com.bronzemanpvptcg.service.PvpKillCreditTracker;
 import com.bronzemanpvptcg.service.CollectionSetCompletionUtil;
@@ -144,8 +144,6 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private CreditsInfoboxOverlay creditsInfoboxOverlay;
 	@Inject
-	private LockedItemMarkOverlay lockedItemMarkOverlay;
-	@Inject
 	private PackRevealInputListener packRevealInputListener;
 	@Inject
 	private OverlayManager overlayManager;
@@ -173,6 +171,8 @@ public class OsrsTcgPlugin extends Plugin
 	private RollPoolFilter rollPoolFilter;
 	@Inject
 	private BankUnlocksButtonService bankUnlocksButtonService;
+	@Inject
+	private GrandExchangeUnlocksService grandExchangeUnlocksService;
 	@Inject
 	private PartyService partyService;
 	@Inject
@@ -229,7 +229,6 @@ public class OsrsTcgPlugin extends Plugin
 		clientToolbar.addNavigation(navigationButton);
 		overlayManager.add(packRevealOverlay);
 		overlayManager.add(creditsInfoboxOverlay);
-		overlayManager.add(lockedItemMarkOverlay);
 		mouseManager.registerMouseListener(packRevealInputListener);
 		mouseManager.registerMouseWheelListener(packRevealInputListener);
 		keyManager.registerKeyListener(packRevealInputListener);
@@ -239,6 +238,7 @@ public class OsrsTcgPlugin extends Plugin
 		eventBus.register(pvpKillCreditTracker);
 		eventBus.register(bronzemanEquipLockService);
 		eventBus.register(bankUnlocksButtonService);
+		eventBus.register(grandExchangeUnlocksService);
 		eventBus.register(cardPartyTransferService);
 		eventBus.register(cardPartyTradeService);
 		eventBus.register(playerCombatMonitor);
@@ -284,6 +284,7 @@ public class OsrsTcgPlugin extends Plugin
 		eventBus.unregister(creditAwardService);
 		eventBus.unregister(pvpKillCreditTracker);
 		eventBus.unregister(bankUnlocksButtonService);
+		eventBus.unregister(grandExchangeUnlocksService);
 		eventBus.unregister(bronzemanEquipLockService);
 		bronzemanEquipLockService.shutdown();
 		eventBus.unregister(cardPartyTransferService);
@@ -307,7 +308,6 @@ public class OsrsTcgPlugin extends Plugin
 		npcKillCreditTracker.shutdown();
 		overlayManager.remove(packRevealOverlay);
 		overlayManager.remove(creditsInfoboxOverlay);
-		overlayManager.remove(lockedItemMarkOverlay);
 		mouseManager.unregisterMouseListener(packRevealInputListener);
 		mouseManager.unregisterMouseWheelListener(packRevealInputListener);
 		keyManager.unregisterKeyListener(packRevealInputListener);

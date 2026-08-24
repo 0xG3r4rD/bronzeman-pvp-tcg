@@ -3,6 +3,18 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.16.0] — 2026-08-03
+
+### Added
+- **Locked items are greyed out in the Grand Exchange search list**, matching the bank and
+  inventory. Buying them was already blocked; now it is visible before you click.
+- A **plugin button in the top-right of the Grand Exchange offer window** that filters the search
+  list down to the items you have unlocked and can buy. Click it again to show everything, with
+  locked results dimmed rather than hidden.
+
+### Changed
+- **Removed the Vengeance skull marker.** Locked items are simply greyed out again.
+
 ## [1.15.2] — 2026-08-03
 
 ### Changed
