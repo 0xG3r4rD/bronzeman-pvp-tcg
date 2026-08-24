@@ -3,6 +3,19 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.15.0] — 2026-08-03
+
+### Fixed
+- **Food and potions did not grey out.** The locked-item cache only dropped when the collection
+  changed, so flipping the "Lock food and potions" toggle left every consumable cached as unlocked
+  until the next pack. The cache now also drops when that toggle or the whitelist changes.
+
+### Added
+- A small **red cross** on locked items in the inventory, bank and shops, so a locked item reads as
+  locked rather than only being dimmed. It sits top-right, clear of the stack-size text.
+- **Locked items can no longer be withdrawn from the bank.** Withdraw is blocked the same way
+  equipping, eating and buying already were, so a locked item cannot leave the bank at all.
+
 ## [1.14.0] — 2026-08-03
 
 ### Added

@@ -81,6 +81,9 @@ public final class BronzemanEquipLockService
 
 	private final Map<Integer, Boolean> lockedItemCache = new HashMap<>();
 	private CollectionState lockedItemCacheCollection;
+	/** Settings that change what counts as locked; the cache must drop when they move. */
+	private boolean lockedItemCacheConsumables;
+	private String lockedItemCacheWhitelist = "";
 	private boolean markRefreshQueued;
 	private int markTickCounter;
 
@@ -131,22 +134,30 @@ public final class BronzemanEquipLockService
 		String option = Text.removeTags(event.getMenuOption()).trim().toLowerCase(Locale.ROOT);
 		boolean equipping = EQUIP_VERBS.contains(option);
 		boolean consuming = config.consumableCards() && CONSUME_VERBS.contains(option);
-		if (!equipping && !consuming)
+		// Withdrawing is blocked too, so a locked item cannot leave the bank in the first place.
+		boolean withdrawing = option.startsWith("withdraw")
+			&& WidgetUtil.componentToInterface(entry.getParam1()) == InterfaceID.BANKMAIN;
+		if (!equipping && !consuming && !withdrawing)
+		{
+			return;
+		}
+
+		if (!isItemLocked(entry.getItemId()))
 		{
 			return;
 		}
 
 		String itemName = itemManager.getItemComposition(entry.getItemId()).getName();
 		Optional<CardDefinition> card = findCardForItemName(itemName);
-		if (card.isEmpty() || isWhitelisted(itemName) || isCardOwned(card.get()))
+		if (card.isEmpty())
 		{
 			return;
 		}
 
 		event.consume();
+		String verb = withdrawing ? "withdraw" : consuming ? "use" : "equip";
 		TcgPluginGameMessages.queuePrefixedGameMessage(chatMessageManager, String.format(
-			"%s is locked — pull its card from a pack to %s it.",
-			card.get().getName(), consuming ? "use" : "equip"));
+			"%s is locked — pull its card from a pack to %s it.", card.get().getName(), verb));
 	}
 
 	/**
@@ -403,13 +414,22 @@ public final class BronzemanEquipLockService
 	}
 
 	/** Same rule the click block uses; cached per item id until the collection changes. */
-	private boolean isItemLocked(int itemId)
+	/** True when the item needs a card the player does not own. Cheap enough for a render loop. */
+	public boolean isItemLocked(int itemId)
 	{
 		CollectionState collection = stateService.getState().getCollectionState();
-		if (collection != lockedItemCacheCollection)
+		boolean consumables = config.consumableCards();
+		String whitelist = config.itemWhitelist() == null ? "" : config.itemWhitelist();
+		// Toggling the consumable lock or editing the whitelist changes the answer without the
+		// collection moving, so both take part in invalidation.
+		if (collection != lockedItemCacheCollection
+			|| consumables != lockedItemCacheConsumables
+			|| !whitelist.equals(lockedItemCacheWhitelist))
 		{
 			lockedItemCache.clear();
 			lockedItemCacheCollection = collection;
+			lockedItemCacheConsumables = consumables;
+			lockedItemCacheWhitelist = whitelist;
 		}
 		Boolean cached = lockedItemCache.get(itemId);
 		if (cached != null)
@@ -426,7 +446,7 @@ public final class BronzemanEquipLockService
 		{
 			card = findCardForItemName(name);
 		}
-		else if (config.consumableCards() && isConsumable(comp))
+		else if (consumables && isConsumable(comp))
 		{
 			card = findCardForItemName(name).filter(CardDefinition::isConsumableCard);
 		}
