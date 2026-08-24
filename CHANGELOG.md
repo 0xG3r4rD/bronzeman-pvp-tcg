@@ -3,6 +3,12 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.15.2] — 2026-08-03
+
+### Changed
+- The locked-item marker is now the **Vengeance spell's red skull** instead of a drawn cross, using
+  the client's own sprite so it matches the game's art.
+
 ## [1.15.1] — 2026-08-03
 
 ### Fixed

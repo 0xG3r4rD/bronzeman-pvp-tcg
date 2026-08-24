@@ -14,7 +14,7 @@ import java.util.Set;
 import com.bronzemanpvptcg.model.OwnedCardInstance;
 import com.bronzemanpvptcg.model.TcgPublicStats;
 import com.bronzemanpvptcg.overlay.CreditsInfoboxOverlay;
-import com.bronzemanpvptcg.overlay.LockedItemCrossOverlay;
+import com.bronzemanpvptcg.overlay.LockedItemMarkOverlay;
 import com.bronzemanpvptcg.overlay.PackRevealInputListener;
 import com.bronzemanpvptcg.overlay.PackRevealOverlay;
 import com.bronzemanpvptcg.service.CollectionShareService;
@@ -144,7 +144,7 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private CreditsInfoboxOverlay creditsInfoboxOverlay;
 	@Inject
-	private LockedItemCrossOverlay lockedItemCrossOverlay;
+	private LockedItemMarkOverlay lockedItemMarkOverlay;
 	@Inject
 	private PackRevealInputListener packRevealInputListener;
 	@Inject
@@ -229,7 +229,7 @@ public class OsrsTcgPlugin extends Plugin
 		clientToolbar.addNavigation(navigationButton);
 		overlayManager.add(packRevealOverlay);
 		overlayManager.add(creditsInfoboxOverlay);
-		overlayManager.add(lockedItemCrossOverlay);
+		overlayManager.add(lockedItemMarkOverlay);
 		mouseManager.registerMouseListener(packRevealInputListener);
 		mouseManager.registerMouseWheelListener(packRevealInputListener);
 		keyManager.registerKeyListener(packRevealInputListener);
@@ -307,7 +307,7 @@ public class OsrsTcgPlugin extends Plugin
 		npcKillCreditTracker.shutdown();
 		overlayManager.remove(packRevealOverlay);
 		overlayManager.remove(creditsInfoboxOverlay);
-		overlayManager.remove(lockedItemCrossOverlay);
+		overlayManager.remove(lockedItemMarkOverlay);
 		mouseManager.unregisterMouseListener(packRevealInputListener);
 		mouseManager.unregisterMouseWheelListener(packRevealInputListener);
 		keyManager.unregisterKeyListener(packRevealInputListener);
