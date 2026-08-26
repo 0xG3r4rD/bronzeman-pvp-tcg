@@ -30,9 +30,10 @@ public class CreditsInfoboxOverlay extends OverlayPanel
 {
 	public static final String MENU_OPTION_OPEN = "Open";
 
+	/** Wilderness overhead skull; square so the 25x25 source is not squashed. */
 	private static final BufferedImage CREDIT_ICON = ImageUtil.resizeImage(
 		ImageUtil.loadImageResource(CreditsInfoboxOverlay.class, "/credits.png"),
-		21,
+		16,
 		16);
 
 	private final OsrsTcgConfig config;

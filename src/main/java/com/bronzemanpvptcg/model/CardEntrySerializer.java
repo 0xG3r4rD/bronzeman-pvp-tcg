@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-/** Builds and expands {@link CardEntry} rows for profile persistence and web share payloads. */
+/** Builds and expands {@link CardEntry} rows for profile persistence. */
 public final class CardEntrySerializer
 {
 	private CardEntrySerializer()
@@ -15,17 +15,7 @@ public final class CardEntrySerializer
 
 	public static List<CardEntry> buildProfileEntries(List<OwnedCardInstance> instances)
 	{
-		return buildEntries(instances, true, false);
-	}
-
-	/** Share-safe entries: omits debug provenance and lock flags. */
-	public static List<CardEntry> buildShareEntries(CollectionState collectionState)
-	{
-		if (collectionState == null)
-		{
-			return List.of();
-		}
-		return buildEntries(collectionState.withoutDebugProvenanceRows().getOwnedInstances(), false, true);
+		return buildEntries(instances);
 	}
 
 	public static List<OwnedCardInstance> expandToInstances(List<CardEntry> entries)
@@ -69,10 +59,7 @@ public final class CardEntrySerializer
 		return rows;
 	}
 
-	private static List<CardEntry> buildEntries(
-		List<OwnedCardInstance> instances,
-		boolean includeLocked,
-		boolean filterDebugProvenance)
+	private static List<CardEntry> buildEntries(List<OwnedCardInstance> instances)
 	{
 		if (instances == null || instances.isEmpty())
 		{
@@ -83,10 +70,6 @@ public final class CardEntrySerializer
 		for (OwnedCardInstance inst : instances)
 		{
 			if (inst == null || inst.getCardName() == null || inst.getCardName().trim().isEmpty())
-			{
-				continue;
-			}
-			if (filterDebugProvenance && OwnedCardInstance.hasDebugPullMetadata(inst.getPulledByUsername()))
 			{
 				continue;
 			}
@@ -121,7 +104,7 @@ public final class CardEntrySerializer
 			variant.pulledBy = by.isEmpty() ? null : by;
 			long at = inst.getPulledAtEpochMs();
 			variant.pulledAt = at <= 0L ? null : at;
-			if (includeLocked && inst.isLocked())
+			if (inst.isLocked())
 			{
 				variant.locked = Boolean.TRUE;
 			}

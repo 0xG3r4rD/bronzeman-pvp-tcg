@@ -3,7 +3,7 @@ package com.bronzemanpvptcg.model;
 import java.util.List;
 
 /**
- * Owned copies of one card name, grouped for compact JSON (profile save and web share schema).
+ * Owned copies of one card name, grouped for compact JSON (profile save schema).
  */
 public final class CardEntry
 {

@@ -11,7 +11,6 @@ import com.bronzemanpvptcg.model.DefenceLevel;
 import com.bronzemanpvptcg.model.HardModeRate;
 import com.bronzemanpvptcg.model.RewardTuningState;
 import com.bronzemanpvptcg.model.TcgState;
-import com.bronzemanpvptcg.service.CollectionShareService;
 import com.bronzemanpvptcg.service.CreditAwardService;
 import com.bronzemanpvptcg.service.DuplicateSellPlanner;
 import com.bronzemanpvptcg.service.PackOpeningService;
@@ -27,21 +26,15 @@ import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.awt.Component;
-import java.awt.Container;
-import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.Image;
 import java.awt.Insets;
-import java.awt.RenderingHints;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.HierarchyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -132,7 +125,6 @@ public class TcgPanel extends PluginPanel
 	private final Client client;
 	private final CollectionAlbumManager collectionAlbumManager;
 	private final CreditAwardService creditAwardService;
-	private final CollectionShareService collectionShareService;
 	private final JButton sellDuplicatesButton;
 
 	private final JPanel mainPanel = new JPanel();
@@ -148,7 +140,6 @@ public class TcgPanel extends PluginPanel
 	private final Component albumFooterSpacer = Box.createRigidArea(new Dimension(0, 10));
 	private final JPanel resetFooterWrap = new JPanel(new BorderLayout(0, 0));
 	private final JPanel titlePanel;
-	private final JComponent webShareLiveIndicator;
 	private final JButton overviewTabButton = new JButton(Tab.OVERVIEW.getLabel());
 	private final JButton shopTabButton = new JButton(Tab.SHOP.getLabel());
 	private final JButton configTabButton = new JButton(Tab.CONFIG.getLabel());
@@ -188,7 +179,6 @@ public class TcgPanel extends PluginPanel
 		Client client,
 		CollectionAlbumManager collectionAlbumManager,
 		CreditAwardService creditAwardService,
-		CollectionShareService collectionShareService,
 		RollPoolFilter rollPoolFilter,
 		ConfigManager configManager,
 		@Named("developerMode") boolean runeliteDeveloperMode)
@@ -207,9 +197,7 @@ public class TcgPanel extends PluginPanel
 		this.client = client;
 		this.collectionAlbumManager = collectionAlbumManager;
 		this.creditAwardService = creditAwardService;
-		this.collectionShareService = collectionShareService;
 		this.sellDuplicatesButton = createSellDuplicatesButton();
-		this.webShareLiveIndicator = createWebShareLiveIndicator();
 
 		setLayout(new BorderLayout());
 
@@ -284,7 +272,6 @@ public class TcgPanel extends PluginPanel
 		rebuildRarityColorMap();
 		syncRewardDraftFromPersistent();
 		ensureRootAttached();
-		updateWebShareLiveIndicator();
 		refresh();
 	}
 
@@ -479,7 +466,6 @@ public class TcgPanel extends PluginPanel
 			clearPackRevealSidebarFreeze();
 		}
 		ensureRootAttached();
-		updateWebShareLiveIndicator();
 		footerPanel.setVisible(true);
 		applyDefaultTabSelectionOnce();
 		updateTabStyles();
@@ -600,34 +586,13 @@ public class TcgPanel extends PluginPanel
 		));
 		titleRow.setMaximumSize(new Dimension(Integer.MAX_VALUE, 18));
 
-		Dimension indicatorSlot = new Dimension(8, 8);
-		JPanel leftBalance = new JPanel();
-		leftBalance.setOpaque(false);
-		leftBalance.setPreferredSize(indicatorSlot);
-		leftBalance.setMinimumSize(indicatorSlot);
-		leftBalance.setMaximumSize(indicatorSlot);
-
 		JLabel titleLabel = new JLabel("Bronzeman PVP TCG");
 		titleLabel.setForeground(Color.WHITE);
 		titleLabel.setFont(FontManager.getRunescapeBoldFont());
 		titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		titleLabel.setAlignmentX(CENTER_ALIGNMENT);
 
-		webShareLiveIndicator.setPreferredSize(indicatorSlot);
-		webShareLiveIndicator.setMinimumSize(indicatorSlot);
-		webShareLiveIndicator.setMaximumSize(indicatorSlot);
-		webShareLiveIndicator.setAlignmentY(CENTER_ALIGNMENT);
-
-		JPanel rightSlot = new JPanel(new GridBagLayout());
-		rightSlot.setOpaque(false);
-		rightSlot.setPreferredSize(indicatorSlot);
-		rightSlot.setMinimumSize(indicatorSlot);
-		rightSlot.setMaximumSize(indicatorSlot);
-		rightSlot.add(webShareLiveIndicator);
-
-		titleRow.add(leftBalance, BorderLayout.WEST);
 		titleRow.add(titleLabel, BorderLayout.CENTER);
-		titleRow.add(rightSlot, BorderLayout.EAST);
 
 		JPanel tabWrapper = new JPanel(new GridLayout(1, 3));
 		tabWrapper.setOpaque(false);
@@ -638,132 +603,7 @@ public class TcgPanel extends PluginPanel
 
 		title.add(titleRow);
 		title.add(tabWrapper);
-		updateWebShareLiveIndicator();
 		return title;
-	}
-
-	private JComponent createWebShareLiveIndicator()
-	{
-		final Color liveGreen = new Color(0x2E, 0xC4, 0x5A);
-		final Color errorRed = new Color(0xE0, 0x4B, 0x4B);
-		JComponent dot = new JComponent()
-		{
-			@Override
-			protected void paintComponent(Graphics g)
-			{
-				Graphics2D g2 = (Graphics2D) g.create();
-				try
-				{
-					g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-					int size = Math.min(getWidth(), getHeight());
-					if (size < 3)
-					{
-						return;
-					}
-					int x = (getWidth() - size) / 2;
-					int y = (getHeight() - size) / 2;
-					Object colorObj = getClientProperty("webShareIndicatorColor");
-					Color fill = colorObj instanceof Color ? (Color) colorObj : liveGreen;
-					if (!isVisible())
-					{
-						return;
-					}
-					g2.setColor(fill);
-					g2.fillOval(x, y, size, size);
-				}
-				finally
-				{
-					g2.dispose();
-				}
-			}
-
-			@Override
-			public Dimension getPreferredSize()
-			{
-				return new Dimension(8, 8);
-			}
-
-			@Override
-			public Dimension getMinimumSize()
-			{
-				return getPreferredSize();
-			}
-
-			@Override
-			public Dimension getMaximumSize()
-			{
-				return getPreferredSize();
-			}
-		};
-		dot.putClientProperty("webShareIndicatorColor", liveGreen);
-		dot.putClientProperty("webShareLiveGreen", liveGreen);
-		dot.putClientProperty("webShareErrorRed", errorRed);
-		dot.setOpaque(false);
-		dot.setVisible(false);
-		dot.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-		dot.setToolTipText("Web album");
-		dot.addMouseListener(new MouseAdapter()
-		{
-			@Override
-			public void mouseClicked(MouseEvent e)
-			{
-				if (!SwingUtilities.isLeftMouseButton(e))
-				{
-					return;
-				}
-				String url = collectionShareService.getPublicUrl();
-				if (url != null && !url.isEmpty())
-				{
-					LinkBrowser.browse(url);
-				}
-			}
-		});
-		return dot;
-	}
-
-	public void updateWebShareLiveIndicator()
-	{
-		if (webShareLiveIndicator == null)
-		{
-			return;
-		}
-		CollectionShareService.WebShareIndicatorState state = collectionShareService.getIndicatorState();
-		boolean visible = state != CollectionShareService.WebShareIndicatorState.HIDDEN;
-		webShareLiveIndicator.setVisible(visible);
-
-		Color liveGreen = (Color) webShareLiveIndicator.getClientProperty("webShareLiveGreen");
-		Color errorRed = (Color) webShareLiveIndicator.getClientProperty("webShareErrorRed");
-		if (state == CollectionShareService.WebShareIndicatorState.LIVE)
-		{
-			webShareLiveIndicator.putClientProperty("webShareIndicatorColor", liveGreen);
-			String url = collectionShareService.getPublicUrl();
-			webShareLiveIndicator.setToolTipText(
-				url == null || url.isEmpty()
-					? "Web album live — click to open"
-					: "Web album live — click to open " + url);
-		}
-		else if (state == CollectionShareService.WebShareIndicatorState.ERROR)
-		{
-			webShareLiveIndicator.putClientProperty("webShareIndicatorColor", errorRed);
-			String status = collectionShareService.getStatusText();
-			webShareLiveIndicator.setToolTipText(
-				status == null || status.isEmpty() ? "Web album sync error" : "Web album: " + status);
-		}
-
-		Container parent = webShareLiveIndicator.getParent();
-		if (parent != null)
-		{
-			parent.revalidate();
-			parent.repaint();
-		}
-		Container titleRow = parent == null ? null : parent.getParent();
-		if (titleRow != null)
-		{
-			titleRow.revalidate();
-			titleRow.repaint();
-		}
-		webShareLiveIndicator.revalidate();
-		webShareLiveIndicator.repaint();
 	}
 
 	private JButton configureTabButton(JButton button, Tab tab)

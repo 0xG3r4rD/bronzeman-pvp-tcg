@@ -1,7 +1,7 @@
 package com.bronzemanpvptcg.model;
 
 /**
- * One owned copy of a card within a {@link CardEntry} group (profile save and web share schema).
+ * One owned copy of a card within a {@link CardEntry} group (profile save schema).
  */
 public final class CardVariant
 {
@@ -9,7 +9,7 @@ public final class CardVariant
 	public Boolean foil;
 	public String pulledBy;
 	public Long pulledAt;
-	/** Profile save only; omitted when false. Not sent on web share. */
+	/** Omitted when false. */
 	public Boolean locked;
 	/** Legacy profile save: expanded on load when present. */
 	public Integer quantity;

@@ -16,7 +16,6 @@ import com.bronzemanpvptcg.model.TcgPublicStats;
 import com.bronzemanpvptcg.overlay.CreditsInfoboxOverlay;
 import com.bronzemanpvptcg.overlay.PackRevealInputListener;
 import com.bronzemanpvptcg.overlay.PackRevealOverlay;
-import com.bronzemanpvptcg.service.CollectionShareService;
 import com.bronzemanpvptcg.service.OwnedCardNamesApiService;
 import com.bronzemanpvptcg.service.CardPartyTradeService;
 import com.bronzemanpvptcg.service.CardPartyTransferService;
@@ -71,7 +70,6 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.concurrent.ScheduledExecutorService;
 import javax.inject.Inject;
-import javax.swing.SwingUtilities;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ChatMessageType;
 import net.runelite.api.MessageNode;
@@ -200,8 +198,6 @@ public class OsrsTcgPlugin extends Plugin
 	@Inject
 	private PackSafeModeService packSafeModeService;
 	@Inject
-	private CollectionShareService collectionShareService;
-	@Inject
 	private OwnedCardNamesApiService ownedCardNamesApiService;
 
 	private NavigationButton navigationButton;
@@ -259,8 +255,6 @@ public class OsrsTcgPlugin extends Plugin
 			TCG_PUBLIC_CHAT_COMMAND, this::lookupTcgPublicStatsChatCommand, this::submitTcgPublicStatsChatCommand);
 		tcgPanel.start();
 		stateService.setRewardTuningFlushBeforeCredits(tcgPanel::flushRewardTuningDraftToState);
-		collectionShareService.setStatusListener(() -> SwingUtilities.invokeLater(tcgPanel::updateWebShareLiveIndicator));
-		collectionShareService.start();
 		ownedCardNamesApiService.start();
 		tcgPanel.refresh();
 		TcgPluginGameMessages.setPrefixColor(config.chatPrefixColor());
@@ -316,8 +310,6 @@ public class OsrsTcgPlugin extends Plugin
 		tradeWindowManager.dispose();
 		saveRestoreManager.dispose();
 		stateService.setRewardTuningFlushBeforeCredits(null);
-		collectionShareService.setStatusListener(null);
-		collectionShareService.stop();
 		ownedCardNamesApiService.stop();
 		tcgPanel.stop();
 		log.info("OSRS TCG plugin stopped");
@@ -357,15 +349,10 @@ public class OsrsTcgPlugin extends Plugin
 			packRevealService.reset();
 			tcgPanel.clearPackRevealSidebarFreeze();
 			stateService.saveFullCheckpoint(TcgSaveTrigger.LOGOUT);
-			collectionShareService.onLoggedOut();
 		}
 		else if (gs == GameState.HOPPING)
 		{
 			// Credits and non-collection state stay in memory until logout/shutdown checkpoint.
-		}
-		else if (gs == GameState.LOGGED_IN)
-		{
-			collectionShareService.onLoginOrProfileReady();
 		}
 		tcgPanel.refresh();
 	}
@@ -377,12 +364,7 @@ public class OsrsTcgPlugin extends Plugin
 		{
 			return;
 		}
-		if ("webShareEnabled".equals(event.getKey()) || "webShareApiKey".equals(event.getKey()))
-		{
-			collectionShareService.onConfigChanged();
-			tcgPanel.updateWebShareLiveIndicator();
-		}
-		else if ("chatPrefixColor".equals(event.getKey()))
+		if ("chatPrefixColor".equals(event.getKey()))
 		{
 			TcgPluginGameMessages.setPrefixColor(config.chatPrefixColor());
 		}
@@ -499,7 +481,6 @@ public class OsrsTcgPlugin extends Plugin
 		TcgStateLoadResult loadResult = stateService.load();
 		applyLoadedProfileState(loadResult);
 		announceLoadResult(loadResult);
-		collectionShareService.onLoginOrProfileReady();
 	}
 
 	/** After {@link TcgStateService#load()} on login / profile switch; clears UI when debug-tainted saves are reset. */

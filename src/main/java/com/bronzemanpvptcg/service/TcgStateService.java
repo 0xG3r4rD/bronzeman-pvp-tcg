@@ -112,7 +112,7 @@ public class TcgStateService
 			if (strippedDebug)
 			{
 				saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-				notifyCollectionShareListeners();
+				notifyCollectionChangeListeners();
 			}
 			else
 			{
@@ -266,7 +266,7 @@ public class TcgStateService
 		saveCheckpoint(TcgSaveTrigger.LOAD);
 		if (strippedDebug)
 		{
-			notifyCollectionShareListeners();
+			notifyCollectionChangeListeners();
 		}
 		return true;
 	}
@@ -384,7 +384,7 @@ public class TcgStateService
 		// Intentionally no disk/config write (credits, UI prefs, etc.).
 	}
 
-	/** Invoked after share-relevant collection / pack mutations (web sync, interop broadcasts). */
+	/** Invoked after collection / pack mutations (interop broadcasts). */
 	public void addCollectionChangeListener(Runnable listener)
 	{
 		if (listener != null)
@@ -401,7 +401,7 @@ public class TcgStateService
 		}
 	}
 
-	private void notifyCollectionShareListeners()
+	private void notifyCollectionChangeListeners()
 	{
 		for (Runnable notify : collectionChangeListeners)
 		{
@@ -450,7 +450,7 @@ public class TcgStateService
 			if (stripDebugProvenanceRowsIfDebugDisabled())
 			{
 				saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-				notifyCollectionShareListeners();
+				notifyCollectionChangeListeners();
 				return;
 			}
 		}
@@ -504,7 +504,7 @@ public class TcgStateService
 		}
 		state = state.withRewardTuning(next);
 		save();
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 		return true;
 	}
 
@@ -567,7 +567,7 @@ public class TcgStateService
 		flushRewardTuningDraftBeforeLocking();
 		state = state.withOpenedPacks(state.getEconomyState().getOpenedPacks() + 1L);
 		save();
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 	}
 
 	public synchronized void addCard(String cardName, boolean foil, int quantity)
@@ -593,7 +593,7 @@ public class TcgStateService
 		}
 		state = state.withCollection(state.getCollectionState().withInstancesAdded(add));
 		saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 	}
 
 	public synchronized void addOwnedCardInstance(OwnedCardInstance instance)
@@ -605,7 +605,7 @@ public class TcgStateService
 		flushRewardTuningDraftBeforeLocking();
 		state = state.withCollection(state.getCollectionState().withInstanceAdded(instance));
 		saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 	}
 
 	/**
@@ -649,7 +649,7 @@ public class TcgStateService
 
 		state = state.withCollection(state.getCollectionState().withInstancesAdded(toAdd));
 		saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 		return toAdd.size();
 	}
 
@@ -664,7 +664,7 @@ public class TcgStateService
 		flushRewardTuningDraftBeforeLocking();
 		state = state.withCollection(CollectionState.copyOf(replacement == null ? List.of() : replacement));
 		saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 	}
 
 	public synchronized boolean toggleCardInstanceLock(String instanceId)
@@ -776,7 +776,7 @@ public class TcgStateService
 		CollectionState nextColl = state.getCollectionState().withInstancesAdded(pulled);
 		state = state.withCollection(nextColl);
 		saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 		return true;
 	}
 
@@ -784,7 +784,7 @@ public class TcgStateService
 	{
 		state = TcgState.empty();
 		saveFullCheckpoint(TcgSaveTrigger.RESET);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 	}
 
 	public synchronized boolean removeCardInstance(String instanceId)
@@ -799,7 +799,7 @@ public class TcgStateService
 		}
 		state = state.withCollection(state.getCollectionState().withInstanceRemoved(instanceId));
 		saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 		return true;
 	}
 
@@ -861,7 +861,7 @@ public class TcgStateService
 		}
 		state = state.withCollection(CollectionState.copyOf(list));
 		saveMasterOnly(TcgSaveTrigger.COLLECTION_CHANGE);
-		notifyCollectionShareListeners();
+		notifyCollectionChangeListeners();
 		return true;
 	}
 

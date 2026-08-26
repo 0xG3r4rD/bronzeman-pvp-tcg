@@ -3,6 +3,19 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.17.0] — 2026-08-24
+
+### Removed
+- **Online collection sharing (“Web album”) is gone.** The plugin no longer uploads your
+  collection, statistics, display name or IP address to osrs-tcg.xyz, no longer creates a share
+  there, and the green “live” dot in the sidebar header is gone with it. The *Web album* config
+  section, its API key field and the stored share credentials are all removed. Your cards were
+  always saved locally as well — nothing about your own collection changes.
+
+### Changed
+- **The credits icon is the wilderness overhead skull** instead of the Warriors' Guild token, in the
+  sidebar stat rows and the credits infobox.
+
 ## [1.16.0] — 2026-08-03
 
 ### Added
