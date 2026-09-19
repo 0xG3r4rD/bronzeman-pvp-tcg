@@ -7,8 +7,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.AtomicMoveNotSupportedException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -38,30 +36,31 @@ import javax.imageio.stream.ImageInputStream;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import lombok.extern.slf4j.Slf4j;
-import net.runelite.client.RuneLite;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
 
+/**
+ * Decodes card art on demand and keeps a bounded number of images in heap.
+ * <p>
+ * Art ships inside the jar under {@code /cards/}; the wiki is never contacted at runtime.
+ * {@link #publicImageUrl(String)} still returns a wiki URL, but only so Discord can fetch a
+ * thumbnail for an opt-in webhook embed.
+ * <p>
+ * Regenerate the bundled art with {@code python tools/bundle_card_images.py}.
+ */
 @Slf4j
 @Singleton
 public class WikiImageCacheService
 {
 	private static final String WIKI_BASE_URL = "https://oldschool.runescape.wiki";
-	/**
-	 * Identify the plugin clearly. Fake browser UAs like {@code Mozilla/5.0 (osrstcg)} are
-	 * challenged by Cloudflare; a descriptive client string is allowed on /images/.
-	 */
-	private static final String USER_AGENT =
-		"osrs-tcg (https://github.com/Azderi/osrs-tcg)";
-	/** Max decoded images kept in heap; evicted entries remain on disk. */
+	/** Bundled card art, keyed by sha256 of the card's imageUrl. */
+	private static final String CARD_IMAGE_RESOURCE_DIR = "/cards/";
+	/** Max decoded images kept in heap; evicted entries are re-read from the jar. */
 	private static final int MEMORY_CACHE_MAX_ENTRIES = 256;
 	/**
-	 * Longest edge kept in the memory cache. Album cards are drawn ~100px wide; full wiki
-	 * detail PNGs in the disk cache otherwise cause large GC pauses while decoding.
+	 * Longest edge kept in the memory cache. Album cards are drawn ~100px wide; the full
+	 * bundled detail PNGs otherwise cause large GC pauses while decoding.
 	 */
 	private static final int MAX_MEMORY_IMAGE_EDGE_PX = 130;
-	/** Cap concurrent disk/network decodes so album open cannot flood the heap/CPU. */
+	/** Cap concurrent decodes so album open cannot flood the heap/CPU. */
 	private static final int MAX_IN_FLIGHT_LOADS = 4;
 	private static final AtomicInteger IMAGE_LOADER_SEQ = new AtomicInteger();
 	private static final ThreadFactory IMAGE_LOADER_THREAD_FACTORY = r ->
@@ -71,7 +70,6 @@ public class WikiImageCacheService
 		return t;
 	};
 
-	private final OkHttpClient okHttpClient;
 	private final Semaphore loadPermits = new Semaphore(MAX_IN_FLIGHT_LOADS);
 	/** Dedicated pool so blocking ImageIO/HTTP does not stall the common ForkJoinPool. */
 	private final ExecutorService imageLoadExecutor = Executors.newFixedThreadPool(
@@ -95,9 +93,8 @@ public class WikiImageCacheService
 	private final List<Consumer<String>> loadListeners = new CopyOnWriteArrayList<>();
 
 	@Inject
-	public WikiImageCacheService(OkHttpClient okHttpClient)
+	public WikiImageCacheService()
 	{
-		this.okHttpClient = okHttpClient;
 	}
 
 	/** Register for image load completion. Listener may run off the EDT; argument is the normalized URL. */
@@ -361,65 +358,62 @@ public class WikiImageCacheService
 		}
 	}
 
+	/**
+	 * Card art ships inside the jar under {@code /cards/<sha256 of imageUrl>.png}; see
+	 * {@code tools/bundle_card_images.py}. Nothing is fetched at runtime.
+	 */
 	private BufferedImage loadImage(String url)
 	{
-		BufferedImage fromDisk = tryLoadFromDisk(url);
-		if (fromDisk != null)
+		String resource = CARD_IMAGE_RESOURCE_DIR + sha256Hex(url) + ".png";
+		try (InputStream in = WikiImageCacheService.class.getResourceAsStream(resource))
 		{
-			return fromDisk;
-		}
-
-		List<String> candidates = buildCandidateUrls(url);
-		if (candidates.isEmpty())
-		{
-			return null;
-		}
-
-		for (String candidate : candidates)
-		{
-			try
+			if (in == null)
 			{
-				Request request = new Request.Builder()
-					.url(candidate)
-					.header("User-Agent", USER_AGENT)
-					.build();
-				try (Response response = okHttpClient.newCall(request).execute())
+				log.debug("No bundled card image {} for {}", resource, url);
+				return null;
+			}
+			try (ImageInputStream imageStream = ImageIO.createImageInputStream(in))
+			{
+				if (imageStream == null)
 				{
-					if (!response.isSuccessful() || response.body() == null)
+					return null;
+				}
+				var readers = ImageIO.getImageReaders(imageStream);
+				if (!readers.hasNext())
+				{
+					return null;
+				}
+				ImageReader reader = readers.next();
+				try
+				{
+					reader.setInput(imageStream, true, true);
+					int maxEdge = Math.max(reader.getWidth(0), reader.getHeight(0));
+					int subsample = 1;
+					while (subsample < 32 && maxEdge / subsample > MAX_MEMORY_IMAGE_EDGE_PX * 2)
 					{
-						log.debug("Wiki image HTTP {} for {}", response.code(), candidate);
-						continue;
+						subsample *= 2;
 					}
-					try (InputStream inputStream = response.body().byteStream())
+					ImageReadParam param = reader.getDefaultReadParam();
+					if (subsample > 1)
 					{
-						BufferedImage image = ImageIO.read(inputStream);
-						if (image != null)
-						{
-							persistToDisk(url, image);
-							// Prefer subsampled disk decode for the heap copy; avoids keeping the
-							// full-resolution network decode alive for album/UI use.
-							BufferedImage fromCache = tryLoadFromDisk(url);
-							if (fromCache != null)
-							{
-								return fromCache;
-							}
-							return downscaleForMemoryCache(image);
-						}
+						param.setSourceSubsampling(subsample, subsample, 0, 0);
 					}
+					BufferedImage image = reader.read(0, param);
+					return image == null ? null : downscaleForMemoryCache(image);
+				}
+				finally
+				{
+					reader.dispose();
 				}
 			}
-			catch (Exception ex)
-			{
-				log.debug("Failed to cache image candidate {}", candidate, ex);
-			}
 		}
-		return null;
+		catch (Exception ex)
+		{
+			log.debug("Bundled card image read failed for {}", resource, ex);
+			return null;
+		}
 	}
 
-	/**
-	 * Keeps heap pressure low when the disk/network asset is a full-size wiki detail PNG.
-	 * Disk cache retains the original; only the in-memory copy is scaled.
-	 */
 	private static BufferedImage downscaleForMemoryCache(BufferedImage source)
 	{
 		if (source == null)
@@ -448,118 +442,6 @@ public class WikiImageCacheService
 		return scaled;
 	}
 
-	private Path diskCacheDir()
-	{
-		//Prefer wiki thumbs
-		return Path.of(RuneLite.RUNELITE_DIR.getAbsolutePath(), "Bronzeman-PVP-TCG", "images-v2");
-	}
-
-	private Path diskCacheFile(String normalizedUrl)
-	{
-		return diskCacheDir().resolve(sha256Hex(normalizedUrl) + ".png");
-	}
-
-	private BufferedImage tryLoadFromDisk(String normalizedUrl)
-	{
-		Path file = diskCacheFile(normalizedUrl);
-		if (!Files.isRegularFile(file))
-		{
-			return null;
-		}
-		try (InputStream in = Files.newInputStream(file);
-			ImageInputStream imageStream = ImageIO.createImageInputStream(in))
-		{
-			if (imageStream == null)
-			{
-				return null;
-			}
-			var readers = ImageIO.getImageReaders(imageStream);
-			if (!readers.hasNext())
-			{
-				Files.deleteIfExists(file);
-				return null;
-			}
-			ImageReader reader = readers.next();
-			try
-			{
-				reader.setInput(imageStream, true, true);
-				int width = reader.getWidth(0);
-				int height = reader.getHeight(0);
-				int maxEdge = Math.max(width, height);
-				int subsample = 1;
-				while (subsample < 32 && maxEdge / subsample > MAX_MEMORY_IMAGE_EDGE_PX * 2)
-				{
-					subsample *= 2;
-				}
-				ImageReadParam param = reader.getDefaultReadParam();
-				if (subsample > 1)
-				{
-					param.setSourceSubsampling(subsample, subsample, 0, 0);
-				}
-				BufferedImage image = reader.read(0, param);
-				if (image == null)
-				{
-					Files.deleteIfExists(file);
-					return null;
-				}
-				return downscaleForMemoryCache(image);
-			}
-			finally
-			{
-				reader.dispose();
-			}
-		}
-		catch (Exception ex)
-		{
-			log.debug("Disk cache read failed for {}", file, ex);
-			return null;
-		}
-	}
-
-	private void persistToDisk(String normalizedUrl, BufferedImage image)
-	{
-		if (image == null)
-		{
-			return;
-		}
-		Path dir = diskCacheDir();
-		Path target = diskCacheFile(normalizedUrl);
-		Path tmp = dir.resolve(target.getFileName().toString() + ".tmp");
-		try
-		{
-			Files.createDirectories(dir);
-			try (OutputStream out = Files.newOutputStream(tmp))
-			{
-				if (!ImageIO.write(image, "png", out))
-				{
-					log.debug("ImageIO.write returned false for disk cache {}", target);
-					Files.deleteIfExists(tmp);
-					return;
-				}
-			}
-			try
-			{
-				Files.move(tmp, target, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
-			}
-			catch (AtomicMoveNotSupportedException ex)
-			{
-				Files.move(tmp, target, StandardCopyOption.REPLACE_EXISTING);
-			}
-		}
-		catch (Exception ex)
-		{
-			log.debug("Disk cache write failed for {}", target, ex);
-			try
-			{
-				Files.deleteIfExists(tmp);
-			}
-			catch (Exception ignore)
-			{
-				// ignore
-			}
-		}
-	}
-
 	private static String sha256Hex(String value)
 	{
 		try
@@ -580,104 +462,6 @@ public class WikiImageCacheService
 		}
 	}
 
-	private List<String> buildCandidateUrls(String rawUrl)
-	{
-		String normalized = normalizeUrl(rawUrl);
-		if (normalized.isEmpty())
-		{
-			return List.of();
-		}
-
-		List<String> candidates = new ArrayList<>();
-
-		// Prefer wiki thumbs
-		addUnique(candidates, normalized);
-
-		String fromThumb = extractFilenameFromThumbPath(rawUrl);
-		if (!fromThumb.isEmpty())
-		{
-			addPotionDoseThumbFallbacks(candidates, fromThumb);
-			addUnique(candidates, directImageUrl(fromThumb));
-			addPotionDoseFallbacks(candidates, fromThumb);
-		}
-		else
-		{
-			String fromPath = extractFilenameFromPath(normalized);
-			if (!fromPath.isEmpty() && !looksLikeThumbSizeSegment(fromPath))
-			{
-				addUnique(candidates, thumbImageUrl(fromPath));
-				addUnique(candidates, directImageUrl(fromPath));
-				addPotionDoseFallbacks(candidates, fromPath);
-			}
-		}
-		return candidates;
-	}
-
-	/** MediaWiki thumb URL matching Card.json style (130px). */
-	private String thumbImageUrl(String filename)
-	{
-		String safe = filename == null ? "" : filename.trim();
-		if (safe.isEmpty())
-		{
-			return "";
-		}
-		safe = safe.replace("(", "%28").replace(")", "%29");
-		return WIKI_BASE_URL + "/images/thumb/" + safe + "/130px-" + safe;
-	}
-
-	private void addPotionDoseThumbFallbacks(List<String> candidates, String filename)
-	{
-		if (filename == null || filename.isEmpty())
-		{
-			return;
-		}
-
-		if (filename.endsWith("_potion_detail.png") && !filename.contains("(4)"))
-		{
-			String fourDose = filename.replace("_potion_detail.png", "_potion(4)_detail.png");
-			addUnique(candidates, thumbImageUrl(fourDose));
-		}
-
-		if (filename.endsWith("_mix_detail.png") && !filename.contains("(2)"))
-		{
-			String twoDose = filename.replace("_mix_detail.png", "_mix(2)_detail.png");
-			addUnique(candidates, thumbImageUrl(twoDose));
-		}
-	}
-
-	private void addPotionDoseFallbacks(List<String> candidates, String filename)
-	{
-		if (filename == null || filename.isEmpty())
-		{
-			return;
-		}
-
-		// Many potion assets are dose-specific on wiki (e.g. Antifire_potion(4)_detail.png).
-		if (filename.endsWith("_potion_detail.png") && !filename.contains("(4)"))
-		{
-			String fourDose = filename.replace("_potion_detail.png", "_potion(4)_detail.png");
-			addUnique(candidates, directImageUrl(fourDose));
-		}
-
-		if (filename.endsWith("_mix_detail.png") && !filename.contains("(2)"))
-		{
-			String twoDose = filename.replace("_mix_detail.png", "_mix(2)_detail.png");
-			addUnique(candidates, directImageUrl(twoDose));
-		}
-	}
-
-	private static void addUnique(List<String> candidates, String url)
-	{
-		if (url != null && !url.isEmpty() && !candidates.contains(url))
-		{
-			candidates.add(url);
-		}
-	}
-
-	/**
-	 * Direct wiki image URL served from Google Cloud Storage (not MediaWiki).
-	 * e.g. https://oldschool.runescape.wiki/images/Abyssal_whip_detail.png
-	 */
 	private String directImageUrl(String filename)
 	{
 		String safe = filename == null ? "" : filename.trim();

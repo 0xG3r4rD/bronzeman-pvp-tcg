@@ -3,6 +3,21 @@
 All notable changes to Bronzeman PVP TCG. Versions link to their downloadable jar on the
 [releases page](../../releases).
 
+## [1.18.0] — 2026-09-19
+
+### Changed
+- **Card art ships inside the plugin.** All 1,022 card images are bundled in the jar, so the
+  plugin no longer downloads anything from the OSRS Wiki. Art appears instantly on first run
+  instead of streaming in, works with no internet connection, and the wiki no longer sees a
+  request (or your IP) from every player. The only outbound request left in the plugin is the
+  Discord pull webhook, which is opt-in and off by default.
+
+### Fixed
+- **Four cards had art that silently 404'd** and rendered blank: Atlatl dart, and the Eldritch,
+  Harmonised and Volatile nightmare staves. The wiki files them under a quantity suffix
+  (`Atlatl_dart_1_detail.png`) and a different capitalisation (`Eldritch_Nightmare_staff`)
+  than Card.json expected.
+
 ## [1.17.0] — 2026-08-24
 
 ### Removed

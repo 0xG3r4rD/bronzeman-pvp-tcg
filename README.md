@@ -79,7 +79,9 @@ This fork stands on two plugins — all credit for the underlying systems goes t
   [Felmeme](https://github.com/Felmeme) — the bronzeman restriction concept and the
   equip-blocking design this fork's card-gated equipment lock is ported from.
 
-Card data and images come from the [OSRS Wiki](https://oldschool.runescape.wiki/).
+Card data and images come from the [OSRS Wiki](https://oldschool.runescape.wiki/). Card art is
+bundled in the jar rather than fetched at runtime, so the plugin makes no requests to the wiki.
+Regenerate it with `python tools/bundle_card_images.py` after changing `Card.json`.
 
 ## Disclaimer
 
